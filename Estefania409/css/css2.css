@@ -1,0 +1,72 @@
+/*selectores*/
+.titulo + p{
+border-top: 3px solid blue;
+}
+
+.titulo:hover  {
+    background-color: red;
+    color: white;
+
+}
+
+#lista-1 li:first-child{
+    background-color:  gold;
+
+}
+
+#lista-1 li:last-child{
+    box-shadow: 5px 5px 5px green;
+
+}
+
+#lista-1 li:nth-child(4){
+    font-variant: small-caps;
+    background-color: aquamarine;
+
+}
+
+#lista-2 li:nth-child(old){
+   background-color: gray;
+   color: white;
+}
+
+p::first-letter{
+    font-size: 80px;
+    box-shadow: 5px -5px 10px black;
+
+}
+
+#grupo {
+    display: inline;
+
+    /* Todos los lados 50px*/
+    padding: 50px;
+
+    /* 50px arriba-abajo
+    10px izquierda-derecha*/
+    padding: 50px 10px;
+
+    /*50px arriba
+    10px izquierda-derecha
+    80px abajo*/
+    padding: 50px 10px 80px 100px;
+
+
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+
+    border: 10px solid tomato;
+
+    border-top: 1opx groove tomato;
+    border-bottom: 10px dashed blue;
+    border-left: 20px solid green;
+    border-right: 20px solid gold;
+    margin: 50px;
+}
+
+#mexicana span {display: inline-block;width: 400px;height: 450px;}
+#mexicana span:nth-child(1){background-color: green;}
+#mexicana span:nth-child(2){background-color: white;}
+#mexicana span:nth-child(3){background-color: red;}

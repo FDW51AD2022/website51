@@ -1,0 +1,36 @@
+html{
+   /* font-size: 5px; quitarlo para que salga bien el scroll o auto*/
+}
+
+
+.u-em {
+    background-color: hsla(240, 100%, 50%, 0.684);
+    font-size: 3rem;
+    width: 50%;
+    /*sem es igual a 5 veces el tamano de fuente del elemento 3 rem(15*3)=45*/
+    padding: 5em 3em;
+}
+
+.u-porc {
+    background-color: #ffee00;
+    width: 50%;
+    height: 200px;
+}
+
+body {
+    /*width: 50%;*/
+    background-color: rgb(128, 128, 128);
+
+}
+
+.productos{
+    background-color: rgba(102, 51, 153, 0.685);
+    height: 70vw;
+}
+
+.overflow{
+    width: 200px;
+    height: 5em;
+    background-color: red;
+    overflow: auto;
+}
