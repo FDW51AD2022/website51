@@ -1,11 +1,15 @@
-body {
-    background-color: rgba(251, 237, 252, 0.87);
-    color: black
+body{
+    background-color: #FFFDDE;
 }
 
 h1 {
     text-align: center;
     font-size: 50px;
-    background-color:rgb(235, 100, 145) ;
-    color:black
+    background-color:rgb(223, 195, 255) ;
+    color:rgb(253, 245, 245)
+}
+
+h2 {
+    text-align: center;
+    background-color:rgb(253, 237, 203) ;
 }
