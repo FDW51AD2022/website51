@@ -64,21 +64,47 @@ blockquote{
 
 .contenedor{
     display: flex;
+<<<<<<< HEAD
+    width: 500px;
+    height: 200px;
+=======
     justify-content: center;
     align-items: center;
     height: 200px;
     width: 400px;
+>>>>>>> 28768f008dd98fc503dd435d0dae7c699a709473
     border: 2px solid black;
 }
 
 .bloque-verde{
+<<<<<<< HEAD
+    width: 33%;
+    height: 100%;
+    border: 2px solid black;
+=======
     border: 2px solid black;
     width: 33%;
     height: 100%;
+>>>>>>> 28768f008dd98fc503dd435d0dae7c699a709473
     background-color: green;
 }
 
 .bloque-blanco{
+<<<<<<< HEAD
+    width: 33%;
+    height: 100%;
+    border: 2px solid black;
+    
+
+}
+
+.bloque-rojo{
+    width: 33%;
+    height: 100%;
+    border: 2px solid black;
+    background-color: red;
+
+=======
     border: 2px solid black;
     width: 33%;
     height: 100%;
@@ -93,6 +119,7 @@ blockquote{
     width: 33%;
     height: 100%;
     background-color: red
+>>>>>>> 28768f008dd98fc503dd435d0dae7c699a709473
 }
 
 

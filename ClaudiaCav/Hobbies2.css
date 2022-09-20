@@ -1,0 +1,37 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 35px;
+}
+
+.foto_camila{
+    height: 320px;
+    width: 453px;
+}
+
+.parte2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.personas{
+    text-align: center;
+}
+
+.cita{
+    background-color: #FFE3E1;
+}
+
+.camila{
+    width: 30%;
+}
+
+.mendes{
+    width: 20%;
+}

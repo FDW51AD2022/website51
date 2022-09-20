@@ -1,0 +1,53 @@
+
+/*article{
+    font-size: 10px;
+}*/
+
+.rgb {
+    background-color: rgba(75, 55, 66, 0.5);
+}
+
+html{
+    font-size: 15px;
+    
+}
+
+.u-em {
+    background-color: blueviolet;
+    font-size: 3rem;
+    width: 50%;
+
+    /*5em es igual a 5 veces el tamaño del puente e elemento 3rem (15*3)=45 */
+    padding: 5em 3em ;
+}
+
+/*body {
+    width: 50%;
+}*/
+
+.u-porc {
+    background-color: aqua;
+    width: 50%;
+    height: 200px;
+
+}
+
+.productos {
+    background-color: brown;
+    height: 100vh;
+    width: 70vw;
+
+}
+
+.overflow {
+    width: 200px;
+    height: 10em;
+    background-color: aqua;
+    overflow: auto;
+}
+
+.article > img {
+    width: 300px;
+    float: right;
+    margin-left: 1em;
+}

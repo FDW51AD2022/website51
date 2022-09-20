@@ -1,1 +1,0 @@
-alert("Su boleta ya ha sido pagada")

@@ -1,0 +1,15 @@
+
+p {
+    font-size: 80px; 
+}
+
+#parrafo-sel-id {
+    background-color: aqua;
+    border-radius:  10px;
+}
+
+.error {
+    background-color: rgb(0, 255, 55);
+    color: red;
+}
+

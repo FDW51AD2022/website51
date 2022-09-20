@@ -2,36 +2,124 @@ p{
     font-size: 20px;
     line-height: 1.25;
 }
+.titulo{
+    background-color: violet;
 
-.cont_bandera{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    width: 500px;
-    border: 2px solid black;
 }
 
-.bandera-verde{
-    border: 2px solid black;
-    width: 55%;
-    height: 100%;
-    background-color: green;
-}
+.titulo + p {
+    border-top: 3px solid blue;
+  }
+  
+  .titulo:hover {
+    background-color: aqua;
+    color: white;
+  }
+  
+  /* 
+  ul li:first-child{
+      background-color: aquamarine;
+  }
+  
+  ul li:last-child{
+      
+      box-shadow: 5px 5px 5px mediumpurple;
+  }
+  
+  ul li:nth-child(4){
+      font-variant: small-caps;
+      background-color: burlywood;
+  } 
+  
+   */
+  
+  #lista-1 li:first-child {
+    background-color: aquamarine;
+  }
+  
+  #lista-1 li:last-child {
+    box-shadow: 5px 5px 5px mediumpurple;
+  }
+  
+  /* Odd Es impar */
+  /* Even Impar */
+  
+  #lista-1 li:nth-child(3) {
+    font-variant: small-caps;
+    background-color: burlywood;
+  }
+  
+  #lista-2 li:nth-child(even) {
+    font-variant: small-caps;
+    background-color: burlywood;
+  }
+  
+  p::first-line {
+    font-size: 30px;
+  }
+  
+  /* Se pueden poner numeros negativos */
+  
+  p::first-letter {
+    font-size: 40px;
+    box-shadow: -5px -5px 10px black;
+  }
+  
+  #grupo {
+      
+      /* Paading uniforme */
+      /* padding: 20px */
+  
+      /* Con todos los lados */
+      /* padding: 5px 10px 15px 20px; */
+  
+      /* Con 3 valores */
+      /* 10 pixceles a los costados */
+      padding: 50px 10px 60px;
+  
+      /* Para especificar de manera mas visual los tamaños */
+      /* 
+      padding-top: 4px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+       */
+  
+      /* 
+      border: 20px dotted purple;
+       */
+      
+      border-top: 5px groove lemonchiffon;
+      border-right: 5px dashed lightcyan;
+      border-left: 5px solid lightpink;
+      border-bottom: 5px dotted lightsalmon;
+  
+      margin: 50px;
+      box-sizing: border-box 150px;
+      display: inline;
+  }
 
-.bandera-blanco{
-    border: 2px solid black;
-    width: 65%;
-    height: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.bandera-rojo{
-    border: 2px solid black;
-    width: 55%;
-    height: 100%;
-    background-color: red
-}
+.color1 {
+    display: inline-block;
+    width: 80px;           
+    height: 150px;          
+    background: green;       
+    border: 1px solid #000; 
+  }
+  
+  .color2 {
+    display: inline-block;
+    width: 80px;          
+    height: 150px;         
+    background: white;        
+    border: 1px solid #000; 
+  }
+  
+  .color3 {
+    display: inline-block;
+    width: 80px;          
+    height: 150px;         
+    background: red;       
+    border: 1px solid #000; 
+  }
+  
