@@ -1,0 +1,43 @@
+/*
+    Hoja de Estilo Práctica 8C.css
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+header,footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+article{
+    background-color: rgba(229, 142, 142, 0.69);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    overflow: auto;
+}
+
+section{
+    background-color: #eb4f4f;
+    padding: 20px;
+    float: left;
+    width: 50%;
+    height: 300px;
+    border-style: solid;
+    overflow: auto;
+}
+
+footer{
+    clear: both;
+}
+ejercicio{
+    width: 20%;
+    height: 20%7;
+}
