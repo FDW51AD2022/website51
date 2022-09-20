@@ -1,11 +1,11 @@
 /* Selector adyacente */
  
 .titulo + p {
-    border-top: 3px solid blue;
+    border-top: 3px solid rgb(55, 226, 183);
 }
 .titulo:hover{
-    background-color: red;
-    color: white;
+    background-color: rgb(106, 255, 0);
+    color: rgb(190, 59, 59);
 }
 #lista-1 li:first-child {
     background-color: gold;
@@ -26,7 +26,7 @@ p::first-line{
 }
 p::first-letter{
     font-size: 80px;
-    box-shadow: -5px -5px 10px black;
+    box-shadow: -5px -5px 10px rgb(203, 55, 55);
 }
 #grupo {
     /*50 px todos lados */
@@ -54,3 +54,24 @@ p::first-letter{
     
     margin: 50px;
 }
+
+#izq {
+    padding: 100px;
+    background-color: green;
+    display: inline;
+}
+
+
+#centro {
+    padding: 80px;
+    background-color: white;
+    display: inline;
+}
+
+
+#derecho {
+    padding: 100px;
+    background-color: red;
+    display: inline;
+}
+

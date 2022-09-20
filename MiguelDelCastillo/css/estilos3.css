@@ -1,0 +1,47 @@
+html{
+    font-size: 12px;
+    /* Cambio de manera proporcional */
+}
+
+.u-em{
+    background-color: blueviolet;
+    font-size: 3rem;
+    /* Medida relativa, Es relativa al tamanio fuente del elemento */
+    
+
+    width: 50%;
+    padding: 5em 3em;
+    /* El tamanio del padding nace del 
+    tamanio asignado en padding por el
+    tamanio asignado en font size .u-em por el
+    tamanio asignado en font size html */
+    
+
+
+    border: solid black 3px;
+}
+
+/* body{
+    width: 50%;
+    background-color: wheat;
+} */
+
+.u-porcentaje{
+    background-color: wheat;
+    width: 50%;
+    height: 200px;
+}
+
+.productos{
+    background-color: tomato;
+    height: 100vh;
+    width: 70vw;
+}
+
+.overflow{
+    background-color: aquamarine;
+    width: 200px;
+    height: 5em;
+    /* overflow:auto  */
+    overflow: scroll;
+}

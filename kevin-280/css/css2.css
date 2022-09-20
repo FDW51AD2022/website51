@@ -3,11 +3,10 @@ body{background:dimgrey;}
 
 .titulo2 + p {
     border-top: 3px solid blue;
-    color: aqua;
 }
 
-.titulo2:hover{
-    background: purple;
+.titulo2:hover {
+    background-color: blue;
     color: white;
 }
 
@@ -36,45 +35,81 @@ p::first-letter{
     box-shadow: -5px 5px 10px indigo;
 }
 
-
-#caja1{
-    padding: 5px 10px 15px 80px ;
-    padding-top: 50px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 1000;
-
-    border: 50px solid blue;
-    border-top: 5px groove red;
-    border-bottom: 10px dashed blue;
-
-    
-    margin: 50px;
+p::first-line {
+    font-size: 30pxß;
 }
 
+p::first-letter {
+    font-size: 80px;
+    box-shadow: -5px -5px 10px black;
+}
+
+
+#caja1 {
+    /* display: inline; */
+    /* 50px Todos los lados */
+    padding: 50px;
+
+    /* 50px Arriba y abajo 
+       10px izq derecha*/
+    padding: 50px 10px;
+
+
+    padding: 50px 10px 80px 100px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+
+    border: 50px solid red;
+
+    border-top: 5px groove blue;
+    border-bottom: 10px dashed purple;
+    border-left: 20px solid darkblue;
+    border-right: 5px solid yellow;
+    margin: 50px; 
+}
+
+p:first-line{
+    font-size: 10px;
+}
+
+
+p::first-letter{
+    font-size: 80px;
+    box-shadow: -5px 5px 10px indigo;
+}
+
+
+
 #bandera {
+    padding: 5px 10px 15px 350px ;
     display: table
   }
+
 #verde {
     background: green;
     display: table-cell;
-    width: 500px;
+    width: 200px;
     height:200px;
+    border: 1px solid black; 
+    
 } 
 
 
 #blanco{
     display: table-cell;
-    width: 500px;
+    width: 200px;
     height:200px;
     background: white;
+    border: 1px solid black; 
 
 }
 
 #rojo{
     display: table-cell;
-    width: 500px;
+    width: 200px;
     height:200px;
     background: red;
-    
+    border: 1px solid black; 
 }

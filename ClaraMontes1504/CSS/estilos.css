@@ -18,3 +18,39 @@ p{
     background-color:lightpink;
     border-radius: 20px;
 }
+
+/* Selector por atributo */
+p[lang] {
+    background-color: lightpink;
+    border: 5px dotted black;
+    border-radius: 1px;
+  }
+
+/* Selector por descendiente */
+
+blockquote p {
+    background-color: lavender;
+  }
+  
+/* Selector por hijos directos */
+  
+section > p {
+    background-color: lightcoral;
+    font-size: 100%;
+}
+  
+/* Selector hermanos de leche */
+#Parrafo-inicial ~ p {
+    background-color: lightgreen;
+}
+
+/* Selector por atributo, buscando valor inicial */
+a[href^="https"] {
+    background-color: lightpink;
+    font-size: 30px;
+}
+  
+/* Buscar un valor*/
+a[href*="you"] {
+    border: 3px groove black;
+}

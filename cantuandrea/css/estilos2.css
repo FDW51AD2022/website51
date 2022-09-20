@@ -1,0 +1,122 @@
+/* Selector adyacente */
+
+.titulo + p {
+    border-top: 3px solid blue;
+}
+
+.titulo:hover {
+    background-color: red;
+    color: white;
+}
+
+#lista-1 :first-child {
+    background-color: purple;
+}
+
+#lista-1 :last-child {
+    background-color: burlywood;
+}
+
+#lista-1 :nth-child(4) {
+    font-variant: small-caps;
+    background-color: green;
+}
+
+#lista-2 :first-child {
+    background-color:orange;
+}
+
+#lista-2 :last-child {
+    background-color: pink;
+}
+
+#lista-2 :nth-child(4) {
+    color: white;
+    background-color: blue;
+}
+
+p::first-line {
+    font-size: 30pxß;
+}
+
+p::first-letter {
+    font-size: 80px;
+    box-shadow: -5px -5px 10px black;
+}
+
+#grupo {
+    /* display: inline; */
+    /* 50px Todos los lados */
+    padding: 50px;
+
+    /* 50px Arriba y abajo 
+       10px izq derecha*/
+    padding: 50px 10px;
+
+
+    padding: 50px 10px 80px 100px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+
+    border: 50px solid tomato;
+
+    border-top: 5px groove burlywood;
+    border-bottom: 10px dashed blue;
+    border-left: 20px solid green;
+    border-right: 5px solid orange;
+    
+    
+    margin: 50px; 
+
+}
+
+/* blockquote {
+    display: inline;
+} */
+
+/* .bandera {
+    margin: 50px;
+    padding: 200px 0px;
+    border-top: 500px;
+    border-left: 200px solid green;
+    border-bottom: 500px;
+    border-right: 200px solid red;
+
+    text-align: center;
+    color: brown;
+    font-size: 50px;
+} */
+
+.bandera {
+    display: flex;
+    width: 100%;
+}
+
+.bandera div{
+    height: 300px;
+    width: 33.3%;
+    border: 3px solid black;
+}
+
+.izquierda {
+    background-color: green; 
+}
+
+.centro {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imagen {
+    width: 99%;
+    height: 100%;
+}
+
+.derecha {
+    background-color: red;
+}

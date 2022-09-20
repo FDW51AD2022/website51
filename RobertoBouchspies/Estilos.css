@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+}
+
 .contenedor {
     width: 100%;
     max-width: 1200px;
@@ -11,13 +17,13 @@
 }
 
 .menu {
-    width: 90%;
-    text-align: right;
+    width: 100%;
+    text-align: center;
 }
 
 .enlace-menu{
     padding: 0px 20px;
-    text-decoration: none;
+    text-decoration:none;
     color: black;
     padding-bottom: 5px;
     border-bottom: 1px solid transparent;
@@ -29,17 +35,77 @@ body {
 }
 
 h1 {
+    margin-top: 0%;
     color: black;
     font-family:'Verdana';
+    padding: 20px;
 }
 
 h2 {
     color: black;
     font-family:'Verdana';
     text-align: left;
+    padding: 7px;
+}
+
+h3 {
+    color: black;
+    font-family:'Verdana';
+    text-align: left;
+    padding: 10px;
 }
 
 figure {
     display: flex;
     text-align: left;
+}
+
+.centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enlace-menu:hover{
+    background-color: #E1FFEE;
+    color: black;
+    font-weight: bolder;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+div {
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
+}
+
+blockquote{
+    text-align: center;
+}
+
+/* address{
+    text-align: center;
+} */
+
+.general {
+    padding: 10px;
+}
+
+.section-presentacion {
+    background-image: url(/website51/RobertoBouchspies/Recursos/Fondo4.jpg);
 }

@@ -1,0 +1,41 @@
+.titulo + p {
+    border-top: 5px solid gold;
+
+}
+ul li:first-child{
+    background-color: aquamarine;
+
+}
+
+.bandera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+}
+
+.verde{
+    border: 2px solid black;
+    width: 55%;
+    height: 100%;
+    background-color: green;
+}
+
+.blanco{
+    border: 2px solid black;
+    width: 65%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rojo{
+    border: 2px solid black;
+    width: 55%;
+    height: 100%;
+    background-color: red
+}

@@ -1,0 +1,109 @@
+/* Selector adyacente*/
+
+.titulo + p {
+    border-top: 7px solid blue;
+}
+
+.titulo:hover{
+    background-color: red;
+    color: white;
+}
+
+/* ul>li{hi}*7 */
+
+/* Seleccionar solo el primero de una lista */
+
+#lista-1 li:first-child {
+    background-color: green;
+}
+
+#lista-1 li:last-child {
+    box-shadow: 5px 5px 5px orangered;
+}
+
+ul li:nth-child(4){
+    font-variant: small-caps;
+    background-color: black;
+    color: white;
+}
+
+#lista-2 li:nth-child(even){
+    background-color: gray;
+    color: white;
+}
+
+
+#letrap::first-line { /* pseudoelemento*/
+    font-size: 30px;
+    color: black;
+}
+
+p::first-letter{
+    font-size: 80px;
+    box-shadow: -5px -5px 10px green;
+}
+
+
+/* inspeccionar */
+
+#grupo {
+    display: inline;
+
+
+    padding: 5px 10px 15px 20px;  /* el orden de los numeros va conforme a las manecillas de reloj*/
+    /* con dos valores 50px arriba 10px abajo*/
+
+    border-top: 5px groove red;
+    border-bottom: 10px dashed blue;
+    border-left: 20px solid green;
+    border-right: 5px solid yellow;
+
+    margin: 50px;
+}
+
+blockquote {
+    display: inline;
+}
+
+
+
+
+#bandera {
+    display: flex;
+    padding: none;
+    border: 6px solid black;
+    width: 100%;
+    max-width: 1200px;
+}
+
+#bandera div {
+    width: 33.3%;
+}
+
+#verde {
+    background-color: green;
+    height: 200px;
+}
+
+#blanco {
+    background-color: white;
+    height: 200px;
+}
+
+#blanco, img {
+    height: 200px;
+    width: 60%;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+#rojo {
+    background-color: red;
+    height: 200px;
+}
+
+
+

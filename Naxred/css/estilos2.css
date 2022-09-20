@@ -62,4 +62,37 @@ blockquote{
     display: inline;
 }
 
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+}
+
+.bloque-verde{
+    border: 2px solid black;
+    width: 33%;
+    height: 100%;
+    background-color: green;
+}
+
+.bloque-blanco{
+    border: 2px solid black;
+    width: 33%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloque-rojo{
+    border: 2px solid black;
+    width: 33%;
+    height: 100%;
+    background-color: red
+}
+
 

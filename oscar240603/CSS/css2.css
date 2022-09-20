@@ -1,5 +1,7 @@
+body {
+    background:linear-gradient(top, red, gold);
+}
 /*Selector adyacente*/
-
 .titulo + p{
     border-top: 3px solid blue;
 }
@@ -82,6 +84,21 @@ blockquote {
 	background-image:linear-gradient(90deg,green 33%,white 66.66%, red 66.66%);
 }
 
+#Verde {
+    padding: 80px;
+    background-color: green;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+#Rojo {
+    padding: 80px;
+    background-color: red;
+    display: inline-block;
+    margin: 0px;
+}
 
 
 

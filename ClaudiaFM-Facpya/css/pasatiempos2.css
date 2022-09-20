@@ -1,0 +1,59 @@
+body{background-color: blanchedalmond;}
+
+#titulo
+{
+    background-color:  rgb(233, 166, 233) ;
+    
+}
+#Bienvenido
+    {
+        font-size: 50px;
+     background-color: rgb(241, 245, 29);
+    }
+#Soy
+{
+    font-size: 25px;
+}
+
+#presentacion
+{
+    font-size: 20px;
+}
+#pasatiempo
+{
+    font-size: 25px;
+}
+
+#Can
+{
+    font-size: 20px;
+}
+
+#Datos
+{
+    font-size: 20px;
+}
+#mascotas 
+{
+    font-size: 20px;
+}
+#convivir 
+{
+    font-size: 20px;
+}
+#familia 
+{
+    font-size: 20px;
+}
+#Lugar 
+{
+    font-size: 20px;
+}
+#Lugar2 
+{
+    font-size: 20px;
+}
+#titulo
+{
+    font-size: 15px; ;
+}

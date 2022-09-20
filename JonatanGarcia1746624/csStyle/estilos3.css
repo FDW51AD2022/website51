@@ -1,0 +1,38 @@
+html { font-size: 15px;}
+
+/*3m es igual al tamaño de el contenedor
+16px = 1em*/
+.u-em {
+    background-color: blue;
+    font-size: 3rem;
+    width: 10rem;
+
+    padding: 5em 3em;}
+
+body {
+    width: 50%;
+}
+
+.u-port {
+    background-color: teal;
+    width: 50%;
+    height: 200px;
+}
+
+.productos {
+    background-color: darkgoldenrod;
+    height: 100vh;
+    width: 70vh;
+}
+
+.overflow {
+    background-color: darkred;
+    width: 200px;
+    height: 5em;
+    overflow: auto;
+}
+
+/*rgb(num/num/num/num/num/num)
+Si se oine el mismo numero en
+los primeros 3 se pone un tono
+de gris*/

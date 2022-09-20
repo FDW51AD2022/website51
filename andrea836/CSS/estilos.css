@@ -1,54 +1,61 @@
-/* Selector de tipo*/
+/* Selector de tipo */
 
-p{
-    font-size: 70px;
+p {
+   font-size: 30px;
 }
 
-/* Selector por id*/
-#parrafo-sel-id {
-    background-color: blueviolet;
-    border-radius: 10 px;
+/* Selector de id */
+
+#Parrafo-sel-id {
+   background-color: blue;
+   font-size: 20px;
 }
 
-/* Selector de clases*/
+#otro-parrafo {
+   background-color: yellow;
+   font-size: 20px;
+}
+
 .error {
-    color: brown;
-    background-color: blue;
+    color: red;
+    background-color: yellow;
 }
 
-/* Selector por atributo*/
-p[lang] {
-    border: 3px dashed darkmagenta;
+/* Selector por atributo */
+/* p[lang] {
+  border: 3px dashed blue;
+} */
+
+/* Selector por atributo valor especial*/
+p[lang="es"] {
+  background-color:  aqua;
 }
 
-/*Selector por atributo de valor especial*/
-p[lang= "es"] {
-    background-color: rgb(255, 0, 234);
-}
-
-/* Selector por atributo buscando el valor inicial*/ 
+/* Selector por atributo, buscandi un valor inicial*/
 a[href^="https"] {
-    background-color: rgb(42, 165, 124);
+  background-color: greenyellow;
 }
 
-/* Selector por atributo buscado por el final*/
+/* Selector por atributo, buscandi un valor final*/
 a[href$="mx"] {
-    background-color: blueviolet;
+  background-color: red;
 }
 
-/* Selector por atributo buscando un valor sin importar la posicion donde se encuentra*/
+/* Selector por atributo, buscandi un valor sim importar la posicion donde se encuentre*/
 a[href*="you"] {
-    border: 3 px groove palevioletred;
-} 
+  border: 3px groove black;
+}
 
-/* Selector por descendente*/
+/* Selector por descendientes*/
 section p {
-    font-size: 70 px;
+  font-size: 20px;
 }
+
 section > p {
-    font-size: 40px;
+  font-size: 25px;
 }
-/* Selector de hermano general*/
-#p-ini ~ p{
-    background-color: rgb(42, 71, 165);
+
+/* Selector por descendientes*/
+#p-ini ~ p {
+  background-color: rebeccapurple;
 }

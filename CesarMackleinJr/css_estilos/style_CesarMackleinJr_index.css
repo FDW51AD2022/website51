@@ -10,10 +10,15 @@ h1 {
     color:darkblue;
 }
 
+h2 {
+    text-align: left;
+    color:indianred
+}
+
 .botones {
-    align-items: center;
-    align-self: center;
-    text-align: center;
+    align-items: left;
+    align-self: left;
+    text-align: left;
     height: 100px;
     padding: 25px;
 }
@@ -33,9 +38,35 @@ button:hover {
 .volver:hover {
     color: aquamarine;
 }
+
+.arrowLeft {
+    position: relative;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    border-radius: 5px;
+    background-color:hotpink;
+}
+
+.arrowLeft::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 14px solid white;
+}
+
+footer {
+    display: block;
+    
+}
+
 .usuario {
     
 }
+
 /* .lista {
     text-justify: auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

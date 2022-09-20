@@ -80,6 +80,10 @@ p::first-letter{
 
 }
 
+#cita{
+    display: inline;
+}
+
 
 #Mexico1{
     padding-top: 100px;

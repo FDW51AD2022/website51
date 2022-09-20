@@ -2,33 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
     <title>Selectores CSS</title>
-    <link rel="stylesheet" href="style7Sep.css">
+    <link rel="stylesheet" href="./css/css1.css">
 </head>
 <body>
-    <h3>Actividad CSS</h3>
-    <a href="JuanDSanchez2021_index.html">Pagina Inicial</a><br>
-    <input type="button" class="boton" value="Aceptar"><br>
     <article>
-        <h3>selectores de tipo</h3>
+        <h2>Selecores de tipo</h2>
         <p>Se especifica el nombre de una etiqueta</p>
     </article>
 
     <article>
-        <h2>Selectores por ID</h2>
+        <h2>Selecores de ID</h2>
         <p>Se especifica el id del elemento anteponiendo #</p>
-        <p id="parrafo-del-id">Soy un parrafo con ID</p>
+        <p id="parrafo-sel-id">Soy un parrafo con Id</p>
     </article>
 
     <article>
-        <h2>Selector de clase</h2>
-        <p>Se especializa la Clase del elemento anteponiendo un punto</p>
-        <p class="parrafo-clase">Soy un parrafo con Clase</p>
+        <h2>Selecores de ID</h2>
+        <p>Se especifica el id del elemento anteponiendo #</p>
+        <p id="parrafo-sel-id">Soy un parrafo con Id</p>
     </article>
-    <input type="button" class="boton" value="Aceptar">
 
+    <article>
+        <input class="error" type="button" value="Aceptar">
+        <h2>Selecores de clase</h2>
+        <p>Se especifica la clase anteponiendo un punto</p>
+        <p class="error" id="otro-parrafo">Soy un párrafo con ID y tengo una clase asignada</p>
+    </article>
 
+    <article>
+        <h2>Selecores de atributp</h2>
+        <p>Atributo del elemento sin importar valor</p>
+        <p lang="en">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum doloribus deserunt voluptates provident cum quo beatae sit facilis mollitia voluptate, aliquid accusamus dolore maxime nihil, nisi labore architecto totam dolores!</p>
+        <p lang="es">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum doloribus deserunt voluptates provident cum quo beatae sit facilis mollitia voluptate, aliquid accusamus dolore maxime nihil, nisi labore architecto totam dolores!</p>
+        <a href="https://youtube.com">Ir a youtube</a>
+        <a href="http://empresa.mx">Ir a empresa</a>
+    </article>
+
+    <article>
+        <h2>Selector descendiente</h2>
+        <section>
+            <p>Parrafo Inicial</p>
+            <p>Lorem, lorem</p>
+            <blockquote>
+                <p>Lorem, ipsum, dolor</p>
+            </blockquote>
+            <p>Parrafo Final</p>
+        </section>
+    </article>
 </body>
 </html>

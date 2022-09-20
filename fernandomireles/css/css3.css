@@ -1,0 +1,56 @@
+html{
+    font-size: 15px;
+}
+
+.u-em{
+    background-color: blue;
+    font-size: 3rem;
+    width: 10rem;
+
+    /* 5em5 em es igual a 5 veces el tamaño de fuente
+    del emeneto 3rem (15*3) = 45 */
+    padding: 5em 3em;
+}
+
+/* body {
+    width: 50%;
+} */
+
+.u-porc {
+    background-color: yellow;
+    width: 50%;
+    height: 200px;
+}
+
+.productos {
+    background-color: #B9005B;
+    height: 100vh;
+    width: 70vh;
+}
+
+.pred{
+    background-color: lawngreen;
+}
+
+.rgb{
+    background-color: #4d375d;
+}
+
+.frgba{
+    background-color: rgba(77,55,93,0.5);
+}
+
+.hsl{
+    background-color: hsl(45,90%,50%);
+}
+
+.hsla{
+    background-color: hsl(45,90%,50%,0.3);
+}
+
+.overflow {
+    width: 200px;
+    height: 5em;
+    background-color: #46b023;
+    overflow: scroll;
+}

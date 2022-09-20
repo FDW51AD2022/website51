@@ -71,7 +71,7 @@ blockquote{
 }
 
 #verde {
-    padding: 100px;
+    padding: 130px;
     background-color: green;
     display: inline-block;
     margin: 0px;
@@ -79,15 +79,16 @@ blockquote{
 }
 
 #blanco {
-    padding: 100px;
+    padding: 130px;
     background-color: white;
     display: inline-block;
     margin: 0px;
     box-sizing: border-box;
+
 }
 
 #rojo {
-    padding: 100px;
+    padding: 130px;
     background-color: red;
     display: inline-block;
     margin: 0px;

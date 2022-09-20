@@ -1,0 +1,72 @@
+body{
+    background-color: #FFFDDE;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.boton {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 40px;
+	background: #C4DFAA;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: .3s ease all;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+}
+
+.boton span {
+	transition: .4s ease-in-out all;
+	position: absolute;
+	left: 40%;
+}
+
+.boton .icono {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	z-index: 2;
+	left: -40px;
+	transition: .3s ease-in-out all;
+	opacity: 0;
+}
+
+.boton svg {
+	color: #fff;
+	width: 35px;
+	height: 35px;
+}
+
+.boton:hover {
+	background: #F37878;
+}
+
+.boton:hover .icono {
+	left: calc(100% - 50px);
+	opacity: 1;
+}
+
+.boton:hover span {
+	left: 20px;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+}
