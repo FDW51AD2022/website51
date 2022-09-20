@@ -1,0 +1,35 @@
+#ListaCanciones  li:nth-child(2){
+    font-variant: small-caps;
+    background-color: rgba(251, 255, 0, 0.699);
+}
+
+#ListaCanciones  li:nth-child(4){
+    font-variant: small-caps;
+    background-color: #505050b2;
+}
+
+h1{
+    font-variant: small-caps;
+    background-color: #a34f00b2;
+}
+
+h3{
+    font-variant: small-caps;
+    background-color: #a30000b2;
+}
+
+
+h2{
+    font-variant: small-caps;
+    background-color: #1b1b1bb2;
+}
+
+h6{
+    font-variant: small-caps;
+    background-color: #000000;
+}
+
+#ListaCanciones {
+    
+    border: 3px solid black;
+}

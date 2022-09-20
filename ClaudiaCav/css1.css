@@ -1,0 +1,20 @@
+/* Selector de tipo */
+
+p{
+    font-size: 50px;
+}
+
+/* Selector por id */
+
+#parrafo_id {
+    background-color: rgb(23, 55, 59);
+    border-radius: 20px;
+}
+
+/* Selectores de clase */
+
+.error {
+    color: rgb(14, 39, 4);
+    background-color:rgb(69, 179, 82);
+    border-radius: 20px;
+}

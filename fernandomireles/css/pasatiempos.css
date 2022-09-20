@@ -1,0 +1,30 @@
+h1,h2,blockquote{
+    text-align: center;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+p{
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+div, iframe {
+    margin: 0 auto;
+
+}
+
+.centrado-div {
+    width: 560px;
+    height: 315px;
+
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    margin: auto;
+}
+
+div#iframe-wrapper iframe {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    right: 100px;
+    width: 100%;
+}

@@ -1,0 +1,125 @@
+/* Selector adyacente  */
+
+.titulo + p {
+    border-top: 3px solid blue;
+} 
+
+.titulo:hover{
+    background-color: red;
+    color: white;
+}
+
+#lista-1 li:first-child {
+    background-color: gold;
+}
+
+#lista-1 li:last-child {
+    box-shadow: 5px 5px 5px;
+}
+
+#lista-1 li:nth-child(4) {
+    font-variant: small-caps;
+    background-color: blue;
+}
+
+#lista-2 li:nth-child(odd) {
+    background-color: gray;
+    color: wheat;
+}
+
+p::first-line{
+    font-size: 30px;
+}
+
+p::first-letter{
+    font-size: 80px;
+    box-shadow: -5px 5px 10px black;
+}
+#grupo{
+
+    display: inline;
+    /* 50 px todos los lados  */
+    /* padding: 50px; */
+    /* 50 px arriba-abajo
+    10 px izq-der; */
+    /* padding: 50px 10px 80px; */
+
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 80px;
+    padding-bottom: 100px;
+
+    border-top: 5px groove red;
+    border-right: 10px dashed blue;
+    border-left: 20px solid green;
+    border-bottom: 5px solid;
+
+    /* border: 50px solid tomato; */
+    margin: 50px;
+}
+
+blockquote{
+    display: inline;
+}
+
+.contenedor{
+    display: flex;
+<<<<<<< HEAD
+    width: 500px;
+    height: 200px;
+=======
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+>>>>>>> 28768f008dd98fc503dd435d0dae7c699a709473
+    border: 2px solid black;
+}
+
+.bloque-verde{
+<<<<<<< HEAD
+    width: 33%;
+    height: 100%;
+    border: 2px solid black;
+=======
+    border: 2px solid black;
+    width: 33%;
+    height: 100%;
+>>>>>>> 28768f008dd98fc503dd435d0dae7c699a709473
+    background-color: green;
+}
+
+.bloque-blanco{
+<<<<<<< HEAD
+    width: 33%;
+    height: 100%;
+    border: 2px solid black;
+    
+
+}
+
+.bloque-rojo{
+    width: 33%;
+    height: 100%;
+    border: 2px solid black;
+    background-color: red;
+
+=======
+    border: 2px solid black;
+    width: 33%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloque-rojo{
+    border: 2px solid black;
+    width: 33%;
+    height: 100%;
+    background-color: red
+>>>>>>> 28768f008dd98fc503dd435d0dae7c699a709473
+}
+
+

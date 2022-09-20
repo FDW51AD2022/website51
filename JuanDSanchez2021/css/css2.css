@@ -1,0 +1,111 @@
+/* Selector adyacente */
+
+.titulo + p {
+    border-top: 3px solid blue;
+}
+
+.titulo:hover{
+    background-color: red;
+    color: white;
+}
+
+
+#lista-1 li:first-child {
+    background-color: gold;
+}
+
+#lista-1 li:last-child{
+    box-shadow: 5px 5px 5px green;
+}
+
+#lista-1 li:nth-child(4){
+    font-variant: small-caps;
+    background-color: blue;
+}
+
+#lista-2 li:nth-child(even){
+    background-color: gray;
+    color: white;
+}
+
+p::first-line {
+    font-size: 30px;
+}
+
+p::first-letter{
+    font-size: 80px;
+    box-shadow: -5px -5px 10px black;
+}
+
+#grupo {
+    padding: 20px;
+}
+
+#grupo {
+
+    display: inline;
+    /* 50px todos los lados */
+    padding: 50px;
+    text-align: center;
+
+    /* 50px arriba-abajo
+       10px izq-der */
+    padding: 50px 10px;
+
+    /* 50px arriba
+       10px izq-der
+       80px abajo */
+    padding: 50px 10px 80px;
+    
+    padding: 50px 10px 80px 100px;
+
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+
+    border: 50px solid tomato;
+
+    border-top: 5px groove red;
+    border-bottom: 10px dashed blue;
+    border-left: 20px solid green;
+    border-right: 5px solid gold;
+    margin: 50px;
+}
+
+    blockquote {
+        display: inline;
+    }
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+}
+
+.color-verde{
+    border: 2px solid black;
+    width: 33%;
+    height: 100%;
+    background-color: green;
+}
+
+.color-blanco{
+    border: 2px solid black;
+    width: 33%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-rojo{
+    border: 2px solid black;
+    width: 33%;
+    height: 100%;
+    background-color: red
+}

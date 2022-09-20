@@ -1,0 +1,88 @@
+.titulo + p{
+    border-top: 3px solid blue;
+}
+
+.titulo:hover{
+    background-color: red;
+    color: white;
+}
+
+#lista-1 li:first-child{
+    background-color: gold;
+}
+#lista-1 li:last-child{
+    box-shadow: 5px 5px 5px green ;
+}
+
+#lista-1 li:nth-child(4){
+    font-variant: small-caps;
+    background-color: blue;
+}
+
+#lista-2 li:nth-child(odd){
+    background-color: rgb(172, 162, 162);
+    color: rgb(43, 41, 41);
+}
+
+p::first-line{
+    font-size: 30px;
+}
+
+p::first-letter{
+    font-size: 80px;
+    box-shadow: 5px -5px 10px black;
+}
+
+#grupo{
+    /* 50px todos los lados */
+    padding: 50px;
+
+    /* 50px arriba-abajo
+       10px izq-der */
+    padding: 50px 10px;
+
+    /* 50px arriba
+       10px izq-der
+       80px abajo */
+       padding: 50px 10px 80px;
+    
+    padding: 50px 10px 80px 100px;
+
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+
+    border: 50px solid tomato;
+    border-top: 5px groove red;
+    border-bottom: 10px dashed blue;
+    border-left: 20px solid green;
+    border-right: 5px solid yellow;
+
+    margin: 50px;
+}
+
+blockquote{
+    display: inline;
+}
+
+#vivamex{
+    background-color: green;
+    display: inline;
+    padding: 50px;
+}
+
+img{
+    height: 75px;
+    width: 100px;
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+#mexico{
+    background-color: red;
+    display: inline;
+    padding: 50px;
+}

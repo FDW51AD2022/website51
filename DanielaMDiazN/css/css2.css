@@ -1,0 +1,93 @@
+/* Selector hermano adyacente */
+
+.titulo + p {
+   border-top: 3px solid blue; 
+}
+/* Pseudo clases */
+.titulo:hover{
+    background-color: red;
+    color: white;
+}
+
+#lista-1 li:first-child{
+    background-color: gold;
+}
+
+#lista-1 li:last-child{
+    box-shadow: 5px 5px 5px green;
+}
+
+#lista-1 li:nth-child(4){
+    background-color: blue;
+    font font-variant: small-caps;
+}
+
+#lista-2 li:nth-child(odd){
+    background-color: gray;
+    color: white;
+}
+
+/* Pseudo-elementos */
+p::first-line{
+    font-size: 30px;
+}
+
+p::first-letter{
+    font-size: 80px;
+    box-shadow: 5px -5px 10px black;
+}
+
+/*Especificidad */
+#grupo {
+
+    display: inline;
+    /*50px todos los lados*/
+    padding: 50px;
+    /* diferentes px para los 4 lados*/
+    padding: 5px 10px 15px 20px; 
+
+    padding-top: 50;
+    padding-right: 10;
+    padding-bottom: 15;
+    padding-left: 20;
+
+    border: 50px solid tomato;
+    border-top: 5px groove red;
+    border-bottom: 10px dashed blue; 
+    border-left: 20px solid green;
+    border-right: 5px solid gold;
+
+    margin: 50px;
+}
+
+
+#blockquote {
+    display: inline;
+}
+
+#bandera-verde {
+    padding: 100px;
+    background-color: green;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#bandera-blanco {
+    padding: 100px;
+    background-color: white;
+    display: inline-block;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+#bandera-rojo {
+    padding: 100px;
+    background-color: red;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+

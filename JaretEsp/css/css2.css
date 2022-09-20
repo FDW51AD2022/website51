@@ -1,0 +1,93 @@
+/* Selector adyacente*/
+
+.titulo + p {
+    border-top: 7px solid blue;
+}
+
+.titulo:hover{
+    background-color: red;
+    color: white;
+}
+
+/* ul>li{hi}*7 */
+
+/* Seleccionar solo el primero de una lista */
+
+#lista-1 li:first-child {
+    background-color: green;
+}
+
+#lista-1 li:last-child {
+    box-shadow: 5px 5px 5px orangered;
+}
+
+ul li:nth-child(4){
+    font-variant: small-caps;
+    background-color: black;
+    color: white;
+}
+
+#lista-2 li:nth-child(even){
+    background-color: gray;
+    color: white;
+}
+
+p::first-line { /* pseudoelemento*/
+    font-size: 30px;
+}
+
+p::first-letter{
+    font-size: 80px;
+    box-shadow: -5px -5px 10px black;
+}
+
+
+/* inspeccionar */
+
+#grupo {
+    display: inline;
+
+
+    padding: 5px 10px 15px 20px;  /* el orden de los numeros va conforme a las manecillas de reloj*/
+    /* con dos valores 50px arriba 10px abajo*/
+
+    border-top: 5px groove red;
+    border-bottom: 10px dashed blue;
+    border-left: 20px solid green;
+    border-right: 5px solid yellow;
+
+    margin: 50px;
+}
+
+blockquote {
+    display: inline;
+}
+
+
+
+
+#bandera p{
+    width: 30%;
+    display: inline-block;
+    padding: 10px 5px;
+    border: 6px solid black;
+}
+
+#verde {
+    background-color: green;
+
+}
+
+#blanco {
+    background-color: white;
+    
+}
+
+
+#rojo {
+    background-color: red;
+    
+}
+
+
+

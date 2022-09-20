@@ -1,0 +1,19 @@
+body {
+    background-color: pink;
+    color: black;
+    font-family: 'Lucida Sans Regular';
+}
+
+h1 {
+    background-color: palevioletred;
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+
+h2 {
+    background-color: rgb(163, 245, 131);
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}

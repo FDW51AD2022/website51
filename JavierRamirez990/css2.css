@@ -1,0 +1,95 @@
+/* selector adyacente */
+
+.titulo + p {
+    border-top: 3px solid black ;
+}
+.titulo:hover{
+    background-color: rgb(150, 150, 240) ;
+}
+ul li:first-child {
+    background-color: greenyellow;
+}
+
+ul li:last-child{
+    box-shadow:greenyellow;
+}
+ ul li:nth-child(3){
+    font-variant: small-caps;
+    background-color:greenyellow;
+ }
+
+ #lista-2 li:nth-child(7){
+    background-color:greenyellow;
+    color:blanchedalmond;
+ }
+
+ p::first-line {
+    font-size:30px;
+ }
+p::first-letter{
+    font-size:60px;
+    box-shadow: -5px -5px 10px black;
+}
+ /*#grupo{
+    display: inline;
+    /*seleccionan todos los border*/
+    padding: 50px;
+   /*50px arriba 
+ 10 izquierd-derecha
+80 abajo*/
+padding: 50px 10px 80px;
+
+/* 50px arriba
+10 izquierd-derecha
+80 abajo*/
+padding: 50px 10px 80px;
+padding: 50px 10px 80px 100px;
+padding-top: 50px;
+padding-right:10px ;
+padding-bottom:80px ;
+padding-left:100px ;
+
+
+border: 50px solid rgb(150, 150, 240) ;
+border-top: 5px groove red;
+border-bottom: 10px dashed blue;
+border-left: 100px ;
+border-right: 5px solid goldenrod;
+margin: 50px;
+}
+blockquote{
+    display: ;
+
+}
+
+/*bandera */
+p::first-letter{
+    font-size: 80px;
+    box-shadow: -5px -5px 10px red;
+
+}
+
+#bandera-verde{
+    padding: 100px;
+    display: inline-flex;
+    background-color: green;
+    border-top: 3px groove black;
+    border-bottom: 3px solid black;
+   }
+
+
+#bandera-blanca{
+    padding: 100px;
+    background-color: white;
+    display: inline-flex;
+    border-top: 3px groove black;
+    border-bottom: 3px solid black;
+}
+
+#bandera-roja {
+    padding:100px;
+    background-color: red;
+    display: inline-flex;
+    border-top: 3px groove black;
+    border-bottom: 3px solid black;
+}

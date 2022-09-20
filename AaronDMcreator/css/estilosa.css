@@ -1,13 +1,62 @@
 p{
-    font-size: 80px;
+    font-size: 20px;
 }
 
 #parrafo-sel-id{
 background-color: rgb(88, 29, 199);
-border-radius: 10px;
+
 }
 
 .error{
     color: brown;
-    background-color: aqua;
 }
+
+.parrafo_sel_class {
+    font-size: 30px;
+}
+
+  /* Buscar por atributo */
+p[lang] {
+    border: 5px dashed black;
+    border-radius: 2px;
+  }
+  
+  h1 {
+    background-color: yellowgreen;
+  }
+  
+  h2 {
+    background-color: rgb(211, 207, 200);
+    border-radius: 2px;
+    border-radius: 10px;
+  }
+  
+  /* Selector por atributo, buscando un valor inicial */
+  
+  a[href^="https"] {
+    font-size: 15px;
+  }
+  
+  /* Buscar un valor no importe donde este */
+  
+  a[href*="you"] {
+    border: 3px groove plum;
+  }
+  
+  /* Selector por descendiente */
+  
+  blockquote p {
+    background-color: teal;
+  }
+  
+  /* Selector por hijos directos */
+  
+  section > p {
+    font-size: 100%;
+  }
+  
+  /* Selector hermanos de leche */
+  
+  #p-ini ~ p {
+    color: rgb(118, 118, 161);
+  }

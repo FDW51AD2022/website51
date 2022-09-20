@@ -19,3 +19,47 @@ p {
     color: red;
     background-color: yellow;
 }
+
+/*Selector por atributo*/
+p[lang]{
+    border: 3px dashed blue;
+}
+
+/*Selector por atributo valor especial */
+p[lang="es"] {
+    background-color: aqua;
+}
+
+/*Selector por atributo, buscando 
+un valor especial */
+a[href^="https"] {
+    background-color: greenyellow;
+}
+
+/*Selector por atributo, buscando 
+un valor final */
+a[href$="mx"] {
+    background-color: red;
+}
+
+/*Selector por atributo, buscando 
+un valor sin importar la posicion
+donde se enccuentre*/
+a[href*="you"] {
+    border: 3px groove plum;
+}
+
+/* Selector por descendientes */
+section p {
+    font-size: 3px;
+}
+
+/* sSelector por hijos directos */
+section > p{
+    font-size: 25px;
+}
+
+/*Selector hermano general*/
+#p-ini ~ p{
+    background-color: rebeccapurple;
+} 

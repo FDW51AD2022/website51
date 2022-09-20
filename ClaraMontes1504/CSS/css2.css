@@ -1,0 +1,114 @@
+body{
+    margin:50px;
+}
+/* Selector de hermano adyacente */
+.titulo + p{
+    border-top: 3px solid blue;
+}
+
+
+/* Cambia de color al momento de ponerle el mouse encima */
+.titulo:hover{
+    background-color: red;
+    color: white;
+}
+
+#lista1 li:first-child{
+    background-color: gold;
+}
+
+#lista1 li:last-child{
+    box-shadow: 5px 5px 5px green;
+}
+
+#lista1 li:nth-child(4){
+    font-variant: small-caps;
+    background-color: aquamarine;
+}
+
+
+/* Odd significa impar 
+Even significa par*/
+#lista2 li:nth-child(odd){
+    background-color:cadetblue;
+    color:black;
+}
+
+p::first-line{
+    font-size: 30px;
+}
+
+/* Cuando se pone un negativo es la sombra a la izquierda checar;;; */
+p::first-letter{
+    font-size: 80px;
+    box-shadow: 5px -5px 10px lightpink ;
+}
+
+#grupo {
+
+    display: inline;
+
+    /* 50px todos los lados */
+    padding: 50px;
+
+    /* 50px arriba,abajo
+    10px izquierdo y derecho */
+    padding: 50px 10px;
+
+    /* 50px arriba
+    10px izquierda y derecho
+    80px abajo */
+    padding: 50px 10px 80px;
+
+    /* Sigue las manecillas del reloj*/
+    padding: 5px 10px 15px 20px; 
+
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+
+
+    border: 50px solid lavender;
+
+    border-top: 5px solid lightgreen; 
+    border-bottom: 10px solid lightpink;
+    border-left: 20px solid lightblue;
+    border-right: 5px dotted lightblue;
+
+    margin: 50px;
+
+}
+
+#cita{
+    display: inline;
+}
+
+
+#Mexico1{
+    padding-top: 100px;
+    border: 2px solid black;
+    background-color: green;
+    display: inline;
+    color: green;
+}
+
+#Mexico2{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-top: 100px ;
+    background-color: white;
+    display: inline;
+}
+
+#Mexico3{
+    border: 2px solid black;
+    padding-top: 100px;
+    background-color: red;
+    display: inline;
+    color:red;
+}
+
+
+
+

@@ -1,0 +1,29 @@
+html {
+    background-color: #ccc;
+    background-color: black;
+}
+body{
+    background-color: #fff;
+    padding: 10px;
+}
+main{
+    padding: 25px;
+}
+.images-section{
+    display: flex;
+}
+h1{
+    text-align: center;
+}
+
+.section{
+    border: 4px solid black;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.section h3{
+    text-align: center;
+}
+

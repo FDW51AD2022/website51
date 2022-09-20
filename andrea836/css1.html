@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selectores CCS</title>
+    <meta name="viewport" content="width=h2, initial-scale=1.0">
+    <title>Selectores CSS</title>
     <link rel="stylesheet" href="CSS/estilos.css">
 </head>
 <body>
@@ -12,36 +12,79 @@
         <h2>Selectores de tipo</h2>
         <p>Se especifica el nombre de una etiqueta</p>
     </article>
-
+    
     <article>
-        <h2>Selectores por ID</h2>
-        <p>Se especifica el id del elemento anteponiendo #</p>
-        <p id="parrafo-sel-id">
+        <h2>Selector por id</h2>
+        <p>Se especifica el id del elemento
+            anteponiendo a
+        </p>
+
+        <p id = "Parrafo-sel-id" >
             Soy un parrafo con id
         </p>
-    </article>
 
-    <article>
-        <h2>Selectore por atributo</h2>
-        <p>Atrubuto del elemento sin importar el valor</p>
-        <p lang= "en">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, iure facere! Dignissimos labore placeat incidunt!</p>
-        <p lang= "es">LLorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quidem accusantium hic maiores necessitatibus ut.</p>
-
-        <a href="https://www.youtube.com/">Ir a youtube</a>
-        <a href="empresa.com.mx">Ir a la empresa</a>
 
     </article>
 
     <article>
-        <h2>Selectores descendentes</h2>
+        <input class="error" type="button"
+        value="Aceptar">
+
+        <h2>Selector de clase</h2>
+        <p>Se especifica la clase 
+            anteponiendo un punto
+        </p>
+
+        <p class="error"
+        id = "otro-parrafo" >
+            Soy un parrafo con id
+            y tengo una clase asignada
+        </p>
+
+
+    </article>
+
+    
+    <article>
+
+        <h2>Selector por atributo</h2>
+        <p>SAtributo del elemento sin importar
+            el valor
+        </p>
+
+        <p  lang="en">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, officia iusto 
+            sint nostrum, ab quod laboriosam fugit eos, ratione praesentium 
+            recusandae in nesciunt! Ratione cupiditate corrupti error nostrum totam? Incidunt.
+        </p>
+        <p  lang="es">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, officia iusto 
+            sint nostrum, ab quod laboriosam fugit eos, ratione praesentium 
+            recusandae in nesciunt! Ratione cupiditate corrupti error nostrum totam? Incidunt.
+        </p>
+
+        <a href="https://youtube.com">Ir a youtube</a>
+        <a href="https://empresa.com.mx">Ir a empresa</a>
+
+
+    </article>
+
+    <article>
+        <h2>Selector descendientes</h2>
         <section>
-            <p id="p-ini">parrafo inicial</p>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p id = "p-ini">Parrafo inicial</p>
+            <p>Lorem ipsum dolor sit amet 
+                consectetur, adipisicing elit. Tempore, nobis?
+            </p>
             <blockquote>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p>lorem, ipsum dolor</p>
             </blockquote>
-            <p>parrafo final</p>
+            <p id = "p-fin">Parrafo final</p>
         </section>
+        
     </article>
+    
+
 </body>
+
 </html>

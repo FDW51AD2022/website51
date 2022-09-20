@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bandera {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.bandera div{
+    width: 33.3%;
+}
+
+.bg_verde {
+    background-color: green; 
+}
+
+.bg_blanco {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bg_rojo {
+    background-color: red;
+}
+
+.imagen {
+    width: 99%;
+    height: 100%;
+}
+

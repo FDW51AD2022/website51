@@ -1,0 +1,66 @@
+/* Selector adyacente */
+.titulo + p {
+    border-top: 3px solid blue;
+}
+
+.titulo:hover {
+    background-color: red;
+    color: white;
+}
+
+#lista-1 :first-child {
+    background-color: gold;
+}
+
+#lista-1 :last-child {
+    background-color: gold;
+}
+
+#lista-1 :nth-child(4) {
+    font-variant: small-caps;
+    background-color: blue;
+}
+
+#lista-2 :first-child {
+    background-color:aqua;
+}
+
+#lista-2 :last-child {
+    background-color: green;
+}
+
+#lista-2 :nth-child(4) {
+    color: white;
+    background-color: gray;
+}
+
+p::first-line {
+    font-size: 30pxß;
+}
+
+p::first-letter {
+    font-size: 80px;
+    box-shadow: -5px -5px 10px black;
+}
+
+#grupo {
+    padding: 50px;
+    padding: 50px 10px;
+
+    padding: 50px 10px 80px 100px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+
+    border: 50px solid tomato;
+
+    border-top: 5px groove red;
+    border-bottom: 10px dashed blue;
+    border-left: 20px solid green;
+    border-right: 5px solid gold;
+    
+    margin: 50px; 
+
+}
+

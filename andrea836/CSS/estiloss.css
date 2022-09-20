@@ -1,0 +1,145 @@
+/*Selector adyacente*/
+
+.titulo + p{
+    border-top: 3px solid blue;
+}
+
+.titulo:hover{
+    background-color: red;
+    color: white;
+}
+
+#lista1 li:first-child {
+    background-color: gold;
+}
+
+#lista1 li:last-child {
+    box-shadow: 5px 5px 5px green;
+}
+
+#lista1 li:nth-child(4) {
+    font-variant: small-caps;
+    background-color: orange;
+}
+
+#lista2 li:nth-child(even){
+    background-color: brown;
+    color: silver;
+}
+
+#lista2 li:nth-child(odd){
+    background-color: rgb(57, 57, 214);
+    color: white;
+}
+
+p::first-line{
+    font-size: 30px;
+}
+
+p::first-letter{
+    font-size: 80px;
+    box-shadow: -5px -5px 10px black;
+}
+
+#grupo {
+
+    display: inline;
+
+
+    /* todos los lados*/
+    padding: 50px 10px 80px;
+
+    /*50px arriba-abajo
+    10 px izq-der */
+    padding: 50px 10px;
+
+    /*50px arriba-abajo 10 px izq-der 80 px abajo*/   
+    padding: 50px 10px 80px;
+
+    /*50px arriba-abajo 10 px izq-der 80 px abajo 100px izq*/
+    padding: 50px 10px 80px 100px;
+
+    padding-top: 50px;
+    padding-right: 10 px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+
+    /*border: 50px solid tomato;
+    border-top: 5px groove red;
+    border-bottom: 10px dashed blue;
+    border-left: 20px solid green;
+    border-right: 5px solid yellow;
+
+    margin: 50px;*/
+}
+
+blockquote{
+    display: inline;
+}
+
+/*.mexico{
+	background-image:linear-gradient(90deg, green 33%, white 33%, white 66.66%, red 66.66%);
+}*/
+
+.wrapper {
+    display: flex;
+}
+ 
+.stick {
+    height: 250px;
+    width: 10px;
+    background: black;
+    border-left: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+ 
+.flag {
+    width: 257px;
+    height: 85px;
+    box-shadow: 0px 0px 90px 1px #989;
+    background-color: transparent;
+    position: relative;
+}
+
+/*.left {
+    height: 60px;
+    background-color: green
+}
+ 
+.center {
+    height: 60px;
+    background-color: white
+}
+ 
+.right {
+    height: 60px;
+    background-color: red
+}*/
+
+.verde {
+    padding: 40px;
+    background-color: green;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.blanco {
+    padding: 40px;
+    background-color: white;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+.rojo {
+    padding: 40px;
+    background-color: red;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}

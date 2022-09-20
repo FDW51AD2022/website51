@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root{
+    --padding-container: 100px 0;
+    --color-title: hsl(219, 100%, 14%);
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    font-size: 25px;
+}
+
+a{
+    font-size: 20px;
+}
+
+li{
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #1d293F;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.subtitulo{
+    color: var(--color-title);
+}
+
+.presentacion{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.actividades{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    /* grid-template-columns: 1fr 1fr; */
+    margin-left: 210px;
+}
+
+.actividades_act{
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify;
+}
+
+.container_picture{
+    max-width: 550px;
+    margin: 0px;
+}
+
+.container_img{
+    width: 100%;
+    display: block;
+}
+
+.lenguajes{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-left: 210px;
+    margin-right: 210px;
+}
+
+.seccion_video{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.articulos_main{
+    display: flex;
+    text-align: center;
+    padding-top: 50px;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    /* grid-template-columns: repeat(auto-fit, minmax(260px, auto)); */
+}
+
+.articulo1, .articulo2{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.articulo_parrafo{
+    line-height: 1.7;
+    font-size: 20px;
+}
+
+.articulo_imagen{
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.video{
+    padding-top: 30px;
+    height: 575px;
+    width: 970px;
+    text-align: center;
+}
+
+.block{
+    background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    padding-left: 140px;
+    padding-right: 140px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.boton{
+    display: inherit;
+    text-align: center;
+}

@@ -1,0 +1,74 @@
+.titulo + p {
+    border-top: 3px solid brown;
+    border-bottom: 3px solid white;
+   
+   }
+   
+   .titulo:hover{
+       background-color: cadetblue;
+       color:white;
+   }
+   ul li:first-child{
+       background-color: darkgoldenrod;
+       box-shadow: 5px 5px 5px darkcyan
+   }
+   
+   ul li:last-child{
+   box-shadow: 5px 5px 5px darkgreen;
+   
+   }
+   
+   #lista-1 ul li:nth-child(4) {
+       font-variant: small-caps;
+       background-color: darkorchid;
+   }
+   
+   #lista-2 ul li:nth-child(odd){
+       font-variant: small-caps;
+       background-color: darkred;
+   }
+   p::first-letter{
+       font-size:70px;
+       box-shadow: -5px 5px 10px black;
+   }   
+   #grupo51 {
+           padding: 5px 10px 15px 20px;
+   
+           padding-top: 50px;
+           padding-right: 10px;
+           padding-bottom: 80px;
+           padding-left: 100px;
+   
+       border: 60px solid darkslategrey;
+   
+        border-top: 50px dashed brown;
+        border-right: 10px dotted darkgreen;
+        border-bottom: 80px dashed white;
+        border-left: 100px solid darkred;
+        border: 20px double red;
+       margin: 50px;
+   }
+   
+   .cuadrado1 {
+       display: inline-block;
+       width: 90px;           
+       height: 150px;          
+       background: red;       
+       border: 1px solid #000; 
+     }
+   
+     .cuadrado2 {
+       display: inline-block;
+       width: 80px;          
+       height: 150px;         
+       background: white;        
+       border: 1px solid #000; 
+     }
+   
+     .cuadrado3 {
+       display: inline-block;
+       width: 80px;          
+       height: 150px;         
+       background: green;       
+       border: 1px solid #000; 
+     }

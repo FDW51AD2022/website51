@@ -1,0 +1,69 @@
+/* Selector adyacente */
+
+.titulo + p{
+    border-top: 3px solid blue;
+}
+
+.titulo:hover{
+    background-color: red;
+    color: white;
+}
+
+#lista-1 li:first-child {
+    background-color: gold;
+}
+
+#lista-1 li:last-child {
+    box-shadow: 5px 5px 5px green;
+}
+
+#lista-1 li:nth-child(4) {
+    font-variant: small-caps;
+    background-color: blue;
+}
+
+/* odd es impar, even es par */
+#lista-2 li:nth-child(even){
+    background-color: gray;
+    color: white;
+}
+
+p::first-line{
+    font-size: 30px;
+}
+
+p::first-letter{
+    font-size: 80px;
+    box-shadow: -5px -5px 10px black;
+}
+
+#grupo {
+    padding: 5px 10px 15px 20px;
+    border: 50px solid tomato;
+    margin: 50px;
+}
+
+#bandera-verde {
+    padding: 80px;
+    background-color: green;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#bandera-blanco {
+    padding: 80px;
+    background-color: white;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#bandera-rojo {
+    padding: 80px;
+    background-color: red;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,61 @@
+/* Selector de tipo  */
+
+
+p {
+    font-size:80px;
+}
+
+/* Selector por id   */
+#parrafo-sel-id {
+    background-color: red;
+    border-radius: 10px;
+}
+
+/* Selector por id   */
+
+.error {
+    color: red;
+    background-color: yellow;
+
+}
+
+/* Selector por atributo   */
+p[lang] {
+    border: 3px dashed blue;
+
+}
+
+/* Selector por atributo valor especial   */
+p[lang="es"] {
+    background-color:aqua;
+
+}
+
+/* Selector por atributo, buscando un valor  inicial */
+a[href$="mx"] {
+    background-color: red;
+}
+
+/* Selector por atributo, buscando un valor  inicial */
+a[href^="https"] {
+    background-color: green;
+}
+
+/* Selelctor por atributo, buscando unvalor especial sin importar la posicion donde se enscuente */
+a[href*="you"] {
+    border: 3px groove plum;
+}
+
+/*Selector por desendientes */
+section p{
+    font-size :3px; ;
+}
+/* Selector por hijos directos*/
+
+section > p {
+    font-size: 25px;
+}
+
+#p-ini ~ p{
+    background-color: rebeccapurple;
+}

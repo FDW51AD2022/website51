@@ -1,0 +1,100 @@
+/* Selector adyacente */
+
+.titulo + p {
+    border-top: 3px solid blue;
+}
+
+.titulo:hover{
+    background-color: aqua;
+    color: white;
+}
+
+#lista-1 li:first-child {
+    background-color: chartreuse;
+}
+
+#lista-1 li:last-child {
+    box-shadow: 5px 5px 5px teal;
+}
+
+#lista-1 li:nth-child(4) {
+    font-variant: small-caps;
+    background-color: aquamarine;
+}
+
+#lista-2 li:nth-child(even) {
+    background-color: cyan;
+
+}
+
+#lista-2 li:nth-child(odd) {
+    background-color: slategrey;
+    }
+
+p::first-line {
+    font-size: 30px;
+}
+
+p::first-letter {
+    font-size: 80px;
+    box-shadow: -5px -5px 10px black;
+}
+
+#grupo {
+
+    display: inline;
+    /* 50px todos los lados */
+    padding: 50px;
+    /* 50px arriba-abajo 10px izq-der*/
+    padding: 50px 10px;
+    /* 50px arriba 10px izq-der 80px abajo */
+    padding: 50px 10px 80px;
+    /* 50px arriba 10px der 80px abajo 100px izq */
+    padding: 50px 10px 80px 100px;
+
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+
+    border: 50px solid chartreuse;
+
+    border-top: 5px groove red;
+    border-bottom: 10px dashed cyan;
+    border-left: 20px solid yellow;
+    border-right: 5px solid greenyellow;
+    margin: 50px;
+}
+
+blockquote {
+    display: inline;
+}
+
+
+
+#verde {
+    padding: 100px;
+    background-color: green;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#blanco {
+    padding: 100px;
+    background-color: white;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#rojo {
+    padding: 100px;
+    background-color: red;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}

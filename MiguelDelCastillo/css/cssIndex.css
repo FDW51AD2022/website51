@@ -1,0 +1,31 @@
+body{
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+}
+
+#primerpagina{
+    margin: 10%;
+    padding: 15px;
+    border: 10px solid greenyellow;
+    background-color: lightcoral;
+    
+}
+
+#segundapagina{
+    margin: 10%;
+    background-color: antiquewhite;
+    border: 10px solid rgb(3,200,124);
+}
+
+#tercerpagina{
+    margin: 10%;
+    border: 10px solid #494947;
+    background-color: #35FF69;
+}
+
+#danschnider{
+    margin: 10%;
+    border: 10px solid black ;
+    border-left: 50px solid #35FF69;
+    border-right: 50px solid #BB4430 ;
+    background-color: lightyellow;
+}

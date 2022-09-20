@@ -1,0 +1,23 @@
+
+body {
+    /* background-color:rgb(249, 190, 226); */
+    background: -webkit-linear-gradient(90deg, #dba3d0 10%, rgb(255, 0, 153) 90%);
+    background: -moz-linear-gradient(90deg, #dba3d0 10%, rgb(255, 0, 153) 90%);
+    background: -ms-linear-gradient(90deg, #dba3d0 10%, rgb(255, 0, 153) 90%);
+    background: -o-linear-gradient(90deg, #dba3d0 10%, rgb(255, 0, 153) 90%);
+    background: linear-gradient(90deg, #dba3d0 10%, rgb(255, 0, 153) 90%);
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+
+}
+
+.justificado{
+    text-align: justify;
+    
+}
+
+

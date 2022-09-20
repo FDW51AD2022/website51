@@ -13,3 +13,46 @@ p{
     color:red;
     background-color: yellow;
 }
+
+/* Selectores por atributo  */
+
+p[lang]{
+    border: 3px dashed blue;
+}
+
+/* Selector por atributo con valor especial  */
+
+p[lang="es"]{
+  background-color: aqua;  
+}
+
+/* Selector por atributa buscando un valor inicial */
+a[href^="https"]{
+    background-color: lightcoral;
+}
+
+/* Selector por atributo buscando un valor final */
+a[href$="mx"]{
+    background-color: red;
+}
+
+/* Selectores por atributo buscando un valor sin importar la posicion donde se encuentre  */
+a[href*="you"]{
+    border: 3px groove plum;
+}
+
+/* Selector por descendientes */
+section p{
+    font-size: 3px;
+}
+
+/* Selector por hijos directos  */
+section > p {
+    font-size: 25px;
+}
+
+/* Selector hermano general  */
+
+#p-ini ~ p{
+    background-color: rebeccapurple;
+}

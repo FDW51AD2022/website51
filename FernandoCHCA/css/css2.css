@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root{
+    --padding-container: 100px 0;
+    --color-title: hsl(219, 100%, 14%);
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.25;
+}
+
+/* Selector de hermano adyacente */
+
+.titulo + p{
+    border-top: 3px solid blue;
+    background-color: aquamarine;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.titulo.hover{
+    background-color: cadetblue;
+    color: white;
+}
+
+/* Lista 1 */
+
+#lista1 li:first-child{
+    box-shadow: 5px 5px 5px rgb(175, 100, 14);
+    background-color: coral;
+    color: black;
+    border-radius: 4px;
+    font-size: 15px;
+    bottom: 10px;
+}
+
+#lista1 li:last-child{
+    box-shadow: 5px 5px 5px green;
+    background-color: rgb(80, 255, 168);
+    color: black;
+    border-radius: 4px;
+    font-size: 15px;
+    bottom: 10px;
+}
+
+#lista1 li:nth-child(4){
+    box-shadow: 5px 5px 5px rgb(55, 53, 143);
+    background-color: rgb(91, 127, 182);
+    color: black;
+    border-radius: 4px;
+    font-size: 15px;
+    bottom: 10px;
+}
+
+/* Lista 2 */
+
+/* #lista2 li:first-child{
+    box-shadow: 5px 5px 5px rgb(32, 143, 218);
+    background-color: rgb(80, 249, 255);
+    color: black;
+    border-radius: 4px;
+    font-size: 15px;
+    bottom: 10px;
+}
+
+#lista2 li:last-child{
+    box-shadow: 5px 5px 5px rgb(150, 32, 173);
+    background-color: rgb(240, 80, 255);
+    color: black;
+    border-radius: 4px;
+    font-size: 15px;
+    bottom: 10px;
+} */
+
+#lista2 li:nth-child(even){
+    box-shadow: 5px 5px 5px rgb(51, 134, 48);
+    background-color: rgb(135, 182, 91);
+    color: black;
+    border-radius: 4px;
+    font-size: 15px;
+    bottom: 10px;
+}
+
+p::first-line{
+    font-size: 30px;
+}
+
+p::first-letter{
+    font-size: 55px;
+}
+
+#grupo{
+    padding: 15px;
+    border: 10px solid tomato;
+    margin: 40px;
+    text-align: center;
+}
+
+/* Bandera de mexico */
+
+.cont_bandera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+}
+
+.bandera-verde{
+    border: 2px solid black;
+    width: 55%;
+    height: 100%;
+    background-color: green;
+}
+
+.bandera-blanco{
+    border: 2px solid black;
+    width: 65%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bandera-rojo{
+    border: 2px solid black;
+    width: 55%;
+    height: 100%;
+    background-color: red
+}

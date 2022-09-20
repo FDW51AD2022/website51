@@ -1,0 +1,69 @@
+/*selector  de tipo*/
+
+
+
+p {
+    font-size: 40px;
+}
+ /* selector por id */
+
+ 
+ #parrafo-sel-id {
+    background-color:rgb(211, 208, 16);
+    border-radius:10px;
+
+ }
+
+ /*selector por id */
+
+ .error {
+    background-color: red;
+    border-radius:10px;
+
+ }
+ /*selector por atributo*/
+ p[lang] {
+    border: 3px dashed rgb(17, 16, 16) 
+
+
+ }
+/*selector por atributo valor especial*/
+p[lang=es] {
+    background-color: rgb(211, 208, 16);
+}
+
+ /*selector por atributo, buscando 
+un valor inicial*/
+
+a[href^="https"] {
+    background-color: rgb(211, 208, 16);
+
+}
+
+/*selector por atributo, buscando
+un valor final*/
+a[href$="mx"] {
+    background-color: red;
+}
+
+/*selector por atributo, buscando un valor sin importar
+la posicion donde se encuentre*/
+a[href*="tu"] {
+    border:rgb(235, 218, 145) groove 3px;
+
+}
+
+/*selector por descendientes*/
+section p {
+    font-size: 3px;
+}
+
+/* selector por hijos directos*/
+section > p {
+    font-size: 25px;
+}
+
+/* Selector hermano general */
+#p-ini ~ p {
+    background-color: lawngreen 
+}

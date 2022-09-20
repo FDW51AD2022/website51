@@ -1,0 +1,77 @@
+/* Selector adyacente */
+ 
+.titulo + p {
+    border-top: 3px solid rgb(55, 226, 183);
+}
+.titulo:hover{
+    background-color: rgb(106, 255, 0);
+    color: rgb(190, 59, 59);
+}
+#lista-1 li:first-child {
+    background-color: gold;
+}
+#lista-1 li:last-child{
+    box-shadow: 5px 5px 5px green;
+}
+#lista-1 li:nth-child(4){
+    font-variant: small-caps;
+    background-color: blueviolet;
+}
+#lista-2 li:nth-child(odd){
+    background-color: gray;
+    color: white;
+}
+p::first-line{
+    font-size: 30px;
+}
+p::first-letter{
+    font-size: 80px;
+    box-shadow: -5px -5px 10px rgb(203, 55, 55);
+}
+#grupo {
+    /*50 px todos lados */
+    padding: 5px 10px 15px 20px;
+    /*50 px arriba
+    10 px izq-der
+    80 px abajo*/
+    padding: 50px 10px;
+    /* */
+    padding: 50px 10px 80px;
+    /*arriba derecha abajo izquierda */
+    padding: 50px 10px 80px 100px;
+
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+
+    border: 50px solid tomato;
+
+    border-top: 5px groove red;
+    border-bottom: 10px dashed blue;
+    border-left: 20px solid green;
+    border-right: 5px solid gold;
+    
+    margin: 50px;
+}
+
+#izq {
+    padding: 100px;
+    background-color: green;
+    display: inline;
+}
+
+
+#centro {
+    padding: 80px;
+    background-color: white;
+    display: inline;
+}
+
+
+#derecho {
+    padding: 100px;
+    background-color: red;
+    display: inline;
+}
+
