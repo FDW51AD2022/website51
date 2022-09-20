@@ -1,0 +1,42 @@
+h1{
+    font-style: initial;
+
+}
+
+p {
+    font-size: 30px;
+}
+
+blockquote {
+    color: rgb(11, 20, 11);
+    background-color: rgb(243, 243, 0);
+    font-size: 30px;
+}
+
+h2 {
+    background-color:rgb(180, 56, 56); font-style: unset; color: rgb(255, 255, 255);
+}
+
+#Amigos-facu{
+    font-size: 30px;
+    color:crimson;
+    display: inline;
+}
+
+#Amigos-primaria{
+    font-size: 30px;
+    color: darkgreen;
+    display: inline;
+}
+
+
+div{
+    background-position: right;
+}
+
+h4{
+    font-size: 50px;
+    display: inline;
+    color: rgb(236, 97, 42);
+   
+}

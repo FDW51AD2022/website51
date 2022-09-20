@@ -1,0 +1,58 @@
+/* SELECTOR DE TIPO */
+P {
+    font-size: 80px;
+}
+
+/* SELECTOR DE ID */
+#parrafo-sel-id{
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+/* SELECTOR DE CLASE */
+.error {
+    background-color: yellow;
+    color: red;
+}
+
+/* SELECTOR POR ATRIBUTO */
+
+p[lang] {
+    border: 3px dashed blue;
+}
+
+/* SELECTOR POR ATRIBUTO VALOR ESPECIAL */
+
+p[lang="es"] {
+    background-color: aqua;
+}
+
+/* SELECTOR POR ATRIBUTO, BUSCANDO UN VALOR INICIAL */
+a[href^="https"] {
+    background-color: greenyellow;
+}
+
+/* SELECTOR POR ATRIBUTO, BUSCANDO UN VALOR FINAL */
+a[href$="mx"] {
+    background-color: red;
+}
+
+/* SELECTOR POR ATRIBUTO, BUSCANDO UN VALOR SIN IMPORTAR LA POSICION DONDE SE ENCUENTRE */
+a[href*="you"] {
+    border: 3px groove plum;
+}
+
+/* SELECTOR POR DESCENDIENTES */
+section p {
+    font-size: 3px;
+}
+
+/* SELECTOR POR DESCENDIENTES */
+section > p {
+    font-size:25px;
+}
+
+/* SELECTOR POR DESCENDIENTES */
+section ~ p {
+    background-color: yellow;
+}

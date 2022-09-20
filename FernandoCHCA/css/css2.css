@@ -104,3 +104,38 @@ p::first-letter{
     margin: 40px;
     text-align: center;
 }
+
+/* Bandera de mexico */
+
+.cont_bandera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+}
+
+.bandera-verde{
+    border: 2px solid black;
+    width: 55%;
+    height: 100%;
+    background-color: green;
+}
+
+.bandera-blanco{
+    border: 2px solid black;
+    width: 65%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bandera-rojo{
+    border: 2px solid black;
+    width: 55%;
+    height: 100%;
+    background-color: red
+}

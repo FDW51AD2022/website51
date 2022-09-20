@@ -1,25 +1,50 @@
-
 p {font-size: 20px;
-    color: yellow;}
+    color: purple;}
  
- /* Selector por ID */
- #id_jpd {font-size: 20px;
-     color: brown;
-     border-radius: 10px;
- }
+    /*selector por id*/
+ #id_jpd{font-size: 20px;
+         color: darkblue;
+         border-radius: 10px;
+        }
  
- /* Selector por clase  */
+     /*selector pot clase*/
  #caja1 {font-size: 20px;
-     color: black;
-     border-radius: 70px;
-     background-color: yellow;}
- 
-     /* Selector por atributo  */
-     p[:lang ](
-           border: 3px dashed blue:
-     )
- 
-     /* Selector de valor especial  */
- p[:lang= es](
-     blackgrund-color: aqua;
- )
+         color: black;
+         border-radius: 70px;
+         background-color: green; }
+
+         /*selector de atributo*/
+         p[:lang] {
+             border: 3px dashed blue:
+         }
+
+         /* Selector por atributo valor especial   */
+p[lang="es"] {
+    background-color: palevioletred;
+
+}
+
+/* Selector por atributo, buscando un valor  inicial */
+a[href$="mx"] {
+    background-color: darkred;
+}
+
+/* Selector por atributo, buscando un valor  inicial */
+a[href^="https"] {
+    background-color: olive;
+}
+
+/* Selelctor por atributo, buscando unvalor especial sin importar la posicion donde se enscuente */
+a[href*="you"] {
+    border: 3px groove magenta;
+}
+
+/*Selector por desendientes */
+section p{
+    font-size :3px; ;
+}
+/* Selector por hijos directos*/
+
+section > p {
+    font-size: 25px;
+}

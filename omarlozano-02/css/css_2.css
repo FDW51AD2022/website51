@@ -1,0 +1,80 @@
+/* Selector adyacente */
+ 
+.titulo + p {
+    border-top: 3px solid rgb(29, 72, 62);
+}
+.titulo:hover{
+    background-color: rgb(106, 255, 0);
+    color: rgb(190, 59, 59);
+}
+#lista-1 li:first-child {
+    background-color: gold;
+}
+#lista-1 li:last-child{
+    box-shadow: 5px 5px 5px rgb(105, 130, 105);
+}
+#lista-1 li:nth-child(4){
+    font-variant: small-caps;
+    background-color: rgb(51, 46, 56);
+    color: wheat;
+}
+#lista-2 li:nth-child(odd){
+    background-color: gray;
+    color: white;
+}
+p::first-line{
+    font-size: 30px;
+}
+p::first-letter{
+    font-size: 80px;
+    box-shadow: -5px -5px 10px rgb(79, 47, 47);
+}
+#grupo {
+
+    padding: 5px 10px 15px 20px;
+
+    padding: 50px 10px;
+
+    padding: 50px 10px 80px;
+
+    padding: 50px 10px 80px 100px;
+
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+
+    border: 50px solid red;
+
+    border-top: 5px groove red;
+    border-bottom: 10px dashed yellow;
+    border-left: 20px solid black;
+    border-right: 5px solid orange;
+    
+    margin: 50px;
+}
+
+#left{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+#center{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#right{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.mexican-flag{
+    display: flex;
+    
+    
+}

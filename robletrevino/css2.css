@@ -1,0 +1,67 @@
+.titulo + p{
+    border-top: 3px solid blue;
+}
+
+.titulo:hover{
+    background-color: red;
+    color: white;
+}
+
+#lista2 li:first-child {
+    background-color: gold;
+}
+
+#lista2 li:last-child{
+    box-shadow: 5px 5px 5px green;
+}
+
+#lista2 li:nth-child(4){
+    font-variant: small-caps;
+    background-color: blue;
+}
+
+#lista2 li:nth-child(odd){
+    background-color: black;
+    color: white;
+}
+
+p::first-line{
+    font-size: 30px;
+}
+
+p::first-letter{
+    font-size: 30px;
+    box-shadow: 5px -5px 10px black;
+}
+
+/* #grupo{
+    display: inline;
+
+    padding: 50px;
+    padding:  5px 10px 15px 20px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    border: 50px solid tomato;
+    margin: 50px;
+    text-align: center;
+} 
+*/
+
+blockquote {
+    display: inline;
+}
+
+#bandera{
+   
+   border-left: 400px solid green; 
+   border-right: 400px solid red;
+   padding: 100px 0px;
+   font-size: 500px;
+   text-align:center;
+   color: rgb(41, 4, 4);
+}
+
+
+

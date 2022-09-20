@@ -1,0 +1,16 @@
+h1{
+    font-size: 20px;
+    padding: 3em;
+}
+
+#viewport{
+    background-color: tomato;
+    width: 80vw;
+    height: 50vh;
+}
+
+#porcentaje{
+    font-size: 200%;
+    background-color: green;
+    width: 100px    ;
+}

@@ -1,0 +1,76 @@
+/*selector adyacente*/
+
+.titulo + p {
+border-top: 5px  slateblue;
+}
+
+.titulo:hover{
+    background-color: chocolate;
+    color: rgb(16, 231, 16);
+}
+
+ul li:first-child {
+    background-color: darkmagenta;
+}
+
+#lista-1 li:last-child{
+    box-shadow: 0px 5px 5px green;
+}
+
+#lista-1 li:nth-child(4){
+    font-variant: small-caps;
+    background-color: darkred;
+}
+
+#lista-1 li:nth-child(even){
+    background-color: violet;
+    color: darkkhaki;
+}
+
+p::first-line{
+    font-size: 30px;
+}
+
+p::first-letter{
+    font-size: 80px;
+    box-shadow: 5px -6px 7px black;
+}
+
+#grupo {
+    display: inline;
+    /*50px todos los lados */
+    padding: 50px ;
+    /*50px arriba-abajo
+    10px izq-der
+    80px abajo*/
+    padding: 50px 80px 50px  ;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+
+    border: 50px dotted blueviolet;
+
+    border-top: 5px groove red;
+    border-bottom: 10px dashed blue;
+    border-left: 20px solid green;
+    border-right: 0ch5px solid yellow;
+    margin: 50px;
+}
+
+blockquote{
+    display: inline;
+}
+
+.mexico{
+	background-image:linear-gradient(90deg, green 33%, white 33%, white 66.66%, red 66.66%);
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}

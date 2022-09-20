@@ -1,0 +1,13 @@
+/* Selector de tipo */
+
+p{font-size: 80px}
+
+/* Selector por id */
+
+#parrafo-sel-id {background-color: chartreuse;
+                 border-radius: 10px}
+
+/* Selector de clase */
+
+.error {color: cyan;
+        background-color: black}

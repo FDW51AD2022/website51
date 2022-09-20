@@ -1,14 +1,221 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />
+    <link href="fontawesome/css/all.min.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <title>Comparto HTML CSS Template</title>
 </head>
+
 <body>
-    <h1>Hola soy Fernando Mireles</h1>
-    <p>Estos son <a href="https://fernandomireles.github.io/clasectic51/"> mis pasatiempos</a></p>
-    <h2>Actividad #3</h2>
-    <p>Esta fue <a href="https://fdw51ad2022.github.io/website51/fernandomireles/css1.html"> mi actividad #3</a></p>
+    <!-- Botón de vuelta al principio -->
+    <a id="button"><i class="fas fa-angle-up fa-2x"></i></a>
+    <div class="container-fluid">
+        <div class="tm-site-header tm-mb-1">
+            <div class="tm-site-name-container tm-bg-color-1">
+                <h1><a  class="tm-text-white" rel="nofollow" href="https://fdw51ad2022.github.io/website51/" target="_parent">◀ FDW51AD2022</a></h1>
+            </div>
+            <div class="tm-nav-container tm-bg-color-8">
+                <nav class="tm-nav" id="tm-nav">
+                    <ul>
+                        <li class="tm-nav-item current">
+                            <a href="#inicio" class="tm-nav-link">
+                                <span>Inicio</span>
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#actividades" class="tm-nav-link">
+                                <span>Actividades</span>
+                            </a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="#contacto" class="tm-nav-link">
+                                <span class="tm-nav-text">Contacto</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <section class="tm-mb-1" id="inicio">
+            <div class="tm-row tm-about-row">
+                <div class="tm-section-1-l">
+                    <img src="img/fernandomireles.jpg" alt="Fernando mireles" class="tm-img-responsive">
+                </div>
+                <article class="tm-section-1-r tm-bg-color-8">
+                    <h2 class="tm-mb-2 tm-title-color">Bienvenido(a) a mi página</h2>
+                    <p>Me llamo <a rel="nofollow" href="https://github.com/fernandomireles" target="_parent">Fernando Mireles</a>, estudiante de la Licenciatura en Tecnologías de la Información.</p>
+                    <p><a rel="nofollow" href="https://github.com/FDW51AD2022/website51" target="_parent">FDW51AD2022 (website51)</a> es la organización en GitHub sobre la Evidencia 1, para la materia Fundamentos de Desarrollo Web.</p>
+                    <p>A continuación se abordan las actividades solicitadas.</p>
+
+                    <a href="#actividades" class="tm-btn tm-btn-1 tm-link-to-actividades">Ver actividades</a>
+                </article>
+            </div>
+        </section>
+        <section class="tm-mb-1 tm-row tm-actividades-row" id="actividades">
+            <div class="tm-section-2-l">
+                <article class="tm-bg-color-6 tm-box-pad tm-mb-1">
+                    <h2 class="tm-mb-2">Actividad introducción</h2>
+                    <a href="https://fdw51ad2022.github.io/website51/fernandomireles/index.html" class="tm-btn tm-btn-2">Ver actividad</a>
+                </article>
+                <article class="tm-bg-color-6 tm-box-pad tm-mb-1">
+                    <h2 class="tm-mb-2">Actividad pasatiempos v1</h2>
+                    <a href="https://fernandomireles.github.io/actividadpasatiempos/" class="tm-btn tm-btn-2">Ver actividad</a>
+                </article>
+                <article class="tm-bg-color-6 tm-box-pad tm-mb-1">
+                    <h2 class="tm-mb-2">Actividad pasatiempos v2</h2>
+                    <a href="https://fdw51ad2022.github.io/website51/fernandomireles/pasatiempos.html" class="tm-btn tm-btn-2">Ver actividad</a>
+                </article>
+            </div>
+            <div class="tm-section-2-r">
+                <article class="tm-bg-color-6 tm-box-pad tm-mb-1">
+                    <h2 class="tm-mb-2">Actividad CSS</h2>
+                    <a href="https://fdw51ad2022.github.io/website51/fernandomireles/css1.html" class="tm-btn tm-btn-2">Ver actividad</a>
+                </article>
+                <article class="tm-bg-color-6 tm-box-pad tm-mb-1">
+                    <h2 class="tm-mb-2">Actividad CSS 2</h2>
+                    <a href="https://fdw51ad2022.github.io/website51/fernandomireles/css2.html" class="tm-btn tm-btn-2">Ver actividad</a>
+                </article>
+                <article class="tm-bg-color-6 tm-box-pad tm-mb-1">
+                    <h2 class="tm-mb-2">Actividad Bandera</h2>
+                    <a href="https://fdw51ad2022.github.io/website51/fernandomireles/bandera.html" class="tm-btn tm-btn-2">Ver actividad</a>
+                </article>
+            </div>
+        </section>
+        <section id="contacto" class="tm-bg-color-5 tm-mb-3">
+            <h2 class="tm-text-white tm-contact-title">Contacto</h2>
+            <div class="tm-bg-color-white tm-contact-main">
+                <div class="map-outer">
+                    <div class="gmap-canvas">
+                        <iframe width="100%" height="400" id="gmap-canvas"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7188.605978046625!2d-100.309144!3d25.727492!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x866295094da26085%3A0x7262d01b7781d627!2sFACPYA%20Facultad%20de%20Contadur%C3%ADa%20P%C3%BAblica%20y%20Administraci%C3%B3n!5e0!3m2!1ses!2smx!4v1663535951009!5m2!1ses!2smx"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    </div>
+                </div>
+                <div class="contact-info-outer">
+                    <div class="tm-bg-color-6 contact-info">
+                        <p>Facultad de Contaduría Pública y Administración, Universidad Autónoma de Nuevo León.</p>
+                        <p class="tm-mb-0">Tel: <a href="tel:8183294080">(81)83-29-4080</a></p>
+                        <p><a href="mailto:luis.villarrealv@uanl.mx">luis.villarrealv@uanl.mx</a></p>
+                    </div>
+                </div>
+                <div class="contact-info-outer">
+                    <div class="tm-bg-color-6 contact-info">
+                        <p>Fernando Dilland Mireles Cisneros.</p>
+                        <p><a href="mailto:info@company.com">fernandodilland@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="tm-mb-4 text-center tm-social-s">
+            <a href="https://www.facebook.com/FernandoDilland/" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
+            <a href="https://instagram.com/fernandodilland" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
+            <a href="https://twitter.com/fernandodilland" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>
+            <a href="https://www.youtube.com/fernandodilland" class="tm-social-link"><i class="fab fa-youtube tm-social-icon"></i></a>
+        </div>
+        <footer class="text-center tm-mb-1">
+            <p>Copyright &copy; 2022 FDW51AD2022
+                - Diseño: <a rel="nofollow noopener" href="https://github.com/fernandomireles" target="_blank">Fernando Mireles</a>
+                - Licencia: <a rel="nofollow noopener" href="https://github.com/FDW51AD2022/website51/blob/main/LICENSE" target="_blank">MIT</a></p>
+        </footer>
+    </div> <!-- .container -->
+    <script src="js/jquery.min.js"></script> <!-- https://jquery.com/download/ -->
+    <script src="js/imagesloaded.pkgd.min.js"></script> <!-- https://imagesloaded.desandro.com/ -->
+    <script src="js/isotope.pkgd.min.js"></script> <!-- https://isotope.metafizzy.co/ -->
+    <script src="js/jquery.singlePageNav.min.js"></script> <!-- https://github.com/ChrisWojcik/single-page-nav -->
+    <script>
+
+        // Botón para ir para arriba
+        var btn = $('#button');
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '300');
+        });
+
+        $(function () {
+            // Navegación simple
+            $('#tm-nav').singlePageNav({ speed: 600 });
+
+            // Scroll suave (https://css-tricks.com/snippets/jquery/smooth-scrolling/)
+            $('a[href*="#"]')
+                // Eliminar los enlaces que realmente no enlazan con nada
+                .not('[href="#"]')
+                .not('[href="#0"]')
+                .click(function (event) {
+                    // Enlaces en la página
+                    if (
+                        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                        &&
+                        location.hostname == this.hostname
+                    ) {
+                        // Averiguar el elemento para desplazarse hacia...
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        // ¿Existe un objetivo de desplazamiento?
+                        if (target.length) {
+                            // Sólo impedir por defecto si la animación va a suceder realmente
+                            event.preventDefault();
+                            $('html, body').animate({
+                                scrollTop: target.offset().top
+                            }, 600, function () {
+                                // Llamada de retorno después de la animación
+                                // Hay que cambiar de enfoque.
+                                var $target = $(target);
+                                $target.focus();
+                                if ($target.is(":focus")) { // Comprobación de si el objetivo fue enfocado
+                                    return false;
+                                } else {
+                                    $target.attr('tabindex', '-1'); // Añadir tabindex para elementos no enfocables
+                                    $target.focus(); // Volver a enfocar
+                                };
+                            });
+                        }
+                    }
+                });
+
+            // Inicializar isotope
+            var $gallery = $(".tm-gallery").isotope({
+                itemSelector: ".tm-gallery-item",
+                layoutMode: "fitRows"
+            });
+            // Disposición del isótopo tras la carga de cada imagen
+            $gallery.imagesLoaded().progress(function () {
+                $gallery.isotope("layout");
+            });
+
+            $(".filters-button-group").on("click", "a", function () {
+                var filterValue = $(this).attr("data-filter");
+                $gallery.isotope({ filter: filterValue });
+            });
+
+            $(".tabgroup > div").hide();
+            $(".tabgroup > div:first-of-type").show();
+            $(".tabs a").click(function (e) {
+                e.preventDefault();
+                var $this = $(this),
+                    tabgroup = "#" + $this.parents(".tabs").data("tabgroup"),
+                    others = $this
+                        .closest("li")
+                        .siblings()
+                        .children("a"),
+                    target = $this.attr("href");
+                others.removeClass("active");
+                $this.addClass("active");
+            });
+        });
+    </script>
 </body>
 </html>

@@ -1,0 +1,112 @@
+/* Selector adyacente */
+
+.titulo + p {
+    border-top: 3 px solid blue;
+}
+
+.titulo:hover {
+    background-color: red;
+    color: white;
+}
+
+#lista-1 li:first-child {
+    background-color: gold;
+
+}
+
+#lista-1 li:last-child {
+    box-shadow: 5px 5px 5px green;
+}
+
+#lista-1 li:nth-child(4) {
+    font-variant: small-caps;
+    background-color: blue;
+}
+
+
+#lista-2 li:nth-child(even){
+    background-color: gray;
+    color: white;
+}
+
+
+p::first-line {
+    font-size: 30px;
+}
+
+p::first-letter{
+    font-size: 80px;
+    box-shadow: -5px -5px 10px black;
+}
+
+#grupo{
+
+    /* 50 px todos lados */
+    padding: 50 px;
+
+    /* 50 px arriba-abajo
+    10px izq-der */
+    padding: 5o px 10 px;
+
+    /* 50px arriba
+    10px izq-der
+    80px abajo */
+    padding: 5px 10 px 15 px 20 px;
+
+    padding: 50px 10px 80px 100px ;
+    
+
+    border: 50px solid tomato;
+    border-top: 5px groove red;
+    border-bottom: 10px dashed blue ;
+    border-left: 20px solid green ;
+    border-right: 5px solid gold;
+
+    margin: 50px;
+}
+
+blockquote {
+    display: inline;
+}
+
+
+/* BANDERA */
+.bandera{
+    display: flex;
+    width: 80%;
+    height: 400px;
+}
+
+.bandera p{
+    width: 33.3%;
+
+}
+
+p::first-letter{
+    font-size: 80px;
+    box-shadow: -5px -5px 10px #FF1700;
+}
+
+#verde {
+    background-color: green;
+    border: 1px solid black;
+}
+
+#blanco {
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.escudo{
+    width: 80%;
+    height: 50%;
+}
+
+#rojo {
+    background-color: red;
+    border: 1px solid black;
+}
+

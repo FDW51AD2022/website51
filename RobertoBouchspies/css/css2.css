@@ -7,15 +7,15 @@
     color: white;
 }
 
-#lista2 li:first-child {
+#lista1 li:first-child {
     background-color: gold;
 }
 
-#lista2 li:last-child{
+#lista1 li:last-child{
     box-shadow: 5px 5px 5px green;
 }
 
-#lista2 li:nth-child(4){
+#lista1 li:nth-child(4){
     font-variant: small-caps;
     background-color: blue;
 }
@@ -30,8 +30,8 @@ p::first-line{
 }
 
 p::first-letter{
-    font-size: 30px;
-    box-shadow: 5px -5px 10px black;
+    font-size: 80px;
+    box-shadow: -5px -5px 10px black;
 }
 
 #grupo {
