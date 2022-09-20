@@ -73,6 +73,7 @@ blockquote {
     padding: none;
     border: 6px solid black;
     width: 100%;
+    max-width: 1200px;
 }
 
 #bandera div {
@@ -90,10 +91,10 @@ blockquote {
 }
 
 #blanco, img {
-    height: 60%;
+    height: 200px;
     width: 60%;
     display: flex;
-    padding: 10px 10px;
+    padding: 0;
     justify-content: center;
     align-items: center;
     border: none;
