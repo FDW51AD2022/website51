@@ -1,0 +1,31 @@
+html {
+    font-size: 15px;
+}
+
+
+.u-em {
+    background-color: purple;
+    font-size: 3rem;
+    width: 50%;
+    /* 5rm rd igual a 5 veces el tamaño de fuente del elemento 3rem (15*3)= 45*/
+    padding: 5em 3em;
+}
+
+.u-porc {
+    background-color: yellow;
+    width: 50%;
+    height: 200px;
+}
+
+.productos {
+    background-color: aqua;
+    height: 100vh;
+    width: 70vw;
+}
+
+.overflow{
+    width: 200px;
+    height: 5em;
+    background-color: rgb(144, 42, 165);
+    overflow: auto;
+}
