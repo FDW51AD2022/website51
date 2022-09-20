@@ -1,0 +1,30 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+.menu{
+    list-style: none;
+    padding: 0px;
+    background-color: #515151;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a{
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background-color: black;
+    color: yellow;
+}

@@ -1,5 +1,7 @@
+body {
+    background:linear-gradient(top, red, gold);
+}
 /*Selector adyacente*/
-
 .titulo + p{
     border-top: 3px solid blue;
 }
@@ -90,12 +92,6 @@ blockquote {
     box-sizing: border-box;
 }
 
-#Blanco {
-    padding: 80px;
-    background-color: white;
-    display: inline-block;
-    margin: 0px;
-}
 
 #Rojo {
     padding: 80px;
