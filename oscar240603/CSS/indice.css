@@ -1,0 +1,10 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    height: 800px;
+    width: 1500px;
+    background-image: linear-gradient(45deg,red 50%,orange);
+}

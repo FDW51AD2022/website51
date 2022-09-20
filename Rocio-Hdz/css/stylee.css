@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgba(199, 153, 167, 0.76);
+    color: black;
+    padding: 20px;
+}
+
+nav ul {
+    background-color: #f1fcff;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    color: black;
+    padding: 10px;
+    width: 200px;
+
+}
+
+.contenido {
+    display: flex;
+    margin: 200px;
+}
+
+
+.Seccion {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+footer {
+    background-color: #fff7d1;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+body{
+    background-color: #f0d9e7;
+}

@@ -1,0 +1,50 @@
+html {
+    font-size: 15px;
+}
+
+.u-em {
+    background-color: #FFE3E1;
+    font-size: 3rem;
+    width: 10rem;
+
+    /* 5em es igual a 5 veces el 
+    tamaño de fuente del elemento 3 rem (15*3) = 45 */
+    padding: 5em 3em;
+}
+
+body {
+    width: 50%;
+}
+
+.u-port {
+    background-color: #FFD1D1;
+    width: 50%;
+    height: 200px;
+}
+
+.productos {
+    background-color:#FF9494;
+    height: 100vh;
+    width: 70vh;
+}
+
+.auto {
+    background-color:#FFF5E4;
+    width: 200px;
+    height: 5em;
+    overflow: auto;
+}
+
+.scroll {
+    background-color:#D2DAFF;
+    width: 200px;
+    height: 5em;
+    overflow:scroll;
+}
+
+.hidden {
+    background-color:#EEF1FF;
+    width: 200px;
+    height: 5em;
+    overflow: hidden;
+}
