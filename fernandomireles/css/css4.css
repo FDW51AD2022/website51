@@ -20,3 +20,8 @@
     content: "";
     display: table;
 }
+
+/* Hacer flexible para sus hijos en la navegación v2 */
+#nav-main-2 ul{
+    display: flex;
+}
