@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root{
+    --padding-container: 100px 0;
+    --color-title: hsl(219, 100%, 14%);
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* width: 50%; */
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.25;
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+.campo1{
+    padding-top: 2em;
+}
+
+.campo2{
+    padding-top: 26rem;
+}
+
+.u-em{
+    background-color: #A77979;
+    font-size: 3rem;
+    width: 50%;
+
+    /* 5em es igual a veces el tamaño de fuente del elemento, 3rem (15*3)=45 */
+    padding: 5em 3em;
+}
+
+.u-porc{
+    background-color: #D7C0AE;
+    width: 50%;
+    height: 200px;
+}
+
+.productos{
+    background-color: #5F6F94;
+    height: 100vh;
+    width: 70vw;
+}
+
+.overflow{
+    width: 200px;
+    height: 3em;
+    background-color: #EBC7E8;
+    overflow: auto;
+}
