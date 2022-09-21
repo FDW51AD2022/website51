@@ -1,0 +1,77 @@
+/* Selector adyacente */
+
+.titulo + p {
+    border-top: 3px solid blue;
+}
+
+.titulo:hover{
+    background-color: red;
+    color: white;
+}
+
+#lista-1 li:first-child {
+    background-color: gold;
+}
+
+#lista-1 li:last-child {
+    box-shadow: 5px 5px 5px green;
+}
+
+#lista-1 li:nth-child(4){
+    font-variant: small-caps;
+    background-color: blue;
+}
+
+#lista-2 li:nth-child(even){
+    background-color: gray;
+    color: white;
+}
+
+p::first-line {
+    font-size: 30px;
+}
+
+p::first-letter{
+    font-size: 80px;
+    box-shadow: -5px -5px 10px black;
+}
+
+#grupo {
+
+    display: inline;
+
+    /* 50 px todos los lados */
+    padding: 50px;
+
+    /* 50 px arriba - abajo
+    10px izq-der
+    80px abajo*/
+    padding: 5px 10px 80px;
+
+    /* 50 px arriba
+    10px der
+    80px abajo
+    100px izq*/
+    padding: 5px 10px 80px 100px;
+
+    border: 50px solid tomato;
+
+    border-top: 5px groove red;
+    border-bottom: 10 px dashed blue;
+    border-left: 20px solid green;
+    border-right: 5px solid gold;
+
+    margin: 50px;
+}
+
+blockquote {
+    display: inline;
+}
+
+#bandera {
+    border-left: 400px solid green;
+    border-right: 400px solid red;
+    text-align: center;
+    color: black;
+    padding: 150px;
+}

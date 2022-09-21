@@ -1,0 +1,55 @@
+/*Selector de tipo*/
+
+p {
+    font-size:80px;
+}
+
+/*selector por id */
+
+
+#parrafo-sel-id {
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+/*selector por id*/
+
+.error{
+    color: aquamarine;
+    background-color: purple;
+
+}
+/*Selector por atributo */
+p[lang] {
+    border:3px;
+}
+
+/*Selector por atributo valor especial */
+p[lang="es"] {
+    background-color: aqua;
+
+}
+
+/*Selector por atributo, buscando un valor inicial */
+p[lang$="mx"] {
+    background-color:purple;
+}
+
+/*Selector por atributo, buscando un valor inicial */
+a[href="https"] {
+    background-color:green;
+}
+
+/*Selector por atributo, buscando un valor inicial */
+a[href="ypu"] {
+    border:3px groove plum;
+}
+/* Selector por desendientes*/
+section > p{
+    font-size: 3px;
+}
+
+/* Selector por desendientes*/
+section > p{
+    font-size: 25px;
+}
+
