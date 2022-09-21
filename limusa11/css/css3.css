@@ -1,0 +1,38 @@
+html{
+    font-size: 5px;
+}
+.u-em {
+    background-color: darkslateblue;
+    width: 200px;
+    font-size: 10px;
+    padding: 5em 3em;
+    /*5*10= 50 arriba a bajo 
+    3*10=30 de un lado al otro
+    5 em es iguual a 5 veces el tamaño fuente del elemento 3rem(15*3)=45*/
+}
+.u-rem{
+    background-color: darkslateblue;
+    width: 10rem;
+    font-size: 10px;
+    padding: 5em 3em;
+}
+body{
+    /*width: 50%;*/
+}
+.u_porcentaje{
+    background-color: rgb(150, 136, 18);
+    width: 50%;
+    height: 200px;
+}
+.productos{
+    background-color: maroon;
+    height: 100vh;
+    width: 70vw;
+}
+.overflow{
+    background-color: seagreen;
+    /*cuando no se delimita ancho o alto abarca toda es de tipo bloque*/
+    width: 200px;
+    height: 5em;
+    overflow: auto;
+}

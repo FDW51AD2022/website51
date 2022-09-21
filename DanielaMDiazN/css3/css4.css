@@ -1,0 +1,23 @@
+#info img{
+    width: 250px;
+    float: left;
+    margin-right: 1em;
+    border-radius: 50%;
+
+}
+
+#nav-main ul{
+    background-color: red;
+}
+
+#nav-main ul li{
+    float: left;
+    width: 20%;
+}
+
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+
+}

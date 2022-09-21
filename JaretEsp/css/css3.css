@@ -1,0 +1,59 @@
+/* em = tamaño de bordes o relleno*/
+/* rem = Se toma como base 16px 5rem es igual a 16 x 5*/
+/* Uso para medidas responsibas de la pantalla vh/vw
+Es relativo a viewport*/
+/* % Es relativo al contenedor*/
+html{
+    font-size: 15px;
+}
+.u-em{
+    background-color: blue;
+    font-size: 10px;
+    width: 10em;
+    padding: 5em 3em;
+}
+
+.u-rem{
+    background-color: red;
+    font-size: 3rem;
+    width: 10rem;
+    
+    /*5em es igual a 5 veces el tamaño del fuente
+    del elemento 3rem (15*3)=45*/
+    padding: 5em 3em;
+}
+
+body{
+    width: 50%;
+    background-color: gray;
+}
+
+.porsentaje{
+    background-color: black;
+}
+
+.uporc{
+    background-color: yellow;
+    width: 50%;
+    height: 200px;
+}
+
+
+.productos{
+    background-color: green;
+    height: 100vh;
+    width: 70vw;
+}
+
+
+/* hsl
+tono - saturacion - luminosidad
+*/
+
+.overflow{
+    background-color: blue;
+    width: 200px;
+    height: 5em;
+    overflow: auto;
+    /*hidden - auto - */
+}
