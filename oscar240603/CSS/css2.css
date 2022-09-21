@@ -1,5 +1,7 @@
+body {
+    background:linear-gradient(top, red, gold);
+}
 /*Selector adyacente*/
-
 .titulo + p{
     border-top: 3px solid blue;
 }
@@ -64,12 +66,12 @@ p::first-letter{
     padding-bottom: 80px;
     padding-left: 100px;
 
-    /* border: 50px solid tomato; */
+    border: 50px solid tomato; 
 
-    /* border-top:  5px groove red;
+    border-top:  5px groove red;
     border-bottom: 10 px dashed blue;
     border-left: 20px solid green;
-    border-right: 5px solid gold; */
+    border-right: 5px solid gold; 
 
     margin: 50px;
 }
@@ -90,12 +92,6 @@ blockquote {
     box-sizing: border-box;
 }
 
-#Blanco {
-    padding: 80px;
-    background-color: white;
-    display: inline-block;
-    margin: 0px;
-}
 
 #Rojo {
     padding: 80px;
