@@ -1,0 +1,21 @@
+h1{
+    font-size: 20px;
+    padding: 3em;
+    /*16px--->1em*/
+}
+article{
+    font-size: 10px; 
+}
+h2{
+    font-size: 5em;
+}
+div{
+    background-color: blueviolet;
+    width: 80vw;
+    height: 50vh;
+}
+h4{
+    font-size: 20%;
+    background-color: darkcyan;
+    width: 100px;
+}

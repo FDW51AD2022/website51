@@ -5,15 +5,12 @@ body {
 }
 
 h1 {
-    background-color: palevioletred;
+    background-color: rgb(163, 245, 131);
     color: black;
     font-family: 'Franklin Gothic Medium';
     text-align: center;
 }
 
-h2 {
-    background-color: rgb(163, 245, 131);
-    color: black;
-    font-family: 'Franklin Gothic Medium';
-    text-align: center;
+a{
+    color: peru; font-family:'Century Gothic';
 }
