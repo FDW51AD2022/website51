@@ -1,0 +1,39 @@
+#info img{
+    width: 250px;
+    float: left;
+    margin-right: 1em;
+}
+
+#nav-main ul{
+    background-color: purple;
+}
+
+#nav-main ul li{
+    float: left;
+    width: 20%;
+}
+
+.clearfix::after{
+    clear:both;
+    content: "";
+    display: table;
+}
+
+
+#nav-main2 ul{
+    padding: 0%;
+    list-style: none;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    /* Es la combinación de las dos de arriba  */
+    flex-flow: row wrap; /*  */
+    justify-content: space-around;
+    height: 400px;
+    align-content: space-around;
+}
+
+#nav-main2 ul{
+    margin: 1em 1.5em;
+}
