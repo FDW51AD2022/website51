@@ -1,0 +1,43 @@
+#info img {
+    width: 200px;
+    float: right;
+    margin-right: 1em;
+    border-radius: 50%;
+
+}
+
+#nav-main{
+    background-color: rgba(148, 7, 7, 0.685);
+
+}
+
+#nav-main ul li {
+    float: left;
+    width: 20%;
+}
+
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+#nav-main2 ul{
+    background-color:green;
+    list-style:none;
+    padding: 0%;
+
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: now wrap;
+    flex-flow: row nowrap;
+    height: 400px;
+    justify-content: space-around; 
+    align-content: space-between;
+    
+}
+
+#nav-main2 ul{
+     margin: 1em 1.5em;
+}
+
