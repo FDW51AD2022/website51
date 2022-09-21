@@ -23,14 +23,19 @@
 #nav-main-2 ul{
     background-color: gray;
     list-style:none ;
-    padding: 0%;
+    padding: 0;
 
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
+    height: 400px; ;
 
-    justify-content: center;
+
+    justify-content: space-around;
+    align-content: center;
+    
+    
 }
 #nav-main-2 ul li{
 margin: 1em 1.5em;
