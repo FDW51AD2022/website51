@@ -2,6 +2,8 @@ html {
     font-size: 15px;
 }
 
+body{background: gray;}
+
 .u-em {
     background-color: rebeccapurple;
     font-size: 3rem;
