@@ -1,0 +1,40 @@
+#info img{
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right: 1em;
+    border-radius: 20%;
+}
+
+#nav-main ul{
+    background-color: red;
+}
+
+#nav-main ul li{
+    float: left;
+    width: 20%;
+}
+
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+
+
+}
+
+#nav-main-2 ul{
+    background-color: gray;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+
+    justify-content: space-around;
+    align-content: flex-end;
+    height: 400px;
+}
+
+#nav-main-2 ul li{
+    margin: 1em 1.5em;
+}

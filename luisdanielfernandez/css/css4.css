@@ -1,0 +1,38 @@
+#info img {
+    width: 250px;
+    float: right;
+    margin-right: 1em;
+    border-radius: 50%;
+}
+
+#nav-main ul {
+    background-color: rgb(97, 184, 97); 
+}
+
+#nav-main ul li {
+    float: left;
+    width: 30%;
+}
+
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+
+#nav-main-2 ul{
+    background-color: bisque;
+    text-decoration: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    flex-flow: column;
+    height: 400px;
+    justify-content:center;
+}
+
+#nav-main-2 ul li{
+    margin: 1em 1.5em;
+}
