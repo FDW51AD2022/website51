@@ -19,3 +19,19 @@
     content: "";
     display: table;
 }
+
+#nav-main-2 ul{
+    background-color: gray;
+    list-style:none ;
+    padding: 0%;
+
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    flex-flow: row nowrap;
+
+    justify-content: center;
+}
+#nav-main-2 ul li{
+margin: 1em 1.5em;
+}
