@@ -18,3 +18,9 @@
     content: "";
     display: table;
 }
+
+
+#nav-main-2 ul{
+    display: flex;
+    
+}
