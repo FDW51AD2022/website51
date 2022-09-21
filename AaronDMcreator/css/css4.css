@@ -1,0 +1,39 @@
+#info img{
+    width: 250px;
+    float: left;
+    margin-right: 1em;
+    border-radius: 50%;
+}
+
+#nav-main ul{
+    background-color: blueviolet;
+}
+
+#nav-main ul li{
+    float: left;
+    width: 20%;
+}
+
+.clear::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+#nav-main-2 ul{
+    padding: 0;
+
+    display: flex;
+    background-color: darksalmon;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    height: 400px;
+    list-style: none;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+#nav-main-2 ul li{
+    margin: 1em 1.5em;
+}

@@ -1,22 +1,59 @@
-h1,h2,blockquote{
-    text-align: center;
-    font-family: 'Open Sans', Arial, sans-serif;
+body{background-color: blanchedalmond;}
+
+#titulo
+{
+    background-color:  rgb(233, 166, 233) ;
+    
 }
-p{
-    font-family: 'Open Sans', Arial, sans-serif;
-}
-
-div, iframe {
-    margin: 0 auto;
-
-}
-
-.centrado-div {
-    width: 560px;
-    height: 315px;
-
-    top: 0; right: 0;
-    bottom: 0; left: 0;
-    margin: auto;
+#Bienvenido
+    {
+        font-size: 50px;
+     background-color: rgb(241, 245, 29);
+    }
+#Soy
+{
+    font-size: 25px;
 }
 
+#presentacion
+{
+    font-size: 20px;
+}
+#pasatiempo
+{
+    font-size: 25px;
+}
+
+#Can
+{
+    font-size: 20px;
+}
+
+#Datos
+{
+    font-size: 20px;
+}
+#mascotas 
+{
+    font-size: 20px;
+}
+#convivir 
+{
+    font-size: 20px;
+}
+#familia 
+{
+    font-size: 20px;
+}
+#Lugar 
+{
+    font-size: 20px;
+}
+#Lugar2 
+{
+    font-size: 20px;
+}
+#titulo
+{
+    font-size: 15px; ;
+}

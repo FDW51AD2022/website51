@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="feedback">
+        <button class="btn">
+            Submit
+        </button>
+        <script>
+            var btn = document.querySelector(".btn")
+            var position;
+            btn.addEventListener("mouseover", function() {
+                position ? (position = 0) : (position = 100);
+                
+                btn.style.transform = `translate(${position}px,0px)`;
+                btn.style.transition = "all 0.3s ease";
+            });
+        </script>
+    </div>
+</body>
+</html>
