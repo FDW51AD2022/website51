@@ -24,6 +24,10 @@
 /* Hacer flexible para sus hijos en la navegación v2 */
 #nav-main-2 ul{
     display: flex;
-    /* Opciones del flex-direction: row-reverse y column-reverse */
+    /* Opciones: row-reverse y column-reverse */
     flex-direction: row-reverse;
+    /* Opciones: wrap y nowrap */
+    flex-wrap: wrap;
+    /* flex-flow combina flex-direction y flex-wrap */
+    flex-flow: row-reverse wrap;
 }
