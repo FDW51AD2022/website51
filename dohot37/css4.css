@@ -1,44 +1,44 @@
 #info img{
-    width: 250px;
-    float: left;
-    margin-right: 1em;
-    border-radius: 50%;
-
+width: 250px;
+float: right;
+margin-left: 3em;
+border-radius: 50%;
 }
 
-#nav-main ul{
+#nave-main ul{
     background-color: red;
 }
-
-#nav-main ul li{
+#nave-main ul li{
     float: left;
     width: 20%;
 }
 
 .clearfix::after{
     clear: both;
-    content: "";
+    content:"" ;
     display: table;
 
 }
 
-#nav-main-2 ul {
-    background-color: gray;
-    list-style: none;
-    padding: 0;
-
+#nave-main-2 ul{
+    background-color: aquamarine;
+    list-style:  none;
+    padding: 0%;
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     flex-flow: row wrap;
     height: 400px;
-
     justify-content: space-around;
-    align-content: center;
+    align-content: space-around;
 
+
+    
 }
 
-
-#nav-main-2 ul li{
+#nave-main-2 ul li{
     margin: 1em 1.5em;
+
+
+    
 }
