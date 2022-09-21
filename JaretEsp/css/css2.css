@@ -32,13 +32,15 @@ ul li:nth-child(4){
     color: white;
 }
 
-p::first-line { /* pseudoelemento*/
+
+#letrap::first-line { /* pseudoelemento*/
     font-size: 30px;
+    color: black;
 }
 
 p::first-letter{
     font-size: 80px;
-    box-shadow: -5px -5px 10px black;
+    box-shadow: -5px -5px 10px green;
 }
 
 
@@ -66,27 +68,41 @@ blockquote {
 
 
 
-#bandera p{
-    width: 30%;
-    display: inline-block;
-    padding: 10px 5px;
+#bandera {
+    display: flex;
+    padding: none;
     border: 6px solid black;
+    width: 100%;
+    max-width: 1200px;
+}
+
+#bandera div {
+    width: 33.3%;
 }
 
 #verde {
     background-color: green;
-
+    height: 200px;
 }
 
 #blanco {
     background-color: white;
-    
+    height: 200px;
 }
 
+#blanco, img {
+    height: 200px;
+    width: 60%;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
 
 #rojo {
     background-color: red;
-    
+    height: 200px;
 }
 
 

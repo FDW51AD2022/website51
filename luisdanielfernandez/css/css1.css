@@ -1,0 +1,63 @@
+
+/*Selector de tip */
+
+
+p {
+    font-size: 80px;
+}
+
+/*Selector por id */
+
+#parrafo-sel-id {
+    background-color: rgb(93, 194, 93);
+    border-radius: 10px;
+}
+
+/*Selector de clase */
+
+.error{
+    color:red;
+    background-color: green;
+}
+
+/*Selector por atributo*/
+p[lang]{
+
+    border: 3px dashed blue;
+}
+
+/*Selector por atributo valor especial */
+p[lang="es"] {
+
+    background-color: aqua;
+}
+
+/*Selector por atributo, buscando
+un valor especial */
+a[href^="https"] {
+
+    background-color: greenyellow;
+}
+
+/*Selector por atributo, buscando
+un valor final */
+a[href$="mx"] {
+
+    background-color: red;
+}
+
+/*Selector por atributo, buscando
+un valor sin importar la posicion
+donde se enccuentre*/
+
+a[href*="you"] {
+
+    border: 3px groove plum;
+}
+
+/* Selector por descendientes */
+section p {
+    font-size: 3px;
+}
+
+/* Selector por hijos directos */

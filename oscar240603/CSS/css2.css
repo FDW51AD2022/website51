@@ -1,5 +1,7 @@
+body {
+    background:linear-gradient(top, red, gold);
+}
 /*Selector adyacente*/
-
 .titulo + p{
     border-top: 3px solid blue;
 }
