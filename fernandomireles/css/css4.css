@@ -1,5 +1,22 @@
+/* Imagen y texto en sección */
 #info img{
     width: 200px;
     float: left;
     margin-right: 1em;
+    border-radius: 50px;
+}
+
+/* Barra de navegación */
+#nav-main{
+    background-color: rgb(255, 181, 181);
+}
+#nav-main ul li {
+    float: left;
+    width: 20%;
+}
+/* Acomodo de la barra de navegación */
+.clearfix::after{
+    clear:both;
+    content: "";
+    display: table;
 }
