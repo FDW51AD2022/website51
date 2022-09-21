@@ -1,0 +1,31 @@
+html{
+    font-size: 15px;
+}
+
+
+.uem{
+    background-color: blueviolet;
+    font-size: 3rem;
+    width: 50%;
+    padding: 5em 3em;
+}
+
+
+.porc{
+    background-color: yellow;
+    width: 50%;
+    height: 30%;
+}
+
+.productos{
+    background-color: brown;
+    height: 100vh;
+    width: 70vw;
+}
+
+.overflow{
+    background-color: chartreuse;
+    width: 200px;
+    height: 5em;
+    overflow: auto;
+}
