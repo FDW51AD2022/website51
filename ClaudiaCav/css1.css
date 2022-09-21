@@ -1,3 +1,11 @@
+/* Reseteo  */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 /* Selector de tipo */
 
 p{
@@ -17,4 +25,9 @@ p{
     color: rgb(14, 39, 4);
     background-color:rgb(69, 179, 82);
     border-radius: 20px;
+}
+
+.main-header {
+    background-color: blueviolet;
+    color: white;
 }

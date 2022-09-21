@@ -1,0 +1,40 @@
+html {
+/*     font-size: 5px;
+ */}
+
+.u-em {
+    background-color: blue;
+    font-size: 3rem;
+    width: 10rem;
+    padding: 5em 3em;
+
+
+ /* Sem es igual a 5 veces el tamaño de frente del elemento 3rem (15*3)=45 */
+padding: 5em 3em;
+}
+
+/*body{
+    : 50%;
+}*/
+
+.u.porc {
+    background-color: yellow;
+    width: 50%;
+    height: 20px;
+}
+
+.productos {
+    background-color: rebeccapurple;
+    height: 100vh;
+    width: 70vh;
+}
+/*colorhunt
+https://colorhunt.co*/
+
+/*scroll o auto*/
+.overflow {
+    width: 200px;
+    height: 5em;
+    background-color:green ;
+    overflow: auto;
+}
