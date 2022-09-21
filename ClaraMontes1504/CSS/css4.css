@@ -22,5 +22,6 @@
 
 #nav-main-2 ul{
     display: flex;
+    flex-direction: row-reverse;
     
 }
