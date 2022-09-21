@@ -1,29 +1,32 @@
 #info img{
-    width: 250px;
-    float: left;
+    width: 200px;
+    float: right;
     margin-right: 1em;
     border-radius: 50%;
+} 
 
+#nav-main ul {
+    background-color: rgb(177, 133, 219);
+    color: blanchedalmond;
 }
 
-#nav-main ul{
-    background-color: red;
-}
-
-#nav-main ul li{
+#nav-main ul  li{
     float: left;
     width: 20%;
 }
 
 .clearfix::after{
     clear: both;
-    content: "";
+    content:"" ;
     display: table;
-
 }
 
-#nav-main-2 ul {
-    background-color: gray;
+#nav-main-2 ul:hover {
+    background-color: rgb(99, 230, 48);
+}
+
+#nav-main-2 ul{
+    background-color: aquamarine;
     list-style: none;
     padding: 0;
 
