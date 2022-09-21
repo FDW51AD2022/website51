@@ -1,17 +1,17 @@
-#info img{
+#info img {
     width: 250px;
     float: right;
     margin-right: 1em;
-
+    border-radius: 50%;
 }
 
 #nav-main ul {
-    background-color: red;
+    background-color: rgb(97, 184, 97); 
 }
 
 #nav-main ul li {
     float: left;
-    width: 20%;
+    width: 30%;
 }
 
 .clearfix::after{
@@ -20,23 +20,19 @@
     display: table;
 }
 
-#nav-main-2 ul{
-    background-color: gray;
-    list-style:none ;
-    padding: 0;
 
+#nav-main-2 ul{
+    background-color: bisque;
+    text-decoration: none;
+    padding: 0;
     display: flex;
     flex-direction: row-reverse;
-    flex-wrap: nowrap;
-    flex-flow: row wrap;
-    height: 400px; ;
-
-
-    justify-content: space-around;
-    align-content: center;
-    
-    
+    flex-wrap: wrap;
+    flex-flow: column;
+    height: 400px;
+    justify-content:center;
 }
+
 #nav-main-2 ul li{
-margin: 1em 1.5em;
+    margin: 1em 1.5em;
 }
