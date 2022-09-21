@@ -20,3 +20,14 @@
     content: "";
     display: table;
 }
+
+/* Hacer flexible para sus hijos en la navegación v2 */
+#nav-main-2 ul{
+    display: flex;
+    /* Opciones: row-reverse y column-reverse */
+    flex-direction: row-reverse;
+    /* Opciones: wrap y nowrap */
+    flex-wrap: wrap;
+    /* flex-flow combina flex-direction y flex-wrap */
+    flex-flow: row-reverse wrap;
+}
