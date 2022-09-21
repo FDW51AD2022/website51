@@ -18,3 +18,22 @@
     content: "";
     display: table;
 }
+
+
+#nav-main2 ul{
+    padding: 0%;
+    list-style: none;
+    background-color: lavender;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    /* Es la combinación de las dos de arriba  */
+    flex-flow: row wrap; /*  */
+    justify-content: space-around;
+    height: 400px;
+    align-content: space-around;
+}
+
+#nav-main2 ul{
+    margin: 1em 1.5em;
+}
