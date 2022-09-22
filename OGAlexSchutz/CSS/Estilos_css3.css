@@ -1,0 +1,35 @@
+.campo_1{
+    padding-top: 2em;
+}
+
+.campo_2{
+    padding-top: 26rem;
+}
+
+.u-em{
+    background-color: #F5EFE6;
+    font-size: 3rem;
+    width: 50%;
+
+    /* 5em es igual a veces el tamaño de fuente del elemento, 3rem (15*3)=45 */
+    padding: 5em 3em;
+}
+
+.u-porc{
+    background-color: #E8DFCA;
+    width: 50%;
+    height: 200px;
+}
+
+.productos{
+    background-color: #AEBDCA;
+    height: 100vh;
+    width: 70vw;
+}
+
+.overflow{
+    width: 200px;
+    height: 3em;
+    background-color: #7895B2;
+    overflow: auto;
+}
