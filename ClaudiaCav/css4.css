@@ -2,7 +2,6 @@
     width: 400px;
     float: right;
     margin-right: 1em;
-    border-radius: 50%;
 }
 
 body{
@@ -29,12 +28,12 @@ p{
 }
 
 #nav-main-2 ul:hover{
-    background-color: yellow;
+    background-color: pink;
 }
 
 
 #nav-main-2 ul{
-    background-color: rgb(78, 208, 87);
+    background-color: rgb(208, 78, 163);
     list-style: none;
     padding: 0%;
     display: flex;
