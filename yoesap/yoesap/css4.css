@@ -1,0 +1,42 @@
+#info img{
+    width: 250px;
+    float: right;
+    margin-left: 1em;
+    border-radius: 50%;
+
+}
+
+#nav-main ul {
+    background-color: rgb(196, 198, 223);
+}
+
+#nav-main ul li {
+    float: left;
+    width: 20%;
+}
+
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+
+#nav-main-2 ul{
+    background-color: rgb(119, 110, 215);
+    padding: 0%;
+    list-style: none;
+
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    flex-flow: column wrap;
+    height: 400px;
+    justify-content: space-around;
+    align-content: space-between;
+
+}
+
+#nav-main-2 ul li {
+    margin: 1em 1.5em;
+}
