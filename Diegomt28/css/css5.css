@@ -1,0 +1,107 @@
+h1 {
+    background-color: black;
+    color: antiquewhite;
+}
+
+#site-menu {
+    display: flex;
+    margin:0;
+    padding: 0;
+    height: 40vh;
+    background-color: deepskyblue;
+}
+
+#l1{
+
+    /*flex-grow: 2;*/
+    order: 3;
+    flex-basis: 500px;
+    flex-shrink: 0;
+    align-self:center;
+}
+
+#l2 {
+    /*flex-grow: 3;*/
+    order: 2;
+    align-self: flex-end;
+}
+
+#l3 {
+   /* flex-grow: 2;*/
+    order: 1;
+    align-self: start;
+} 
+
+
+#mini-page header {
+    background-color: red;
+ ;
+}
+
+
+#mini-page article {
+    background-color: blue;
+}
+
+
+
+#mini-page aside {
+    background-color: green;
+}
+
+
+
+
+#mini-page footer {
+    background-color: violet;
+    grid-column: 1 / -1;
+}
+
+#mini-page {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /*grid-template-rows: 200px 100px;*/
+    gap: 10px;
+    
+    
+}
+
+
+
+#mini-page-2 header {
+    background-color: red;
+    grid-area: enc;
+  
+}
+
+
+#mini-page-2 article {
+    background-color: blue;
+    grid-area: cont;
+}
+
+
+
+#mini-page-2 aside {
+    background-color: green;
+    grid-area: barra;
+}
+
+
+
+
+#mini-page-2 footer {
+    background-color: violet;
+    grid-area: pie;
+    
+}
+
+#mini-page-2 {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 1em;
+    grid-template-areas:     "enc barra"
+                            "cont barra"
+                            "pie pie"
+    
+}
