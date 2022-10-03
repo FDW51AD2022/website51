@@ -10,12 +10,14 @@ h1 {
     background-color: rgb(253, 253, 87);
     color:black;
     text-align: center;
+    font-size: 300%;
     font-family:'Verdana';
+
 }
 
 .lista {
     text-justify: auto;
     font-family: 'Verdana';
-    font-size: 25px;
+    font-size: 200%;
     color: black;
 }
