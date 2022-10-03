@@ -41,9 +41,12 @@
 
 #mini-page footer {
     background-color: purple;
+    grid-column: 1 / -1;
 }
 
 #mini-page {
     display: grid;
     grid-template-columns: 4fr 1fr;
+    /* grid-template-rows: 200px 100px; */
+    gap: 1em;
 }
