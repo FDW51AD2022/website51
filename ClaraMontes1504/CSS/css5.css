@@ -1,0 +1,120 @@
+#site-menu{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 40vh;
+    background-color:lavender;
+}
+
+
+/* Flex grow para saber còmo van a crecer  */
+/* El order cambia el orden de los elementos */
+/* flex shrink para encoger en 0 (acortar) */
+/* Basis para su tamaño inicial (ancho fijo)  */
+/* Align self para alinear 
+    flex end alinear al final
+    center al centro del contenedor  */
+
+
+#l1{
+    /* flex-grow: 2; */
+    order: 3;
+    flex-basis: 500px;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+#l2{
+    /* flex-grow: 3; */
+    order: 2;
+    width: 500px;
+    align-self: flex-end;
+}
+
+#l3{
+    flex-grow: 2;
+    order: 1;
+}
+
+/* El fr es para el numero de columna que serán 
+    y numero de espacios que serán*/
+
+/* grid-template-rows: 200px 100px;
+    Para poner cuántos renglones son */
+
+/* Grid Gap (Gap) para poner espacios entre las columnas */
+
+/* grid-column: 1/-1;
+    Significa que abarca desde la primera columna hasta la ultima columna */
+
+
+#mini-page{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /* grid-template-rows: 200px 100px; */
+    gap: 1em;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#mini-page header{
+    background-color: aqua;
+    grid-column: 1/-1;
+}
+
+#mini-page article{
+    background-color: lavender;
+}
+
+#mini-page aside{
+    background-color:darkcyan;
+}
+
+#mini-page footer{
+    background-color:lightpink;
+    grid-column: 1/-1;
+}
+
+
+/* grid-template-areas
+Acomoda las columnas sin necesidad de poner un grid-column con numeros
+Es más sencillo 
+Funciona para horizontal y vertical  */
+
+#mini-page2{
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 4fr 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
+    grid-template-areas:"enc barra"
+                        "cont barra"
+                        "pie barra";
+                        
+}
+
+#mini-page2 header{
+    background-color: aqua;
+    grid-area: enc;
+}
+
+#mini-page2 article{
+    background-color: lavender;
+    grid-area: cont;
+}
+
+#mini-page2 aside{
+    background-color:darkcyan;
+    grid-area: barra;
+}
+
+#mini-page2 footer{
+    background-color:lightpink;
+    grid-area: pie;
+}
+
+
+/* Segunda evidencia pagina con flexbox y grid 
+Tema abierto (La teoria de kim ojo)
+Hacer pagina para evidencia 1 y evidencia 2
+Importantes los commits*/
