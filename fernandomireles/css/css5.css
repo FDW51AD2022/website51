@@ -26,3 +26,24 @@
     /* flex-grow: 2; */
     order: 1;
 }
+
+#mini-page header {
+    background-color: red;
+}
+
+#mini-page article {
+    background-color: blue;
+}
+
+#mini-page aside {
+    background-color: pink;
+}
+
+#mini-page footer {
+    background-color: purple;
+}
+
+#mini-page {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
