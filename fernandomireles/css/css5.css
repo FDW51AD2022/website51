@@ -1,0 +1,52 @@
+#site-menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 40vh;
+    background-color: gray;
+}
+
+#l1 {
+    /* flex-grow: 2; */
+    order: 3;
+    width: 500px;
+    flex-basis: 500px;
+    /* flex-shrink: 0; */
+    align-self: center;
+}
+
+#l2 {
+    /* flex-grow: 3; */
+    order: 2;
+    width: 500px;
+    align-self: flex-end;
+}
+
+#I3 {
+    /* flex-grow: 2; */
+    order: 1;
+}
+
+#mini-page header {
+    background-color: red;
+}
+
+#mini-page article {
+    background-color: blue;
+}
+
+#mini-page aside {
+    background-color: pink;
+}
+
+#mini-page footer {
+    background-color: purple;
+    grid-column: 1 / -1;
+}
+
+#mini-page {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /* grid-template-rows: 200px 100px; */
+    gap: 1em;
+}
