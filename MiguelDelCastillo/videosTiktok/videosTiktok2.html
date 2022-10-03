@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssTiktok/estilo1tk.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <p id="question">Te animas a ver jojos?</p>
+            <button class="btn" id="Yes">YES! YES! YES!</button>
+            <button class="btn" id="hinde">no u.u</button>
+        </div>
+
+    </div>
+</body>
+<script>
+    const noBtn = document.getElementById('hinde');
+    const yesBtn = document.getElementById('Yes');
+    const ques = document.getElementById('question');
+    noBtn.addEventListener("click", ()=>{
+        let rand = Math.floor(Math.random() * (500-100)+1);
+        let rand2 = Math.floor(Math.random() * (-300-100)+1);
+        noBtn.style.transform = "translate("+rand+"px, "+rand2+"px)";
+    });
+    yesBtn.addEventListener("click", ()=>{
+        ques.innerHTML = "Sabia que dirias que si <3"
+    });
+    
+</script>
+</html>

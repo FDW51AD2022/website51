@@ -5,7 +5,7 @@
     border-radius: 50%;
 }
 #nav-main ul {
-    background-color: rgb(168, 236, 85);
+    background-color: rgb(103, 165, 248);
 }
 
 #nav-main ul li {
@@ -20,7 +20,7 @@
 }
 
 #nav-main-2 ul {
-    background-color: gray;
+    background-color: rgb(248, 94, 94);
     padding: 0;
     text-decoration: none;
     list-style: none;
@@ -38,5 +38,5 @@
 }
 
 #nav-main-2 ul:hover {
-    background-color: rgb(167, 243, 205);
+    background-color: rgb(239, 239, 39);
 }
