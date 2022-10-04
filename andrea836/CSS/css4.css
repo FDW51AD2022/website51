@@ -1,0 +1,40 @@
+#info img {
+    width: 250px;
+    float: right;
+    margin-right: 1em;
+    border-radius: 50%;
+}
+
+#nav-main ul{
+    color:rgb(12, 45, 129);
+    background-color: #FF7C7C;
+}
+
+#nav-main ul li {
+    float: left;
+    width: 20%;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+/*clase---seudoclase*/
+#nav-main2 ul{
+    color: black;
+    background-color: #3D8361;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    flex-flow:row wrap;
+    height: 400px; ;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+#nav-main2 ul li{
+    margin: 1em 1.5em;
+
+}

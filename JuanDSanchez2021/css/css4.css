@@ -1,0 +1,51 @@
+#info img {
+    width: 400px;
+    float: right;
+    margin-right: 1em;
+    border-radius: 50%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.25;
+}
+#nav-main ul {
+    background-color: rgb(213, 62, 175);
+}
+
+#nav-main li {
+    float: left;
+    width: 20%;
+}
+
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+#nav-main-2 ul:hover{
+    background-color: yellow;
+}
+
+
+#nav-main-2 ul{
+    background-color: rgb(78, 208, 87);
+    list-style: none;
+    padding: 0%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    flex-flow: row wrap;
+    height: 400px;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#naw-main-2 ul li {
+    margin: .2em 1.5em;
+}

@@ -13,9 +13,18 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+a{
+    font-size: 20px;
+}
+
 p{
     font-size: 20px;
     line-height: 1.25;
+}
+
+.boton{
+    display: inherit;
+    text-align: center;
 }
 
 /* Selector de hermano adyacente */

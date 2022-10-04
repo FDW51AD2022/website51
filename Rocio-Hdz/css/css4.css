@@ -1,0 +1,52 @@
+/* Imagen y texto en sección */
+#info img{
+    width: 200px;
+    float: left;
+    margin-right: 1em;
+    border-radius: 50px;
+}
+
+/* Barra de navegación */
+#nav-main{
+    background-color: rgb(255, 181, 181);
+}
+#nav-main ul li {
+    float: left;
+    width: 20%;
+}
+/* Acomodo de la barra de navegación */
+.clearfix::after{
+    clear:both;
+    content: "";
+    display: table;
+}
+
+/* Hacer flexible para sus hijos en la navegación v2 */
+/* Mueve los elementos en caso de desbordarse hacia nueva línea */
+#nav-main-2 ul{
+    /* Remover espacio adicional del box de lista */
+    padding: 0;
+    /* Quitar puntos de lista */
+    list-style: none;
+    display: flex;
+    /* Opciones: row-reverse y column-reverse */
+    /* flex-direction: row-reverse; */
+    /* Opciones: wrap y nowrap */
+    flex-wrap: wrap;
+    /* flex-flow combina flex-direction, flex-wrap y column */
+    /* flex-flow: row-reverse wrap; */
+    /* Justificar elementos, opciones: center, space-evenly */
+    justify-content: center;
+    background-color: rgb(205, 205, 205);
+    
+}
+
+/* Canbio de color al pasar mouse encima */
+/* Dos puntos ":" pseudoclase */
+#nav-main-2 ul:hover{
+    background-color: rgb(166, 166, 166);
+}
+
+#nav-main-2 ul li {
+    margin: 1em 1.5em;
+}
