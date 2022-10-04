@@ -1,3 +1,15 @@
+body{
+    padding: 20px;
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+h1{
+    font-family: Tahoma;
+    font-size: 30px;
+    color:mediumpurple;
+}
+
 #site-menu{
     display: flex;
     margin: 0;
@@ -5,7 +17,6 @@
     height: 40vh;
     background-color:lavender;
 }
-
 
 /* Flex grow para saber còmo van a crecer  */
 /* El order cambia el orden de los elementos */
