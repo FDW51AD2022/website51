@@ -1,0 +1,84 @@
+#site-menu {
+    display: flex;
+    margin:0;
+    padding: 0;
+    height: 40vh;
+    background-color: gray;
+    
+}
+
+#l1 { 
+    /* flex-grow: 2; */
+    order: 3;
+    flex-basis: 500px;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+#l2 {
+    /* flex-grow: 3; */
+    order: 2;
+    width: 500px;
+    align-self: flex-end;
+}
+#l3 {
+    order: 1;
+}
+
+#mini-page header{
+    background-color: brown;
+    grid-column: 1 / -1;
+}
+
+#mini-page article{
+    background-color: blue;
+}
+
+#mini-page footer{
+    background-color: yellow;
+    grid-column: 1 / -1;
+}
+
+#mini-page aside{
+    background-color:green;
+    
+}
+
+#mini-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*grid-template-rows: 200px 100px;*/
+    gap: 1em;
+    
+}
+
+#mini-page2 {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 1em;
+    grid-template-areas: "end barra"
+                         "cont barra"
+                         "pie barra";
+
+}
+
+#mini-page2 header{
+    background-color: brown;
+    grid-area: end;
+}
+
+#mini-page2 article{
+    background-color: blue;
+    grid-area: cont;
+}
+
+#mini-page2 footer{
+    background-color: yellow;
+    grid-area: pie;
+    
+}
+
+#mini-page2 aside{
+    background-color:green;
+    
+}
