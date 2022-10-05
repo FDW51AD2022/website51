@@ -1,0 +1,106 @@
+body{
+    padding: 20px;
+}
+
+h1{
+    color: blue;
+}
+
+#site-menu{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 20vh;
+    background-color: lavender;
+}
+
+#l1{
+    flex-grow: 1;
+    flex-basis: 100px;
+    flex-shrink: 0;
+    align-self: center;
+    order: 3;
+}
+
+#l2{
+    /* flex-grow: 2; */
+    flex-basis: 200px;
+    flex-shrink: 0;
+    align-self: flex-end;
+    order: 1;
+}
+
+#l3{
+    flex-grow: 2;
+    align-self: flex-start;
+    order: 2;
+}
+
+#mini-page{
+    display: grid;
+    /* La cantidad de fr, indica la cantidad de columnas
+    grid-template-columns: 1fr 1 columna con 1fr de distancia
+    grid-template-columns: 1fr 2fr 2 columnas con 1fr de dist en la primer columna, y 2fr en la seegunda
+    grid-template-columns: 1fr 2fr 3fr*/
+    grid-template-columns: 2fr 4fr;
+    /* Distancia verticalmente gap entre filas */
+    gap: 1em;
+    padding-left: 50px;
+    padding-right: 50px; 
+}
+
+#mini-page header{
+    background-color: cadetblue;
+    grid-column: 1/-1;
+}
+
+#mini-page footer{
+    background-color: yellowgreen;
+    grid-column: 1/-1;
+}
+
+#mini-page article{
+    background-color: tomato;
+    grid-column: 1/0;
+}
+
+#mini-page aside{
+    background-color: violet;
+    grid-column: 1/0;
+}
+
+#mini-page2{
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+    grid-template-areas:"enc enc parr" 
+                        "cont barra parr" 
+                        "pie barra parr";
+}
+
+#mini-page2 header{
+    background-color: chartreuse;
+    grid-area: enc;
+}
+
+#mini-page2 p{
+    background-color: brown;
+    grid-area: parr;
+}
+
+#mini-page2 article{
+    grid-area:cont;
+    background-color: crimson;
+}
+
+#mini-page2 aside{
+    grid-area: barra;
+    background-color: sandybrown;
+}
+
+#mini-page2 footer{
+    background-color: turquoise;
+    grid-area: pie;
+}
