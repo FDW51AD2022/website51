@@ -38,6 +38,19 @@ body{
 }
 
 
+
+form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 400px;
+    /* Esquema del formulario */
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    padding: 1em;
+    list-style: none;
+    background-color: #FAFDD6;
+}
+
 #Adress{
     background-color: #F2F2F2;
     padding:10px;
