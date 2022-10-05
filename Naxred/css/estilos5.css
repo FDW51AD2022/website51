@@ -1,0 +1,82 @@
+#site-nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 40vh;
+  background-color: cadetblue;
+}
+
+#l1 {
+  /* flex-grow: 1; */
+  order: 3;
+  flex-basis: 500px;
+  flex-shrink: 0;
+  align-self: flex-end;
+}
+
+#l2 {
+  /* flex-grow: 5; */
+  order: 2;
+  width: 500px;
+}
+
+#l3 {
+  /* flex-grow: 1; */
+  order: 1;
+}
+
+#mini-page{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 100px 100px;
+  gap: 1em;
+  margin: 100px;
+}
+
+#mini-page header {
+  background-color: blueviolet;
+}
+
+#mini-page article {
+  background-color: firebrick;
+}
+
+#mini-page aside {
+  background-color: thistle;
+}
+
+#mini-page footer {
+  background-color: skyblue;
+}
+
+#mini-page2{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: auto;
+  gap: 1em;
+  margin: 100px;
+  grid-template-areas: "enc barra"
+                       "cont barra"
+                       "pie barra";
+}
+
+#mini-page2 header {
+  background-color: blueviolet;
+  grid-area: enc;
+}
+
+#mini-page2 article {
+  background-color: firebrick;
+  grid-area: cont;
+}
+
+#mini-page2 aside {
+  background-color: thistle;
+  grid-area: barra;
+}
+
+#mini-page2 footer {
+  background-color: skyblue;
+  grid-area: pie;
+}
+

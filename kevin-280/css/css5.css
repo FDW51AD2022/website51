@@ -1,0 +1,88 @@
+body{background: black;
+     color: white;
+
+}
+
+#menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    background-color: blue;
+
+}
+
+#link1{
+    order: 3;
+    flex-basis: 500px;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+#link2 {
+    order: 2;
+    width: 500px;
+    align-self: flex-start;
+}
+
+#link3 {
+    order: 1;
+    align-self: flex-end;
+}
+
+#mini_pagina1 header{
+    background-color: purple;
+    grid-column: 1/-1;
+}
+
+#mini_pagina1 article{
+    background-color:green;
+}
+
+#mini_pagina1 aside{
+    background-color:paleturquoise;
+}
+
+#mini_pagina1 footer{
+    background-color:skyblue (249, 65, 65);
+    grid-column: 1/-1;
+}
+
+#mini_pagina1 {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    /* grid-template-rows: 200px 100px; */
+    gap: 1em;
+}
+
+
+
+
+#mini_pagina2 header{
+    background-color: darkmagenta;
+    grid-area: enc;
+}
+
+#mini_pagina2 article{
+    background-color:darkblue;
+}
+
+#mini_pagina2 aside{
+    background-color:firebrick;
+    grid-area: barra
+}
+
+#mini_pagina2 footer{
+    background-color:rebeccapurple (249, 65, 65); 
+    grid-area: pie;
+}
+
+#mini_pagina2 {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    /* grid-template-rows: 200px 100px; */
+    gap: 1em;
+    grid-template-areas: "enc barra"
+                         "cont barra"
+                         "pie pie";
+}
