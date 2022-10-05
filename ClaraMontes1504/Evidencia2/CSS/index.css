@@ -28,3 +28,17 @@ body{
     padding: 10px;
     background-color:#F2F2F2;
 }
+
+
+#Pie{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    margin: 0;
+}
+
+
+#Adress{
+    background-color: #F2F2F2;
+    padding:10px;
+}
