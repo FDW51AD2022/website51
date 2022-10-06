@@ -30,15 +30,6 @@ body{
 }
 
 
-#Pie{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    list-style: none;
-    margin: 0;
-}
-
-
-
 form {
     margin: 0 auto;
     width: 400px;
@@ -46,7 +37,13 @@ form {
     background-color: #FAFDD6;
 }
 
+#Pie{
+    text-align: center;
+    background-color:#F2F2F2;
+    padding: 15px;
+}
+
 #Adress{
-    background-color: #F2F2F2;
+    background-color:#0e9497;
     padding:10px;
 }
