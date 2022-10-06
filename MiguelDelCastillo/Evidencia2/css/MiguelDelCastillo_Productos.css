@@ -106,3 +106,8 @@ body footer{
     justify-content: space-evenly;
     align-content: space-between;
 }
+
+img{
+    width: 200px;
+    height: 300px;
+}
