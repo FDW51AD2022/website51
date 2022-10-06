@@ -1,0 +1,40 @@
+body {background: black;
+      color: white;
+}
+
+#info img{width: 250px;
+          float: left;
+          margin-right: 20px;
+          border-radius: 50px;
+}
+
+#nav-main ul {background-color: lightblue;
+              color: royalblue;
+             
+}
+
+#nav-main ul li {float: left;
+                 width: 20%;
+}
+
+.clearlist::after{clear: both;
+                 content: "";
+                 display: table;
+                }
+
+#nav-main-2 ul{background: cornflowerblue;
+               padding: 0px;
+               list-style: none;
+               display: flex;
+               flex-direction: row-reverse;
+               flex-wrap: nowrap;
+               flex-flow: row wrap;
+               height: 50px;
+               justify-content: space-around;
+               align-content: space-between;
+}
+
+#nav-main-2 ul{margin: 2em 1.5em;
+}
+
+#nav-main-2 ul:hover{background-color: crimson}

@@ -1,0 +1,19 @@
+* {
+        margin: 0px;
+    padding: 0px;
+}
+body {
+    background: url(../space.gif);
+    background-size: 50%;
+}
+
+#tema {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
