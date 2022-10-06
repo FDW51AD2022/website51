@@ -1,0 +1,97 @@
+body{
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+#barra{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/-1;
+    background-color: #066163;
+    color: #066163;
+    margin: 0px;
+}
+
+.menu li:hover{
+    background-color: #A2B38B;
+    color: black;
+    padding: 10px;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background-color:#F2F2F2;
+}
+
+.frase figcaption{
+    background-color: #DFDFDE;
+    text-align: center;   
+}
+
+
+.Img-horizontales{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.ventajas ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background-color:#A2B38B;
+}
+
+.ventajas p{
+    font-size: 15px;
+    text-align: center;
+}
+.ventajas img{
+    width: 60px;
+    padding-left: 60px;
+}
+
+#fondo{
+    background-color: #647E68;
+}
+
+.Listas ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.Ediciòn-lista{
+    width: 200px;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    list-style: none;
+    background-color: #FAFDD6;
+}
+
+#Pie{
+    text-align: center;
+    background-color:#F2F2F2;
+    padding: 15px;
+}
+
+#Adress{
+    background-color:#0e9497;
+    padding:10px;
+}
