@@ -1,0 +1,30 @@
+body{
+    font-family: "Avenir Next";
+    font-size: 20px;
+}
+
+#Iniciodecorador{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/-1;
+    background-color: #023059;
+    color: #023059;
+    margin: 0px;
+}
+
+#Menu-de-Barra ul{
+    list-style:none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-flow: row ;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+#Menu-de-Barra ul li:hover{
+    background-color: rgb(240, 238, 226);
+    border-radius: 3px;
+    
+}
