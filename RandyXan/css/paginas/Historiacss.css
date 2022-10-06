@@ -1,0 +1,54 @@
+
+#mini-page-2 header {
+    background-color: rgba(163, 10, 10, 0.507);
+    font-size: 3rem;
+    grid-area: enc;
+}
+
+#mini-page-2 article {
+    background-color: rgba(255, 251, 0, 0.692);
+    font-size: 2rem;
+    grid-area: cont;
+}
+
+#banda-page-2 article {
+    background-color: rgba(97, 77, 41, 0.692);
+    grid-area: cont;
+}
+
+#banda-page-2 header {
+    background-color: rgba(163, 10, 10, 0.507);
+    font-size: 3rem;
+    grid-area: cont;
+}
+
+#mini-page-2 aside {
+    font-size: 30px;
+    background-color: rgba(163, 10, 10, 0.788);
+    grid-area: barra;
+}
+
+#mini-page-2 footer {
+    background-color: purple;
+    grid-area: pie;
+}
+
+#mini-page-2 {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /* grid-template-rows: 200px 100px; */
+    gap: 1em;
+    grid-template-areas: "enc barra"
+        "cont barra"
+        "pie barra";
+}
+
+body {
+    background-color: #161515
+}
+
+#banda ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
