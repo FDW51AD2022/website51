@@ -34,7 +34,3 @@ console.log(mensaje)
 
 const SEMESTRES = 9;
 SEMESTRES = 3; 
-
-
-
-    
