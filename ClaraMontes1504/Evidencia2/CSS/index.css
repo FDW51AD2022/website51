@@ -29,7 +29,27 @@ body{
     background-color:#F2F2F2;
 }
 
+.frase figcaption{
+    background-color: #A2B38B;
+    text-align: center;   
+}
 
+
+.Img-horizontales{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.ventajas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background-color:#F2F2F2;
+}
 form {
     margin: 0 auto;
     width: 400px;
