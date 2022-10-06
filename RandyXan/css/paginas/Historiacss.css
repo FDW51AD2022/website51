@@ -28,15 +28,9 @@
     grid-area: barra;
 }
 
-#mini-page-2 footer {
-    background-color: purple;
-    grid-area: pie;
-}
-
 #mini-page-2 {
     display: grid;
     grid-template-columns: 4fr 1fr;
-    /* grid-template-rows: 200px 100px; */
     gap: 1em;
     grid-template-areas: "enc barra"
         "cont barra"
@@ -52,3 +46,10 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
+#Pie{
+    text-align: center;
+    background-color:#F2F2F2;
+    padding: 15px;
+}
+
