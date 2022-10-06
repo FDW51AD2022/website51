@@ -30,7 +30,7 @@ body{
 }
 
 .frase figcaption{
-    background-color: #78938A;
+    background-color: #DFDFDE;
     text-align: center;   
 }
 
@@ -60,6 +60,23 @@ body{
     padding-left: 60px;
 }
 
+#Ficcion{
+    background-color: #E9E5D6;
+}
+
+.Listas ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.Ediciòn-lista{
+    width: 200px;
+}
 
 form {
     margin: 0 auto;
