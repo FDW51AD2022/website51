@@ -11,3 +11,20 @@ body{
     color: #023059;
     margin: 0px;
 }
+
+#Menu-de-Barra ul{
+    list-style:none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-flow: row ;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+#Menu-de-Barra ul li:hover{
+    background-color: rgb(240, 238, 226);
+    border-radius: 3px;
+    
+}
