@@ -3,9 +3,13 @@
     padding: 0%;
 }
 
+html{
+    height: 100%;
+}
 body{
     background-color: #E38B29;
     background-size: 100%;
+    min-height: 100%;
 }
 
 .grid div{
@@ -25,7 +29,7 @@ header{
 .grid{
     text-align: center;
     display: grid;
-    grid-template-columns: 50% 45%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 500px 500px;
     column-gap: 1em;
 }
