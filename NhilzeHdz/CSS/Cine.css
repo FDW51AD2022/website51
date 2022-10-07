@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    background-color: red;
+    background-color: #F37878;
     color: black;
     padding: 14px;
     width: 95%;
@@ -65,5 +65,26 @@ h2 {
     vertical-align: top;
 }
 
+nav ul {
+    background-color: #F9F9C5;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    color: black;
+    padding: 10px;
+    width: 200px;
+
+}
+
+nav li:hover {
+    background-color: #FAD9A1;
+}
 
 
