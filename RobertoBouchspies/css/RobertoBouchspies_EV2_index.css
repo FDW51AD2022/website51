@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
 .button {
     background-color: #f4511e;
     border: none;
@@ -17,12 +24,53 @@
     opacity: 1
 }
 
-h1, h2 {
+h1 {
     text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+h3, p {
+    padding: 10px;
 }
 
 blockquote, nav {
     display:flex;
     justify-content: center;
+    padding: 10px;
+}
+
+.razones {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 150px;
+}
+
+.titulo-razones {
+    text-align:left;
+    margin:0 0 10px 0;
+}
+
+img {
+    width: 200px;
+}
+
+li {
+    margin:0 0 10px 0;
+}
+
+.justificar {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 150px;
+}
+
+.citas {
+    box-shadow: 12px 12px 2px 1px rgba(228, 107, 9, 0.2);
+    line-height: 2.1;
 }
 
