@@ -43,7 +43,6 @@ p{
 
 .pie{
     display: flex;
-    text-align: center;
     color: white;
     background-color: #f56a00;
     height: 100px;
