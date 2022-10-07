@@ -30,12 +30,15 @@ body{background:black;
     border: grey 10px;
 }
 
-#Articulo_personajes {width:30%;
+#Articulo_personajes {width:330px;
     background:slategray;
+    color: rgb(52, 53, 104);
     float:left;
     padding:20px;
     box-sizing:border-box;
 }
+
+#Articulo_personajes> img{padding: 5px 10px 15px 80px;}
 
 #articulo_sinopsis{color:blueviolet}
 
