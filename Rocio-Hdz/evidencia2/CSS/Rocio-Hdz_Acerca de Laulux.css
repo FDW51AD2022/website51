@@ -1,0 +1,19 @@
+body{
+    font-family: "Avenir Next";
+    font-size: 20px;
+}
+
+#Iniciodecorador{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/-1;
+    background-color: #a7a7a7;
+    color: #a7a7a7;
+    margin: 0px;
+}
+
+#logo{
+    text-align: center;
+    background-color:#f2f2f200;
+    padding: 15px;
+}
