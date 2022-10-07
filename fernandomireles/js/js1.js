@@ -33,4 +33,4 @@ console.log(mensaje)
 //Declaraciòn de constantes
 
 const SEMESTRES = 9;
-SEMESTRES = 3;
+SEMESTRES = 3; 

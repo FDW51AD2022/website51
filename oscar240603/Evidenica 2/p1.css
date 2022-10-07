@@ -1,0 +1,34 @@
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-image: linear-gradient(90deg,red,orange);
+}
+
+.orden{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+
+
+.od{
+    color: white;
+    margin: 5%;
+    width: 800px;
+    height: 150px;
+    background-color: black;
+}
+
+.od2{
+    color: white;
+    margin: 11%;
+    width: 300px;
+    height: auto;
+    background-color: black;
+}
