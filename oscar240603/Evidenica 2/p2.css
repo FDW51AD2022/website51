@@ -28,21 +28,36 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 100px;
     text-align: center;
+    line-height: 100px;
     grid-area: header;
-    background-color: black;
 }
 
 .article{
     grid-area: article;
-    background-color: antiquewhite;
+    height: 520px;
+    background-color: #FF731D;
+    text-align: center;
 }
 
 .aside{
+    text-align: center;
     grid-area: aside;
-    background-color: #fc0101;
+    background-color: #5F9DF7;
+}
+
+img{
+    justify-content: center;
+    width: 190px;
+    height: auto;
 }
 
 footer{
     grid-area: footer;
     background-color: violet;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 50px;
 }
