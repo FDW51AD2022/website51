@@ -1,9 +1,5 @@
-.div_article {
-    display: flex;
-}
-
 .img_consultor {
-    width: 250px;
+    width: 400px;
     margin-right: 1em;
     border-radius: 10%;
 }
@@ -11,8 +7,22 @@
 header {
     padding: 60px;
     text-align: center;
-    background: #1abc9c;
+    background: #731abc;
     color: white;
     font-size: 30px;
 
+}
+
+blockquote {
+    font-size:medium;
+}
+
+pre {
+    font-size: larger;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
