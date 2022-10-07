@@ -28,11 +28,11 @@ h1{
 
 
 #l1{
-    /* flex-grow: 2; */
+    /* flex-grow: 2;  */
     order: 3;
     flex-basis: 500px;
     flex-shrink: 0;
-    align-self: center;
+    align-self:center;
 }
 
 #l2{
@@ -61,7 +61,7 @@ h1{
 
 #mini-page{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 1fr 1fr;
     /* grid-template-rows: 200px 100px; */
     gap: 1em;
     padding-left: 50px;
