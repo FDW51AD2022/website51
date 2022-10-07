@@ -1,0 +1,35 @@
+#texto {
+    font-family: Calibri;
+
+}
+
+#navegador ul{
+    background-color: rgb(122, 120, 120);
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+#navegador ul li{
+    margin: 1em 1.5em;
+}
+
+.error {
+    color: rgb(0, 0, 0);
+}
+
+.error:link {
+    text-decoration: none;  
+}
+
+.error:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 252, 252);
+    text-decoration: none;  
+}
