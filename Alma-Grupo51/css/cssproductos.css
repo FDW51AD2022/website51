@@ -8,7 +8,7 @@
 }
 
 #nav-main-1 ul{
-    background-color: lightblue;   
+    background-color: navajowhite;   
     list-style: none;
     padding: 15px;
 
@@ -16,7 +16,7 @@
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     flex-flow: row wrap;
-    height: 170px;
+    height: 150px;
 
     justify-content: space-around;
     align-content: space-between;
@@ -25,11 +25,13 @@
     font-size: 3rem;  
 }
 
-#inf img{
-    width: 400px;
+#info img{
+    width: 200px;
     float: left;
     margin-left: 1em;
     border-radius: 500%;
-    height: 400px;
+    height: 200px;
     font-size: 1rem; 
 }
+
+    
