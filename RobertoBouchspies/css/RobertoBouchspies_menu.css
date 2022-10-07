@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+blockquote {
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+table, th, td {
+    border:1px solid black;
+}
+
+.tabla {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
