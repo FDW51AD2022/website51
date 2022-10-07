@@ -7,6 +7,7 @@
 
 h1 {
     color: rgb(172, 0, 0);
+    font-size: 3rem;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
 #Bienvenido header {
     background-color: rgb(255, 230, 0);
     font-size: 3rem;
+    
 }
 
 .bienvenido{
@@ -23,3 +25,21 @@ body {
     font-size: 2rem;
     
 }
+
+#Bienvenido img {
+    width: 200px;
+    float: right;
+}
+
+#Pie{
+    text-align: center;
+    background-color:#F2F2F2;
+    padding: 15px;
+}
+
+.Contenido:hover{
+    background-color: red;
+    color: white;
+} 
+
+
