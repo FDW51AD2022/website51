@@ -1,0 +1,79 @@
+.body-home {
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/fondo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+nav {
+    background-color: #c98c8c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.logo {
+    margin-left: 5rem;
+}
+
+ul {
+    display: flex;
+    margin-right: 3rem;
+}
+
+li {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:aqua (20, 10, 10);
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #E78E1D;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 3px;
+}
+
+.home-title1 {
+    font-family: 'Tangerine', cursive;
+    color: #E78E1D;
+    font-size: 6rem;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.home-title2 {
+    color: #100c0c;
+    text-align: center;
+    margin-top: -4rem;
+    text-transform: uppercase;
+    font-family: 'PT Serif', serif;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.separator1 {
+    margin-top: -2rem;
+    width: 20vw;
+}
+
+.separator2 {
+    width: 17vw;
+}
+
+.home-title3 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: #130d0d;
+}
