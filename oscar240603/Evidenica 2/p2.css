@@ -1,0 +1,15 @@
+* {
+    margin: 0%;
+}
+
+body {
+    background-image: linear-gradient(45deg,#DD5353,#DBC8AC);
+}
+
+header{
+    display: flex;
+    color: white;
+    font-size: 4em;
+    justify-content: center;
+    background-image: linear-gradient(45deg,red,white);
+}
