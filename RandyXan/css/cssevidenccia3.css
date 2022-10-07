@@ -31,5 +31,15 @@ body {
     float: right;
 }
 
+#Pie{
+    text-align: center;
+    background-color:#F2F2F2;
+    padding: 15px;
+}
+
+.Contenido:hover{
+    background-color: red;
+    color: white;
+} 
 
 
