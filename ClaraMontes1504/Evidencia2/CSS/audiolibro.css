@@ -1,0 +1,122 @@
+body{
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+#barra{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/-1;
+    background-color: #066163;
+    color: #066163;
+    margin: 0px;
+}
+
+#contenido{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1em;
+    
+}
+
+#contenido header{
+    grid-column: 1/-1;
+}
+
+#contenido article{
+    background-color: #F2F2F2;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 200px;
+    margin: auto;
+    float: left;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 2px;
+    text-align: center;
+}
+
+#Autoayuda h1{
+    font-family: sans-serif;
+    color: #222;
+    font-size: 30px;
+    padding: 0;
+    margin:0;
+}
+#Autoayuda h2{
+    font-family: tahoma;
+    text-align: center;
+    color: #066163;
+    border: #222;
+}
+
+#Autoayuda p{
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+#contenido aside{
+    background-color: #A2B38B;
+}
+
+#contenido footer{
+    grid-column: 1/-1;
+}
+
+
+.menu li:hover{
+    background-color: #A2B38B;
+    color: black;
+    padding: 10px;
+}
+
+.menu ul{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    padding: 10px;
+    background-color:#F2F2F2;
+}
+
+#nave{
+    display: flex;
+    flex-flow: column;
+    border: solid black;
+    background-color: #A1C298;
+}
+
+#nave li:hover{
+    background-color:#D8D8D8;
+    padding: 5px;
+}
+
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    list-style: none;
+    background-color: #FAFDD6;
+}
+
+#Pie{
+    text-align: center;
+    background-color:#F2F2F2;
+    padding: 15px;
+}
+
+#Adress{
+    background-color:#0e9497;
+    padding:10px;
+}
