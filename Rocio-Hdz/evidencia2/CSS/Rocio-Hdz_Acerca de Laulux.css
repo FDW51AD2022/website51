@@ -33,6 +33,16 @@ body{
     text-align: center;
 }
 
+#Nuestra-Historia article {
+    grid-area: cont;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 1em;
+    grid-template-areas: "enc barra"
+        "cont barra"
+        "pie barra";
+}
+
 #Pie{
     text-align: center;
     background-color:#f2f2f200;
