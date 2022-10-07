@@ -32,3 +32,9 @@ body{
     font-family: sans-serif;
     text-align: center;
 }
+
+#Pie{
+    text-align: center;
+    background-color:#f2f2f200;
+    padding: 15px;
+}
