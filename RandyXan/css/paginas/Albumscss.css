@@ -6,7 +6,7 @@
 
 body{
     background-color: rgba(124, 121, 122, 0.74);
-    background: url(./ImagenesEvidencia3/fondo.jpg);
+    background: url(./recursos/fondo.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
