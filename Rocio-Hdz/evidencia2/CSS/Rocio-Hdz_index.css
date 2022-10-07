@@ -49,6 +49,16 @@ body{
     font-size: 1.3rem;
 }
 
+.Lista ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
 #Pie{
     text-align: center;
     background-color:#f2f2f200;
