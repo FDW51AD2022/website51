@@ -1,0 +1,11 @@
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-image: linear-gradient(90deg,red,orange);
+}
