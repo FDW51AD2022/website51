@@ -8,8 +8,7 @@ h1 {
 
 h2 {
     text-align: center;
-    background-color: red;
-    color: black;
+    color: red;
     width: 98%;
 }
 
@@ -40,6 +39,12 @@ h2 {
 }
 
 #contenido {
+    display: inline;
+    margin: 200px;
+    text-align: center;
+}
+
+#listas {
     display: inline;
     margin: 200px;
 }
