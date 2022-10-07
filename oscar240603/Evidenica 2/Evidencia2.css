@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(../imagenes/Fondopastel.jpg);
+    background-size: 100%;
+}
+
+#tema {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 4em;
+    margin: 0px;
+    background-image: linear-gradient(#F2D388,#FF9494);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}
+
+#p1{
+    display: flex;
+}
+
+.contenedor img {
+    display: flex;
+    width: 100px;
+    margin: 2%;
+}
+
+#p2{
+    display: flex;
+}
+
+
+
+
+
