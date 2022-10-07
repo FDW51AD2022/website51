@@ -57,6 +57,7 @@ body{
     list-style: none;
     margin: 0;
     padding: 10px;
+    text-align: center;
 }
 
 .LoNuevo-lista{
@@ -64,9 +65,24 @@ body{
 }
 
 .Banner{
-    width: 200px;
+    width: 300px;
 }
 
+
+.Lista-2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.NuestrosProductos-lista{
+    width: 200px;
+}
 #Pie{
     text-align: center;
     background-color:#f2f2f200;
