@@ -135,3 +135,57 @@ body{
     border-radius: 32px;
     margin: 5px;
 }
+
+/* Introduccion */
+
+.introduccion{
+    text-align: center;
+    width: 500px;
+    margin: 0%;
+    padding-left: 250px;
+}
+
+.subtitle{
+    color: var(--color-title);
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.introduccion .subtitle{
+    width: 500px;
+}
+
+.introduccion__paragraph{
+    line-height: 1.7;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Aside */
+
+.aside{
+    padding-left: 5%;
+    background-color: #DEC5E3;
+    grid-area: aside;
+    font-size: 2vh;
+    font-style: oblique;
+}
+
+.publicidad{
+    width: 340px;
+    height: 490px;
+    margin-top: 0px;
+    float: right;
+    border: 5px solid #F8EDE3;
+}
+
+.cuadro1{
+    background-color: #EDEDED;
+    width: 100%;
+    height: 8%;
+    align-items: center;
+    margin-top: 0px;
+}
