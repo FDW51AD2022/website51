@@ -45,21 +45,22 @@ figcaption {
     text-align: center;
 }
 
-#Autoayuda h1{
+.articulo h1{
     font-family: sans-serif;
     color: #222;
     font-size: 30px;
     padding: 0;
     margin:0;
 }
-#Autoayuda h2{
+
+.articulo h2{
     font-family: tahoma;
     text-align: center;
     color: #066163;
     border: #222;
 }
 
-#Autoayuda p{
+.articulo p{
     font-family: sans-serif;
     text-align: center;
 
