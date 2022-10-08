@@ -4,6 +4,9 @@ html{
 
 }
 
+body{
+    background-color: black;
+}
 .u-em {
     background-color: greenyellow;
     font-size: 3rem;
