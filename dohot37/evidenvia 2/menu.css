@@ -1,0 +1,16 @@
+nav {
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.logo {
+    margin-left: 5rem;
+}
+
+ul {
+    display: flex;
+    margin-right: 3rem;
+}
