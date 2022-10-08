@@ -42,7 +42,7 @@ body {
 .aside{
     text-align: center;
     grid-area: aside;
-    background-color: #5F9DF7;
+    background-color: #D2001A;
 }
 
 img{
@@ -51,9 +51,17 @@ img{
     height: auto;
 }
 
+img:hover{
+    border: rgb(159, 209, 42);
+}
+
 footer{
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     grid-area: footer;
-    background-color: violet;
+    background-color: #5F9DF7;
+    line-height: 40px;
 }
 
 h1{
@@ -61,3 +69,16 @@ h1{
     color: white;
     font-size: 50px;
 }
+
+important{
+    color: #BDF2D5;
+}
+
+.footer img{
+    justify-items: flex-end;
+    height: 40px;
+    width: 40px;
+}
+
+
+
