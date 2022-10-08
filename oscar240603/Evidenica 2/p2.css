@@ -51,6 +51,10 @@ img{
     height: auto;
 }
 
+img:hover{
+    border: rgb(159, 209, 42);
+}
+
 footer{
     height: 40px;
     font-size: 20px;
@@ -71,11 +75,10 @@ important{
 }
 
 .footer img{
-    justify-content: end;
+    justify-items: flex-end;
     height: 40px;
     width: 40px;
 }
 
-.footer img:hover{
-    border-color: #FF731D;
-}
+
+
