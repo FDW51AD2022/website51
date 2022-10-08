@@ -9,3 +9,19 @@ nav {
 .logo {
     margin-left: 5rem;
 }
+
+ul {
+    display: flex;
+    margin-right: 3rem;
+}
+
+li {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
