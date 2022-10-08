@@ -1,6 +1,11 @@
-#h1{
+html{
     background-color: rgb(252, 214, 240);
 }
+
+h1{
+    background-color: aquamarine;
+}
+
 #nav-main ul li{
     background-color: rgb(172, 236, 173);
     float: left;
