@@ -1,7 +1,7 @@
 #nav-main-1 ul{
-    background-color: burlywood;   
+    background-color: blue;   
     list-style: none;
-    padding: 15px;
+    padding: 20px;
 
     display: flex;
     flex-direction: row-reverse;
@@ -26,15 +26,15 @@
 }
 
 #nav-main-2 ul{
-    background-color: pink;   
+    background-color: aquamarine;   
     list-style: none;
-    padding: 15px;
+    padding: 25px;
 
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     flex-flow: row wrap;
-    height: 350px;
+    height: 450px;
 
     justify-content: space-around;
     align-content: space-between;
@@ -45,13 +45,13 @@
 
 table {
     width: 100%;
-    border: 1px solid darkkhaki;
+    border: 1px solid aqua;
  }
  th, td {
     width: 25%;
     text-align: left;
     vertical-align: top;
-    border: 1px solid crimson;
+    border: 1px solid chocolate;
  }
 Footer
 © 2022 GitHub, Inc.
