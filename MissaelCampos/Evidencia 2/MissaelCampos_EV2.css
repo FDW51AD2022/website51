@@ -1,0 +1,14 @@
+#Sistema-solar header{
+    background-color: purple;
+    grid-column: 1/-1;
+}
+
+.tabla-caracteristicas {
+    border: 1px solid#dddddd;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 10px;
+}

@@ -4,42 +4,79 @@
 }
 
 body {
-    background: url(../imagenes/Fondopastel.jpg);
+    background: url(../imagenes/Fondoaliens.jpg);
     background-size: 100%;
 }
 
 #tema {
     display: flex;
-    justify-content: center;
-    color: white;
-    font-family: sans-serif;
-    font-size: 4em;
-    margin: 0px;
-    background-image: linear-gradient(#F2D388,#FF9494);
+    text-align: center;
+    color: rgb(252, 252, 249);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-250%);
 }
 
-a {
+.nav li a {
+    display: block;
     text-decoration: none;
-    color: black;
+    color: white;
+    background-color: rgb(48, 48, 172);
+    margin: 3px;
+    padding: 10px;
+    background-color: black;
 }
 
-a:hover{
-    color: blue;
+.nav li a:hover{
+    color: red;
+    background-color: white;
 }
 
-#p1{
-    display: flex;
+
+footer{
+    align-self: end;
 }
 
-.contenedor img {
-    display: flex;
-    width: 100px;
-    margin: 2%;
+.contenedor {
+    margin: auto;
+    width: 500px;
 }
 
-#p2{
-    display: flex;
+ul, ol{
+    list-style: none;
 }
+
+.nav > li{
+    text-align: center;
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(10%); 
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+footer{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(300px) translateX(-50%);
+    color: rgb(190, 178, 178);
+}
+
 
 
 
