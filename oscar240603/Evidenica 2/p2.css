@@ -42,7 +42,7 @@ body {
 .aside{
     text-align: center;
     grid-area: aside;
-    background-color: #5F9DF7;
+    background-color: #D2001A;
 }
 
 img{
@@ -52,12 +52,30 @@ img{
 }
 
 footer{
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     grid-area: footer;
-    background-color: violet;
+    background-color: #5F9DF7;
+    line-height: 40px;
 }
 
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     font-size: 50px;
+}
+
+important{
+    color: #BDF2D5;
+}
+
+.footer img{
+    justify-content: end;
+    height: 40px;
+    width: 40px;
+}
+
+.footer img:hover{
+    border-color: #FF731D;
 }
