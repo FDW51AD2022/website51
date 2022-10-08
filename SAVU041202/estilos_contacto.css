@@ -1,7 +1,7 @@
 #nav-main-1 ul{
     background-color: blue;   
     list-style: none;
-    padding: 20px;
+    padding: 15px;
 
     display: flex;
     flex-direction: row-reverse;
@@ -28,7 +28,7 @@
 #nav-main-2 ul{
     background-color: aquamarine;   
     list-style: none;
-    padding: 25px;
+    padding: 15px;
 
     display: flex;
     flex-direction: row-reverse;
