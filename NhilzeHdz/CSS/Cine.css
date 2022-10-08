@@ -1,41 +1,37 @@
 h1 {
     text-align: center;
-    background-color: #F37878;
+    background-color: #FF9494;
     color: black;
     padding: 14px;
     width: 95%;
+    font-size: 30px;
 }
 
 h2 {
     text-align: center;
-    color: red;
+    color: #FF9494;
     width: 98%;
+}
+
+#sobre h2 {
+    text-align: left;
+    color: black;
+    width: 98%;
+    font-size: 30px;
+    display: inline;
+    margin: 100px;
 }
 
 .palomitas {
     width: 50px;
     float: right;
-    margin-right: 1em;
-    
+    margin-right: 1em;   
 }
 
 .palomas {
     width: 50px;
     float:left;
     margin-right: 1em;  
-}
-
-#info {
-    align-items: center;
-    padding: 40px;
-}
-
-#info img{
-    width: 250px;
-    margin-right: 1em;
-    border-radius: 10%;
-    align-items: center;
-    justify-items: center;
 }
 
 #contenido {
@@ -49,12 +45,6 @@ h2 {
     margin: 200px;
 }
 
-#info img {
-    width: 250px;
-    margin-right: 1em;
-    border-radius: 10%;
-}
-
 .contenedor-imagen{
     width: 100%;
     text-align: center;
@@ -66,8 +56,8 @@ h2 {
 }
 
 nav ul {
-    background-color: #F9F9C5;
-    width: 100%;
+    background-color: #FFE3E1;
+    width: 97%;
     list-style-type: none;
     text-align: center;
 }
@@ -84,7 +74,18 @@ nav a {
 }
 
 nav li:hover {
-    background-color: #FAD9A1;
+    background-color: #FFD1D1;
 }
 
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #FFF5E4;
+    color: black;
+    margin-top: 40px;
+}
+footer p {
+    text-align: center;
+    padding: 10px;
+}
 
