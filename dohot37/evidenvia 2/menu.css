@@ -14,3 +14,21 @@ ul {
     display: flex;
     margin-right: 3rem;
 }
+
+li {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #E78E1D;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 3px;
+}
