@@ -18,6 +18,10 @@ body{
     padding: 15px;
 }
 
+.Banner{
+    width: 300px;
+}
+
 #Menu-de-Barra ul{
     font-family: 'Montserrat';
     font-style: normal;
