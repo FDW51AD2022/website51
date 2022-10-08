@@ -41,7 +41,15 @@ body{
     grid-template-areas: "head head"
     "arti aside"
     "pie pie";
+    gap: .5em;
 
+}
+
+#img-header{
+    width: 200vh;
+    height: 30vh;
+    padding: 1vh;
+    border-radius: 20px;
 }
 
 body header{
@@ -94,4 +102,27 @@ body footer{
     list-style: none;
     display: flex;
     justify-content: space-around;
+}
+
+.piepagina {
+    font-size: 1.5vh;
+}
+
+#redes-sociales{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "face twit";
+    justify-content: center;
+}
+
+#face{
+    grid-area: face;
+}
+
+#inst{
+    grid-area: inst;
+}
+
+#twit{
+    grid-area: twit;
 }
