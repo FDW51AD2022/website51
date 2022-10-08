@@ -25,3 +25,50 @@ table, th, td {
     display: flex;
     justify-content: center;
 }
+
+#secciones-grid {
+    display:grid;
+    /* grid-template-rows: 200px 100px; */
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contenedor-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    width: 100%;
+    text-align: center;
+}
+
+.enlace-menu{
+    padding: 0px 20px;
+    text-decoration:none;
+    color: black;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
+}
+
+.enlace-menu:hover{
+    background-color: #E1FFEE;
+    color: black;
+    font-weight: bolder;
+}
+
+header {
+    background-color: #fde6ba;
+}
+
+footer {
+    background-color: #FFF9B0;
+}
+main {
+    background-color: #f0dbb0;
+}

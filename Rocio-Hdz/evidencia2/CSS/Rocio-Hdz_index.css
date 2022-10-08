@@ -17,6 +17,7 @@ body{
     background-color:#f2f2f200;
     padding: 15px;
 }
+
 #Menu-de-Barra ul{
     font-family: 'Montserrat';
     font-style: normal;
@@ -57,6 +58,7 @@ body{
     list-style: none;
     margin: 0;
     padding: 10px;
+    text-align: center;
 }
 
 .LoNuevo-lista{
@@ -64,6 +66,22 @@ body{
 }
 
 .Banner{
+    width: 300px;
+}
+
+
+.Lista-2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.NuestrosProductos-lista{
     width: 200px;
 }
 
