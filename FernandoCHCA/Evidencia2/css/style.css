@@ -39,7 +39,7 @@ body{
     left: 0;
     width: 100%;
     height: 95%;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('..//images/pc3.jpg');
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('..//Recursos/Criptos.jpg');
     background-size: cover;
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
     z-index: -1;
@@ -50,8 +50,14 @@ body{
 .nav{
     --padding-container:0;
     height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
 }
 
 .nav__title{
@@ -65,6 +71,26 @@ body{
     grid-auto-flow: column;
     grid-template-columns: max-content;
     gap: 2em;
+}
+
+.nav__link li a{
+    text-decoration: none;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.nav__link li a:hover{
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 .nav__items{
@@ -152,13 +178,13 @@ body{
 }
 
 .introduccion .subtitle{
-    width: 500px;
+    width: 760px;
 }
 
 .introduccion__paragraph{
     line-height: 1.7;
     font-size: 18px;
-    width: 100%;
+    width: 150%;
     text-align: center;
     margin: 0%;
     padding: 0%;
@@ -188,4 +214,30 @@ body{
     height: 8%;
     align-items: center;
     margin-top: 0px;
+}
+
+/* .subcuadro1, .subcuadro2, .subcuadro3{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    overflow: hidden;
+    background-image: url('');
+    background-position: center;
+    background-size: cover;
+} */
+
+/* .subcuadro1 marquee, .subcuadro2 marquee, .subcuadro3 marquee{
+    color: white;
+    margin-top: 50%;
+    background: 0%;
+} */
+
+/* Menu fijo */
+
+.scroll{
+    height: 100px
+}
+
+.nav.active{
+    background-color: #fff;
 }
