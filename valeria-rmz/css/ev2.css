@@ -1,6 +1,8 @@
-
+#h1{
+    background-color: rgb(252, 214, 240);
+}
 #nav-main ul li{
-    background-color: rgb(75, 153, 255);
+    background-color: rgb(172, 236, 173);
     float: left;
     width: 20%;
 }
