@@ -61,3 +61,23 @@ li {
     letter-spacing: 5px;
 }
 
+.columns-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.column-left, .column-right {
+    background-color: #FFFFFF;
+    width: 46%;
+    margin-top: 3%;
+    padding-bottom: 1%;
+}
+
+.column-left {
+    margin-left: 2%;
+}
+
+.column-right {
+    margin-right: 2%;
+}
