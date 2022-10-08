@@ -29,7 +29,6 @@
 
 a{
     text-decoration: none;
-    /* color:#F0FFCE; */
     align-self: center;
     font-size: 5vh;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -60,7 +59,6 @@ body{
     height: 30vh;
     padding: 1vh;
     border-radius: 20px;
-
 }
 
 body header{
@@ -133,10 +131,6 @@ center img{
 
 #face{
     grid-area: face;
-}
-
-#inst{
-    grid-area: inst;
 }
 
 #twit{
