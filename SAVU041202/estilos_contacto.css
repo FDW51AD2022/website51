@@ -34,7 +34,7 @@
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     flex-flow: row wrap;
-    height: 600px;
+    height: 550px;
 
     justify-content: space-around;
     align-content: space-between;
