@@ -81,3 +81,25 @@ li {
 .column-right {
     margin-right: 2%;
 }
+
+
+.section {
+    margin-bottom: 0;
+    margin-left: 4%;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+.dishes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.dish {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: -3%;
+}
