@@ -33,7 +33,7 @@ p[lang$="mx"] {
 /* Selector por atributos, buscando un valor sin importar la posicion donde se encuentre */
 a[href^="https"] {
     background-color: greenyellow
-
+}
 
 
 /* Selector por descendientes */

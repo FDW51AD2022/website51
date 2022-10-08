@@ -1,0 +1,20 @@
+.wrapper{
+    background-color: aqua;
+    margin: 400px;
+    align-content: center;
+    border: 30px solid green;
+    padding: 30px;
+}
+
+.question{
+    align-content: center;
+    justify-content: center;
+}
+
+p{
+    align-content: space-around;
+}
+
+div{
+    align-items: center;
+}
