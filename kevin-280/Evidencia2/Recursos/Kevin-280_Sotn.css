@@ -1,1 +1,64 @@
-body {background: darkblue;}
+body{background:black;
+    color: #fff;
+
+}
+
+#Menu {overflow:hidden;
+}
+
+#Menu  #Links{list-style:none;
+}
+
+#Menu  #Links li{float:left;
+                 font-family: 'Courier New', Courier, monospace;
+}
+
+#Menu  #Links li a{padding:10px 20px;
+                   display:block;
+                   color:#fff;
+                   text-decoration:none;
+}
+
+#Menu #Links li a:hover {background: slategray
+}
+
+#Seccion1 {width:68.9%;
+    margin-right:1.5%;
+    float:left;
+    color: white;
+    background: rgb(6, 7, 4);
+    border: grey 10px;
+}
+
+#Articulo_personajes {width:330px;
+    background:slategray;
+    color: rgb(52, 53, 104);
+    float:left;
+    padding:20px;
+    box-sizing:border-box;
+}
+
+#Articulo_personajes> img{padding: 5px 10px 15px 80px;}
+
+#articulo_sinopsis{color:blueviolet}
+
+#Articulo2{color: blue;}
+
+#Articulo3{color: darkred;}
+
+#Articulo4{color: cadetblue;}
+
+    h1{text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Za, #Zs, #Zx {display: flex;
+                      color: rgb(20, 58, 161);
+}
+
+#sotn_gameplay, #sotn_gameplay_1, #sotn_gameplay_2, #sotn_gameplay_3, #sotn_gameplay_4 {padding: 5px 10px 15px 200px;}
+
+
+
+
+
