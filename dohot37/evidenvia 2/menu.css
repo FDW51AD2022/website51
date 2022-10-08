@@ -103,3 +103,22 @@ li {
     justify-content: space-between;
     margin-bottom: -3%;
 }
+
+.name-dish {
+    margin-left: 4%;
+    text-transform: uppercase;
+}
+
+.price-dish {
+    margin-right: 4%;
+}
+
+.div-button {
+    height: 70px;
+    width: 94%;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    text-align: center;
+    background-color: #FFFFFF;
+}
