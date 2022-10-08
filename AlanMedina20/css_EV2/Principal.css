@@ -1,10 +1,14 @@
-#texto {
+.texto {
     font-family: Calibri;
+}
 
+.texto2 {
+    font-family: cursive;
+    font-size: 40px;
 }
 
 #navegador ul{
-    background-color: rgb(122, 120, 120);
+    background-color: rgb(161, 150, 150);
     list-style: none;
     display: flex;
     flex-direction: row-reverse;
@@ -20,15 +24,15 @@
     margin: 1em 1.5em;
 }
 
-.error {
+.uno {
     color: rgb(0, 0, 0);
 }
 
-.error:link {
+.uno:link {
     text-decoration: none;  
 }
 
-.error:hover {
+.uno:hover {
     color: rgb(0, 0, 0);
     background-color: rgb(252, 252, 252);
     text-decoration: none;  
