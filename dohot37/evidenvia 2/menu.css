@@ -61,3 +61,45 @@ li {
     letter-spacing: 5px;
 }
 
+.columns-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.column-left, .column-right {
+    background-color: #FFFFFF;
+    width: 46%;
+    margin-top: 3%;
+    padding-bottom: 1%;
+}
+
+.column-left {
+    margin-left: 2%;
+}
+
+.column-right {
+    margin-right: 2%;
+}
+
+
+.section {
+    margin-bottom: 0;
+    margin-left: 4%;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+.dishes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.dish {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: -3%;
+}
