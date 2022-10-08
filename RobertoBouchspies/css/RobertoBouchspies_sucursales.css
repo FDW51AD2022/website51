@@ -22,3 +22,15 @@ h2 {
 .espaciado-mapas {
     padding: 30px;
 }
+
+header {
+    background-color: #f6cf87af;
+}
+
+footer {
+    background-color: #FFF9B0;
+}
+main {
+    background-color: #f8e8c9cc;
+}
+
