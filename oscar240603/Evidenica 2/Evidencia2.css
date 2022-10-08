@@ -70,7 +70,11 @@ ul, ol{
 }
 
 footer{
-    color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(300px) translateX(-50%);
+    color: rgb(190, 178, 178);
 }
 
 
