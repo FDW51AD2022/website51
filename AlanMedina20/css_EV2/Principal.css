@@ -2,9 +2,11 @@
     font-family: Calibri;
 }
 
+
 .texto2 {
     font-family: cursive;
     font-size: 40px;
+    background-color: rgb(148, 148, 151);
 }
 
 #navegador ul{
@@ -37,3 +39,36 @@
     background-color: rgb(252, 252, 252);
     text-decoration: none;  
 }
+
+#centro header {
+    
+    grid-area: enc; 
+}
+
+#centro article {
+    
+    grid-area: cont;
+}
+
+#centro aside {
+    background-color: rgb(139, 151, 255);
+    grid-area: barra;
+}
+#centro aside ul{
+    list-style: decimal;
+}
+#centro footer {
+    
+    grid-area: pie;
+}
+
+#centro {
+    display: grid;
+    
+    grid-template-rows: 70px 400px 70px;
+    grid-template-columns: 4fr 2fr;
+    grid-template-areas:    "enc barra"
+                            "cont barra"
+                            "pie barra";
+}
+
