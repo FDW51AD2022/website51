@@ -7,9 +7,9 @@ console.log("Hola Javascript");
 console.warn("mensaje");
 
 // Imprimir mensaje de error
-console.error("mensaje de error"); 
+console.error("mensaje de error");
 
-// Saber tipo de dato typeof 
+// Saber tipo de dato typeof
 console.log("El tipo de dato del numero 30 es: " + typeof 30 + ".");
 console.log(`Tipo de 34: ${typeof 34}.`);
 
@@ -24,7 +24,7 @@ console.log(`Ejemplo con operador logico: ${5 > 2 || 3 < 1}`);
 console.log(10 < 2 ? "parte verdadera" : "parte falsa");
 
 // if (10 < 2) {
-    
+
 // } else {
 
 // }
