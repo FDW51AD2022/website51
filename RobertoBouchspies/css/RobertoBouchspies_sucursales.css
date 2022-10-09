@@ -6,9 +6,15 @@
 }
 
 h1 {
-    text-align: center;
-    padding: 15px;
+    font-family: "Arial Black", sans-serif;
+    font-size: 25px;
+    letter-spacing: -1px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
+
 
 .ubicaciones {
     display: flex;
@@ -22,3 +28,15 @@ h2 {
 .espaciado-mapas {
     padding: 30px;
 }
+
+header {
+    background-color: #f6cf87af;
+}
+
+footer {
+    background-color: #FFF9B0;
+}
+main {
+    background-color: #f8e8c9cc;
+}
+
