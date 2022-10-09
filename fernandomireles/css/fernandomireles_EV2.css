@@ -346,3 +346,7 @@ table tr td
 { background: #E5E5DB;
     color: #47433F;
     border-top: 1px solid #FFF;}
+
+.texto-centrado{
+    text-align: center;
+}
