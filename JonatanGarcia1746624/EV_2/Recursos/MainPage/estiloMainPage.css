@@ -1,0 +1,31 @@
+#cuerpo {
+    background-color: slategray}
+
+#logo {
+    height: 200px; 
+    width: 500px; 
+    float: left;
+    margin-top: 20px; 
+    margin-right: 3em; 
+    border-radius: 50px;
+    border: 5px solid seashell;}
+
+#parte_Superior address {
+    background-color: antiquewhite;
+    margin-top: 10px; 
+    float: left; 
+    margin-left: 5px; 
+    font-size: 30px;}
+
+#gm {
+    margin-top: 20px;
+    border: 5px solid black;
+    height: 150px; 
+    width: 400px; margin-left: 350px;}
+
+#encabezado {
+    font-size: 50px; 
+    padding: 50px 0px 0px 0px; 
+    text-align: center; text-decoration: underline;}
+
+#desc {font-size: 30px;}

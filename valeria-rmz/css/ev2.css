@@ -1,6 +1,37 @@
+html{
+    background-color: rgb(249, 254, 137);
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(82, 96, 243);
+    background-color: aquamarine;
+}
+
+#nav-main ul li:hover {
+    background-color: rgb(241, 241, 103);
+}
 
 #nav-main ul li{
-    background-color: rgb(75, 153, 255);
+    text-align: center;
+    background-color: rgb(236, 172, 216);
     float: left;
     width: 20%;
+    font-size: 25px;
+}
+
+img{
+    width: 100%;
+    vertical-align: top;
+}
+
+footer{
+    background-color: black;
+    color: gray;
+    position: absolute;
+    text-align: center; 
+    width: 100%; 
+    bottom: 0px; 
+    width: 100%;
 }
