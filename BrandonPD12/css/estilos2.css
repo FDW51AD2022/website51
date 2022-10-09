@@ -1,0 +1,70 @@
+body bgcolor="#95A5A6"
+
+  
+body{
+    background-image: url(BrandonPD12/Nube.jpg);
+    background-repeat:no-repeat;
+    background-size: cover; 
+    font-family: arial, helvetica;
+    background: #e8e8e8;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+
+}
+.menu li a:hover{
+    background: #ef8354;
+}
+.contenedor p {
+    text-align: justify-all;
+    margin-top:10px ;
+    font-size: 22px;
+
+}
+.Intro{
+text-align: justify-all ;
+
+    font-size: 20px;
+   
+ }    
+    
+
+ .contenedor {
+    text-align: justify-all ;
+    margin-top: 10px;
+    font-size: 16px;
+    margin: 20px;
+ }
+#img1{
+    float: right;
+    
+    width: 20;
+    height: 20;
+}
+    
+#img2{
+    float: right;
+    
+    width: 20;
+    height: 20;
+
+}
+
+
+    

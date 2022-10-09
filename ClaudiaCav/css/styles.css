@@ -1,0 +1,137 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+h1 {
+    margin: 0.25rem 0;
+}
+
+input,
+textarea {
+    font-family: inherit;
+    background-color: white;
+    border: none;
+    border: thin solid #333;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+.main-header {
+    background-color: purple;
+    color: white;
+    display: flex;
+    padding: 0 1rem;
+}
+
+.btn-submit {
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: 500;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: .4s ease;
+}
+
+.hero {
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    color: white;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    padding: 1rem;
+    flex-flow: row wrap;
+    text-align: justify;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.grid-container {
+    background-color: blueviolet;
+    background-image: url('https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80');
+    padding: 1rem;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 1rem;
+    color: #000;
+    padding: 1rem;
+    backdrop-filter: blur(16px);
+}
+
+.form-container {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.form-container legend {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.main-footer {
+    background-color: purple;
+    color: #fff;
+    padding: 1rem;
+}
+
+.photo {
+    height: 250px;
+    object-fit: contain;
+    /* object-position: center; */
+    pointer-events: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        flex-flow: row nowrap;
+    }
+}
