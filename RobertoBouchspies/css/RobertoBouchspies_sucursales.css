@@ -6,9 +6,15 @@
 }
 
 h1 {
-    text-align: center;
-    padding: 15px;
+    font-family: "Arial Black", sans-serif;
+    font-size: 25px;
+    letter-spacing: -1px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
+
 
 .ubicaciones {
     display: flex;
