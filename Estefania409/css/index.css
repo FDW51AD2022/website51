@@ -1,0 +1,35 @@
+
+* {
+	padding:0px;
+	margin:0px;
+}
+#header {
+	margin: auto;
+	width:700px;
+	font-family:Franklin Gothic Book;
+}
+	ul, ol{
+	list-style:none;
+}
+.nav li a { 
+		background-color:#f172b2;
+		color:#ffffff;
+		text-decoration:none;
+		padding:25px 15px;
+		display:block;
+}
+.nav li a:hover {
+	background-color:#ff99cc;
+}
+.nav > li { 
+	float:left;
+}
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+.nav li:hover > ul {
+display:block;
+}
+
