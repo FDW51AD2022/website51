@@ -1,0 +1,92 @@
+nav {
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.logo {
+    margin-left: 5rem;
+}
+
+ul {
+    display: flex;
+    margin-right: 3rem;
+}
+
+li {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #E78E1D;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 3px;
+}
+
+.body-concept {
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/fondo-concepto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.div-concept {
+    background-color: #000000;
+    opacity: 0.9;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E78E1D;
+    position: absolute;
+    width: 30%;
+    height: 75%;
+    top: 22%;
+    left: 35%;
+    margin: -25px 0 0 -25px;
+}
+
+.title-concept {
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 7px;
+}
+
+.title-concept::after, .title-concept::before {
+    content: '';
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 70px;
+    height: 1px;
+    top: 1.5em;
+}
+
+.title-concept::before  {
+    right: 17rem;
+}
+
+.title-concept::after  {
+    left: 16.5rem;
+}
+
+.p-concept {
+    color: #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+    height: 70%;
+    margin-top: 5%;
+}

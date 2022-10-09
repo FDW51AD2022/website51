@@ -125,6 +125,16 @@ body{
     margin: 5px;
 }
 
+.cta_Ev2{
+    display: inline-block;
+    background-color: #e06b51;
+    justify-self: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 32px;
+    margin: 5px;
+}
 
 /* Pregunta */
 
