@@ -4,9 +4,9 @@
 
 
 .texto2 {
-    font-family: cursive;
-    font-size: 40px;
-    background-color: rgb(148, 148, 151);
+    font-family: Times New Roman;
+    font-size: 50px;
+    
 }
 
 #navegador ul{
@@ -51,14 +51,14 @@
 }
 
 #centro aside {
-    background-color: rgb(139, 151, 255);
+    background-color: rgb(77, 88, 185);
     grid-area: barra;
 }
 #centro aside ul{
     list-style: decimal;
 }
 #centro footer {
-    
+    background-color: rgb(152, 160, 160);
     grid-area: pie;
 }
 
@@ -72,3 +72,42 @@
                             "pie barra";
 }
 
+#consolas header {
+    background-color: rgb(167, 161, 161);
+    grid-area: enc; 
+}
+#consolas article {
+    background-color: rgb(142, 142, 212);
+    grid-area: cont;
+}
+#consolas aside {
+    background-color: rgb(167, 161, 161);
+    grid-area: barra;
+}
+#consolas {
+    display: grid;
+    
+    grid-template-rows: 400px 400px 400px ;
+    grid-template-columns: 3fr 3fr 3fr ;
+    grid-template-areas:    "enc cont barra ";
+}
+
+#consolas2 header {
+    background-color: rgb(142, 142, 212);
+    grid-area: enc; 
+}
+#consolas2 article {
+    background-color: rgb(167, 161, 161);
+    grid-area: cont;
+}
+#consolas2 aside {
+    background-color: rgb(142, 142, 212);
+    grid-area: barra;
+}
+#consolas2 {
+    display: grid;
+    
+    grid-template-rows: 400px 400px 400px ;
+    grid-template-columns: 3fr 3fr 3fr ;
+    grid-template-areas:    "enc cont barra ";
+}
