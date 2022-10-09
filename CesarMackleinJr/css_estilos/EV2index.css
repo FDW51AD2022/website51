@@ -96,11 +96,6 @@ pre {
     text-decoration: none;
 }
 
-.nav__img{
-    display: grid;
-    width: 30px;
-}
-
 .nav__close{
     display: var(--show, none);
 }
