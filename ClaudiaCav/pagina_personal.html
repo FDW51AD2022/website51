@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Claudia</title>
+</head>
+<body>
+    <header class="main-header">
+        <h1>Claudia</h1>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Hola esta es mi pagina web</h2>
+        </section>
+
+        <section class="container">
+            <article class="information">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At iste aspernatur quod deleniti temporibus dolor fugit iure aut maxime eum minima veritatis quisquam, tempora earum? Id, saepe tempora. Libero voluptatem obcaecati excepturi, aliquid tempore sint hic. Soluta temporibus consequuntur, cumque distinctio doloremque necessitatibus, deleniti, nemo fuga cum impedit eos delectus totam rerum recusandae incidunt voluptates. Praesentium optio minus quidem ipsa quis aliquid ea quod error magnam delectus, beatae sequi architecto nulla, veniam fugiat voluptatibus deleniti asperiores. Nulla, suscipit magnam. Beatae commodi, voluptas asperiores suscipit sed soluta dolorum. Doloremque ratione, molestiae culpa quod aperiam excepturi corporis magnam itaque suscipit porro earum.
+            </article>
+            <article class="img-wrapper">
+                <img src="https://images.unsplash.com/photo-1546900703-cf06143d1239?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1150&q=80" alt="image">
+            </article>
+        </section>
+
+        <section class="grid-container">
+            <article class="grid-wrapper">
+                <div class="card">
+                    <h3>HTML</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla ab, id libero maxime optio unde veniam exercitationem officia! Dolore cumque dignissimos a animi eaque illum excepturi doloribus voluptatibus deleniti doloremque!
+                    </p>
+                </div>
+    
+                <div class="card">
+                    <h3>CSS</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla ab, id libero maxime optio unde veniam exercitationem officia! Dolore cumque dignissimos a animi eaque illum excepturi doloribus voluptatibus deleniti doloremque!
+                    </p>
+                </div>
+    
+                <div class="card">
+                    <h3>Javascript</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla ab, id libero maxime optio unde veniam exercitationem officia! Dolore cumque dignissimos a animi eaque illum excepturi doloribus voluptatibus deleniti doloremque!
+                    </p>
+                </div>
+            </article>
+        </section>
+
+        <section class="container">
+            <form class="form-container">
+                <legend>Contacta conmigo</legend>
+                <input type="text" placeholder="Nombre...">
+                <input type="email" placeholder="ejemplo@correo.com">
+                <textarea placeholder="Escribe tu mensaje aquí..." rows="10"></textarea>
+                <button type="submit" class="btn-submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+
+        <figure>
+            <img src="me.jpg" alt="Claudia" class="photo">
+            <figcaption>
+                <p>Claudia...</p>
+            </figcaption>
+        </figure>
+
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde laborum similique corrupti praesentium a fugit commodi incidunt, voluptates provident laboriosam ducimus nostrum ex quidem quis qui quod assumenda! Sequi, eius.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Formularios 
+
+        const form = document.querySelector('form');
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Mensaje enviado...')
+        })
+    </script>
+</body>
+</html>

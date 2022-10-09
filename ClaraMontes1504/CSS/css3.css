@@ -1,3 +1,7 @@
+body{
+    margin:50px;
+}
+
 html{
     font-size: 15px;
     /* Todo cambia de manera proporcional */

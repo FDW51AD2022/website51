@@ -1,0 +1,19 @@
+#Midnight-Club header{
+    background-color: purple;
+    grid-column: 1/-1;
+    color: white;
+}
+
+#Midnight-Club{
+    color: white;
+}
+
+body{
+    background-image: url(Imagenes.css/Portada.jpg);
+}
+
+h1{
+    color: white;
+}
+Footer
+© 2022 GitHub, Inc.
