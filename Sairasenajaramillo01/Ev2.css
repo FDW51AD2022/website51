@@ -1,0 +1,38 @@
+
+body{
+    background: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-height: 100vh;
+}
+h1{
+    font-size:30px;
+    text-align: center;
+    border: 2px solid #B1B2FF;
+}
+ h4 {
+    background-color: #AAC4FF;
+ }
+ .contenedor-botones {
+    width: 80%;
+    display: grid;
+    gap: 20px;
+    align-items: center;
+
+ }
+ 
+ a {
+    display: block;
+    width: 135px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    border-radius: 10px;
+    margin: 30px 30px;
+    padding: 15px 20px;
+    background: #FFCACA;
+    text-decoration: none;
+    
+ }
+  img {
+   margin: 40px 230px;
+   
+  }
