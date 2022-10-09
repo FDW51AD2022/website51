@@ -42,14 +42,3 @@
     
     font-size: 3rem;  
 }
-
-table {
-    width: 100%;
-    border: 1px solid aqua;
- }
- th, td {
-    width: 25%;
-    text-align: left;
-    vertical-align: top;
-    border: 1px solid brown;
- }
