@@ -1,7 +1,26 @@
 * {
+	
 	padding:0px;
 	margin:0px;
+
 }
+
+#info img {
+    width: 150px;
+    float: left;
+    margin-right: 2em;
+    border-radius: 50px;
+}
+
+.u-em{
+    background-color: #000000;
+    font-size: 2rem;
+    width: 100%;
+
+    /* 5em es igual a 5 veces el tamañp de fuente del elemento 3rem(15*3)=45*/
+    padding: 2em 3em;
+}
+
 #header {
 	margin:auto;
 	width:500px;
