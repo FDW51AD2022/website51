@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-around;
     align-content: space-between;
-    flex-flow: row ;
+    flex-flow: row wrap;
     overflow: hidden;
     
 }
@@ -40,6 +40,7 @@ body {
     grid-template-rows:max-content;
     grid-template-areas: "head head"
     "arti arti"
+    "artidescripcion artidescripcion"
     "pie pie";
     gap: .5em;
     background-color: #DE3C4B;
@@ -68,14 +69,19 @@ body article{
     font-size: 3vh;
 }
 
+#newarti{
+    grid-area: artidescripcion;
+}
+
 body footer{
     background-color: #0F0A0A;
     grid-area: pie;
     color: #F0FFCE;
     border-end-end-radius: 10px;
     border-end-start-radius: 10px ;
-    padding-left:10px ;
+    padding-left:2vh ;
     font-size: 3vh;
+    padding-right: 2vh;
 }
 
 h1{
@@ -128,4 +134,57 @@ img{
 #poster5{
     grid-area: poster5;    
     text-align:center;
+}
+
+ol{
+    list-style: none;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.posters{
+    float: right;
+    border: #156064 2vh double;
+}
+
+div{
+    border: 10px solid #DEC5E3;
+    border-radius: 5px;
+    padding: 10px;
+    color: #F0FFCE;
+    background-color: #420039;
+    text-align:justify;
+    
+}
+
+#newarti ol li h2{
+    background-color: antiquewhite;
+    padding: 10px;
+    border: 10px;
+    border-color: #156064;
+    border-left-color: #0F0A0A;
+    border-right-color: #0F0A0A;
+    border-bottom-color: #0F0A0A;
+    border-style:solid;
+}
+
+#nav-footer{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+button{
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4vh;
+    background-color: #DEC5E3;
+    height: max-content;
+    border-radius: 5vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
 }

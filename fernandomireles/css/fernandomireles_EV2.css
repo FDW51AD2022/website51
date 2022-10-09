@@ -354,3 +354,7 @@ table tr td
 address{
     text-align: center;
 }
+
+strong{
+    text-decoration: underline;
+}
