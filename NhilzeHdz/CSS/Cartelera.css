@@ -2,15 +2,15 @@
 	padding: 0;
 	margin: 0;
 	border: 0;
+    box-sizing: border-box;
 	font-size: 100%;
 }
 
 body {
-	background: white;
+	background: #EDEDED;
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
     min-height: 100vh;
-	display: grid;
 	text-align: center;
 }
 
@@ -51,6 +51,9 @@ body {
 	max-width: 1200px;
 	margin: auto;
 	padding: 40px 0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
 }
 
 .titulo {
@@ -58,16 +61,21 @@ body {
 	padding: 20px 0;
 }
 
+.contenedor-peliculas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
 
 .caja {
 	border-radius: 10px;
-	height: 200px;
+	min-height: 200px;
 	font-weight: bold;
 	padding: 20px;
 	position: relative;
 	overflow: hidden;
 	background-size: cover;
-	background-position: center center;
+	background-position: center center;	
 }
 
 .caja .texto {
@@ -75,4 +83,39 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;	
+}
+
+.banner {
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.banner ul {
+	list-style: none;
+}
+
+.banner ul li {
+	margin: 15px;
+	font-weight: bold;
+}
+
+.banner .boton {
+	background: #FFD600;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
 }
