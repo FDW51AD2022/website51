@@ -1,4 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    background: url(/andrea836/Recursos/fondo1.jpg);
+    background: url(../Recursos/estrellas.jpg);
     background-size: 100%;
+}
+#tema {
+    
 }
