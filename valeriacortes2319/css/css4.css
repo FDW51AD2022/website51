@@ -1,0 +1,61 @@
+/*para poner una imagen en derecho o izquierdo y que la imagen se ponga obalada es del apartado id info*/
+#info img {
+    width: 250px;
+    float: left;
+    margin-right: 1em;
+    border-radius: 50%;
+}
+
+#nav-main ul {
+    background-color: pink;
+}
+
+/*para darle espacio y no este todo junto*/
+#nav-main ul li {
+    float: left;
+    width: 20%;
+}
+
+/*Para limpiar y acomodarlo en horizontal*/
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+/*FLEX. ul=lista. podemos poner o wrap o nowrap. row-revese:los pone al reves*/
+#nav-main-2 ul{
+    background-color: gray;
+    /*list-style none para quitar los puntitos*/
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    flex-flow: row wrap;
+    height: 400px;
+    /*para mandarlos al final: flex-end, center: centrar. space-between: hace el espacio. space around: hace espacio tambien
+    space-evenly: hace mas espacio pero entre centrados.flex-end: los mueve hacia el final o abajo.flex-strat: los poner al principio o arriba.*/
+    justify-content: space-around;
+    /*flex-star:los sube va para arriba y no quedan tan juntos. flex-end: lo pone abajo y se ven juntitos.center: los centra
+    space-between: deja arriba un parrafo y otro parrafo abajo.*/
+    align-content: space-between;
+}
+
+/*para ponerlo mas centrado y le da espacio.*/
+#nav-main-2 ul li {
+    margin: 1em 1.5em;
+}
+
+/*abbr: abreviatura.
++esten juntitos
+:: seudoelento
+. es una clase
+: seudoclases
+#id */
+
+/*seudoclases*/
+#nav-main-2 ul:hover{
+    background-color: pink;
+}

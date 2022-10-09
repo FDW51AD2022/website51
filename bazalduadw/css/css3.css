@@ -1,0 +1,54 @@
+html {
+    scroll-behavior: smooth; 
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* width: 50%; */
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.25;
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+.campo1{
+    padding-top: 2em;
+}
+
+.campo2{
+    padding-top: 26rem;
+}
+
+.u-em{
+    background-color: #d39393;
+    font-size: 3rem;
+    width: 50%;
+
+    /* 5em es igual a veces el tamaño de fuente del elemento, 3rem (15*3)=45 */
+    padding: 5em 3em;
+}
+
+.u-porc{
+    background-color: #b69b86;
+    width: 50%;
+    height: 200px;
+}
+
+.productos{
+    background-color: #46516b;
+    height: 100vh;
+    width: 70vw;
+}
+
+.overflow{
+    width: 200px;
+    height: 3em;
+    background-color: #ac8ea9;
+    overflow: auto;
+}

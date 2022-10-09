@@ -23,3 +23,43 @@ body{
     height: 100vh;
     width: 70vw;
 }
+
+html {
+    font-size: 15px;
+}
+
+
+.u-em{
+    background-color: rgb(228, 170, 94);
+    font-size: 3rem;
+    width: 15rem;
+    padding: 5em 3em;
+
+/*5em es igual a 5 veces el tamaño de fuente
+del elemento 3rem (1*3)=45 */
+padding: 5em 3rem;
+}
+
+body{
+    width: 50%;
+}
+
+.u-porc{
+    background-color: aquamarine;
+    width: 50%;
+    height: 200px;
+}
+
+.Productos {
+    background-color: brown;
+    height: 100vh;
+    width: 70vw;
+
+}
+
+.overflow {
+    width: 150px;
+    height: 20em;
+    background-color: green;
+    overflow: scroll;
+}
