@@ -46,3 +46,16 @@ footer{width:100%;
     box-sizing:border-box;}
 
 
+.Tabla1{background: red;
+}
+
+th{color: blue;
+    background: darkblue;
+    border-bottom: 4px solid red;
+    border-right: 1px solid darkblue;
+    font-size: 23px;
+    font-weight: 100;
+    padding: 4px;
+    text-align: left;
+    text-shadow: 0 1px firebrick;
+}
