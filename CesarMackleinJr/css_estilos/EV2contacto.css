@@ -1,29 +1,9 @@
-.img_consultor {
-    width: 400px;
-    margin-right: 1em;
-    border-radius: 10%;
-}
-
 header {
     padding: 1px;
     text-align: center;
     background:#EDE4E0;
     align-items: center;
     text-align: center;
-}
-
-blockquote {
-    font-size:medium;
-}
-
-pre {
-    font-size: larger;
-}
-
-.flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /* Menu */
@@ -98,4 +78,9 @@ pre {
 
 .nav__close{
     display: var(--show, none);
+}
+
+/* Imagen */
+img {
+    width: 50%;
 }
