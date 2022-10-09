@@ -1,0 +1,16 @@
+#info img {
+    width: 100px;
+    float: right;
+}
+#nav-main ul {
+    background-color: crimson;
+}
+#nav-main ul li{
+    float: left;
+    width: 20%;
+}
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
