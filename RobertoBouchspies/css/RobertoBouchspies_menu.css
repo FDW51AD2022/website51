@@ -16,9 +16,13 @@ h1 {
 }
 
 blockquote {
+    font-family: "Arial Black", sans-serif;
+    font-size: 15px;
     display:flex;
     justify-content: center;
     padding: 10px;
+    color:black;
+    background-color:  #FFD384;
 }
 
 table, th, td {
@@ -78,5 +82,10 @@ footer {
     font-family: "Arial Black", sans-serif;
 }
 main {
-    background-color: #f0dbb0;
+    /* background-color: #f0dbb0; */
+    background-color: #ffff;
+}
+
+hr {
+    border: 1px solid black;
 }
