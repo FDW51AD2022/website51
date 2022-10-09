@@ -33,3 +33,22 @@ li {
     text-underline-offset: 4px;
     text-decoration-thickness: 3px;
 }
+
+.body-photos {
+    background-image: url(./img/fondo-fotos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+} 
+
+.container-images {
+    text-align: center;
+    margin-top: 2%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 100%;
+    margin-bottom: 2%;
+}
