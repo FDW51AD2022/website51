@@ -1,0 +1,50 @@
+#nav-main ul{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-flow: row ;
+    overflow: hidden;
+    
+}
+
+img{
+    height: 40vh;
+    width: 25vh;
+    margin: 10vh;
+}
+
+
+
+#lista{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "poster1 poster2 poster3"
+    "poster4 poster5 poster6";
+    list-style: none;
+    border: black 20px solid;
+    background-color: antiquewhite;
+}
+
+#poster1{
+    grid-area: poster1;
+    text-align: center;
+}
+#poster2{
+    grid-area: poster2;
+    text-align:center;
+}
+#poster3{
+    grid-area: poster3;
+    text-align:center;
+}
+#poster4{
+    grid-area: poster4;
+    text-align:center;
+}
+#poster5{
+    grid-area: poster5;    
+    text-align:center;
+}
