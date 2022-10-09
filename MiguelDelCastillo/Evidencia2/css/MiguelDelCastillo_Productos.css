@@ -33,19 +33,6 @@ a{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
-
-#nav-main ul{
-    list-style:none;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    align-content: space-between;
-    flex-flow: row ;
-    /* width: auto;
-    height: 50px; */
-}
-
 #nav-main ul li:hover{
     background-color: khaki;
     border-radius: 5px;
