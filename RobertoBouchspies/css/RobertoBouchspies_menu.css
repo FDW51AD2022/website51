@@ -2,18 +2,27 @@
     margin: 0;
     padding: 10;
     box-sizing: border-box;
-    font-family: Verdana;
+    font-family: "Arial", sans-serif;
 }
 
 h1 {
-    text-align: center;
-    padding: 15px;
+    font-family: "Arial Black", sans-serif;
+    font-size: 25px;
+    letter-spacing: -1px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
 
 blockquote {
+    font-family: "Arial Black", sans-serif;
+    font-size: 15px;
     display:flex;
     justify-content: center;
     padding: 10px;
+    color:black;
+    background-color:  #FFD384;
 }
 
 table, th, td {
@@ -49,15 +58,16 @@ table, th, td {
 }
 
 .enlace-menu{
-    padding: 0px 20px;
+    padding: 5px 20px;
     text-decoration:none;
-    color: black;
+    color: rgb(255, 255, 255);
+    font-family: "Arial Black", sans-serif;
     padding-bottom: 5px;
     border-bottom: 1px solid transparent;
 }
 
 .enlace-menu:hover{
-    background-color: #E1FFEE;
+    background-color: #ffff;
     color: black;
     font-weight: bolder;
 }
@@ -67,8 +77,14 @@ header {
 }
 
 footer {
-    background-color: #FFF9B0;
+    background-color: #000000;
+    color: #ffff;
+    font-family: "Arial Black", sans-serif;
 }
 main {
     background-color: #f0dbb0;
+}
+
+hr {
+    border: 1px solid black;
 }

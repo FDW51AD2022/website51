@@ -2,13 +2,19 @@
     margin: 0;
     padding: 10;
     box-sizing: border-box;
-    font-family: Verdana;
+    font-family: "Arial", sans-serif;
 }
 
 h1 {
-    text-align: center;
-    padding: 15px;
+    font-family: "Arial Black", sans-serif;
+    font-size: 25px;
+    letter-spacing: -1px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
+
 
 .ubicaciones {
     display: flex;
@@ -17,6 +23,7 @@ h1 {
 
 h2 {
     text-align: center;
+    font-family: "Arial black", sans-serif;
 }
 
 .espaciado-mapas {
@@ -28,9 +35,11 @@ header {
 }
 
 footer {
-    background-color: #FFF9B0;
+    background-color: #000000;
+    color: white;
+    padding: 6px;
 }
 main {
-    background-color: #f8e8c9cc;
+    background-color:  #f0dbb0;
 }
 
