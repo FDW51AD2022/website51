@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(../Recursos/estrellas.jpg);
+    background-size: 100%;
+}
+#tema {
+    display: flex;
+    text-align: center;
+    color: #EDEDED; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-100%);
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    
+}

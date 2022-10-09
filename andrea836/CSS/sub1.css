@@ -1,0 +1,36 @@
+h1 {
+    background-color: #B4CDE6;
+    font-size: 60px;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#mini-page header {
+    color: black;
+    font-size: 20px;
+    grid-column: auto;
+    grid-area: enc;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#mini-page article {
+    grid-column:span;
+    grid-area:cont;
+}
+
+
+#mini-page footer {
+    grid-area: pie;
+    
+}
+
+#mini-page {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /*grid-template-rows: 200px 100px;*/
+    gap: 1em;
+    grid-template-areas: "enc enc"
+                         "cont cont"
+                         "pie pie"
+}
