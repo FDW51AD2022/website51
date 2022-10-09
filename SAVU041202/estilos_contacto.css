@@ -26,7 +26,7 @@
 }
 
 #nav-main-2 ul{
-    background-color: aquamarine;   
+    background-color: green;   
     list-style: none;
     padding: 15px;
 
@@ -34,7 +34,7 @@
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     flex-flow: row wrap;
-    height: 550px;
+    height: 350px;
 
     justify-content: space-around;
     align-content: space-between;
@@ -51,6 +51,7 @@ table {
     width: 25%;
     text-align: left;
     vertical-align: top;
-    border: 1px solid chocolate;
+    border: 1px solid brown;
  }
+
 
