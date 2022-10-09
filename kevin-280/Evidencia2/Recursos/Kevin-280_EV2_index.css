@@ -1,5 +1,8 @@
 body{background:black;
 }
+
+#andr{color: #fff;}
+
 hr{width: 200%;
     border:dotted #ccc;
   }
