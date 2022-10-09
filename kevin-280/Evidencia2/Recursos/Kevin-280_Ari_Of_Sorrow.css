@@ -22,7 +22,7 @@ header nav ul li a{padding:10px 20px;
 header nav ul li a:hover {background:blue;
 }
 
-main  {width:150%;
+main  {width:400%;
                margin-right:1.5%;
                float:left;
                background:black;
@@ -46,3 +46,24 @@ footer{width:100%;
     box-sizing:border-box;}
 
 
+.Tabla1{background: red;
+}
+
+h1, h2, h3, h4, h5, h6 {text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+th{color: blue;
+    background: darkblue;
+    border-bottom: 4px solid red;
+    border-right: 1px solid darkblue;
+    font-size: 23px;
+    font-weight: 100;
+    padding: 4px;
+    text-align: left;
+    text-shadow: 0 1px firebrick;
+}
+
+#lo, #li, #la, #lp{padding: 5px 10px 15px 350px;}
+
+#lk {padding: 5px 10px 15px 0px;}
