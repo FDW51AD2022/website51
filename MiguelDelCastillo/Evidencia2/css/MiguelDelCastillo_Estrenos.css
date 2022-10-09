@@ -40,6 +40,7 @@ body {
     grid-template-rows:max-content;
     grid-template-areas: "head head"
     "arti arti"
+    "artidescripcion artidescripcion"
     "pie pie";
     gap: .5em;
     background-color: #DE3C4B;
@@ -66,6 +67,10 @@ body article{
     grid-area: arti;
     height: auto;
     font-size: 3vh;
+}
+
+#newarti{
+    grid-area: artidescripcion;
 }
 
 body footer{
