@@ -1,0 +1,48 @@
+body{background:black;
+    color: #fff;}
+ 
+header, main, footer {
+    width:90%;    
+     max-width:1000px;
+    margin: 20px auto;  
+}
+ 
+header nav{background: black;;
+    overflow:hidden;}
+ 
+header nav ul{list-style:none;}
+ 
+header nav ul li{float:left;}
+ 
+header nav ul li a{padding:10px 20px;
+                    display:block;
+                    color:#fff;
+                    text-decoration:none;}
+ 
+header nav ul li a:hover {background:blue;
+}
+
+main  {width:150%;
+               margin-right:1.5%;
+               float:left;
+               background:black;
+}
+           
+main{padding:20px;
+    
+}
+
+#aside1{width:100%;
+    background:black;
+    float:left;
+    padding:20px;
+    box-sizing:border-box;
+}
+
+footer{width:100%;
+    background:black;
+    float:left;
+    padding:20px;
+    box-sizing:border-box;}
+
+
