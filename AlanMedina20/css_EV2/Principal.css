@@ -40,6 +40,12 @@
     text-decoration: none;  
 }
 
+.dos {
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 252, 252);
+    text-decoration: none;  
+    font-family: Calibri;
+}
 #centro header {
     
     grid-area: enc; 
