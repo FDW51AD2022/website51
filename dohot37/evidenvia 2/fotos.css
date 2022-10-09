@@ -52,3 +52,20 @@ li {
     max-width: 100%;
     margin-bottom: 2%;
 }
+
+.column {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 25%;
+    max-height: 10%;
+}
+
+.second-column {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.first-row, .second-row {
+    margin-bottom: 4%;
+}
