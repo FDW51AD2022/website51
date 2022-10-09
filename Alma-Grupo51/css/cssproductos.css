@@ -34,4 +34,46 @@
     font-size: 1rem; 
 }
 
+
+
+#site-menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 40vh;
+    background-color:lightpink;
+    font-size: 1rem;
+    align-items:center;
+}
+
+
+
+#mini-page article {
+    background-color: gold;
+}
+
+#mini-page aside {
+    background-color: darkcyan;
+}
+
+#mini-page footer {
+    background-color: fuchsia;
+    grid-column: 1 / -1;
+}
+
+#mini-page {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /* grid-template-rows: 200px 100px; */
+    gap: 1em;
+}
+#mini-page {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /* grid-template-rows: 200px 100px; */
+    gap: 1em;
+}
+
+
+
     
