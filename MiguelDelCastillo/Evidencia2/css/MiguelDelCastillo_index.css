@@ -1,22 +1,34 @@
 #nav-main ul{
     list-style:none;
     padding: 0;
+    margin: 0;
     display: flex;
     justify-content: space-around;
     align-content: space-between;
     flex-flow: row ;
+    overflow: hidden;
     /* width: auto;
     height: 50px; */
 }
 
-#nav-main ul li:hover{
+#nav main ul li{
+    align-self: center;
+}
+
+#nav-main ul li a strong:hover{
     background-color: #420039;
     border-radius: 2px;
+    color: #DEC5E3;
+    
+}
+
+#nav-main ul li a strong{
+    color: #F0FFCE;
+    text-shadow:0 0 20px #0F0A0A;
 }
 
 a{
     text-decoration: none;
-    color:#F0FFCE;
     align-self: center;
     font-size: 5vh;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -29,9 +41,6 @@ a{
     align-content: space-between;
 }
 
-#l1{
-    align-self: center;
-}
 
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -42,7 +51,7 @@ body{
     "arti aside"
     "pie pie";
     gap: .5em;
-
+    background-color: #DE3C4B;
 }
 
 #img-header{
@@ -55,6 +64,10 @@ body{
 body header{
     padding: 30px;
     background-color:#DE3C4B;
+    background-image:url(https://pbs.twimg.com/media/FemN719XwAI3AAE?format=jpg&name=large);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
     grid-area: head;
     color: #F0FFCE;
     border-start-end-radius: 5px;
@@ -93,9 +106,10 @@ body footer{
     border-radius: 25vh;
 }
 
-#asideimg{
+center img{
     width: 25vh;
     height: 50vh;
+    
 }
 
 #footer{
@@ -119,10 +133,28 @@ body footer{
     grid-area: face;
 }
 
-#inst{
-    grid-area: inst;
-}
-
 #twit{
     grid-area: twit;
+}
+
+h1{
+    background-color: #420039;
+    color: #F0FFCE;
+    border-radius: 10px;
+    
+}
+h2{
+    background-color: #420039;
+    color: #F0FFCE;
+    border-radius: 5px;
+    
+}
+
+
+ol{
+    list-style: none;
+}
+
+li a{
+    color: #F0FFCE;
 }
