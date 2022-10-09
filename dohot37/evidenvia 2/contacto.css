@@ -20,3 +20,33 @@ li {
     align-items: center;
     margin-right: 60px;
 }
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #E78E1D;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 3px;
+}
+
+.body-contact {
+    margin: 0;
+    padding: 0;
+    font-family: 'Anek Telugu', sans-serif;
+}
+
+.container-1 {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/fondo-contacto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+    background-position: 0% 30%;
+    text-align: center;
+} 
