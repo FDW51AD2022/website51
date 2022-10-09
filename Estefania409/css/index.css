@@ -1,25 +1,24 @@
-
 * {
 	padding:0px;
 	margin:0px;
 }
 #header {
-	margin: auto;
-	width:700px;
+	margin:auto;
+	width:500px;
 	font-family:Franklin Gothic Book;
 }
 	ul, ol{
 	list-style:none;
 }
 .nav li a { 
-		background-color:#f172b2;
+		background-color:#000000;
 		color:#ffffff;
 		text-decoration:none;
-		padding:25px 15px;
+		padding:10px 15px;
 		display:block;
 }
 .nav li a:hover {
-	background-color:#ff99cc;
+	background-color:434343;
 }
 .nav > li { 
 	float:left;
