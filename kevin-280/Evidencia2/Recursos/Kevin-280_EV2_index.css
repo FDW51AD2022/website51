@@ -1,6 +1,9 @@
 body{background:black;
-
 }
+hr{width: 200%;
+    border:dotted #ccc;
+  }
+
 #Menu {overflow:hidden;
 }
 
