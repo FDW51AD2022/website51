@@ -45,3 +45,34 @@ body {
     width: 38%;
     vertical-align: top;
 }
+
+.contenedor {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+}
+
+.titulo {
+	font-size: 24px;
+	padding: 20px 0;
+}
+
+
+.caja {
+	border-radius: 10px;
+	height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+}
+
+.caja .texto {
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;	
+}
