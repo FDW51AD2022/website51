@@ -18,3 +18,9 @@ p {
     text-align: left;
     font-size: 20px;
 }
+
+#sakura img {
+    width: 450px;
+    float: right;
+    margin-right: 1em;
+}

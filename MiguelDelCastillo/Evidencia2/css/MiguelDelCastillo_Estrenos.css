@@ -79,8 +79,9 @@ body footer{
     color: #F0FFCE;
     border-end-end-radius: 10px;
     border-end-start-radius: 10px ;
-    padding-left:10px ;
+    padding-left:2vh ;
     font-size: 3vh;
+    padding-right: 2vh;
 }
 
 h1{
@@ -174,4 +175,16 @@ div{
 #nav-footer{
     display: flex;
     list-style: none;
+    justify-content: space-around;
+}
+
+button{
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4vh;
+    background-color: #DEC5E3;
+    height: max-content;
+    border-radius: 5vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
 }
