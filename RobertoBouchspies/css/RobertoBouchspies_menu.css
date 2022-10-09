@@ -82,7 +82,8 @@ footer {
     font-family: "Arial Black", sans-serif;
 }
 main {
-    background-color: #f0dbb0;
+    /* background-color: #f0dbb0; */
+    background-color: #ffff;
 }
 
 hr {
