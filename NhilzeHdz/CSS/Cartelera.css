@@ -11,7 +11,6 @@ body {
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
     min-height: 100vh;
-	display: grid;
 	text-align: center;
 }
 
@@ -84,4 +83,39 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;	
+}
+
+.banner {
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.banner ul {
+	list-style: none;
+}
+
+.banner ul li {
+	margin: 15px;
+	font-weight: bold;
+}
+
+.banner .boton {
+	background: #FFD600;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
 }
