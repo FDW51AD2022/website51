@@ -16,6 +16,7 @@ h2 {
     color: rgb(233, 67, 175);
     font-family: 'Franklin Gothic Medium';
     text-align: left;
+    font-size: 35;
 }
 
 h3 {
@@ -27,14 +28,14 @@ h3 {
 
 h4 {
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 25px;
 }
 
 p {
-    color: black;
+    color: rgb(113, 93, 93);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #cafe img {
