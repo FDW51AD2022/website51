@@ -11,6 +11,21 @@ html {
 
 body{
     font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    max-width: 100%;
+    padding: 0px 1%;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
 .container{
@@ -166,11 +181,10 @@ body{
 
 /* Introduccion */
 
-.introduccion{
+.introduccion {
     text-align: center;
-    width: 500px;
+    width: 70%;
     margin: 0%;
-    padding-left: 250px;
 }
 
 .subtitle{
@@ -179,14 +193,9 @@ body{
     margin-bottom: 25px;
 }
 
-.introduccion .subtitle{
-    width: 760px;
-}
-
 .introduccion__paragraph{
     line-height: 1.7;
     font-size: 18px;
-    width: 150%;
     text-align: center;
     margin: 0%;
     padding: 0%;
@@ -194,55 +203,59 @@ body{
 
 /* Aside */
 
-.aside{
-    padding-left: 5%;
-    background-color: #DEC5E3;
-    grid-area: aside;
+.aside {
     font-size: 2vh;
     font-style: oblique;
+    width: 30%;
+    margin-top: -131px;
 }
 
 .publicidad{
     width: 340px;
-    height: 490px;
+    height: 680px;
     margin-top: 0px;
     float: right;
-    border: 5px solid #F8EDE3;
+    border: 5px solid #1d293F;
+    background-color: #06283D;
 }
 
-.cuadro1{
+.subcuadro{
     background-color: #EDEDED;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
     width: 100%;
-    height: 8%;
+    height: 37px;
     align-items: center;
     margin-top: 0px;
 }
 
-/* .subcuadro1, .subcuadro2, .subcuadro3{
-    width: 90%;
-    height: 90%;
-    margin: auto;
-    overflow: hidden;
-    background-image: url('');
-    background-position: center;
-    background-size: cover;
-} */
+.aside__publi_contenido{
+    background-color: #FFECEF;
+    width: 100%;
+    height: 190px;
+    align-items: center;
+    margin-top: 0px;
+}
 
-/* .subcuadro1 marquee, .subcuadro2 marquee, .subcuadro3 marquee{
-    color: white;
-    margin-top: 50%;
-    background: 0%;
-} */
+.lens_island{
+    width: 100%;
+    height: 100%;
+}
+
+.youtube{
+    width: 100%;
+    height: 100%;
+}
 
 /* Menu fijo */
 
-.scroll{
+/* .scroll{
     height: 100px
 }
 
 .nav.active{
     background-color: #fff;
-}
+} */
 
 /* Footer */
 
@@ -272,21 +285,15 @@ body{
     gap: 1em;
     grid-auto-flow: row;
     height: 100%;
-    /* padding-left: 410px; */
-}
-
-.nav__link--footer{
-    display: flex;
-    margin: 0;
-    margin-right: 20px;
-    flex-wrap: wrap;
-    /* padding-left: 470px; */
+    justify-content: center;
 }
 
 .footer__copy{
     --padding-container: 30px 0;
     text-align: center;
     color: #fff;
+    /* display: flex;
+    padding-left: 700px; */
 }
 
 .footer__copyright{
@@ -296,8 +303,4 @@ body{
 .footer__icons{
     display: inline-flex;
     margin-bottom: 10px;
-}
-
-.footer_img{
-    width: 30px;
 }
