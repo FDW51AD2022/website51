@@ -1,5 +1,5 @@
 html{
-    background-color: rgb(252, 214, 240);
+    background-color: rgb(249, 254, 137);
 }
 
 h1{
@@ -22,5 +22,16 @@ h1{
 }
 
 img{
-    width: 80%;
+    width: 100%;
+    vertical-align: top;
+}
+
+footer{
+    background-color: black;
+    color: gray;
+    position: absolute;
+    text-align: center; 
+    width: 100%; 
+    bottom: 0px; 
+    width: 100%;
 }

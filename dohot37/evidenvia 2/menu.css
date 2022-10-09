@@ -122,3 +122,32 @@ li {
     text-align: center;
     background-color: #FFFFFF;
 }
+
+.button-menu {
+    text-transform: uppercase;
+    font-weight: 700;
+    height: 44px;
+    margin-top: 13px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #DAA219;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.menu::after, .menu::before {
+    content: '';
+    position: absolute;
+    background-color: #000;
+    width: 90px;
+    height: 2px;
+    top: 7.9em;
+}
+
+.menu::before  {
+    right: 31.5rem;
+}
+
+.menu::after  {
+    left: 31rem;
+}
