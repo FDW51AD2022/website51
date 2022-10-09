@@ -11,6 +11,8 @@ html {
 
 body{
     font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 * {
@@ -277,18 +279,21 @@ main {
     padding-bottom: 30px;
 }
 
-/* .nav--footer{
+.nav--footer{
     padding-bottom: 20px;
     display: grid;
     gap: 1em;
     grid-auto-flow: row;
     height: 100%;
-} */
+    justify-content: center;
+}
 
 .footer__copy{
     --padding-container: 30px 0;
     text-align: center;
     color: #fff;
+    /* display: flex;
+    padding-left: 700px; */
 }
 
 .footer__copyright{

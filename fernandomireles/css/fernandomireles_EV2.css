@@ -52,7 +52,7 @@ h5, h6
 a, a:hover
 { outline: none;
     text-decoration: underline;
-    color: #AEB002;}
+    color: #7cb002;}
 
 a:hover
 { text-decoration: none;}
@@ -103,12 +103,41 @@ ol li
     height: 177px;}
 
 #banner
-{  background: transparent url(../recursos/img_banner1_ev2_.jpg) no-repeat;
+{  background: transparent url(../recursos/img_banner1_ev2.jpg) no-repeat;
     width: 860px;
     height: 180px;
     margin-bottom: 20px;
     border: 10px solid #DDD;}
 
+#banner2
+{  background: transparent url(../recursos/img_banner2_ev2.jpg) no-repeat;
+    width: 860px;
+    height: 180px;
+    margin-bottom: 20px;
+    border: 10px solid #DDD;}
+
+#banner3
+{  background: transparent url(../recursos/img_banner3_ev2.jpg) no-repeat;
+    width: 860px;
+    height: 180px;
+    margin-bottom: 20px;
+    border: 10px solid #DDD;}
+
+#banner4
+{  background: transparent url(../recursos/img_banner4_ev2.jpg) no-repeat;
+    width: 860px;
+    height: 180px;
+    margin-bottom: 20px;
+    border: 10px solid #DDD;}
+
+#banner5
+{  background: transparent url(../recursos/img_banner5_ev2.jpg) no-repeat;
+    width: 860px;
+    height: 180px;
+    margin-bottom: 20px;
+    border: 10px solid #DDD;}
+
+/* Especificaciones del logotipo */
 #logo
 { width: 880px;
     position: relative;
@@ -317,3 +346,7 @@ table tr td
 { background: #E5E5DB;
     color: #47433F;
     border-top: 1px solid #FFF;}
+
+.texto-centrado{
+    text-align: center;
+}
