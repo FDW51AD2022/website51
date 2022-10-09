@@ -119,3 +119,41 @@ body {
 	font-family: 'Roboto', sans-serif;
 	cursor: pointer;
 }
+
+.contenedor-imagen{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.img{
+    width: 50%;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.contenedor-video{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: black;  
+}
+
+.video{
+    width: 90%;
+    vertical-align: top;
+}
+
+footer {
+    width: 100%;
+    height: 20px;
+    background-color: red;
+}
+
+footer p {
+    text-align: center;
+    padding: 50%;
+}
