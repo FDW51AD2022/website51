@@ -17,16 +17,16 @@
 }
 
 #info img{
-    width: 350px;
+    width: 220px;
     float: left;
     margin-left: 1em;
     border-radius: 500%;
-    height: 300px;
+    height: 240px;
     font-size: 1rem; 
 }
 
 #nav-main-2 ul{
-    background-color: mediumpurple;   
+    background-color: pink;   
     list-style: none;
     padding: 15px;
 
@@ -40,7 +40,7 @@
     align-content: space-between;
     margin-left: 0em;
     
-    font-size: 5rem;  
+    font-size: 3rem;  
 }
 
 table {

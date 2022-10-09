@@ -1,0 +1,45 @@
+#Sistema-solar header{
+    background-color: purple;
+    grid-column: 1/-1;
+    color: white;
+}
+
+#Sistema-solar{
+    color: white;
+}
+
+table {
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td{
+    padding: 10px;
+}
+thead{
+    border-bottom: solid 5px gray;
+    color:white;
+    background-color: #163f63;
+}
+
+#contenedor{
+    margin: 150px auto;
+    width: 600px;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+tr:hover{
+    background-color: #ba8ecc;
+}
+
+body{
+    background-image: url(https://www.caracteristicas.co/wp-content/uploads/2018/10/estrellas-2-e1581021247906.jpg);
+}
+
+h1{
+    color: white;
+}

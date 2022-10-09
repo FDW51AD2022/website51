@@ -1,11 +1,50 @@
-h1{
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+* {
+    margin: 0%;
+    padding: 0%;
 }
 
+html{
+    height: 100%;
+}
 body{
-    background-image: linear-gradient(90deg,red,orange);
+    background-color: #E38B29;
+    background-size: 100%;
+    min-height: 100%;
+}
+
+.grid div{
+    background-color: red;
+    padding: 1em;
+}
+
+header{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(45deg,#42032C,#E38B29);
+    height: auto;
+}
+
+.grid{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 500px 500px;
+    column-gap: 1em;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+}
+
+.pie{
+    display: flex;
+    color: white;
+    background-color: #f56a00;
+    height: 100px;
+    width: 200%;
 }
