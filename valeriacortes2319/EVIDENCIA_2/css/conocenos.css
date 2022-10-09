@@ -1,0 +1,20 @@
+body {
+    background-color:rgb(253, 242, 243);
+}
+
+h1 {
+    background: #fcdbe6; 
+    color: #f15c8e; 
+    font-weight: bold; 
+    padding: 15px; 
+    border: 2px solid #fac9d9; 
+    border-radius: 6px; 
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
