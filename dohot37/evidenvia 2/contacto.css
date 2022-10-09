@@ -113,6 +113,123 @@ h2::after  {
     left: 43.5rem;
 }
 
+.div-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button1 {
+    margin-left: 25%;
+}
+
+.button2 {
+    margin-right: 25%;
+}
+
+.button-contact {
+    text-transform: uppercase;
+    font-weight: 700;
+    height: 44px;
+    margin-top: 2%;
+    border: none;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 5px 30px;
+    cursor: pointer;
+    border: solid 2px #000000;
+    letter-spacing: 2px;
+}
+
+.container-3 {
+    height: 37vh;
+    background-color: #CFCFCF;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 1%;
+}
+
+.div-bottom {
+    margin-top: 0;
+}
+
+.p-bottom {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.subtitle {
+    margin-bottom: -7%;
+}
+
+.footer {
+   display: flex;
+   align-items: baseline;
+   margin-top: 2rem;
+}
+
+.copyright {
+    margin-left: 2rem;
+}
+
+.facebook {
+    margin-left: 35rem;
+}
+
+.instagram {
+    margin-left: 1rem;
+}
+
+.facebook, .instagram {
+    width: 26px;
+    height: 26px;
+}
+
+.to-top{
+	color:#000000;
+	padding-top: 1.8em;
+	display: inline-block;
+	position: relative;
+	border-color: #000000;
+	text-decoration: none;
+    text-align: center;
+	transition: all .3s ease-out;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.to-top:before{
+	content: '▲';
+	font-size: .9em;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	border:solid .13em #000000;
+	border-radius: 10em;
+	width: 1.4em;
+	height: 1.4em;
+	line-height: 1.3em;
+	border-color: inherit;
+	transition: transform .5s ease-in;
+    margin-top: 4px;
+    margin-left: 17rem;
+}
+.to-top:hover{
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+}
+.to-top:hover:before{
+	transform: rotate(360deg);
+}
+
 
 
 
