@@ -40,6 +40,12 @@
     text-decoration: none;  
 }
 
+.dos {
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 252, 252);
+    text-decoration: none;  
+    font-family: Calibri;
+}
 #centro header {
     
     grid-area: enc; 
@@ -72,42 +78,14 @@
                             "pie barra";
 }
 
-#consolas header {
-    background-color: rgb(167, 161, 161);
-    grid-area: enc; 
-}
-#consolas article {
-    background-color: rgb(142, 142, 212);
-    grid-area: cont;
-}
-#consolas aside {
-    background-color: rgb(167, 161, 161);
-    grid-area: barra;
-}
-#consolas {
-    display: grid;
-    
-    grid-template-rows: 400px 400px 400px ;
-    grid-template-columns: 3fr 3fr 3fr ;
-    grid-template-areas:    "enc cont barra ";
-}
 
-#consolas2 header {
-    background-color: rgb(142, 142, 212);
-    grid-area: enc; 
-}
-#consolas2 article {
-    background-color: rgb(167, 161, 161);
-    grid-area: cont;
-}
-#consolas2 aside {
-    background-color: rgb(142, 142, 212);
-    grid-area: barra;
-}
-#consolas2 {
-    display: grid;
-    
-    grid-template-rows: 400px 400px 400px ;
-    grid-template-columns: 3fr 3fr 3fr ;
-    grid-template-areas:    "enc cont barra ";
-}
+
+#tabla th, td {
+        padding-top: 5px;
+        padding-bottom: 20px;
+        padding-left: 27px;
+        padding-right: 27px;
+      }
+
+
+
