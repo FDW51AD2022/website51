@@ -1,0 +1,113 @@
+.texto {
+    font-family: Calibri;
+}
+
+
+.texto2 {
+    font-family: Times New Roman;
+    font-size: 50px;
+    
+}
+
+#navegador ul{
+    background-color: rgb(161, 150, 150);
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+#navegador ul li{
+    margin: 1em 1.5em;
+}
+
+.uno {
+    color: rgb(0, 0, 0);
+}
+
+.uno:link {
+    text-decoration: none;  
+}
+
+.uno:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 252, 252);
+    text-decoration: none;  
+}
+
+#centro header {
+    
+    grid-area: enc; 
+}
+
+#centro article {
+    
+    grid-area: cont;
+}
+
+#centro aside {
+    background-color: rgb(77, 88, 185);
+    grid-area: barra;
+}
+#centro aside ul{
+    list-style: decimal;
+}
+#centro footer {
+    background-color: rgb(152, 160, 160);
+    grid-area: pie;
+}
+
+#centro {
+    display: grid;
+    
+    grid-template-rows: 70px 400px 70px;
+    grid-template-columns: 4fr 2fr;
+    grid-template-areas:    "enc barra"
+                            "cont barra"
+                            "pie barra";
+}
+
+#consolas header {
+    background-color: rgb(167, 161, 161);
+    grid-area: enc; 
+}
+#consolas article {
+    background-color: rgb(142, 142, 212);
+    grid-area: cont;
+}
+#consolas aside {
+    background-color: rgb(167, 161, 161);
+    grid-area: barra;
+}
+#consolas {
+    display: grid;
+    
+    grid-template-rows: 400px 400px 400px ;
+    grid-template-columns: 3fr 3fr 3fr ;
+    grid-template-areas:    "enc cont barra ";
+}
+
+#consolas2 header {
+    background-color: rgb(142, 142, 212);
+    grid-area: enc; 
+}
+#consolas2 article {
+    background-color: rgb(167, 161, 161);
+    grid-area: cont;
+}
+#consolas2 aside {
+    background-color: rgb(142, 142, 212);
+    grid-area: barra;
+}
+#consolas2 {
+    display: grid;
+    
+    grid-template-rows: 400px 400px 400px ;
+    grid-template-columns: 3fr 3fr 3fr ;
+    grid-template-areas:    "enc cont barra ";
+}

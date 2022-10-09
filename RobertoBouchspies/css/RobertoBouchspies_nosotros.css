@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+h1 {
+    padding: 22px;
+}
+
+/* .header-acomodo {
+    display: flex;
+    justify-content: center;
+} */
+
+h2 {
+    font-family: "Arial Black", sans-serif;
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+.centro {
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.wrapper {
+	width:90%; /* Establecemos que el ancho sera del 90% */
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+}
+
+.contenedor {
+    padding: 15px 150px;
+}
+
+.logo {
+    padding: 10px 170px;
+}
+
+header nav a {
+	display:inline-block;
+	color:rgb(8, 7, 7);
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+header nav a:hover {
+    color: #ffff;
+	background:#f5a13a;
+	border-radius:50px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;   /* Height of the footer */
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+h1 {
+    font-family: "Arial Black", sans-serif;
+    font-size: 25px;
+    letter-spacing: -1px;
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}

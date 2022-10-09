@@ -28,12 +28,15 @@ body{background:black;
   border: grey 10px;
 }
 
-#Seccion_1 #Articulo_1 {padding:20px;
-         
-      }
+#Seccion_1 #Articulo_1, #Articulo3 {padding:20px;
+                        width: 80%;
+                        padding: 5px 10px 15px 100px ;        
+}
+
+#Castlevania_1986, #Castlevania_1986_1, #Castlevania_rondo_1  ,#castlevania_sotn_1{padding: 5px 10px 15px 70px; }
 
 #Articulo_2 {width:30%;
-background:purple;
+background:slategray;
 float:left;
 padding:20px;
 box-sizing:border-box;

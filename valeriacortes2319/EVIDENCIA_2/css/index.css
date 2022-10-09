@@ -1,0 +1,49 @@
+body {
+    background-color:rgb(253, 242, 243);
+}
+
+h1 {
+    background: #fcdbe6; 
+    color: #f15c8e; 
+    font-weight: bold; 
+    padding: 15px; 
+    border: 2px solid #fac9d9; 
+    border-radius: 6px; 
+    text-align: center;
+}
+
+h2 {
+    color: rgb(233, 67, 175);
+    font-family: 'Franklin Gothic Medium';
+    text-align: left;
+}
+
+h3 {
+    color: #6e0d2d;
+    font-family: cursive;
+    text-align: left;
+    font-size: 25px;
+}
+
+h4 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+p {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+
+#cafe img {
+    width: 250px;
+    float: left;
+    margin-right: 1em;
+    border-radius: 50%;
+}
+
+p[lang]{
+    border: 3px dashed palevioletred;
+} 
