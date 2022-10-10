@@ -42,3 +42,45 @@
     transform: scaleX(1);
 }
 
+.login-box {
+  width: 30em;
+  height: 600px;
+  color:black;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border: 5px solid #2483e3;
+  border-radius: 20px;
+  padding-left: 35px;
+  font-family: Arial,Helvetica,sans-serif;
+  margin-top: 8em;
+}
+
+.login-box label{
+  color:black;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 20px;
+}
+
+.login-box input[type="text"], [type="email"], [type="tel"], [type="date"] {
+  width: 50%;
+  border: none;
+  border-bottom: 1px solid #2483e3;
+  margin-top: 20px;
+}
+
+.Log-In {
+  background: #2483e3;
+  color: #fff;
+  border-radius: 20px;
+  margin-left: 8em;
+  padding: 10px 70px;
+  text-decoration: none;
+}
+
+.Log-In:hover {
+  cursor: pointer;
+  background: #24e367;
+  color: #000;
+}
