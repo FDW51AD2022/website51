@@ -1,14 +1,18 @@
 .texto {
     font-family: Calibri;
+    color:antiquewhite;
 }
 
 
 .texto2 {
-    font-family: Times New Roman;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
-    
+    background-color: blanchedalmond;
 }
 
+.fondo {
+    background-color: rgb(0, 0, 0);
+}
 #navegador ul{
     background-color: rgb(161, 150, 150);
     list-style: none;
@@ -57,14 +61,14 @@
 }
 
 #centro aside {
-    background-color: rgb(77, 88, 185);
+    background-color: rgb(0, 0, 0);
     grid-area: barra;
 }
 #centro aside ul{
     list-style: decimal;
 }
 #centro footer {
-    background-color: rgb(152, 160, 160);
+    background-color: rgb(0, 0, 0);
     grid-area: pie;
 }
 
