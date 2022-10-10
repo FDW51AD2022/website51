@@ -42,3 +42,23 @@
     transform: scaleX(1);
 }
 
+.login-box {
+  width: 30em;
+  height: 600px;
+  color:black;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border: 5px solid #2483e3;
+  border-radius: 20px;
+  padding-left: 35px;
+  font-family: Arial,Helvetica,sans-serif;
+  margin-top: 8em;
+}
+
+.login-box label{
+  color:black;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 20px;
+}
