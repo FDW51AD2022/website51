@@ -1,0 +1,35 @@
+body{
+    background: #FFE7CC;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 100vh;
+}
+
+h1{
+    font-size:25px;
+    text-align: center;
+    border: 3px solid #4C6793;
+}
+.fondo {
+    width: 100%;
+    height: 100vh;
+}
+img {
+   
+    margin: 30px 230px;
+    
+   }
+   .principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    padding-top:10px;
+    padding-left:80px;
+    padding-right:80px;
+}
+.video{
+    text-align: center;
+}
+h3{
+    border: 1px solid #FF884B;
+}
