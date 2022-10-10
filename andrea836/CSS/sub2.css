@@ -26,7 +26,11 @@ body {
     grid-auto-rows:minmax(200px, auto);
     gap: 20px;
     padding: 20px;
-
-
-
+    grid-auto-flow: dense;
+}
+.wide {
+    grid-column:span 2;
+}
+.tall {
+    grid-row: span 2;
 }
