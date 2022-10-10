@@ -1,3 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px; 
+}
+/* h1 {
+    background-color: #256D85;
+    font-size: 60px;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}*/
+body {
+    background-color: #DFF6FF;
+    color: black;
+}
+
+#contenedor {
+    width: 960;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+header {
+    height: 150px;
+    background:#8BBCCC;
+}
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 156px;
+}
+nav {
+    background: #7895B2;
+    height: 60px;
+}
+nav h2 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
+}
 
 
 
