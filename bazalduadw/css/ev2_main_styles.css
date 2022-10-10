@@ -7,11 +7,25 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+/* CONTENEDOR GENERAL PARA LAS SECCIONES */
+
 .contenedor{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/* BACKGROND PARA SECCIONES */
+
+.bg-gris{
+    background: #f7f7f7;
+}
+
+/* HEADER */
 
 .contenedor-header{
     display: flex;
@@ -46,7 +60,6 @@
 
 /* ENCABEZADOS Y PARRAFOS */
 
-
 .subtitulo {
     font-size: 30px;
 }
@@ -65,4 +78,11 @@
 
 .texto-centrado{
     text-align: center;
+}
+
+/* FOOTER */
+
+.contenedor-footer{
+   display: flex;
+   justify-content: space-between;
 }
