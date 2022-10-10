@@ -1,12 +1,7 @@
 html{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #86A6F59C;
-}
-
-h1{
-    text-align: center;
-    font-size: 50px;
-    color: rgb(82, 96, 243);
-    background-color: aquamarine;
 }
 
 #nav-main ul li:hover {
@@ -21,8 +16,9 @@ h1{
     font-size: 25px;
 }
 
-img{
-    width: 100%;
-    vertical-align: top;
+header{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(82, 96, 243);
+    background-color: aquamarine;
 }
-
