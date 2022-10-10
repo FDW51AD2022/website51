@@ -1,0 +1,64 @@
+
+
+body{
+    background-color: rgba(124, 121, 122, 0.74);
+    background: url(./recursos/fondotrofeos.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.ganados {
+    border: 1 px solid rgb(255, 208, 0);
+    display: flex;
+    padding: 20px;
+    background: rgba(20, 20, 20, 0.671);
+    flex-wrap: wrap;
+
+}
+
+.premio {
+    border: 1px solid rgb(238, 194, 0);
+    background-color: rgb(61, 61, 61);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 30px;
+    text-align: center;
+    margin: 5px;
+}
+
+
+.Nominados {
+    border: 1 px solid rgb(255, 208, 0);
+    display: flex;
+    padding: 20px;
+    background: rgba(165, 7, 7, 0.404);
+    flex-wrap: wrap;
+
+}
+
+.premio2 {
+    border: 1px solid rgb(238, 194, 0);
+    background-color: rgb(61, 61, 61);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 30px;
+
+    text-align: center;
+    margin: 5px;
+}
+
+p{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+#Pie{
+    text-align: center;
+    background-color:#F2F2F2;
+    padding: 15px;
+}

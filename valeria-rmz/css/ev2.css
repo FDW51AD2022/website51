@@ -1,5 +1,5 @@
 html{
-    background-color: rgb(249, 254, 137);
+    background-color: #86A6F59C;
 }
 
 h1{
@@ -26,12 +26,3 @@ img{
     vertical-align: top;
 }
 
-footer{
-    background-color: black;
-    color: gray;
-    position: absolute;
-    text-align: center; 
-    width: 100%; 
-    bottom: 0px; 
-    width: 100%;
-}
