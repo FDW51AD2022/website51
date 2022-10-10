@@ -26,7 +26,7 @@
     text-shadow:0 0 20px #0F0A0A;
 }
 
-a{
+a[href*="MiguelDelCastillo"]{
     text-decoration: none;
     align-self: center;
     font-size: 5vh;
@@ -149,22 +149,30 @@ body footer{
     align-content: space-between;
 }
 
+a[href*="#"]{
+    text-decoration: none;
+    color: #F0FFCE;
+}
+
 img{
-    width: 200px;
-    height: 300px;
+    width: 30vh;
+    height: 50vh;
 }
 
 h1{
     background-color: #4DA167;
     color: #F0FFCE;
     border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
     
 }
 h2{
     background-color: #4DA167;
     color: #F0FFCE;
     border-radius: 5px;
-    text-align:center;
-    margin: 100px;
-    padding: auto;
+    padding-left: 80vh;
+    padding: 5vh;
+    padding-left: 80vh;
+    margin: 2vh;
 }
