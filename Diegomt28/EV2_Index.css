@@ -3,7 +3,7 @@
     padding: 1px;
 }
 h1 {
-    color: black;
+    color: aliceblue;
 }
 
 body {
@@ -13,5 +13,10 @@ body {
   background-position: center center;
   background-attachment: fixed;
 }
+ p {
+    color: aqua;
+    font: 150% sans-serif;
+    justify-content: center;
 }
+ }
 
