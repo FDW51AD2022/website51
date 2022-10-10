@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-around;
     align-content: space-between;
-    flex-flow: row ;
+    flex-flow: row wrap;
     overflow: hidden;
 }
 
@@ -42,7 +42,7 @@ body{
 }
 
 body header{
-    padding: 30px;
+    padding: 10vh;
     background-color:#DE3C4B;
     background-image:url(https://pbs.twimg.com/media/FemN719XwAI3AAE?format=jpg&name=large);
     background-repeat: no-repeat;
@@ -102,6 +102,7 @@ center img{
 
 a[href*="#"]{
     text-decoration: none;
+    color: #F0FFCE;
 }
 
 #redes-sociales{
@@ -130,13 +131,4 @@ h2{
     color: #F0FFCE;
     border-radius: 5px;
     
-}
-
-
-ol{
-    list-style: none;
-}
-
-li a{
-    color: #F0FFCE;
 }
