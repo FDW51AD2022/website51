@@ -1,6 +1,7 @@
 html{
-    font-size: 25px;
+    font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #86A6F59C;
 }
 
 header{
@@ -10,9 +11,20 @@ header{
     background-color: aquamarine;
 }
 
+#nav-main ul li:hover {
+    background-color: rgb(241, 241, 103);
+}
+
+#nav-main ul li{
+    text-align: center;
+    background-color: rgb(236, 172, 216);
+    float: left;
+    width: 20%;
+    font-size: 25px;
+}
 
 aside{
-    background-color: rgb(251, 234, 108);
+    background-color: rgb(254, 158, 129);
     float: right;
     width: 25%;
     height: 40%;
@@ -20,7 +32,7 @@ aside{
 }
 
 aside p{
-    background-color: rgb(251, 149, 89);
+    background-color: rgb(111, 230, 254);
 }
 
 .suc img{
@@ -37,3 +49,4 @@ aside p{
     width: 50%;
     height: 30%;
 }
+

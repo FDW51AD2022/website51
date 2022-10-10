@@ -1,6 +1,7 @@
 html{
     font-size: 25px;
-    background-color: rgb(249, 254, 137);
+    background-color: #86A6F59C;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #nav-main ul li:hover {
