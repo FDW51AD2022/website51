@@ -36,3 +36,7 @@ header{
     grid-area: footer;
     background-color: white;
 }
+
+small{
+    color: brown;
+}
