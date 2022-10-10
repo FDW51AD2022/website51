@@ -11,6 +11,21 @@ html {
 
 body{
     font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    max-width: 100%;
+    padding: 0px 1%;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
 .container{
@@ -164,75 +179,94 @@ body{
     margin: 5px;
 }
 
+/* Comienzo */
+
+.comienzo{
+    content: "";
+    position: absolute;
+    width: 78%;
+    height: 65%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin-top: 310px;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('..//Recursos/Criptos2.jpg');
+    background-size: cover;
+    clip-path: polygon(0 60%, 64% 60%, 99% 100%, 0% 100%);
+}
+
 /* Introduccion */
 
-.introduccion{
+.introduccion {
     text-align: center;
-    width: 500px;
+    padding-top: 150px;
+    width: 60%;
     margin: 0%;
-    padding-left: 250px;
 }
 
 .subtitle{
     color: var(--color-title);
     font-size: 2rem;
-    margin-bottom: 25px;
-}
-
-.introduccion .subtitle{
-    width: 760px;
+    margin-bottom: 5px;
 }
 
 .introduccion__paragraph{
     line-height: 1.7;
     font-size: 18px;
-    width: 150%;
     text-align: center;
     margin: 0%;
     padding: 0%;
+    padding-bottom: 2em;
 }
 
 /* Aside */
 
-.aside{
-    padding-left: 5%;
-    background-color: #DEC5E3;
-    grid-area: aside;
+.aside {
     font-size: 2vh;
     font-style: oblique;
+    width: 30%;
+    margin-top: -131px;
 }
 
 .publicidad{
-    width: 340px;
-    height: 490px;
+    width: 437px;
+    height: 905px;
     margin-top: 0px;
     float: right;
-    border: 5px solid #F8EDE3;
+    border: 5px solid #1d293F;
     background-color: #06283D;
 }
 
-.cuadro1{
+.subcuadro{
     background-color: #EDEDED;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
     width: 100%;
-    height: 8%;
+    height: 37px;
     align-items: center;
     margin-top: 0px;
 }
 
-/* .subcuadro1, .subcuadro2, .subcuadro3{
-    width: 90%;
-    height: 90%;
-    margin: auto;
-    overflow: hidden;
-    background-image: url('');
-    background-position: center;
-    background-size: cover;
-} */
+.aside__publi_contenido{
+    background-color: #FFECEF;
+    width: 100%;
+    height: 230px;
+    align-items: center;
+    margin-top: 0px;
+}
 
-/* .subcuadro1 marquee, .subcuadro2 marquee, .subcuadro3 marquee{
-    color: white;
-    margin-top: 50%;
-    background: 0%;
+.lens_island{
+    width: 100%;
+    height: 100%;
+}
+
+.youtube{
+    width: 100%;
+    height: 100%;
+}
+
+/* .invitaciones{
+    align-items: center;
 } */
 
 /* Menu fijo */
@@ -267,18 +301,21 @@ body{
     padding-bottom: 30px;
 }
 
-/* .nav--footer{
+.nav--footer{
     padding-bottom: 20px;
     display: grid;
     gap: 1em;
     grid-auto-flow: row;
     height: 100%;
-} */
+    justify-content: center;
+}
 
 .footer__copy{
     --padding-container: 30px 0;
     text-align: center;
     color: #fff;
+    /* display: flex;
+    padding-left: 700px; */
 }
 
 .footer__copyright{
