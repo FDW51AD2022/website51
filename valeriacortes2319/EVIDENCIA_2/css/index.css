@@ -1,7 +1,3 @@
-/*body {
-    background-color:rgb(253, 242, 243);
-}*/
-
 
 h2 {
     color: rgb(233, 67, 175);
@@ -54,9 +50,10 @@ h4 {
 }
 
 #l2 {
-    /* flex-grow: 3; */
+    /* flex-grow: 2; */
     order: 2;
-    width: 500px;
+    flex-basis: 500px;
+    flex-shrink: 0;
     align-self: center;
     font-size: 25px;
     color: #fac9d9;
@@ -80,8 +77,25 @@ h4 {
     color: #fac9d9;
 }
 
+#l5 {
+    /* flex-grow: 3; */
+    order: 5;
+    width: 500px;
+    align-self: center;
+    font-size: 25px;
+    color: #fac9d9;
+}
+
 #promociones {
     width: 250px;
     float: right;
     margin-right: 5em;
+}
+
+#final{
+    padding: 15px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
 }
