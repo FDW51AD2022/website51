@@ -15,7 +15,7 @@ console.log ("Nombre:", grupo51["nombre"], grupo51.nombre, grupo51.lenght);
 
 console.log("Primer alumno", grupo51.alumnos[0][0]);
 
-document.write("<marquee>mensaje</mquee>");
+document.write("<marquee>mensaje</marquee>");
 document.write(`<ul><li>Elemento</li></ul>`);
 
 // *ejemplo if */

@@ -20,15 +20,12 @@ body{
     
 }
 
-#Pie{
-    float: right;
-    width: 250px;
+#Pie {
     text-align: center;
-    padding: 1em;
+    padding: 100px;
+    
 }
 
 #Pie img{
-    float: center;
-    width: 35%;
-    padding: 5%;
+    width: 5%;
 }
