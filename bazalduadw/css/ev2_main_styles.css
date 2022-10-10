@@ -1,14 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* CONTENEDOR GENERAL PARA LAS SECCIONES */
 
 .contenedor{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/* BACKGROND PARA SECCIONES */
+
+.bg-gris{
+    background: #f7f7f7;
+}
+
+/* HEADER */
 
 .contenedor-header{
     display: flex;
@@ -26,7 +43,7 @@
 }
 
 .contenedor-header .menu{
-    text-align: center;
+    text-align: right;
     width: 50%;
 }
 
@@ -39,4 +56,33 @@
 
 .contenedor-header .menu a:hover{
     border-bottom: 1px solid black;
+}
+
+/* ENCABEZADOS Y PARRAFOS */
+
+.subtitulo {
+    font-size: 30px;
+}
+
+.parrafo{
+    font-size: 18px;
+}
+
+/* SEPARACION ENTRE SECCIONES */
+
+.p50{
+    padding: 50px 0px;
+}
+
+/* TEXTO CENTRADO */
+
+.texto-centrado{
+    text-align: center;
+}
+
+/* FOOTER */
+
+.contenedor-footer{
+   display: flex;
+   justify-content: space-between;
 }
