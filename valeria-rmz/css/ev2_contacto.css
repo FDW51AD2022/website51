@@ -1,7 +1,7 @@
 html{
-    font-size: 25px;
-    background-color: #86A6F59C;
+    font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #86A6F59C;
 }
 
 #nav-main ul li:hover {
@@ -23,19 +23,18 @@ header{
     background-color: aquamarine;
 }
 
-#info img{
-    width: 350px;
-    float: left;
-    margin-right: 1em;
-    border-radius: 50%;
+article{
+    text-align: center;
+    background-color: #88DBF9;
 }
 
-footer{
-    background-color: black;
-    color: gray;
-    position: absolute;
-    text-align: center; 
-    width: 100%; 
-    bottom: 0px; 
-    width: 100%;
+.forms{
+    width: 400px;
+    background-color: blue;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white;
 }
+
