@@ -5,6 +5,7 @@
     width: 100%;
     max-width: 100%;
     margin: auto;
+    background-color: #FFA1CF;
 }
 
 .menu li a{
@@ -21,9 +22,24 @@
 }
 
 .menu li a:hover{
-    background: #ef8354;
+    background: #FFD6EC;
 }
 
+/* -------------------------- */
+
+.primero{
+    background-color: #FFA1CF;
+}
+
+.segundo{
+    background-color: #FFA1CF;
+}
+
+.justificar{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
 
 p{
     text-align: justify;
@@ -47,7 +63,7 @@ h2{
 
 .logo {
     display:    flex;
-    
+    background-color: #FFA1CF;
 }
 
 .center{
@@ -57,7 +73,7 @@ h2{
 
 header{
     text-align: center;
-   
+   background-color: #FFA1CF;
     padding: 20px;
     margin: 100px,20px,100px,20px;
     
