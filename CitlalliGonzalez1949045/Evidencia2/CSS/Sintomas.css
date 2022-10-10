@@ -5,3 +5,18 @@ h1 {background-color:rgb(209, 242, 235);
     color: rgb(69, 179, 157);
     font-family: 'Verdana';
     font-size: 50px;}
+
+main {color:rgb(31, 97, 141);
+    font-family: 'Century Gothic';
+    font-size: 30px;
+    margin-left: 2em;
+}
+
+ol {color:rgb(31, 97, 141);
+    font-family: 'Century Gothic';
+    font-size: 23px;
+    margin-left: 1em;
+}
+
+
+
