@@ -57,4 +57,8 @@ p{
     font-size: 30px;
 }
 
-
+#Pie{
+    text-align: center;
+    background-color:#F2F2F2;
+    padding: 15px;
+}
