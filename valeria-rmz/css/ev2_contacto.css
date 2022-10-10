@@ -29,12 +29,32 @@ article{
 }
 
 .forms{
-    width: 400px;
-    background-color: blue;
-    padding: 30px;
+    width: 500px;
+    background-color: #898484;
+    padding: 45px;
     margin: auto;
     margin-top: 100px;
     border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px gray;
+}
+
+.boton-1{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px  solid rgb(18, 29, 251);
+    font-size: 15px;
+}
+
+.forms-boton{
+    width: 100%;
+    background-color: rgb(158, 203, 251);
+    border: none;
+    padding: 15px;
+    margin: 16px 0;
     color: white;
 }
 
