@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(../imagenes/Fondoaliens.jpg);
+    background-size: 100%;
+}
+
+#tema {
+    display: flex;
+    text-align: center;
+    color: rgb(252, 252, 249);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-250%);
+}
+
+.nav li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(48, 48, 172);
+    margin: 3px;
+    padding: 10px;
+    background-color: black;
+}
+
+.nav li a:hover{
+    color: red;
+    background-color: white;
+}
+
+
+footer{
+    align-self: end;
+}
+
+.contenedor {
+    margin: auto;
+    width: 500px;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.nav > li{
+    text-align: center;
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(10%); 
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+footer{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(300px) translateX(-50%);
+    color: rgb(190, 178, 178);
+}
+
+
+
+
+
+
