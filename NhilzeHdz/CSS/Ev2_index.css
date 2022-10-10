@@ -93,3 +93,27 @@ h1 {
 	z-index: 2;
 	transition: .3s ease all;
 }
+
+footer {
+    width: 100%;
+    height: 20px;
+}
+
+footer p {
+    text-align: center;
+    padding: 50%;
+}
+
+.boton2 {
+	background: #FFD600;
+	display: block;
+	width: 10%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
