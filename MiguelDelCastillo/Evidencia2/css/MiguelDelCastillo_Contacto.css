@@ -9,9 +9,6 @@
     overflow: hidden;
 }
 
-#nav main ul li{
-    align-self: center;
-}
 
 #nav-main ul li a strong:hover{
     background-color: #420039;
@@ -167,7 +164,7 @@ video{
 }
 
 input{
-    width: 150vh;
+    width: 100vh;
     height: 5vh;
     border-radius: 3px;
     padding: 2vh;
@@ -190,7 +187,7 @@ button{
 
 pre{
     font-weight: bold;
-    color: #DEC5E3;
+    color: #420039;
     font-size: smaller;
 }
 
