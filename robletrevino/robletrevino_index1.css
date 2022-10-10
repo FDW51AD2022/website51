@@ -1,7 +1,7 @@
 .menu{
     list-style: none;
     padding: 0%;
-    background: #FFD6EC;
+    
     width: 100%;
     max-width: 100%;
     margin: auto;
@@ -25,15 +25,15 @@
 
 header{
     text-align: center;
-    background-color: #FF74B1;
+   
     padding: 20px;
     margin: 100px,20px,100px,20px;
-    border-bottom: black;
+    
 }
 
 h1{
     text-align: center;
-    background-color: #FF74B1;
+   
     padding: 20px;
     margin: auto;
 
