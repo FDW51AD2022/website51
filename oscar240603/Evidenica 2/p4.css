@@ -11,6 +11,8 @@ header{
     display: flex;
     justify-content: center;
     font-size: 5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(156, 120, 120);
 }
 
 .section{
