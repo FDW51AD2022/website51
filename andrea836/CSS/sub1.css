@@ -21,10 +21,12 @@ body {
     margin-top: 20px;
     margin-bottom:20px;
     background: url(../Recursos/estrellas.jpg);
+    padding: 0%;
 }
 header {
     height: 150px;
-    background:#256D85;
+    background:#247881;
+    color: beige;
 }
 header h1 {
     font-size: 50px;
@@ -32,8 +34,10 @@ header h1 {
     line-height: 156px;
 }
 nav {
-    background: #607EAA;
+    background: #247881;
     height: 60px;
+   margin-top: 10px;
+    /* margin-right: 10px;*/
 }
 nav h2 {
     font-size: 40px;
@@ -45,9 +49,10 @@ nav h2 {
     width: 700px;
     height: 500px;
     float: left;
-    background: #5CB8E4;
+    /*background: #5CB8E4;*/
     margin-top: 10px;
     margin-right: 10px;
+    color: beige;
 }
 .contenedor h2 {
     font-size: 40px;
@@ -63,9 +68,10 @@ aside {
     text-align: center;
     width: 250px;
     height: 500px;
-    background: #F94892;
+    /*background: #F94892;*/
     margin-top: 10px;
     float: right;
+    color: beige;
 }
 .aside h2 {
     font-size: 40px;
@@ -73,8 +79,10 @@ aside {
     line-height: 50px;
 }
 footer {
-    background: #3B9AE1;
+    background: #247881;
     clear: both;
+    transform: translateY(10%);
+    color: beige;
 }
 footer h2 {
     font-size: 40px;
