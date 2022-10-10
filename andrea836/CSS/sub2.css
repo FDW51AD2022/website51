@@ -20,3 +20,13 @@ body {
     filter: opacity(0.9);
     transform: scale(1.04);
 }
+.grid-container {
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows:minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
+
+
+
+}
