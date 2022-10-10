@@ -1,0 +1,158 @@
+* {
+	
+	padding:0px;
+	margin:0px;
+
+}
+p,
+dt {
+    font-weight: bold;
+}
+
+dl,
+dd {
+    font-size: .9rem;
+}
+
+dd {
+    margin-bottom: 1em;
+}
+
+#info2 img {
+    width: 300px;
+    float: right;
+    margin-right: 1em;
+    border-radius: 30px;
+}
+#info img {
+    width: 150px;
+    float: left;
+    margin-right: 2em;
+    border-radius: 50px;
+}
+
+.u-em{
+    background-color: #000000;
+    font-size: 2rem;
+    width: 100%;
+
+    /* 5em es igual a 5 veces el tamañp de fuente del elemento 3rem(15*3)=45*/
+    padding: 2em 3em;
+}
+
+#header {
+	margin:auto;
+	width:500px;
+	font-family:Franklin Gothic Book;
+}
+	ul, ol{
+	list-style:none;
+}
+.nav li a { 
+		background-color:#000000;
+		color:#ffffff;
+		text-decoration:none;
+		padding:10px 15px;
+		display:block;
+}
+.nav li a:hover {
+	background-color:434343;
+}
+.nav > li { 
+	float:left;
+}
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+.nav li:hover > ul {
+display:block;
+}
+
+html, body {
+	margin: 10;
+	padding: 100;
+  }
+  
+  .pic-ctn {
+	width: 100vw;
+	height: 200px;
+  }
+  
+  @keyframes display {
+	0% {
+	  transform: translateX(200px);
+	  opacity: 0;
+	}
+	10% {
+	  transform: translateX(0);
+	  opacity: 1;
+	}
+	20% {
+	  transform: translateX(0);
+	  opacity: 1;
+	}
+	30% {
+	  transform: translateX(-200px);
+	  opacity: 0;
+	}
+	100% {
+	  transform: translateX(-200px);
+	  opacity: 0;
+	}
+  }
+  
+  .pic-ctn {
+	position: relative;
+	width: 100vw;
+	height: 300px;
+	margin-top: 25vh;
+  }
+  
+  .pic-ctn > img {
+	position: absolute;
+	top: 0;
+	left: calc(31% - 100px);
+	opacity: 0;
+	animation: display 10s infinite;
+  }
+  
+  img:nth-child(2) {
+	animation-delay: 2s;
+  }
+  img:nth-child(3) {
+	animation-delay: 4s;
+  }
+  img:nth-child(4) {
+	animation-delay: 6s;
+  }
+  img:nth-child(5) {
+	animation-delay: 8s;
+  }
+
+.contenedor-main{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.contenedor-main2{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.titulo + p{
+	border-top: 3px solid rgba(219, 107, 230, 0.904);
+	}
+
+#lista li:nth-child(old){
+	background-color: gray;
+	color: white;
+	 }
+
+.titulo:hover  {
+	background-color: rgb(148, 209, 211);
+	color: white;
+	
+	}	
+	 

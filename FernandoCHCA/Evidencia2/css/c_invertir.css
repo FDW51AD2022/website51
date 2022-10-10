@@ -1,0 +1,120 @@
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+main{
+    padding-left: 450px;
+    padding-right: 450px;
+}
+
+/* Header */
+
+.hero__pages{
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 800px;
+    /* position: relative; */
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color: #fff;
+}
+
+.hero__pages::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('..//Recursos/Fondo_como_invertir.jpg');
+    background-size: cover;
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
+    z-index: -1;
+}
+
+.hero__container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero__imagen{
+    padding-top: 80px;
+    padding-left: 40px;
+    width: 600px;
+    height: 500px;
+}
+
+.hero__info{
+    padding-right: 900px;
+    padding-top: 100px;
+    width: 900px;
+    height: 500px;
+}
+
+/* Main */
+
+.pagina__principal{
+    /* padding-top: 100px; */
+    text-align: center;
+}
+
+.page__princ__paragraph{
+    line-height: 1.7;
+    font-size: 18px;
+    text-align: start;
+    margin: 0%;
+    padding: 0%;
+    padding-bottom: 2em;
+}
+
+.como__invertir{
+    padding-bottom: 20px;
+}
+
+.wallets{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.donde_invertir{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.minar_criptos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.page__princ__dt{
+    line-height: 1.2;
+    font-size: 24px;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    padding-bottom: 1em;
+}
+
+.page__princ__dd{
+    line-height: 1.2;
+    font-size: 18px;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    padding-bottom: 1em;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.table_exchanges{
+    font-size: 20px;
+    width: 440px;
+    margin: 0 auto;
+}
+
+th, td{
+    border: #000 solid;
+}
