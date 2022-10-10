@@ -232,7 +232,7 @@ main {
 
 .publicidad{
     width: 437px;
-    height: 905px;
+    height: 1010px;
     margin-top: 0px;
     float: right;
     border: 5px solid #1d293F;
@@ -255,6 +255,26 @@ main {
     height: 230px;
     align-items: center;
     margin-top: 0px;
+}
+
+.aside__publi_contenido__invitaciones{
+    background-color: #FFECEF;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.aside__publi_contenido__musica{
+    background-color: #FFECEF;
+    width: 100%;
+    height: 65px;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.audio{
+    padding-right: 50px;
 }
 
 .lens_island{
