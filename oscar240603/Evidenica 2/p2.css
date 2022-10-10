@@ -5,7 +5,8 @@
 
 body {
     font-size: 1.2rem;
-    background-image: linear-gradient(90deg,orange,black);
+    background: url(../imagenes/Fondoalien3.jpg);
+    background-size: 100%;
 }
 
 .page{
@@ -35,19 +36,20 @@ body {
 .article{
     grid-area: article;
     height: 520px;
-    background-color: #FF731D;
+    /*background-color: #FF731D;*/
     text-align: center;
+    border:#BDF2D5;
 }
 
 .aside{
-    text-align: center;
+    justify-content: center;
     grid-area: aside;
-    background-color: #D2001A;
+    /*background-color: #D2001A;*/
 }
 
 img{
     justify-content: center;
-    width: 190px;
+    width: 200px;
     height: auto;
 }
 
@@ -60,7 +62,7 @@ footer{
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     grid-area: footer;
-    background-color: #5F9DF7;
+    background-color: red;
     line-height: 40px;
 }
 
@@ -79,6 +81,8 @@ important{
     height: 40px;
     width: 40px;
 }
+
+
 
 
 
