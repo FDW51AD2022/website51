@@ -30,21 +30,26 @@
         </nav>
     </header>
 
-
-    <section class="frase">
-        <figure> <img src="Recursos/frase.jpg" alt="Frase" width="100%"><figcaption>Contamos con gran diversidad de libros</figcaption></figure>
-    </section>
-
     <article>
+        <img src="Recursos/frase.jpg" alt="Frase" width="100%">
         <section > 
             <small>Librerias Montes recomienda</small>
             <h1>Lecturas que no te puedes perder</h1>
             <hr>
-            <div class="Img-horizontales">
-                <img src="Recursos/ejlibro.jpg" alt="Las ventajas de ser invisible" width="300px" height="400px"> 
-                <img src="Recursos/ejlibro1.jpg" alt="La tierra de las historias" width="300px" height="400px">
-                <img src="Recursos/ejlibro2.jpg" alt="Hush hush" width="300px" height="400px">
-            </div>
+            <nav class="Listas">
+                <ul>
+                    <li class="Ediciòn-lista">
+                        <img src="Recursos/ejlibro.jpg" alt="Las ventajas de ser invisible" width="300px" height="400px"> 
+                    </li>
+
+                    <li class="Ediciòn-lista">
+                        <img src="Recursos/ejlibro1.jpg" alt="La tierra de las historias" width="300px" height="400px">
+                    </li>
+
+                    <li class="Ediciòn-lista">
+                        <img src="Recursos/ejlibro2.jpg" alt="Hush hush" width="300px" height="400px">
+                    </li>
+            </nav>
         </section>
 <br>
         <section id="fondo">
@@ -155,36 +160,55 @@
 
     </article>
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
     <footer>
         <hr>
-        <div style="text-align: center;">
-            <p>¿Te gustaria saber mas de nosotros? Suscribete</p>
-            <form action="/my-handling-form-page" method="post">
-                <fieldset>
-                    <li>
-                        <label for="name">Nombre:</label>
-                        <input type="text" id="name" name="nombre">
-                    </li>
-                    <li>
-                        <label for="mail">Correo electrónico:</label>
-                        <input type="email" id="mail" name="correo">
-                    </li>
-                    <button>Enviar</button>
-                </fieldset>
-            </form>
-        </div>
-        <br>
+        <hr> 
+        <article id="grid">
+            <section id="contacto">
+                <h1>¿Te gustaría saber más de nosotros?Suscribete</h1>
+                <form action="/my-handling-form-page" method="post">
+                    <label for="nombre">Nombre completo:</label>
+                    <br><textarea name="name" id="name" cols="50" rows="2"></textarea>
+                    <br><label for="mail">Correo electrónico:</label>
+                    <br><textarea name="mail" id="mail" cols="50" rows="2"></textarea>
+                    <br><button type="button" onclick="alert ('Se ha enviado la información')">Enviar información</button>
+                </form>
+            </section>
+
+            <section id="datos">
+                <h1>Datos de contacto</h1>
+                <h2>Librerias Montes</h2>
+                <section class="datos">
+                    <figure><img src="Recursos/ubi (2).jpg" alt="ubi" width="40px"></figure>
+                    <h3>Dirección<h3>
+                    <p>Av. Hidalgo #1171 CP 64000 Monterrey, Nuevo León</p>
+
+                    <figure><img src="Recursos/telefono.jpg" alt="telefono" width="40px"></figure>
+                    <h3>Teléfono<h3>
+                    <p>800 276 8266</p>
+
+                    <figure><img src="Recursos/email.jpg" alt="email" width="40px"></figure>
+                    <h3>Correo electrónico<h3>
+                    <p>soporte@libreriasmontes.com</p>
+                </section>
+        </article>
+        
         <div id="Pie">
-            <p>Siguenos en nuestras redes sociales: </p>
-                <img src="Recursos/redessociales.png" width="150px" lang="150px">
             <p><strong>Librerias Montes</strong> -La Mayor oferta editorial</p>
             <p>Politicas | <mark>Nuestra publicidad</mark> |<mark> Trabaja con nosotros</mark></p>
         </div>
-    </footer>
 
-    <address id="Adress"><small> 2022 &#174 <strong>Librerias Montes</strong> Todos los derechos reservados </small></address>
+        <address id="Adress"><small> 2022 &#174 <strong>Librerias Montes</strong> Todos los derechos reservados </small></address>
+    </footer>
     
 </body>
 </html>
