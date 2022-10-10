@@ -57,6 +57,29 @@ body header{
     border-start-start-radius: 5px;
 }
 
+body section{
+    background-color: #2D3047;
+    width: auto;
+    color: #F0FFCE;
+    text-shadow: 0 0 1vh #0F0A0A;
+    border-radius: 3vh;
+    border: none;
+    border-bottom:2vh solid #DE3C4B;
+    text-align: justify;
+}
+
+.img1{
+    width: auto;
+    height: 50vh;
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
 #productosAnime{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -67,59 +90,31 @@ body header{
     
 }
 
-blockquote{
-    text-align: center;
-}
+
 
 #arti1{
     grid-area: arti1;
-    background-color: #32292F;
-    margin: auto;
-    border-radius: 60px;
-    color: #F0FFCE;
-    
 }
 #arti2{
     grid-area: arti2;
-    background-color: #32292F;
-    margin: auto;
-    border-radius: 60px;
-    color: #F0FFCE;
 }
 #arti3{
     grid-area: arti3;
-    background-color: #32292F;
-    margin: auto;
-    border-radius: 60px;
-    color: #F0FFCE;
 }
 #arti4{
     grid-area: arti4;
-    background-color: #32292F;
-    margin: auto;
-    border-radius: 60px;
-    color: #F0FFCE;
 }
 #arti5{
     grid-area: arti5;
-    background-color: #32292F;
-    margin: auto;
-    border-radius: 60px;
-    color: #F0FFCE;
 }
 #arti6{
     grid-area: arti6;
-    background-color: #32292F;
-    margin: auto;
-    border-radius: 60px;
-    color: #F0FFCE;
 }
-
 
 
 body article{
     padding: 1%;
-    background-color: #156064;
+    background-color: #F1FAEE;
     grid-area: arti;
     height: auto;
     font-size: 3vh;
@@ -131,7 +126,7 @@ body footer{
     color: #F0FFCE;
     border-end-end-radius: 10px;
     border-end-start-radius: 10px ;
-    padding-left:10px ;
+    padding:3vh;
     font-size: 3vh;
 }
 
@@ -147,25 +142,20 @@ a[href*="#"]{
     color: #F0FFCE;
 }
 
-img{
-    width: 30vh;
-    height: 50vh;
-}
+
 
 h1{
     background-color: #4DA167;
     color: #F0FFCE;
     border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
+    text-align: center;
     
 }
 h2{
-    background-color: #4DA167;
     color: #F0FFCE;
-    border-radius: 5px;
-    padding-left: 80vh;
-    padding: 5vh;
-    padding-left: 80vh;
-    margin: 2vh;
+    text-shadow: 0 0 20px #0F0A0A;
+    text-align: center;
+    border: none;
+    border-bottom: #0F0A0A 1vh solid;
+    border-radius: 1vh;
 }
