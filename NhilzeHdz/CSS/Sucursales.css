@@ -2,16 +2,15 @@
 	padding: 0;
 	margin: 0;
 	border: 0;
-    box-sizing: border-box;
 	font-size: 100%;
 }
 
 body {
 	background: #EDEDED;
-	color: #fff;
+	color: black;
 	font-family: 'Roboto', sans-serif;
-    min-height: 100vh;
 	text-align: center;
+    min-height: 100vh;
 }
 
 .head {
@@ -45,3 +44,15 @@ body {
     width: 38%;
     vertical-align: top;
 }
+
+h1{
+    font-size: 30px;
+    padding: 20px;
+}
+
+#sucursales h3{
+    padding: 20px;
+    font-size: 20px;
+}
+
+
