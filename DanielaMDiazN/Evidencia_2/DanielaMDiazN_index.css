@@ -1,0 +1,18 @@
+.titulo{
+    background-color: #e8373e;
+    flex-wrap:initial;
+}
+
+#p1{
+    background-color: #e6ac84;
+}
+
+.p-132{
+    size: 30px;
+    background-color: #e6ac84;
+    border: 20px;
+}
+
+table{
+    border-collapse: collapse;
+}
