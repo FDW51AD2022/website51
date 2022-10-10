@@ -14,28 +14,19 @@
     align-self: center;
 }
 
-#nav-main ul li a strong:hover{
-    background-color: #420039;
-    border-radius: 2px;
-    color: #DEC5E3;
-    
-}
-
-#nav-main ul li a strong{
+a[href*="MiguelDelCastillo"]{
     color: #F0FFCE;
     text-shadow:0 0 20px #0F0A0A;
-}
-
-a[href*="MiguelDelCastillo"]{
     text-decoration: none;
     align-self: center;
     font-size: 5vh;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#nav-main ul li:hover{
-    background-color: khaki;
-    border-radius: 5px;
+#nav-main ul li a strong:hover{
+    background-color: #420039;
+    border-radius: 2px;
+    color: #DEC5E3;
     
 }
 
@@ -44,13 +35,26 @@ body {
     display: grid;
     grid-template-columns: 2fr;
     grid-template-rows:max-content;
-    grid-template-areas: "head head"
-    "arti arti"
-    "pie pie";
+    grid-template-areas: "head"
+    "arti"
+    "pie";
     gap: .5em;
     background-color: #DE3C4B;
     
 
+}
+
+body header{
+    padding: 30px;
+    background-color:#DE3C4B;
+    background-image:url(https://pbs.twimg.com/media/FemN719XwAI3AAE?format=jpg&name=large);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    grid-area: head;
+    color: #F0FFCE;
+    border-start-end-radius: 5px;
+    border-start-start-radius: 5px;
 }
 
 #productosAnime{
@@ -111,18 +115,7 @@ blockquote{
     color: #F0FFCE;
 }
 
-body header{
-    padding: 30px;
-    background-color:#DE3C4B;
-    background-image:url(https://pbs.twimg.com/media/FemN719XwAI3AAE?format=jpg&name=large);
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size:cover;
-    grid-area: head;
-    color: #F0FFCE;
-    border-start-end-radius: 5px;
-    border-start-start-radius: 5px;
-}
+
 
 body article{
     padding: 1%;
