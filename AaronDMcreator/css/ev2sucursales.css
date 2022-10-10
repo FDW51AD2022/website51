@@ -43,3 +43,36 @@
     transform: scaleX(1);
 }
 
+.contacto{
+    margin-top: 5em;
+    font-size: 3em;
+    font-family: Arial,Helvetica,sans-serif;
+    margin-left: 5em;
+    margin-bottom: 40px;
+}
+.contacto2{
+    font-size: 25px;
+    font-family: Arial,Helvetica,sans-serif;
+    margin-left: 9.8em;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.pcont{
+    font-size: 17px;
+    font-family: Arial,Helvetica,sans-serif;
+    margin-left: 14.5em;
+    margin-top: 0;
+}
+
+.adcon{
+    font-size: 17px;
+    margin-left: 14.5em;
+    margin-top: 0;
+}
+
+.local{
+    width: 40em;
+    text-align: center;
+    margin-left: 15em;
+}
