@@ -1,7 +1,7 @@
 .menu{
     list-style: none;
     padding: 0%;
-    
+    text-align: center;
     width: 100%;
     max-width: 100%;
     margin: auto;
@@ -9,9 +9,10 @@
 
 .menu li a{
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 20px;
     display: block;
+    
 }
 
 .menu li{
@@ -21,6 +22,37 @@
 
 .menu li a:hover{
     background: #ef8354;
+}
+
+
+p{
+    text-align: justify;
+}
+
+
+h2{
+    text-align: center;
+}
+
+.imagen1 {
+    width: 100px;
+}
+
+.imagen2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.logo {
+    display:    flex;
+    
+}
+
+.center{
+    text-align: center;
+    width: 100px;
 }
 
 header{
@@ -37,4 +69,8 @@ h1{
     padding: 20px;
     margin: auto;
 
+}
+
+h6{
+    text-align: center;
 }
