@@ -46,7 +46,7 @@ body {
 
 .contenedor .sidebar {
 	grid-column: 3 / 4;
-	background:#85C1E9 ;
+	background: #fAA43D;
 	text-align: center;
 	display: flex;
 	align-items: center;
@@ -58,7 +58,7 @@ body {
 
 
 .contenedor .footer {
-	background:#2ECC71;
+	background: #12203E;
 	color: #fff;
 	grid-area: footer;
 }
