@@ -1,12 +1,9 @@
-body bgcolor="#95A5A6"
+
 
   
 body{
-    background-image: url(BrandonPD12/Nube.jpg);
-    background-repeat:no-repeat;
-    background-size: cover; 
-    font-family: arial, helvetica;
-    background: #e8e8e8;
+    background:#be8ad8  ;
+	color: #000;
 }
 .menu{
     list-style: none;
@@ -31,6 +28,12 @@ body{
 .menu li a:hover{
     background: #ef8354;
 }
+.h1{
+    font-family: Arial;
+    font-size: 50px;
+
+
+}
 .contenedor p {
     text-align: justify-all;
     margin-top:10px ;
@@ -54,15 +57,13 @@ text-align: justify-all ;
 #img1{
     float: right;
     
-    width: 20;
-    height: 20;
+  
 }
     
 #img2{
     float: right;
     
-    width: 20;
-    height: 20;
+   
 
 }
 
