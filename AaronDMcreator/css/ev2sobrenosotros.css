@@ -43,3 +43,40 @@
     transform: scaleX(1);
 }
 
+.main{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+/*     grid-template-rows: 200px 100px;*/
+    gap: 1em;
+    grid-template-areas: "enc enc"
+                         "cont cont"
+                         "cont2 cont2"
+                         "pie pie";
+}
+.main header{
+    grid-column: 1 / -1;
+    grid-area: enc;
+    margin-top: 15em;
+    line-height: 25px;
+}
+
+.tp{
+    text-align: center;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    margin-bottom: 18px;
+}
+
+.pp{
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: Arial,Helvetica,sans-serif;
+    color: rgb(92, 92, 92);
+    margin: 0;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+.impri{
+    width: 100%;
+    margin-top: 13em
+}
