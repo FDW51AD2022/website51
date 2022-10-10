@@ -200,6 +200,8 @@ main {
 .introduccion {
     text-align: center;
     padding-top: 150px;
+    padding-left: 260px;
+    padding-right: 260px;
     width: 60%;
     margin: 0%;
 }
@@ -294,7 +296,7 @@ main {
 }
 
 .footer__container{
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #fff;

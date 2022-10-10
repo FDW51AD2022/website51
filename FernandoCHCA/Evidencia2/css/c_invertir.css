@@ -112,6 +112,7 @@ main{
 .table_exchanges{
     font-size: 20px;
     width: 440px;
+    margin: 0 auto;
 }
 
 th, td{
