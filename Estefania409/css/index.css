@@ -145,10 +145,12 @@ html, body {
 	border-top: 3px solid rgba(219, 107, 230, 0.904);
 	}
 
-#lista li:nth-child(old){
-	background-color: gray;
-	color: white;
-	 }
+	
+	#lista li:nth-child(old){
+	   background-color: gray;
+	   color: white;
+	}
+	
 
 .titulo:hover  {
 	background-color: rgb(148, 209, 211);
