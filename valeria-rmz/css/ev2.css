@@ -1,5 +1,5 @@
 html{
-    background-color: rgb(252, 214, 240);
+    background-color: #86A6F59C;
 }
 
 h1{
@@ -22,5 +22,7 @@ h1{
 }
 
 img{
-    width: 80%;
+    width: 100%;
+    vertical-align: top;
 }
+
