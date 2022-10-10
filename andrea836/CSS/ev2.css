@@ -18,9 +18,4 @@ body {
     top: 50%;
     transform: translateX(-50%) translateY(-100%);
 }
-.nav li ul{
-    display: none;
-    position: absolute;
-    min-width: 150px;
-    
-}
+
