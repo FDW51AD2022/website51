@@ -130,3 +130,29 @@ html, body {
   img:nth-child(5) {
 	animation-delay: 8s;
   }
+
+.contenedor-main{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.contenedor-main2{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.titulo + p{
+	border-top: 3px solid rgba(219, 107, 230, 0.904);
+	}
+
+#lista li:nth-child(old){
+	background-color: gray;
+	color: white;
+	 }
+
+.titulo:hover  {
+	background-color: rgb(148, 209, 211);
+	color: white;
+	
+	}	
+	 
