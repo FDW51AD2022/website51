@@ -58,9 +58,9 @@ a:hover
 { text-decoration: none;}
 
 blockquote
-{ margin: 20px 0;
-    padding: 10px 20px 0 20px;
-    border: 1px solid #E5E5DB;
+{ margin: 0px 0;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #2a3a20;
     background: #FFF;}
 
 ul
@@ -346,3 +346,15 @@ table tr td
 { background: #E5E5DB;
     color: #47433F;
     border-top: 1px solid #FFF;}
+
+.texto-centrado{
+    text-align: center;
+}
+
+address{
+    text-align: center;
+}
+
+strong{
+    text-decoration: underline;
+}

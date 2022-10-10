@@ -4,9 +4,9 @@
 
 
 .texto2 {
-    font-family: cursive;
-    font-size: 40px;
-    background-color: rgb(148, 148, 151);
+    font-family: Times New Roman;
+    font-size: 50px;
+    
 }
 
 #navegador ul{
@@ -40,6 +40,12 @@
     text-decoration: none;  
 }
 
+.dos {
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 252, 252);
+    text-decoration: none;  
+    font-family: Calibri;
+}
 #centro header {
     
     grid-area: enc; 
@@ -51,14 +57,14 @@
 }
 
 #centro aside {
-    background-color: rgb(139, 151, 255);
+    background-color: rgb(77, 88, 185);
     grid-area: barra;
 }
 #centro aside ul{
     list-style: decimal;
 }
 #centro footer {
-    
+    background-color: rgb(152, 160, 160);
     grid-area: pie;
 }
 
@@ -71,4 +77,15 @@
                             "cont barra"
                             "pie barra";
 }
+
+
+
+#tabla th, td {
+        padding-top: 5px;
+        padding-bottom: 20px;
+        padding-left: 27px;
+        padding-right: 27px;
+      }
+
+
 

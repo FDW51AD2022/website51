@@ -1,0 +1,105 @@
+body {background-color:rgb(235, 245, 251);}
+
+h1 {background-color:rgb(214, 234, 248);
+color: rgb(93, 173, 226);
+font-family: 'Verdana';
+font-size: 50px;}
+
+h2 {color: rgb(31, 97, 141);
+    font-family: 'Century Gothic';
+    font-size: 40px;
+}
+
+#menu:hover {
+    background-color: rgb(213, 245, 227);
+}
+
+
+#menu {
+    display: flex;
+    width: 50rem;
+    height: 5vh;
+    background-color: rgb(220, 234, 248);
+}
+
+#Inicio {
+    /* flex-grow: 1; */
+    order: 1;
+    flex-basis: 500px;
+    align-self: center;
+}
+
+#Covid-19 {
+    /* flex-grow: 2; */
+    order: 2;
+    width: 500px;
+    align-self: center;
+}
+
+#Contacto {
+    /* flex-grow: 3; */
+    order: 3;
+    width: 500px;
+    align-self: center;
+}
+
+nav ul {color: rgb(31, 97, 141);
+    font-family: 'Century Gothic';
+    font-size: 25px;
+}
+
+nav {color: rgb(31, 97, 141);
+    font-family: 'Century Gothic';
+    font-size: 25px;
+}
+
+a {color:rgb(31, 97, 141);
+    font-family: 'Century Gothic';
+    font-size: 25px;
+    align-self: center; 
+}
+
+p {color:rgb(31, 97, 141);
+    font-family: 'Century Gothic';
+    font-size: 23px;
+}
+
+li {color:rgb(31, 97, 141);
+    font-family: 'Century Gothic';
+    font-size: 23px;
+}
+
+#corona img {
+    width: 375px;
+    float: right;
+    margin-right: 1em;
+    border-radius: 50px;
+}
+
+#variantes img {
+    width: 375px;
+    float: right;
+    margin-right: 1em;
+    border-radius: 50px;
+}
+
+#transmite img {
+    width: 385px;
+    float: right;
+    margin-right: 1em;
+    border-radius: 50px;
+}
+
+#sintomas img {
+    width: 365px;
+    float: right;
+    margin-right: 1em;
+    border-radius: 50px;
+}
+
+#vacunas img {
+    width: 320px;
+    float: right;
+    margin-right: 1em;
+    border-radius: 50px;
+}

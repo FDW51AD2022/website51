@@ -1,6 +1,12 @@
 body{background:black;
-
 }
+
+#andr{color: #fff;}
+
+hr{width: 200%;
+    border:dotted #ccc;
+  }
+
 #Menu {overflow:hidden;
 }
 
@@ -46,3 +52,4 @@ h1, h2 ,h3 {text-align: center;
             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+#características {color: #fff;}
