@@ -62,6 +62,7 @@ a {color:rgb(31, 97, 141);
 p {color:rgb(31, 97, 141);
     font-family: 'Century Gothic';
     font-size: 23px;
+    margin-left: 2em;
 }
 
 li {color:rgb(31, 97, 141);
@@ -69,10 +70,16 @@ li {color:rgb(31, 97, 141);
     font-size: 23px;
 }
 
+b {color:rgb(31, 97, 141);
+    font-family: 'Century Gothic';
+    font-size: 25px;
+    margin-left: 1em;
+}
+
 #corona img {
     width: 375px;
     float: right;
-    margin-right: 1em;
+    margin-right: 2em;
     border-radius: 50px;
 }
 

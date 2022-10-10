@@ -12,6 +12,15 @@ h1 {
     background-color: gray;
     color: #3D0000 ;
 }
+p {
+    color: whitesmoke;
+}
+#indimg img{
+    width: 500px;
+    float:right;
+    margin-right: 3em;
+    border-radius: 20%;
+}
 #nav-panel ul {
     background-color: #950101;
     color: white;
