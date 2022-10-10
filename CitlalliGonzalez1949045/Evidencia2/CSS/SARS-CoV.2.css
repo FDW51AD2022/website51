@@ -45,3 +45,8 @@ dl {color: rgb(14, 98, 81);
     font-size: 25px;
     margin-left: 2em;
 }
+
+strong {color:rgb(31, 97, 141);
+    font-family: 'Century Gothic';
+    font-size: 25px;
+}
