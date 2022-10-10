@@ -1,19 +1,31 @@
 #FisicaCuantica header {
     grid-column: 1/-1;
-    color: green;
+    color: black;
 }
 
 #FisicaCuantica {
     color: black;
+    
 }
 
 
 body{
-    background-image: url(Imagenes/FondoAzul.jpg);
+    background-image: url(Imagenes/FondoNuevo.jpg);
 }
 
 #nav-main ul li {
     float: right;
     width: 20%;
+    background-color: rgb(210, 214, 214);
     
+}
+
+#Pie {
+    text-align: center;
+    padding: 100px;
+    
+}
+
+#Pie img{
+    width: 5%;
 }

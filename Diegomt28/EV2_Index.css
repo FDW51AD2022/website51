@@ -1,0 +1,17 @@
+* {
+    margin: 1px;
+    padding: 1px;
+}
+h1 {
+    color: black;
+}
+
+body {
+    background: url(Recursos/fondo.jpg);
+    background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+}
+
