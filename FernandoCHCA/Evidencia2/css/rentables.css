@@ -65,5 +65,33 @@ main{
     text-align: start;
     margin: 0%;
     padding: 0%;
-    padding-bottom: 2em;
+}
+
+.container__rentables{
+    padding-top: 30px;
+}
+
+.lista__rentables{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding-top: 30px;
+    margin-left: -200px;
+    margin-right: -200px;
+}
+
+.subtitle__h3{
+    color: var(--color-title);
+    font-size: 25px;
+    margin-bottom: 5px;
+    text-align: start;
+}
+
+.cripto__rentable{
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.cripto__contenido__rentable{
+    padding-bottom: 30px;
 }
