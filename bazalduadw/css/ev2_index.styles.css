@@ -30,10 +30,6 @@ main .contenedor-acerca-de{
     grid-template-columns: repeat(auto-fit, minmax(500px , 1fr)); 
 }
 
-.video{
-    background: #f7f7f7;
-}
-
 .contenedor-video video{
     width: 90%;
 }
@@ -48,4 +44,17 @@ main .contenedor-acerca-de{
     display: grid;
     grid-gap:20px;
     grid-template-columns: repeat(auto-fit, minmax(500px , 1fr)); 
+}
+
+.blog img {
+    width: 100%;
+    vertical-align: top;
+}
+
+aside {
+    text-align: center;
+}
+
+iframe.invitaciones {
+    margin-left: 124px;
 }
