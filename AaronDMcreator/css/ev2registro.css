@@ -69,3 +69,18 @@
   border-bottom: 1px solid #2483e3;
   margin-top: 20px;
 }
+
+.Log-In {
+  background: #2483e3;
+  color: #fff;
+  border-radius: 20px;
+  margin-left: 8em;
+  padding: 10px 70px;
+  text-decoration: none;
+}
+
+.Log-In:hover {
+  cursor: pointer;
+  background: #24e367;
+  color: #000;
+}
