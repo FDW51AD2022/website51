@@ -28,6 +28,10 @@ body{
     background-color: #F2F2F2;
 }
 
+audio{
+    border: solid black;
+}
+
 figure {
     border: thin #c0c0c0 solid;
     display: flex;
