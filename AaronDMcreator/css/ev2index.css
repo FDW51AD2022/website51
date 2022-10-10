@@ -19,5 +19,16 @@ body {
     padding: 70px 30px;
   }
   
+  .login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
   
-  
+  .login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  }
