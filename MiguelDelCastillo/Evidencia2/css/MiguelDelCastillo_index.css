@@ -12,10 +12,6 @@
     overflow: hidden;
 }
 
-#nav main ul li{
-    align-self: center;
-}
-
 a[href*="MiguelDelCastillo"]{
     color: #F0FFCE;
     text-shadow:0 0 20px #0F0A0A;
