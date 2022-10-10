@@ -18,5 +18,17 @@ ol {color:rgb(31, 97, 141);
     margin-left: 1em;
 }
 
+strong {color: rgb(0, 0, 0);
+    font-family: 'Century Gothic';
+    font-size: 15px;}
+
+pre {color: rgb(0, 0, 0);
+    font-family: 'Century Gothic';
+    font-size: 15px;}
+
+
+
+
+
 
 
