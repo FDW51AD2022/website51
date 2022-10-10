@@ -1,0 +1,40 @@
+
+body{
+    background: #C8DBBE;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 100vh;
+}
+h1{
+    font-size:30px;
+    text-align: center;
+    border: 3px solid #2225c1;
+}
+ h4 {
+    background-color: #AAC4FF;
+ }
+ nav ul {
+   background-color: #FFCACA;
+ }
+
+.clearflix::after{
+   clear: both;
+   content: "";
+   display: table;
+}
+
+ nav ul li{
+   display:flex;
+   justify-content: space-around;
+   float: right;
+   width: 30%;
+   text-decoration: none;
+   padding: 1em;
+   margin: 15px 100px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+ }
+  img {
+   float: right;
+   margin: 40px 230px;
+   
+  }
