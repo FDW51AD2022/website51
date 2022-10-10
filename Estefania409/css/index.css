@@ -141,6 +141,16 @@ html, body {
 	margin: 0 auto;
 }
 
+.contenedor-main3{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.contenedor-main4{
+	width: 500px;
+	margin: 0 auto;
+}
+
 .titulo + p{
 	border-top: 3px solid rgba(219, 107, 230, 0.904);
 	}
@@ -157,4 +167,6 @@ html, body {
 	color: white;
 	
 	}	
-	 
+	.titulo2 + p{
+		border-top: 3px solid rgba(109, 94, 177, 0.904);
+		}
