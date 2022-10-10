@@ -1,31 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, Helvetica;
-    background-color: #e8e8e8;
+	background: #EFEFEF;
+	font-family: 'Roboto', sans-serif;
+	min-height: 100vh;
 }
 
-.menu {
-    list-style: none;
-    padding: 0;
-    background: #092327;
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
+.boton::after {
+	content: "";
+	width: 1px;
+	height: 1px;
+	background: none;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	transition: .3s ease-in-out all;
+	border-radius: 100px;
+	transform-origin: center;
 }
 
-.menu li a{
+.contenedor-boton a{
     text-decoration: none;
-    color: white;
-    padding: 20px;
-    display: block;
 }
 
-.menu li{
-    display: inline-block;
+.boton:hover::after {
+	transform: scale(400);
+	background: #996633;
+}
+
+.boton:hover {
+	 background: #008000; 
+}
+
+.contenedor {
+	width: 1200px;
+	margin: auto;
+	padding: 100px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 58px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 80px;
+	text-transform: uppercase;
+	color: #141414;
+	border: 5px solid #141414;
+	padding: 5px 10px;
+	display: inline-block;
+}
+
+.contenedor-boton {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 40px;
+	padding: 10px;
+}
+
+.boton {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 80px;
+	background: #141414;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: .3s ease all;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+}
+
+.boton span {
+	position: relative;
+	z-index: 2;
+	transition: .3s ease all;
+}
+
+footer {
+    width: 100%;
+    height: 20px;
+}
+
+footer p {
     text-align: center;
+    padding: 50%;
 }
 
-.menu li a:hover{
-    background: #ef8354;
+.boton2 {
+	background: #0099FF;
+	display: block;
+	width: 10%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
 }
-
-
