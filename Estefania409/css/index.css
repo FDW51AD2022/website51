@@ -130,3 +130,8 @@ html, body {
   img:nth-child(5) {
 	animation-delay: 8s;
   }
+
+.contenedor-main{
+	width: 500px;
+	margin: 0 auto;
+}
