@@ -140,11 +140,38 @@ body {
     justify-content: center;
     align-items: center;
     color: black;  
+    padding: 10px;
 }
 
 .video{
     width: 90%;
     vertical-align: top;
+}
+
+.diseño{
+    width: 100%;
+    color: black;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+}
+
+.diseño{
+    background-color: #EDDBC0;
+    padding: 10px;
+}
+
+h1{
+    color: black;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
 }
 
 footer {
