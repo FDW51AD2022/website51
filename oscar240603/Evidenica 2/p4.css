@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(250, 250, 166);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    font-size: 5em;
+}
+
+.section{
+    display: grid;
+    text-align: center;
+    width: 960px;
+    gap: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-template-columns: 200px;
+    grid-template-areas:
+     "article article "
+     "footer footer";
+}
+
+.article{
+    grid-area: article;
+    background-color: white;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: white;
+}
