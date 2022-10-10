@@ -157,8 +157,18 @@ li a{
     color: #F0FFCE;
 }
 
+div{
+    text-align: center;
+}
+
+video{
+    width: 100vh;
+    height: 50vh;
+}
+
 pre{
     font-weight: bold;
     color: #DEC5E3;
     font-size: smaller;
 }
+
