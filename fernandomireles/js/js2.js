@@ -26,3 +26,12 @@ console.log("Primer alumno",
 document.write("<marquee>Mensaje</marquee>")
 document.write(`<ul><li>Elemento
                 </li></ul>`)
+
+/* Ejemplo if */
+let calif = 95;
+
+if (calif >= 95 && calif <= 100) {
+    console.log("Excelente");
+} else {
+    console.log("No excelente")
+}
