@@ -1,3 +1,16 @@
+.titulo{
+    background-color: #f3214e;
+    flex-wrap:initial;
+    font-size: 40px;
+}
+
+#p1{
+    background-color: #e6ac84;
+    font-size: 30px;
+    
+}
+
+
 #nav-main ul{
     list-style:none;
     padding: 0;
@@ -16,7 +29,7 @@
 
 #menu ul li a strong:hover{
     background-color: #ad9978;
-    border-radius: 2px;
+    border-radius: 5px;
     color: #e6ac84;
     
 }
@@ -37,22 +50,16 @@ a{
     align-content: space-between;
 }
 
-#lugar-1{
-    
-}
-.titulo{
-    background-color: #e8373e;
-    flex-wrap:initial;
-}
 
-#p1{
-    background-color: #e6ac84;
-}
+
+
 
 .p-132{
-    size: 30px;
+    font-size: 28px;
+    align-self: center;
     background-color: #e6ac84;
-    border: 20px;
+    border-radius: 35px;
+    font-style:unset;
 }
 
 table{
@@ -60,5 +67,7 @@ table{
 }
 
 td, th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
     border: #619177 5px solid;
   }
