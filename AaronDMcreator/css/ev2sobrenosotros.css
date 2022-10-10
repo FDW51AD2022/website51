@@ -121,3 +121,23 @@ table td{
 .rmac:hover{
     background-color: #1a1a1a;
 }
+
+.main footer{
+    grid-area: pie;
+    grid-column: 1 / -1;
+    text-align: left;
+    background-color: #1a1a1a;
+    color: #fafafa;
+    font-family: Noto Sans,sans-serif;
+    font-size: 15px;
+    padding: 2rem 1.25rem 7rem 1.25rem;
+    margin-top: 15em;
+}
+
+.flogo{
+    width: 35px;
+    float: inline-end;
+    float: right;
+    margin: 0;
+    margin-right: 12px;
+}
