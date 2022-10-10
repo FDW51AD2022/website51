@@ -1,5 +1,5 @@
 .contenedor-principal{
-    background: url(../img/banner-seccion-principal.jpg) rgba(0, 0, 0, 0.3);
+    background: url(../recursos/banner-seccion-principal.jpg) rgba(0, 0, 0, 0.3);
     background-blend-mode: multiply;
     padding: 150px 0px;
     text-align: center;
@@ -30,16 +30,12 @@ main .contenedor-acerca-de{
     grid-template-columns: repeat(auto-fit, minmax(500px , 1fr)); 
 }
 
-.video{
-    background: #f7f7f7;
-}
-
 .contenedor-video video{
     width: 90%;
 }
 
 .sucursales{
-    background: url(../img/baza-clothing-sucursales-background.png) rgba(0, 0, 0, 0.753);
+    background: url(../recursos/baza-clothing-sucursales-background.png) rgba(0, 0, 0, 0.753);
     background-blend-mode: multiply;
     color: white;
 }
@@ -48,4 +44,17 @@ main .contenedor-acerca-de{
     display: grid;
     grid-gap:20px;
     grid-template-columns: repeat(auto-fit, minmax(500px , 1fr)); 
+}
+
+.blog img {
+    width: 100%;
+    vertical-align: top;
+}
+
+aside {
+    text-align: center;
+}
+
+iframe.invitaciones {
+    margin-left: 124px;
 }
