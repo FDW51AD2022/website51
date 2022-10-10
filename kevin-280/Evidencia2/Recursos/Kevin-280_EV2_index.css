@@ -1,10 +1,10 @@
-body{background:white;
+body{background:black;
 }
 
-#andr{color: black;}
+#andr{color: white;}
 
 hr{width: 200%;
-    border:dotted blue;
+  border:dotted #ccc;;
   }
 
 #Menu {overflow:hidden;
@@ -19,18 +19,18 @@ hr{width: 200%;
 
 #Menu  #Links li a{padding:10px 20px;
                    display:block;
-                   color: black;
+                   color: white;
                    text-decoration:none;
 }
 
-#Menu #Links li a:hover {background:darkblue
+#Menu #Links li a:hover {background:red
 }
 
 #Seccion_1  {width:68.5%;
   margin-right:1.5%;
   float:left;
-  color: white;
-  background: cornflowerblue;
+  color: red;
+  background: rgb(6, 7, 4);
   border: grey 10px;
 }
 
