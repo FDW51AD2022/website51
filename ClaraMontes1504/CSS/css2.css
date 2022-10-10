@@ -13,12 +13,13 @@ body{
     color: white;
 }
 
+
 #lista1 li:first-child{
     background-color: gold;
 }
 
 #lista1 li:last-child{
-    box-shadow: 5px 5px 5px green;
+    background-color: green;
 }
 
 #lista1 li:nth-child(4){

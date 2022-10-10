@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/MiguelDelCastillo_Contacto.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <nav id="nav-main">
+        <ul>
+          <li>
+            <a href="MiguelDelCastillo_index.html"><strong>Inicio</strong></a>
+          </li>
+          <li>
+            <a href="MiguelDelCastillo_sucursal.html"
+              ><strong>Sucursales</strong></a
+            >
+          </li>
+          <li>
+            <a href="MiguelDelCastillo_Estrenos.html"
+              ><strong>Estrenos</strong></a
+            >
+          </li>
+          <li>
+            <a href="MiguelDelCastillo_Productos.html"
+              ><strong>Productos</strong></a
+            >
+          </li>
+          <li>
+            <a href="MiguelDelCastillo_Contacto.html"
+              ><strong>Contacto</strong></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <article>
+      <section>
+        <h1>PANINI POINT MTY</h1>
+        <div>
+          <button onclick="playPause()">Play/Pause</button>
+          <br />
+          <br />
+          <video id="panini-point" controls>
+            <source src="recursos/panini-point.mp4" type="video/mp4" />
+            <source src="recursos/panini-point.mp4" type="video/ogg" />
+          </video>
+        </div>
+        <script>
+          var myVideo = document.getElementById("panini-point");
+          function playPause(){
+              if(myVideo.paused)
+                  myVideo.play();
+              else
+                  myVideo.pause();
+          }
+        </script>
+      </section>
+      <section>
+        <h1><main>Contacto</main></h1>
+
+        <p>Puedes <mark>contactarnos</mark> llenando este formulario:</p>
+        <p>Nombre: <br> <input type="" value="" /></p>
+        <p>Apellidos: <br> <input type="" value="" /></p>
+        <p>Asunto: <br> <input type="" value="" /></p>
+        <p>Correo Electronico: <br> <input type="" value="" /></p>
+        <button>Click para enviar</button>
+        <p>
+          Para un <em>contacto mas directo</em> puedes marcar a este numero:
+        </p>
+        <address>(+52)81101234972</address>
+
+        <h1>Muchas gracias por visitarnos!</h1>
+      </section>
+      <pre>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠞⠉⠀⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀⠈⠓⢄⠀⠀⠀⠙⠑⢦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡴⠋⠀⠀⠀⢀⡴⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠁⠀⠀⠀⠀⠈⠹⢦⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⣀⣠⣤⣴⣶⣶⣾⣟⠟⠀⠀⠠⠃⢠⠎⠀⠀⠀⣰⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⡀⠀⠀⠀⠀⠑⣟⢿⣷⣶⣶⣶⣤⣤⣀⠀
+            ⠀⠸⣿⣿⣿⣿⣿⡿⢻⠋⠀⠀⠀⠁⡰⠃⠀⠀⠀⢰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢶⡀⠀⠀⠀⠈⢺⠛⣿⣿⣿⣿⣿⣿⠃
+            ⠀⠀⢿⣿⣿⣿⡿⢳⠃⢀⡀⠀⠀⡼⠁⠠⠀⠀⢀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢷⡀⠀⠑⠄⠀⠳⡛⢿⣿⣿⣿⡟⠀
+            ⠀⠀⢸⣿⣿⣿⣤⡇⠃⠀⠀⠀⢰⠃⠀⢡⡎⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢱⡄⠀⠀⠀⠀⢱⢸⣿⣿⣿⠃⠀
+            ⠀⠀⠀⣿⣿⢫⡟⠸⠀⠀⠀⠀⡏⠀⠀⡎⠀⠀⣸⡀⠀⠀⠀⠀⠀⠀⣄⢯⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢧⠀⠈⢦⠀⠀⢫⡹⣿⡟⠀⠀
+            ⠀⠀⠀⢸⣿⣿⠁⣏⠀⠀⠀⢸⠁⠀⡸⠀⠀⣼⠟⡇⠀⠀⠀⠀⠀⠀⠘⣼⡆⠀⠀⠈⣧⠀⠀⠀⠀⠀⠘⡆⠀⠀⢧⠀⠀⢻⣿⠃⠀⠀
+            ⠀⠀⠀⠀⣿⠇⠀⠮⠀⠀⠀⡏⠀⠀⡇⠀⡰⠧⠤⠼⡀⢰⠀⠀⠀⠀⠀⠸⣿⣦⠀⠀⠘⣧⡀⠀⠀⠀⠀⠹⡀⠀⠸⡄⠀⠈⢿⣄⠀⠀
+            ⠀⠀⠀⢠⡟⡄⠀⡳⠀⠀⢰⠇⠀⣼⠁⡰⢁⣀⣀⠀⠹⡄⢣⠀⠀⠀⠀⠀⠙⣌⠛⠦⡀⠱⡙⢦⡀⠀⢣⠀⢣⠀⠀⢇⠀⠈⢏⣏⠛⢖
+            ⠀⠀⢠⢳⠃⡇⠀⢑⠀⠀⢸⠀⡜⢉⣦⣯⡵⠶⢦⣌⠐⠜⢄⠳⣄⡀⠀⠀⠀⠈⢲⣈⣭⣵⣿⣑⠳⣄⠈⡇⠘⡆⠀⢸⠀⠀⢸⠘⡆⠀
+            ⠀⣠⠃⡞⠀⢱⠀⢸⠀⠀⢸⡜⢠⣿⠟⢁⠐⢿⣷⣌⢳⡀⠀⠑⠸⠯⠉⠑⠒⢢⡟⠁⠘⣿⣶⡍⠻⣬⡷⣧⠀⢳⠀⠨⡄⠀⢈⠆⢹⡀
+            ⡜⠁⣼⠇⠀⠈⡆⠈⡆⠀⢸⠐⣾⠃⠀⣿⡖⣶⡽⣿⠀⣧⠀⠀⠀⠀⠀⠀⠀⣾⠀⣷⣶⣷⣹⣿⠀⢹⡾⢾⢀⣾⡀⠀⡇⠀⢸⠀⠀⢣
+            ⣠⡾⢼⡁⠀⠀⠹⡄⢱⠀⢸⠐⣻⠀⠀⣿⣏⣿⣧⢿⠂⠀⠀⠀⠀⠀⠀⠀⠀⠈⠘⣿⢿⣿⢿⣻⠀⠀⡷⠞⠉⣯⡇⢀⡇⠀⣸⠀⠀⠘
+            ⣿⡝⣾⠀⠀⠀⠀⢳⠈⢇⠸⡀⠹⡄⠀⠘⢇⣐⡨⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣔⣂⡸⠃⠀⢸⠓⠂⢰⢿⡇⢰⠀⢀⡇⠀⠀⠀
+            ⣷⣛⣼⠀⠀⠀⠀⠀⠣⡈⢆⢇⠀⠈⠢⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⡄⠋⠁⢀⡷⢫⣗⡸⠀⡼⠀⠀⠀⠀
+            ⢷⣝⣾⡄⠀⠀⠀⠀⠀⠑⣌⢾⡀⠀⠀⠀⠀⠀⠀⣠⡖⠒⠒⠒⠒⠒⠒⠒⠒⠦⠤⣄⠀⠀⠁⠁⠀⠀⠀⡜⠛⣫⣷⠃⡼⠁⠀⠀⠀⠀
+            ⠸⣿⣸⣇⠀⠀⠀⠀⠀⠀⠀⢣⣇⠀⠀⠀⠀⠀⢸⣿⡿⠟⠛⠛⠛⠛⠛⠛⠛⠛⠿⣿⡇⠀⠀⠀⠀⠀⢸⣧⢿⢿⡟⡸⠃⠀⠀⠀⠀⢀
+            ⣧⠘⢿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠹⣆⠀⠀⠀⠀⠈⢧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡸⠁⠀⠀⠀⠀⢠⡿⣼⡹⣾⡟⠁⠀⠀⠀⠀⠀⢸
+            ⠈⠁⠈⠻⡽⡄⠀⠀⠀⠀⠀⠀⠀⠘⢦⠀⠀⠀⠀⠀⠓⢦⡀⠀⠀⠀⠀⠀⢀⡠⠞⠁⠀⠀⠀⢀⣴⣟⡳⢧⣻⡽⠀⠀⠀⠀⠀⠀⢀⡯
+            ⣿⣶⣤⣄⣹⡽⣆⠀⠀⠀⠀⠀⠀⠀⠈⠳⣄⡀⠀⠀⠀⠀⠈⠓⠒⠒⠒⠚⠉⠀⠀⠀⢀⣠⣴⢯⡳⣞⣿⣷⣹⡇⠀⠀⠀⠀⠀⢀⣾⢳
+            ⣿⣿⣿⣿⣿⣿⣯⠷⣄⠀⠀⠀⠀⠀⠀⠀⠹⣿⣷⣒⣦⢤⣤⣠⣀⣄⣠⣤⣤⣴⣶⢻⡽⣻⣮⣗⣻⢼⣻⡟⢾⡇⠀⠀⠀⠀⢀⡾⣭⣿
+            ⣿⣿⣿⣿⣿⣿⣿⣿⣽⣳⢦⣀⠀⠀⠀⠀⠀⠹⡏⠁⠉⠓⠦⣉⡉⠛⣙⣩⠵⢚⠩⠳⣽⣽⣼⣿⣾⣷⣷⣿⣿⠆⠀⠀⠀⣠⣾⣻⣾⣿</pre
+      >
+      <cite
+        ><span style="color: red">ASCII Art</span>, recuperado de:
+        <a href="https://emojicombos.com/" target="_blank"
+          ><small>EmojiCombos</small></a
+        ></cite
+      >
+    </article>
+    <aside></aside>
+    <footer>
+      <center>
+        <h3>ANIMEMEME! 2022</h3>
+        <hr />
+        <ul id="footer">
+          <li><a class="piepagina" href="#">Politicas de Privacidad</a></li>
+          <li><a class="piepagina" href="#">Acuerdos de Uso</a></li>
+        </ul>
+      </center>
+    </footer>
+  </body>
+</html>

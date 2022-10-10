@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background:url(../imagenes/fondochurchill.jpg);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    font-size: 5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(156, 120, 120);
+}
+
+.section{
+    display: grid;
+    text-align:center;
+    width: 960px;
+    gap: ;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-template-columns: auto 200px;
+    grid-template-areas:
+     "article  div"
+     "footer footer";
+}
+
+.article{
+    grid-area: article;
+    background-color: white;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: white;
+    margin: 5px;
+    background-image: linear-gradient(90deg,beige,blueviolet);
+}
+
+small{
+    color: brown;
+}
+
+.div{
+    grid-area: div;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+    color: red;
+}
+
+.div img{
+    width: 200px;
+    height: auto;
+    transform: translateY(150px);
+}
+
+b{
+    font-size: 5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

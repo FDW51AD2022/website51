@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+h1 {
+    font-family: "Arial Black", sans-serif;
+    font-size: 25px;
+    letter-spacing: -1px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
