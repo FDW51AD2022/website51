@@ -1,5 +1,5 @@
 .contenedor-principal{
-    background: url(../img/banner-seccion-principal.jpg) rgba(0, 0, 0, 0.3);
+    background: url(../recursos/banner-seccion-principal.jpg) rgba(0, 0, 0, 0.3);
     background-blend-mode: multiply;
     padding: 150px 0px;
     text-align: center;
@@ -35,7 +35,7 @@ main .contenedor-acerca-de{
 }
 
 .sucursales{
-    background: url(../img/baza-clothing-sucursales-background.png) rgba(0, 0, 0, 0.753);
+    background: url(../recursos/baza-clothing-sucursales-background.png) rgba(0, 0, 0, 0.753);
     background-blend-mode: multiply;
     color: white;
 }
