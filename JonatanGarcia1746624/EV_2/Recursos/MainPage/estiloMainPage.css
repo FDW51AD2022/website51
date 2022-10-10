@@ -1,5 +1,5 @@
 #cuerpo {
-    background-color: slategray}
+    background-image: url(fondo.jpg);}
 
 #logo {
     height: 200px; 
@@ -25,7 +25,9 @@
 
 #encabezado {
     font-size: 50px; 
-    padding: 50px 0px 0px 0px; 
+    padding: 30px 0px 0px 0px; 
     text-align: center; text-decoration: underline;}
 
-#desc {font-size: 30px;}
+#desc {
+    font-size: 30px; 
+    margin-top: 10px;}
