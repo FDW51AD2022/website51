@@ -10,19 +10,21 @@
     text-align: center;
 }*/
 body {
-    background-color: #DFF6FF;
+    background: url(../Recursos/estrellas.jpg);
+    background-size: 100%;
     color: black;
 }
 
 #contenedor {
-    width: 960;
+    width: 960px;
     margin: auto;
     margin-top: 20px;
     margin-bottom:20px;
+    background: url(../Recursos/estrellas.jpg);
 }
 header {
     height: 150px;
-    background:#8BBCCC;
+    background:#256D85;
 }
 header h1 {
     font-size: 50px;
@@ -30,7 +32,7 @@ header h1 {
     line-height: 156px;
 }
 nav {
-    background: #7895B2;
+    background: #607EAA;
     height: 60px;
 }
 nav h2 {
@@ -38,7 +40,8 @@ nav h2 {
     text-align: center;
     line-height: 60px;
 }
-#contenido {
+.contenido {
+    text-align: center;
     width: 700px;
     height: 500px;
     float: left;
@@ -46,20 +49,39 @@ nav h2 {
     margin-top: 10px;
     margin-right: 10px;
 }
-#contenedor h2 {
+.contenedor h2 {
     font-size: 40px;
     text-align: center;
-    line-height: 500px;
+    line-height: 50px;
+}
+img{
+    justify-content: center;
+    width: 200px;
+    height: auto;
 }
 aside {
+    text-align: center;
     width: 250px;
     height: 500px;
     background: #F94892;
     margin-top: 10px;
     float: right;
 }
-aside h2 {
-    
+.aside h2 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 50px;
 }
+footer {
+    background: #3B9AE1;
+    clear: both;
+}
+footer h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+
 
 

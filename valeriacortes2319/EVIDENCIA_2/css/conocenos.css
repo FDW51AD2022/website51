@@ -1,4 +1,3 @@
-
 h1 {
     background: #fcdbe6; 
     color: #f15c8e; 
@@ -7,17 +6,8 @@ h1 {
     border: 2px solid #fac9d9; 
     border-radius: 6px; 
     text-align: center;
-}
-/*h1 {
-    background: #fcdbe6; 
-    color: #f15c8e; 
-    font-weight: bold; 
-    padding: 15px; 
-    border: 2px solid #fac9d9; 
-    border-radius: 6px; 
-    text-align: center;
     font-size: 4vh;
-}*/
+}
 
 h2 {
     color: rgb(233, 67, 175);
@@ -26,19 +16,28 @@ h2 {
     font-size:4vh;
 }
 
-p {
-    color: rgb(113, 93, 93);
+h3 {
+    color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
-    font-size: 30px;
+    font-size: 25px;
 }
 
-p[lang]{
+h3[lang]{
     border: 5px dashed palevioletred;
 } 
 
-#sakura img {
+/*#sakura img {
     width: 450px;
     float: right;
     margin-right: 1em;
+}*/
+
+#final{
+    padding: 15px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
 }
+
