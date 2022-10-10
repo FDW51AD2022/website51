@@ -38,6 +38,28 @@ nav h2 {
     text-align: center;
     line-height: 60px;
 }
-
+#contenido {
+    width: 700px;
+    height: 500px;
+    float: left;
+    background: #5CB8E4;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#contenedor h2 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 500px;
+}
+aside {
+    width: 250px;
+    height: 500px;
+    background: #F94892;
+    margin-top: 10px;
+    float: right;
+}
+aside h2 {
+    
+}
 
 
