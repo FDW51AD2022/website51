@@ -1,10 +1,10 @@
 body{background:black;
 }
 
-#andr{color: #fff;}
+#andr{color: white;}
 
 hr{width: 200%;
-    border:dotted #ccc;
+  border:dotted #ccc;;
   }
 
 #Menu {overflow:hidden;
@@ -19,7 +19,7 @@ hr{width: 200%;
 
 #Menu  #Links li a{padding:10px 20px;
                    display:block;
-                   color:#fff;
+                   color: white;
                    text-decoration:none;
 }
 

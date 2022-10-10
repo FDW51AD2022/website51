@@ -2,7 +2,7 @@
     margin: 0;
     padding: 10;
     box-sizing: border-box;
-    font-family: "Arial", sans-serif;
+    font-family: "tahoma", sans-serif;
 }
 
 h1 {
@@ -17,7 +17,7 @@ h1 {
 }
 
 blockquote {
-    font-family: "Arial Black", sans-serif;
+    font-family: "tahoma black", sans-serif;
     font-size: 15px;
     display:flex;
     justify-content: center;
