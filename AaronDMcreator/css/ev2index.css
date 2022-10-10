@@ -47,3 +47,28 @@ body {
     color: #fff;
     font-size: 16px;
   }
+
+  .Log-In {
+    background: #b80f22;
+    color: #fff;
+    border-radius: 20px;
+    margin-left: 8.5em;
+    padding: 10px;
+}
+  
+  .Log-In:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+  }
+  
+  .login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+  }
+  
+  .login-box a:hover {
+    color: #fff;
+  }
