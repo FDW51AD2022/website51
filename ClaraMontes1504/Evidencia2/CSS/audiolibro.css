@@ -116,13 +116,41 @@ form {
     background-color: #FAFDD6;
 }
 
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding: 10px;
+}
+
+#img{
+    display: inline;
+}
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 200px;
+    margin: auto;
+    float: left;
+}
+
+.datos p,h3{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+button{
+    font-size: 15px;
+    background-color:#B7C4CF;
+}
 #Pie{
     text-align: center;
-    background-color:#F2F2F2;
+    background-color:#EEF1FF;
     padding: 15px;
 }
 
 #Adress{
-    background-color:#0e9497;
+    background-color:#4C6793;
     padding:10px;
 }
