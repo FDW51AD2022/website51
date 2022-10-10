@@ -166,6 +166,28 @@ video{
     height: 50vh;
 }
 
+input{
+    width: 150vh;
+    height: 5vh;
+    border-radius: 3px;
+    padding: 2vh;
+    font-size: 5vh;
+    border: none;
+    border-bottom: 1vh solid #DE3C4B;
+    color: #420039;
+    background-color: #DEC5E3;
+}
+
+button{
+    width: 30vh;
+    height: 10vh;
+    font-size: 3vh;
+    background-color: #DEC5E3;
+    border: none;
+    border-bottom: #420039 1vh solid;
+    border-top: #420039 1vh solid;
+}
+
 pre{
     font-weight: bold;
     color: #DEC5E3;

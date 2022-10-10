@@ -1,0 +1,66 @@
+/* Selector de tipo */
+
+
+p {
+    font-size: 80px; 
+ }
+ 
+ /* Selector por id */
+ 
+ #parrafo-sel-id {
+     background-color: cornflowerblue;
+     border-radius: 10px;
+ }
+ 
+ /* Selector de clase */
+ 
+ .error {
+     color: black;
+     background-color: #19c965;
+ }
+ 
+ /* Selector por atributo */
+ /* p[lang] {
+     border: 3px dashed blue;
+ }
+  */
+ 
+ /* Selector por atributo valor especial */
+ p[lang="es"] {
+     background-color: orange;
+ }
+ 
+ /* Selector por atributo, buscando
+ un valor inicial */
+ 
+ a[href^="https"] {
+     background-color: yellowgreen;
+ }
+ 
+ /* Selector por atributo, buscando
+ un valor final */
+ a[href$="mx"] {
+     background-color: aquamarine;
+ }
+ 
+ /* Selector por atributo, buscando
+ un valor sin importar la posicion
+ donde se encuentre */
+ a[href*="you"] {
+     border: 3px groove yellow;
+ }
+ 
+ /* Selector por descendientes */
+ section p {
+     font-size: 3px;
+ }
+ 
+ /* Selector por hijos directos */
+ section > p {
+     font-size:25px;
+ }
+ 
+ /* Selector hermano general */
+ #p-ini ~ p {
+    background-color: rgb(204, 207, 211);  
+ }
