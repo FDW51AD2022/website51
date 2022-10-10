@@ -62,11 +62,11 @@ body {
 	color: #fff;
 	grid-area: footer;
 }
-.contenedor, p{
+
     
   
     
-}
+
 
 @media screen and (max-width: 768px){
 	.contenedor {

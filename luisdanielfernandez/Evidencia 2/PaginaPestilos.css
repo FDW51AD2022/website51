@@ -1,0 +1,19 @@
+#FisicaCuantica header {
+    grid-column: 1/-1;
+    color: green;
+}
+
+#FisicaCuantica {
+    color: black;
+}
+
+
+body{
+    background-image: url(Imagenes/FondoAzul.jpg);
+}
+
+#nav-main ul li {
+    float: right;
+    width: 20%;
+    
+}
