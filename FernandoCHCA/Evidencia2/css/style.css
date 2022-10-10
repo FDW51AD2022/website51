@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root{
+    --padding-container: 100px 0;
+    --color-title: hsl(219, 100%, 14%);
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    max-width: 100%;
+    padding: 0px 1%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 800px;
+    /* position: relative; */
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color: #fff;
+}
+
+.hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95%;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('..//Recursos/Criptos.jpg');
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    z-index: -1;
+}
+
+/* Nav */
+
+.nav{
+    --padding-container:0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+/* .nav_title{
+    position: fixed;
+    padding-bottom: 550px;
+} */
+
+.nav__link{
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: max-content;
+    gap: 2em;
+}
+
+.nav__link li a{
+    text-decoration: none;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.nav__link li a:hover{
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.nav__items{
+    list-style: none;
+}
+
+.nav__links{
+    color: #fff;
+    text-decoration: none;
+    /* position: fixed; */
+}
+
+.nav__menu{
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+}
+
+.nav__img{
+    display: grid;
+    width: 30px;
+}
+
+.nav__close{
+    display: var(--show, none);
+}
+
+/* Hero container */
+
+.hero__container{
+    max-width: 800px;
+    --padding-container:0;
+    display: grid;
+    grid-template-rows: max-content;
+    align-content: center;
+    gap: 1em;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.hero__title{
+    font-size: 3rem;
+    margin: 0%;
+}
+
+.hero__paragraph{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.cta{
+    display: inline-block;
+    background-color: #0f8d5b;
+    justify-self: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 32px;
+    margin: 5px;
+}
+
+.cta_Ev2{
+    display: inline-block;
+    background-color: #e06b51;
+    justify-self: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 32px;
+    margin: 5px;
+}
+
+/* Comienzo */
+
+.comienzo{
+    content: "";
+    position: absolute;
+    width: 78%;
+    height: 65%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin-top: 310px;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('..//Recursos/Criptos2.jpg');
+    background-size: cover;
+    clip-path: polygon(0 60%, 64% 60%, 99% 100%, 0% 100%);
+}
+
+/* Introduccion */
+
+.introduccion {
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 260px;
+    padding-right: 260px;
+    width: 60%;
+    margin: 0%;
+}
+
+.subtitle{
+    color: var(--color-title);
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.introduccion__paragraph{
+    line-height: 1.7;
+    font-size: 18px;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    padding-bottom: 2em;
+}
+
+/* Aside */
+
+.aside {
+    font-size: 2vh;
+    font-style: oblique;
+    width: 30%;
+    margin-top: -131px;
+}
+
+.publicidad{
+    width: 437px;
+    height: 905px;
+    margin-top: 0px;
+    float: right;
+    border: 5px solid #1d293F;
+    background-color: #06283D;
+}
+
+.subcuadro{
+    background-color: #EDEDED;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+    width: 100%;
+    height: 37px;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.aside__publi_contenido{
+    background-color: #FFECEF;
+    width: 100%;
+    height: 230px;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.lens_island{
+    width: 100%;
+    height: 100%;
+}
+
+.youtube{
+    width: 100%;
+    height: 100%;
+}
+
+/* .invitaciones{
+    align-items: center;
+} */
+
+/* Menu fijo */
+
+/* .scroll{
+    height: 100px
+}
+
+.nav.active{
+    background-color: #fff;
+} */
+
+/* Footer */
+
+.footer{
+    background-color: #1d293F;
+}
+
+.footer__title{
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 30px;
+    /* padding-left: 480px; */
+    text-align: center;
+}
+
+.footer__container{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 30px;
+}
+
+.nav--footer{
+    padding-bottom: 20px;
+    display: grid;
+    gap: 1em;
+    grid-auto-flow: row;
+    height: 100%;
+    justify-content: center;
+}
+
+.footer__copy{
+    --padding-container: 30px 0;
+    text-align: center;
+    color: #fff;
+    /* display: flex;
+    padding-left: 700px; */
+}
+
+.footer__copyright{
+    font-weight: 300;
+}
+
+.footer__icons{
+    display: inline-flex;
+    margin-bottom: 10px;
+}

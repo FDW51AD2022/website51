@@ -1,0 +1,76 @@
+.menu{
+    list-style: none;
+    padding: 0%;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+    
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #ef8354;
+}
+
+
+p{
+    text-align: justify;
+}
+
+
+h2{
+    text-align: center;
+}
+
+.imagen1 {
+    width: 100px;
+}
+
+.imagen2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.logo {
+    display:    flex;
+    
+}
+
+.center{
+    text-align: center;
+    width: 100px;
+}
+
+header{
+    text-align: center;
+   
+    padding: 20px;
+    margin: 100px,20px,100px,20px;
+    
+}
+
+h1{
+    text-align: center;
+   
+    padding: 20px;
+    margin: auto;
+
+}
+
+h6{
+    text-align: center;
+}
