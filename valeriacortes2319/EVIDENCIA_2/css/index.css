@@ -29,6 +29,11 @@ h4 {
     border-radius: 60%;
 }
 
+#centrarimg {
+    text-align: center;
+}
+
+
 #site-menu {
     display: flex;
     margin: 5;
