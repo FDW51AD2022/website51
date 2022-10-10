@@ -27,11 +27,14 @@ h3[lang]{
     border: 5px dashed palevioletred;
 } 
 
-/*#sakura img {
-    width: 450px;
-    float: right;
-    margin-right: 1em;
-}*/
+h4{
+    padding: 15px;
+    color: rgb(225, 45, 45);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
 
 #final{
     padding: 15px;
