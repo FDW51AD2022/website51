@@ -1,7 +1,3 @@
-/*body {
-    background-color:rgb(253, 242, 243);
-}*/
-
 
 h2 {
     color: rgb(233, 67, 175);
@@ -84,4 +80,12 @@ h4 {
     width: 250px;
     float: right;
     margin-right: 5em;
+}
+
+#final{
+    padding: 15px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
 }
