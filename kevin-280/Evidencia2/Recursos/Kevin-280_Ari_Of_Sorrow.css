@@ -67,3 +67,7 @@ th{color: blue;
 #lo, #li, #la, #lp{padding: 5px 10px 15px 350px;}
 
 #lk {padding: 5px 10px 15px 0px;}
+
+hr{width: 200%;
+    border: dotted #ccc;
+}
