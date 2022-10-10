@@ -7,8 +7,7 @@
     align-content: space-between;
     flex-flow: row ;
     overflow: hidden;
-    /* width: auto;
-    height: 50px; */
+
 }
 
 #menu ul li{
@@ -16,16 +15,13 @@
 }
 
 #menu ul li a strong:hover{
-    background-color: #420039;
+    background-color: #ad9978;
     border-radius: 2px;
-    color: #DEC5E3;
+    color: #e6ac84;
     
 }
 
-#menu ul li a strong{
-    color: #F0FFCE;
-    text-shadow:0 0 20px #0F0A0A;
-}
+
 
 a{
     text-decoration: none;
@@ -41,6 +37,9 @@ a{
     align-content: space-between;
 }
 
+#lugar-1{
+    
+}
 .titulo{
     background-color: #e8373e;
     flex-wrap:initial;
@@ -57,5 +56,9 @@ a{
 }
 
 table{
-    border-collapse: collapse;
+    border: #ad9978 7px solid;
 }
+
+td, th {
+    border: #619177 5px solid;
+  }
