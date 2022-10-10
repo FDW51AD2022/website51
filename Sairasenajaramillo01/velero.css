@@ -1,0 +1,21 @@
+body{
+    background: #FFE7CC;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 100vh;
+}
+h1{
+    font-size:25px;
+    text-align: center;
+    border: 3px solid #4C6793;
+}
+ul{
+    text-align: justify;
+    background-color: #050506;
+    height: 150px;
+    color: snow;
+    
+}
+.contenedor{
+    margin-inline: 30%;
+}
+

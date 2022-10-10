@@ -1,0 +1,52 @@
+body {background-color: rgb(235, 245, 251);
+}
+
+h1 {background-color:rgb(209, 242, 235);
+    color: rgb(69, 179, 157);
+    font-family: 'Verdana';
+    font-size: 50px;}
+
+h2 {color: rgb(69, 179, 157);
+    font-family: 'Century Gothic';
+    font-size: 35px;
+}
+
+h3 {color: rgb(69, 179, 157);
+    font-family: 'Century Gothic';
+    font-size: 35px;
+}
+
+#cubrebocas img {
+    float: center;
+    width: 500px;
+    margin-right: 1em;
+    border-radius: 20px;
+}
+
+#Wuhan img {
+    float: center;
+    width: 500px;
+    margin-right: 1em;
+    border-radius: 20px;
+}
+aside {color: rgb(14, 98, 81);
+    font-family: 'Century Gothic';
+    font-size: 25px;
+    margin-left: 2em;
+}
+
+figure {color: rgb(14, 98, 81);
+    font-family: 'Century Gothic';
+    font-size: 15px;
+}
+
+dl {color: rgb(14, 98, 81);
+    font-family: 'Century Gothic';
+    font-size: 25px;
+    margin-left: 2em;
+}
+
+strong {color:rgb(31, 97, 141);
+    font-family: 'Century Gothic';
+    font-size: 25px;
+}
