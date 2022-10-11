@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #150050;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section {
+    background: #D58BDD;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    width:300px ;
+    margin: 10px;
+}
+.hearder {
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 10px;
+}
