@@ -1,7 +1,3 @@
-.principal{
-    margin-top: 80px;
-}
-
 .contenedor-principal{
     background: url(../recursos/banner-seccion-principal.jpg) rgba(0, 0, 0, 0.3);
     background-blend-mode: multiply;
