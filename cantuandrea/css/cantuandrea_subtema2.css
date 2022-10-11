@@ -58,7 +58,7 @@
 }
 
 .boneless h1:hover{
-    color: rgb(172, 8, 8);
+    color: rgb(0, 78, 0);
 }
 
 .boneless h2{
@@ -93,6 +93,11 @@ td {
     border: black 5px solid;
   }
 
+img{
+    width: 250px;
+    float: right;
+    margin-right: 15px;
+}
 .hamburguesas{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color:rgb(202, 189, 117);
@@ -111,7 +116,7 @@ td {
 }
 
 .hamburguesas h1:hover{
-    color: rgb(172, 8, 8);
+    color: rgb(0, 78, 0);
 }
 
 .hamburguesas h2{
@@ -156,7 +161,7 @@ td {
 }
 
 .papas h1:hover{
-    color: rgb(172, 8, 8);
+    color: rgb(0, 78, 0);
 }
 
 .papas h2{
@@ -226,4 +231,10 @@ td {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     color: white;
+}
+
+hr {
+    height: 4px;
+    background-color: black;
+    border: none;
 }

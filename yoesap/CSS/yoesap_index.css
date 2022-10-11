@@ -86,8 +86,8 @@ body::-webkit-scrollbar-thumb { /*color de la barra de desplazamiento*/
 
 /*Sucursales*/
 #info img{
-    width: 450px;
-    height: 300px;
+    width: 200px;
+    height: 10px;
     float: middle;
     margin-left: 1em;
 }
@@ -232,17 +232,9 @@ figure{
     margin: 0px;
 }
 
-split{
-    padding-bottom: 10px;
-    border-bottom: 2px solid #dadada;
-}
 
-
-
-figcaption {
-    font-style: italic;
-    color: black;
-    font-size: 1.1em;
-    text-align: center;
+img{
+    align-items: center;
 
 }
+
