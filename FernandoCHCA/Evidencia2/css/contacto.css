@@ -42,14 +42,14 @@ main{
 
 .hero__imagen{
     padding-left: 90px;
-    padding-top: 60px;
+    padding-top: 110px;
     width: 600px;
     height: 500px;
 }
 
 .hero__info{
     padding-right: 900px;
-    padding-top: 100px;
+    padding-top: 150px;
     width: 900px;
     height: 500px;
 }
