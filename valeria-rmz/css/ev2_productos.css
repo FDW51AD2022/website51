@@ -32,6 +32,7 @@ header{
     position: relative;
     display: inline-block;
     text-align: center;
+    display: flexbox;
 }
 
 .cont:hover{

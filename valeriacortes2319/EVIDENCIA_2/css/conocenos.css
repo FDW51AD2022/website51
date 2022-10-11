@@ -17,10 +17,10 @@ h2 {
 }
 
 h3 {
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(94, 80, 115);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: left;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 h3[lang]{
@@ -91,11 +91,29 @@ h4{
     color: #fac9d9;
 }
 
+/*color: rgb(176, 133, 176);*/
+h5{
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+figcaption {
+    color: rgb(150, 34, 152);
+    font-family:century;
+    text-align: left;
+    font-size: 35px;
+}
+
+#borde{
+    border-radius: 15px;
+}
+
 #final{
     padding: 15px;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 
