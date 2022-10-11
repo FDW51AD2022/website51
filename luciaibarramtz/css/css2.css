@@ -1,0 +1,93 @@
+/* Selector adyacente*/
+
+
+.titulo + p {
+    border-top: 6px solid palevioletred;
+}
+.titulo:hover{
+    background-color: rebeccapurple;
+    color: white;
+}
+
+#lista-1 li:first-child {
+    background-color: thistle;
+}
+
+#lista-1 li:last-child{
+    box-shadow: 5px 5px 5px lavender;
+}
+
+#lista-1 li:nth-child(4){
+    font-variant: small-caps;
+    background-color: lightpink;
+}
+
+#lista-2 li:nth-child(even){
+    background-color: rgba(112, 112, 112, 0.842);
+    color: white;
+}
+
+p::first-line{
+    font-size: 30px;
+}
+
+p::first-letter{
+    font-size: 80px;
+    box-shadow:5px 5px 10px lightcoral;
+}
+
+#grupo {
+    
+    /* 50px todos los lados */
+    padding: 20px;
+
+    /* 50 px arriba-abajo
+       10 px izq-der*/
+       padding: 50px 10px;
+
+    /* 50px arriba 
+       10px izq-der
+       80px abajo*/
+       padding: 50px 10 px 80px;
+
+       padding: 50px 10px 80px 100px;
+
+
+    border: 50px dotted lightpink;
+
+    border-top: 5px groove lightslategray;
+    border-bottom:10px dashed lightslategray;
+    border-left:20px solid lightpink;
+    border-right:5px solid lightpink;
+
+    margin: 50px;
+}
+
+    #bandera{
+        display: inline;
+        padding: 20px 10px;
+        border: 2px lightgray;
+    }
+
+
+
+    #verde {
+        background-color: green;
+        display: inline-block;
+        width: 100px;
+    }
+
+    #blanco {
+        background-color: white;
+        display: inline-block;
+        width: 100px; ;
+    }
+
+    #rojo {
+        background-color: red;
+        display: inline-block;
+        width: 100px;
+    }
+
+}
+
