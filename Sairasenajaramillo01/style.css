@@ -1,19 +1,8 @@
- /* Selector de tipo */
-
- #parrafo-del-id{
-    background-color: pink;
-    border-radius: 19px;
-}
-    p {
-        display:block;
-        width: 50px;
-        background-color: rgb(0, 255, 136);
-        border-radius: 10px;
-        padding:15px 30px;
-        margin: 100px 80px;
-        color: black;
-    }
-    
-a {
-    background-color: darksalmon;
+   
+h1{
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    min-height: 5vh;
+    text-align: center;
 }
