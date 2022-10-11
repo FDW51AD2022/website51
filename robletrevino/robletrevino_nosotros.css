@@ -32,13 +32,29 @@
 .main{
     display: flex;
     text-align: justify;
+    justify-content: space-between
+}
+
+.contenedor-article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    width: 70%;
 }
 
 .article1{
-    width: 80%;
+    width: 100%;
     text-align: justify;
+    padding: 50px 0px;
+    padding-right: 50px;
 }
 
-.aside{
-    width: 30%;
+.aside1{
+    display: block;
+    max-width: 30%;
+}
+
+.gris{
+    background: #f7f7f7;
 }
