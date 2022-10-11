@@ -1,0 +1,22 @@
+
+body{
+    background-image: url(Imagenes.css/mazda.jpg);
+}
+
+h1{
+    color: black;
+    background-color:white
+
+}
+
+#h1{
+    text-align: center;
+}
+
+#info img {
+    width: 200px;
+    float: right;
+    margin-right: 1em;
+    border-radius: 50%;
+
+}
