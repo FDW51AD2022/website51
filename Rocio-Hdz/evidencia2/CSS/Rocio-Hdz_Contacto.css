@@ -51,6 +51,11 @@ body{
     padding: 15px;
 }
 
+#video-laulux{
+    float: center;
+}
+
+
 form {
     margin: 0 auto;
     width: 700px;
