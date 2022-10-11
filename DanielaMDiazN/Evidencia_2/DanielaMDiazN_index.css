@@ -29,8 +29,7 @@
     justify-content: space-around;
     flex-flow: row ;
     overflow: hidden;
-   
-
+    border-radius: 35px;
 }
 
 #menu ul li{
@@ -72,3 +71,10 @@ td, th strong {
     border:#619177 8px solid;
     align-self: center;
   }
+
+  #imagen-tabla{
+    width: 500px;
+    float: left;
+    margin-right: 1em;
+
+}
