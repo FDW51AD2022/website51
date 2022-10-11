@@ -5,11 +5,8 @@ body {
 .info{
 
     background-color: #000;
-
     color: rgb(255, 255, 255);
-
     padding: 15px 0;
-
     text-align: center;
 
 }
@@ -40,3 +37,4 @@ html{
 img{
     width: 110%;
 }
+
