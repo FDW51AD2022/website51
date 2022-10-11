@@ -86,8 +86,8 @@ body::-webkit-scrollbar-thumb { /*color de la barra de desplazamiento*/
 
 /*Sucursales*/
 #info img{
-    width: 450px;
-    height: 300px;
+    width: 200px;
+    height: 10px;
     float: middle;
     margin-left: 1em;
 }
@@ -106,7 +106,7 @@ form {
 }
 
 h1 {
-    color: rgb(161, 29, 80);
+    color: rgb(15, 2, 7);
     text-align: center;
     margin: 0;
     font-size: 30px;
@@ -221,5 +221,19 @@ footer {
     width: 800px;
 }
 
+p{
+    margin: 10px 0px;
+    text-align: center;
+    text-align: justify;
+    color: #666;
+}
+
+figure{
+    margin: 0px;
+}
 
 
+img{
+    align-items: center;
+    
+}
