@@ -11,7 +11,7 @@ body{
 
 h1{
     color: rgb(7, 7, 7);
-    background-color: white;
+    background-color: #e45590;
 
 }
 #nav-main ul li {
@@ -21,13 +21,13 @@ h1{
 
 }
 
-#nav-main{
-    background-color: rgba(148, 7, 7, 0.685);
-
+a{
+    color:#e45590
+    
+    
 }
 
-a{
-    color:black 
-    
-    
+h2{
+    color: black;
+    background-color: white;
 }
