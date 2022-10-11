@@ -27,3 +27,9 @@ blockquote {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+cite {
+    text-align: center;
+    font-size: 20px;
+    
+}
