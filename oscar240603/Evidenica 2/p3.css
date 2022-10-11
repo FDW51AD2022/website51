@@ -1,0 +1,80 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background:url(../recursos/Fondoalien4.webp);
+}
+
+.contenedor{
+    display: grid;
+    text-align: center;
+    width: 1100px;
+    gap: 2em;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-template-columns: auto 200px ;
+    grid-template-areas:
+     "header header"
+     "aside article  "
+     "footer footer";
+}
+
+.header{
+    grid-area: header;
+    height: 50px;
+    font-family: sans-serif;
+    line-height: 50px;
+    /*background-color: #FF731D;*/
+    font-size: 3em;
+    color: blue;
+}
+
+.article{
+    grid-area: article;
+    /*background-color: #5F9DF7;*/
+    height: 500px;
+}
+
+.aside{
+    grid-area: aside;
+    /*background-color: #FFF7E9;*/
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer{
+    grid-area: footer;
+    /*background-color: #1746A2;*/
+}
+
+important{
+    color: #FF731D;
+}
+
+small{
+    color: blue;
+}
+
+i{
+    font-size: 20px;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+#links{
+    font-size: 20px;
+}
+
+p{
+    color: whitesmoke;
+}

@@ -2,11 +2,16 @@
     margin: 0;
     padding: 10;
     box-sizing: border-box;
-    font-family: "Arial", sans-serif;
+    font-family: "tahoma", sans-serif;
 }
 
 h1 {
-    padding: 22px;
+    font-family: "Arial Black", sans-serif;
+    font-size: 25px;
+    letter-spacing: -1px;
+    background-color: black;
+    color: white;
+    padding: 20px;
 }
 
 /* .header-acomodo {
@@ -17,6 +22,8 @@ h1 {
 h2 {
     font-family: "Arial Black", sans-serif;
     padding: 10px;
+    background-color: #000000;
+    color: white;
 }
 
 p {
@@ -30,36 +37,62 @@ p {
 }
 
 .wrapper {
-	width:90%; /* Establecemos que el ancho sera del 90% */
-	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
-	margin:auto; /* Centramos los elementos */
-	overflow:hidden; /* Eliminamos errores de float */
+	width:90%;
+	max-width:1000px; 
+	margin:auto;
+	overflow:hidden; 
+    padding: 40px 0px;
 }
 
 .contenedor {
-    padding: 15px 150px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.logo {
-    padding: 10px 170px;
+.contenedor-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    width: 100%;
+    text-align: center;
+}
+
+.enlace-menu{
+    padding: 5px 20px;
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    font-family: "Arial Black", sans-serif;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
+}
+
+.enlace-menu:hover{
+    background-color: #ffff;
+    color: black;
+    font-weight: bolder;
 }
 
 header nav a {
-	display:inline-block;
 	color:rgb(8, 7, 7);
 	text-decoration:none;
-	padding:10px 20px;
+	padding: 15px;
 	line-height:normal;
 	font-size:20px;
 	font-weight:bold;
 	-webkit-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	transition:all 500ms ease;
+    border-style: double;
+    border-radius: 30px;
 }
 
 header nav a:hover {
     color: #ffff;
-	background:#f5a13a;
+	background:#000000;
 	border-radius:50px;
 }
 
@@ -72,21 +105,18 @@ footer {
     color: white;
 }
 
-h1 {
-    font-family: "Arial Black", sans-serif;
-    font-size: 25px;
-    letter-spacing: -1px;
-    background-color: black;
-    color: white;
-}
-
-header {
+/* header {
     display: flex;
     justify-content: space-between;
 
+} */
+
+.nav-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
+.border-div {
+    border-style: solid;
 }

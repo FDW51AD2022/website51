@@ -179,18 +179,37 @@ main {
     margin: 5px;
 }
 
+/* Comienzo */
+
+.comienzo{
+    content: "";
+    position: absolute;
+    width: 78%;
+    height: 65%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin-top: 310px;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('..//Recursos/Criptos2.jpg');
+    background-size: cover;
+    clip-path: polygon(0 60%, 64% 60%, 99% 100%, 0% 100%);
+}
+
 /* Introduccion */
 
 .introduccion {
     text-align: center;
-    width: 70%;
+    padding-top: 150px;
+    padding-left: 260px;
+    padding-right: 260px;
+    width: 60%;
     margin: 0%;
 }
 
 .subtitle{
     color: var(--color-title);
     font-size: 2rem;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 
 .introduccion__paragraph{
@@ -199,6 +218,7 @@ main {
     text-align: center;
     margin: 0%;
     padding: 0%;
+    padding-bottom: 2em;
 }
 
 /* Aside */
@@ -211,8 +231,8 @@ main {
 }
 
 .publicidad{
-    width: 340px;
-    height: 680px;
+    width: 437px;
+    height: 1010px;
     margin-top: 0px;
     float: right;
     border: 5px solid #1d293F;
@@ -232,9 +252,29 @@ main {
 .aside__publi_contenido{
     background-color: #FFECEF;
     width: 100%;
-    height: 190px;
+    height: 230px;
     align-items: center;
     margin-top: 0px;
+}
+
+.aside__publi_contenido__invitaciones{
+    background-color: #FFECEF;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.aside__publi_contenido__musica{
+    background-color: #FFECEF;
+    width: 100%;
+    height: 65px;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.audio{
+    padding-right: 50px;
 }
 
 .lens_island{
@@ -246,6 +286,10 @@ main {
     width: 100%;
     height: 100%;
 }
+
+/* .invitaciones{
+    align-items: center;
+} */
 
 /* Menu fijo */
 
@@ -272,7 +316,7 @@ main {
 }
 
 .footer__container{
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #fff;
