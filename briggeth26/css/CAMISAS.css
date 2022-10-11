@@ -1,0 +1,26 @@
+body {
+    background-color: #000000;
+    color: red;
+}
+
+#nav-main2 ul li{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    width: 20%;
+    font-size: 25px;
+}
+
+header{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Brush script MT';
+    font-style: italic;
+    color: rgb(215, 19, 19);
+
+}
+
+
+#nav-main2 ul li:hover {
+    background-color: rgb(215, 19, 19);
+}
