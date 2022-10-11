@@ -5,7 +5,7 @@
 }
 
 body {
-	background: #EFEFEF;
+	background: #ccffff;
 	font-family: 'Roboto', sans-serif;
 	min-height: 100vh;
 }
@@ -104,7 +104,7 @@ footer p {
     padding: 50%;
 }
 
-.boton2 {
+.regresar {
 	background: #0099FF;
 	display: block;
 	width: 10%;

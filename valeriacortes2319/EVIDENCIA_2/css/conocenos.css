@@ -105,6 +105,10 @@ figcaption {
     font-size: 35px;
 }
 
+#borde{
+    border-radius: 15px;
+}
+
 #final{
     padding: 15px;
     color: black;

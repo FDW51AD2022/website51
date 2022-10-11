@@ -12,9 +12,32 @@ section {color:rgb(31, 97, 141);
     margin-left: 2em;
 }
 
+li {background-color: white;}
+
 #Pfizer img {
-    width: 10px;
+    float: left;
+    width: 500px;
+    margin-right: 1em;
+    border-radius: 20px;
+}
+
+#Astrazeneca img {
     float: right;
-    margin-right: 2em;
-    border-radius: 50px;
+    width: 300px;
+    margin-right: 1em;
+    border-radius: 20px;
+}
+
+#Sinovac img {
+    float: right;
+    width: 300px;
+    margin-right: 1em;
+    border-radius: 20px;
+}
+
+#JJ img {
+    float: left;
+    width: 300px;
+    margin-right: 1em;
+    border-radius: 20px;
 }

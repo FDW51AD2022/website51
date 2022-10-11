@@ -86,10 +86,14 @@ h4 {
     color: #fac9d9;
 }
 
-#promociones {
+aside{
     width: 250px;
     float: right;
     margin-right: 5em;
+    display: inline-block;
+    width: 415px;
+    min-height: 400px;
+    background: #ad969d;
 }
 
 #final{
