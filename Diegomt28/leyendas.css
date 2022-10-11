@@ -1,0 +1,12 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-size: 100%;
+    }
+
+h1 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}

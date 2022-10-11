@@ -117,3 +117,14 @@ header{
    display: flex;
    justify-content: space-between;
 }
+
+.contenedor-fotos{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fit, minmax(500px , 1fr)); 
+}
+
+.foto-contenedor img{
+    width: 100%;
+    vertical-align: top;
+}
