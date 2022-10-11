@@ -11,3 +11,9 @@ ul {color:rgb(31, 97, 141);
     font-size: 20px;
     margin-left: 1em;
 }
+
+mark {color:rgb(0, 0, 0);
+    float: center;
+    font-family: 'Century Gothic';
+    font-size: 15px;
+}

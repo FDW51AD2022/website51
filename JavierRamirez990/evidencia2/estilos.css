@@ -5,7 +5,8 @@
 }
 
 body{
-    background-image: url(Imagenes.css/Portada.jpg);
+    background-image: url(Imagenes.css/fondo\ principal.jpg);
+    background-size: cover;
 }
 
 h1{
