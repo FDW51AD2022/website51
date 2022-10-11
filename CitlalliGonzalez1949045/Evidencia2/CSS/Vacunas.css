@@ -54,7 +54,7 @@ article {color: rgb(69, 179, 157);
 #Registro {display: flex;
     width: 50rem;
     height: 5vh;
-    background-color: rgb(220, 234, 248);
+    background-color: white;
 }
 
 #Inicio {
@@ -86,3 +86,5 @@ a {color:rgb(31, 97, 141);
     font-size: 25px;
     align-self: center; 
 }
+
+li {background-color: white;}
