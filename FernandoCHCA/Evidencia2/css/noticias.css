@@ -53,3 +53,33 @@ main{
     width: 900px;
     height: 500px;
 }
+
+/* Main */
+
+.page__principal{
+    text-align: center;
+}
+
+.page__noticias__paragraph{
+    line-height: 1.7;
+    font-size: 18px;
+    text-align: start;
+    margin: 0%;
+    padding: 0%;
+}
+
+.inicio_noticia{
+    line-height: 0;
+    font-size: 100px;
+}
+
+.subtitle__h3{
+    color: var(--color-title);
+    font-size: 25px;
+    margin-bottom: 45px;
+    text-align: start;
+}
+
+.figura_noticia{
+    text-align: center;
+}
