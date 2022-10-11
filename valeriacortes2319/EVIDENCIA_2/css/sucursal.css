@@ -9,6 +9,16 @@ h1 {
     font-size: 4vh;
 }
 
+h2{
+    color: rgb(233, 67, 175);
+    font-family: 'Franklin Gothic Medium';
+    font-size:4vh;
+}
+
+h3{
+    color: #9c103f;
+    font-size: 17px;
+}
 #site-menu {
     display: flex;
     margin: 5;
@@ -63,4 +73,12 @@ h1 {
     align-self: center;
     font-size: 25px;
     color: #fac9d9;
+}
+
+#final{
+    padding: 15px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 19px;
 }
