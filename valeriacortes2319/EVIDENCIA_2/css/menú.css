@@ -9,6 +9,13 @@ h1 {
     font-size: 4vh;
 }
 
+h2{
+    color: rgb(233, 67, 175);
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    font-size:4vh;
+}
+
 #site-menu {
     display: flex;
     margin: 5;
@@ -65,4 +72,25 @@ h1 {
     color: #fac9d9;
 }
 
+ol{
+    color: #621f35;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    margin-left: 1em;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    list-style: none;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    justify-content: space-around;
+}
 
+#final{
+    padding: 15px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 19px;
+}

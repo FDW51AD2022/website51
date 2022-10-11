@@ -2,8 +2,20 @@
     margin: 1px;
     padding: 1px;
 }
+
+.menu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    padding: 10px;
+    background-color:#F2F2F2;
+}
 h1 {
     color: aliceblue;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -18,7 +30,13 @@ body {
     color: black;
     font: 150% sans-serif;
     justify-content: center;
-    background-color: darkcyan;
+    background-color: gainsboro;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
