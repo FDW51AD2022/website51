@@ -90,3 +90,13 @@ main {
 hr {
     border: 1px solid black;
 }
+
+h4 {
+    font-family: "tahoma black", sans-serif;
+    font-size: 15px;
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+    color:black;
+    background-color:  #FFD384;
+}
