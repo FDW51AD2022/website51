@@ -5,14 +5,10 @@ body {
 
 #nav-main2 ul li{
     text-align: center;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     float: left;
     width: 20%;
     font-size: 25px;
-}
-
-#nav-main2 ul li:hover {
-    background-color: red;
 }
 
 header{
@@ -25,28 +21,6 @@ header{
 }
 
 
-#foto1 img{
-    width: 100px;
-    height: 20px;
-    float: center;
-    margin-right: 1em;
-    border-radius: 100%;
-}
-
-#gorras img{
-    width: 400px;
-    float:unset;
-    text-align: center;
-    margin-right: 1em;
-    border-radius: 20%;
-}
-
-footer{
-    background-color: black;
-    color: white;
-    position: absolute;
-    text-align:left; 
-    width: 100%; 
-    bottom: 0px; 
-    width: 100%;
+#nav-main2 ul li:hover {
+    background-color: rgb(215, 19, 19);
 }
