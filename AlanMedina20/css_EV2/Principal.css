@@ -1,0 +1,95 @@
+.texto {
+    font-family: Calibri;
+    color:antiquewhite;
+}
+
+
+.texto2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    background-color: blanchedalmond;
+}
+
+.fondo {
+    background-color: rgb(0, 0, 0);
+}
+#navegador ul{
+    background-color: rgb(161, 150, 150);
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+#navegador ul li{
+    margin: 1em 1.5em;
+}
+
+.uno {
+    color: rgb(0, 0, 0);
+}
+
+.uno:link {
+    text-decoration: none;  
+}
+
+.uno:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 252, 252);
+    text-decoration: none;  
+}
+
+.dos {
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 252, 252);
+    text-decoration: none;  
+    font-family: Calibri;
+}
+#centro header {
+    
+    grid-area: enc; 
+}
+
+#centro article {
+    
+    grid-area: cont;
+}
+
+#centro aside {
+    background-color: rgb(0, 0, 0);
+    grid-area: barra;
+}
+#centro aside ul{
+    list-style: decimal;
+}
+#centro footer {
+    background-color: rgb(0, 0, 0);
+    grid-area: pie;
+}
+
+#centro {
+    display: grid;
+    
+    grid-template-rows: 70px 400px 70px;
+    grid-template-columns: 4fr 2fr;
+    grid-template-areas:    "enc barra"
+                            "cont barra"
+                            "pie barra";
+}
+
+
+
+#tabla th, td {
+        padding-top: 5px;
+        padding-bottom: 20px;
+        padding-left: 27px;
+        padding-right: 27px;
+      }
+
+
+

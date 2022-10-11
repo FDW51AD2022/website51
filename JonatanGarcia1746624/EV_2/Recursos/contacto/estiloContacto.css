@@ -1,0 +1,12 @@
+#cuerpo 
+{background-image: url(fondo.jpg);}
+
+#encabezado 
+{text-align: center; 
+font-size: 60px; 
+text-decoration: underline;
+}
+
+#desc 
+{font-size: 30px;
+}

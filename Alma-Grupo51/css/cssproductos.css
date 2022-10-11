@@ -1,0 +1,79 @@
+#info img{
+    width: 220px;
+    float: left;
+    margin-left: 1em;
+    border-radius: 500%;
+    height: 240px;
+    font-size: 1rem; 
+}
+
+#nav-main-1 ul{
+    background-color: navajowhite;   
+    list-style: none;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    flex-flow: row wrap;
+    height: 150px;
+
+    justify-content: space-around;
+    align-content: space-between;
+    margin-left: 0em;
+    
+    font-size: 3rem;  
+}
+
+#info img{
+    width: 200px;
+    float: left;
+    margin-left: 1em;
+    border-radius: 500%;
+    height: 200px;
+    font-size: 1rem; 
+}
+
+
+
+#site-menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 40vh;
+    background-color:lightpink;
+    font-size: 1rem;
+    align-items:center;
+}
+
+
+
+#mini-page article {
+    background-color: gold;
+}
+
+#mini-page aside {
+    background-color: darkcyan;
+}
+
+#mini-page footer {
+    background-color: fuchsia;
+    grid-column: 1 / -1;
+}
+
+#mini-page {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /* grid-template-rows: 200px 100px; */
+    gap: 1em;
+}
+#mini-page {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /* grid-template-rows: 200px 100px; */
+    gap: 1em;
+}
+
+
+
+    

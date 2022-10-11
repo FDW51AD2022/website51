@@ -1,0 +1,161 @@
+#nav-main ul{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-flow: row ;
+    overflow: hidden;
+    
+}
+
+#nav main ul li{
+    align-self: center;
+}
+
+a[href*="MiguelDelCastillo"]{
+    color: #F0FFCE;
+    text-shadow:0 0 20px #0F0A0A;
+    text-decoration: none;
+    align-self: center;
+    font-size: 5vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#nav-main ul li a strong:hover{
+    background-color: #420039;
+    border-radius: 2px;
+    color: #DEC5E3;
+    
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows:max-content;
+    grid-template-areas: "head"
+    "arti"
+    "pie";
+    gap: .5em;
+    background-color: #DE3C4B;
+    
+
+}
+
+body header{
+    padding: 30px;
+    background-color:#DE3C4B;
+    background-image:url(https://pbs.twimg.com/media/FemN719XwAI3AAE?format=jpg&name=large);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    grid-area: head;
+    color: #F0FFCE;
+    border-start-end-radius: 5px;
+    border-start-start-radius: 5px;
+}
+
+body section{
+    background-color: #2D3047;
+    width: auto;
+    color: #F0FFCE;
+    text-shadow: 0 0 1vh #0F0A0A;
+    border-radius: 3vh;
+    border: none;
+    border-bottom:2vh solid #DE3C4B;
+    text-align: justify;
+}
+
+.img1{
+    width: auto;
+    height: 50vh;
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#productosAnime{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "arti1 arti2"
+    "arti4 arti5"
+    "arti3 arti6";
+    gap: 1em;
+    
+}
+
+
+
+#arti1{
+    grid-area: arti1;
+}
+#arti2{
+    grid-area: arti2;
+}
+#arti3{
+    grid-area: arti3;
+}
+#arti4{
+    grid-area: arti4;
+}
+#arti5{
+    grid-area: arti5;
+}
+#arti6{
+    grid-area: arti6;
+}
+
+
+body article{
+    padding: 1%;
+    background-color: #F1FAEE;
+    grid-area: arti;
+    height: auto;
+    font-size: 3vh;
+}
+
+body footer{
+    background-color: #0F0A0A;
+    grid-area: pie;
+    color: #F0FFCE;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px ;
+    padding:3vh;
+    font-size: 3vh;
+}
+
+#nav-footer ul{
+    list-style:none;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+a[href*="#"]{
+    text-decoration: none;
+    color: #F0FFCE;
+}
+
+
+
+h1{
+    background-color: #4DA167;
+    color: #F0FFCE;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+h2{
+    color: #F0FFCE;
+    text-shadow: 0 0 20px #0F0A0A;
+    text-align: center;
+    border: none;
+    border-bottom: #0F0A0A 1vh solid;
+    border-radius: 1vh;
+}
