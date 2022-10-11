@@ -82,5 +82,11 @@ header {
 
 /* Imagen */
 img {
-    width: 50%;
+    width: 70%;
+}
+
+.grid {
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fit, minmax(600px , 1fr));
 }
