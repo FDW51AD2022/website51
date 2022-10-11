@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Roberto Antonio López Bouchspies">
+    <meta name="description" content="Página de restaurante">
     <title>índice Evidencia 2</title>
+    <link rel="icon" href="/website51/RobertoBouchspies/Recursos/icono-head.png">
     <link rel="stylesheet" href="/website51/RobertoBouchspies/css/RobertoBouchspies_EV2_index.css">
 </head>
 <body>
@@ -12,10 +15,10 @@
         <div class="contenedor">
             <h1>Chicken Shack.</h1>
             <nav>
-                <a href="#" class="button">MENÚ</a>
-                <a href="#" class="button">SUCURSALES</a>
-                <a href="#" class="button">NOSOTROS</a>
-                <a href="#" class="button">CONTACTO</a>
+                <a href="/website51/RobertoBouchspies/RobertoBouchspies_menu.html" class="button">MENÚ</a>
+                <a href="/website51/RobertoBouchspies/RobertoBouchspies_sucursales.html" class="button">SUCURSALES</a>
+                <a href="/website51/RobertoBouchspies/RobertoBouchspies_nosotros.html" class="button">NOSOTROS</a>
+                <a href="/website51/RobertoBouchspies/RobertoBouchspies_contacto.html" class="button">CONTACTO</a>
             </nav>
         </div>
     </header>
@@ -46,14 +49,39 @@
                     </li>
                 </ol>
                 <div class="imagen-contenedor">
-                    <img src="./Recursos/fried-chicken-icon.png" alt="">
+                    <figure>
+                        <img src="./Recursos/fried-chicken-icon.png" alt="">
+                    </figure>
                 </div>
             </article>
             <aside>
+                <video width="300" height="200" autoplay loop controls>
+                    <source src="/website51/RobertoBouchspies/Recursos/video_pollo.mp4" type="video/mp4" />
+                </video>
+                <audio controls="controls" src="/website51/RobertoBouchspies/Recursos/Chainsaw-the-Door.mp3" autoplay>
+                </audio>
+                <h6><cite>Chainsaw the Door</cite> por The Garden. 2022.</h6>
                 <br>
-                <h4 style="font-size: 20px;">Conoce cómo preparamos nuestros platillos</h2>
-                <br>
-                <iframe width="300" height="200" src="https://www.youtube.com/embed/WQzpm724eVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <figure class="figure-pollo" style="font-weight:bolder; text-align:center">
+                    <pre>
+                        ~-.
+                        ,,,;            ~-.~-.~-
+                       (.../           ~-.~-.~-.~-.~-.
+                       } o~`,         ~-.~-.~-.~-.~-.~-.
+                       (/    \      ~-.~-.~-.~-.~-.~-.~-.
+                        ;    \    ~-.~-.~-.~-.~-.~-.~-.
+                       ;     {_.~-.~-.~-.~-.~-.~-.~
+                      ;:  .-~`    ~-.~-.~-.~-.~-.
+                     ;.: :'    ._   ~-.~-.~-.~-.~-
+                      ;::`-.    '-._  ~-.~-.~-.~-
+                       ;::. `-.    '-,~-.~-.~-.
+                        ';::::.`''-.-'
+                          ';::;;:,:'
+                             '||"
+                             / |
+                           ~` ~"'
+                    </pre>
+                </figure>
             </aside>
         </section>
 
@@ -78,16 +106,16 @@
             </div>
             <section class="justificar">
                 <div class="citas">
-                    <cite>"Estaba delicioso, <br> a toda mi familia <br> le encantó la comida".</cite>
+                    <p>"Estaba delicioso, <br> a toda mi familia <br> le encantó la comida".</p>
                     <span><strong>- Javier</strong></span>
                 </div>
                 <div class="citas">
-                    <cite>"Un sabor muy único, <br> vengo seguido desde que <br> vine por primera vez".</cite>
-                    <span><strong>- Andrea</strong></span>
+                    <p>"Rica comida y a buen precio, <br> por eso son mi <br> restaurante favorito".</p>
+                    <span><strong>- Gustavo</strong></span>
                 </div>
                 <div class="citas">
-                    <cite>"Rica comida y a buen precio, <br> por eso son mi <br> restaurante favorito".</cite>
-                    <span><strong>- Gustavo</strong></span>
+                    <p>"Un sabor muy único, <br> vengo seguido desde <br> que vine por primera vez".</p>
+                    <span><strong>- Andrea</strong></span>
                 </div>
             </section>
         </section>
@@ -95,10 +123,15 @@
 
     <footer>
         <div>
-            <blockquote>Deseamos ser una opción destacable y diferente para usted y mantener una excelente calidad en nuestros platos.</blockquote>
+            <blockquote cite="https://kfc.com.mx">Deseamos ser una opción destacable y diferente para usted y mantener una excelente calidad en nuestros platos.</blockquote>
+        </div>
+        <div class="contenedor contenedor-header">
+            <nav class="menu">
+                <a class="enlace-menu" href="/website51/RobertoBouchspies/RobertoBouchspies_index.html">INDICE</a>
+            </nav>
         </div>
         <div>
-            <p style="text-align: center;">Desarrollado por RALB</p>
+            <p style="text-align: center;"><small><strong>Desarrollado por <abbr title="Roberto Antonio López Bouchspies">©RALB</abbr></strong></small></p>
         </div>
     </footer>
 
