@@ -1,0 +1,16 @@
+body{
+    background-image: url(Imagenes.css/parte.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: black;
+    background-color:white
+
+}
+
+
+h2{
+    color: white;
+
+}
