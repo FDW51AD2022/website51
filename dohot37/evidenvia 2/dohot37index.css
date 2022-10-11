@@ -1,13 +1,6 @@
-.body-home {
-    margin: 0;
-    padding: 0;
-    background-image: url(./img/fondo2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
 
 nav {
-    background-color: #c98c8c;
+    background-color: #e0f17e;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
