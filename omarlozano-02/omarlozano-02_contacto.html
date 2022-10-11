@@ -24,7 +24,102 @@
         </ul>
       </nav>
     </header>
-   
+    <main>
+      <article>
+        <section class="box-main-form">
+          <form>
+            <fieldset>
+              <legend>Haz tu Cita</legend>
+              <table>
+                <tr>
+                  <td>
+                    <label for="nombre"> Nombre Completo </label>
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      name="nombre"
+                      id="nombre"
+                      size="50"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="fecha"> Fecha </label>
+                  </td>
+                  <td>
+                    <input
+                      type="date"
+                      name="fecha"
+                      id="fecha"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="hora"> Hora </label>
+                  </td>
+                  <td>
+                    <input type="time" name="hora" id="hora" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="numero_mascotas"> Número de mascotas </label>
+                  </td>
+                  <td>
+                    <input
+                      type="number"
+                      name="numero_mascotas"
+                      id="numero_mascotas"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="servicio"> Servicio </label>
+                  </td>
+                  <td>
+                    <select name="servicio" id="servicio">
+                      <option value="1">Consulta</option>
+                      <option value="2">Vacunación</option>
+                      <option value="3">Baño</option>
+                      <option value="4">Estética</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="tipo"> Tipo de mascotas: </label>
+                  </td>
+                  <td>
+                    <label for="perro">Perro</label>
+                    <input
+                      type="checkbox"
+                      name="perro"
+                      id="perro"
+                    />
+                    <label for="gato">Gato</label>
+                    <input
+                      type="checkbox"
+                      name="gato"
+                      id="gato"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>
+                    <input class="boton" type="submit" value="Agendar" />
+                  </td>
+                </tr>
+              </table>
+            </fieldset>
+          </form>
+        </section>
+      </article>
+    </main>
     <aside class="box-aside">
       <section>
         <p class="aside-content">
