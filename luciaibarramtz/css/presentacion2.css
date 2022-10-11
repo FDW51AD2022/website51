@@ -1,0 +1,20 @@
+
+h2{
+    border-block-end: 6px solid #F900BF;}
+    
+    h1{
+    Text-align: center;
+    background-color: #9900F0;
+    color: white;
+}
+
+#lista-1 li:nth-child(even){
+    background-color: #FF85B3;
+    font-family: cursive;
+    color: black;
+}
+div{
+    margin: 10px 0px 0px 350px;
+    border: 10px;
+    padding: 10px;
+}

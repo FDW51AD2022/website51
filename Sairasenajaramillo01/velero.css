@@ -1,6 +1,6 @@
 body{
     background: #FFE7CC;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     min-height: 100vh;
 }
 h1{
@@ -18,4 +18,6 @@ ul{
 .contenedor{
     margin-inline: 30%;
 }
-
+h5{
+    color:darkslategrey;
+}

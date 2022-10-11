@@ -1,0 +1,48 @@
+body{ background-image:url(https://th.bing.com/th/id/R.56ea1cab55837a24ecdbaf33dc593a36?rik=wIK2I5za9yX4zA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fa%2f2%2f5%2f814079-silent-hill-3-wallpaper-1920x1080-for-windows-10.jpg&ehk=UvvLKjLx%2bLMeYYDF9msDTCtx4n3As9s7fnrCA%2fWS%2bMU%3d&risl=&pid=ImgRaw&r=0);}
+
+hr{width: 350%;
+    border: darkred;
+    border-style: dashed double none;
+  }
+#Menu {overflow:hidden;
+}
+#Menu  #Links{list-style:none;
+}
+#Menu  #Links li{float:left;
+                 font-family: 'Courier New';
+}
+#Menu  #Links li a{padding: 15px 85px;
+                   display:block;
+                   color:#fff;
+                   text-decoration:none;
+}
+#Menu #Links li a:hover {background: #2c5c4c
+}
+#Seccion1  {width:68.5%;
+  margin-right:1.5%;
+  float:left;
+  color: red;
+  background: rgb(6, 7, 4);
+  border: grey 10px;
+}
+#Seccion1 #Articulo1, #Articulo3 {padding:20px;
+                        width: 85%;
+                        padding: 5px 10px 15px 100px ;        
+}
+#SilentHill, #SHM, #SHM2,#SHP{padding: 7px 10px 15px 70px; }
+
+#Articulo2 {width:30%;
+background: darkslategrey;
+color: lightsteelblue;
+float:left;
+padding:20px;
+box-sizing:border-box;
+}
+h1, h2 ,h3 {text-align: center;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+#Konami{color: darkmagenta ;
+  padding:20px;
+  width: 85%;
+  padding: 5px 10px 15px 100px ; 
+}

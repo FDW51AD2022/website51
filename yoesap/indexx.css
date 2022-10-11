@@ -1,0 +1,17 @@
+.clearfix::after {
+    clear:both;
+    content: "";
+    display: table;
+}
+
+
+#nav-main ul {
+    background-color: rgb(79, 225, 39);
+}
+
+#nav-main ul li {
+    float: left;
+    width: 20%;
+}
+
+

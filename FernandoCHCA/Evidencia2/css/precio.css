@@ -42,7 +42,8 @@ main{
 }
 
 .hero__imagen{
-    padding-left: 40px;
+    padding-left: 90px;
+    padding-top: 60px;
     width: 600px;
     height: 500px;
 }
@@ -100,6 +101,7 @@ main{
 }
 
 .cripto_figura{
+    text-align: center;
     padding: 14px;
     border: #000 solid;
 }
