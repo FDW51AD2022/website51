@@ -188,3 +188,8 @@ button{
     padding-left: 5vh;
     padding-right: 5vh;
 }
+
+.clearfix p{
+    padding:9vh;
+    font-size: 4vh;
+}
