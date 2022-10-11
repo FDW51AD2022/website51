@@ -1,15 +1,33 @@
+body {
+    background-color: aqua;
+}
+
+
 header {
     color: blue;
-    font-size: 60px;
+    font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1 {
-color: chartreuse;
-font-size: 45px;
+color: darkblue;
+font-size: 35px;
 font-family: 'Times New Roman', Times, serif;
 }
 
 table {
-    
-}
+    border-collapse: collapse; 
+    margin: 25px 0; 
+    font-size: 1em; 
+    font-family: sans-serif; 
+    min-width: 450px; 
+    box-shadow: 0 0 20px
+        rgba(0, 0, 0, 0.15);
+     }
+
+     p {
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(195, 26, 26);
+     }
+
