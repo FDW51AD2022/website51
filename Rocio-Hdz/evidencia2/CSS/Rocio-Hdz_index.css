@@ -85,6 +85,11 @@ body{
     width: 200px;
 }
 
+blockquote{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 #Pie{
     text-align: center;
