@@ -1,4 +1,20 @@
-#Introduccion {
+#Titulo {
     text-align: center;
+    background-color: rgb(61, 61, 161);
+    color: white; 
+    
+}
 
+h2 {
+    text-align: center;
+    color: white;
+    background-color: rgb(61, 61, 161);
+}
+
+article{
+    background-color: white;
+}
+
+#br{
+    background-color: white;
 }
