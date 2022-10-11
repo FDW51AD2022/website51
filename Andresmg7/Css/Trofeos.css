@@ -1,5 +1,5 @@
 body{
-    background-color:#D8E9A8;
+    background-color:#BC6FF1;
 }
 h1 {
     font-size: 80px;
@@ -13,12 +13,12 @@ h1 {
     color: whitesmoke ;
 }
 .titulo:hover{
-    background-color: #4E9F3D;
-    color: #1E5128;
+    background-color: #52057B;
+    color: black;
 }
 #nav-panel ul {
-    background-color: #1E5128;
-    color: black;
+    background-color: black;
+    color: whitesmoke;
     font-size: 30px;
 }
 
