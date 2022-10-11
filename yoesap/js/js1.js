@@ -1,5 +1,6 @@
 // const { MutationObserverFactory } = require("@angular/cdk/observers");
 
+
 // Imprimir mensaje
 console.log("Hola Javascript");
 
