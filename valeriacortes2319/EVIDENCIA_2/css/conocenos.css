@@ -90,11 +90,11 @@ h4{
     font-size: 25px;
     color: #fac9d9;
 }
-
-p{
-    color: rgb(176, 133, 176);
+/*color: rgb(176, 133, 176);*/
+h5{
+    color: rgb(0, 0, 0);
     font-family: fantasy;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 figcaption {
@@ -109,6 +109,6 @@ figcaption {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 25px;
 }
 
