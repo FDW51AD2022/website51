@@ -5,12 +5,21 @@ body{
 }
 
 #barra{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column: 1/-1;
     background-color: #4C6793;
-    color: #4C6793;
     margin: 0px;
+    padding: 0px;
+    align-content: center;
+}
+
+#barra h1{
+    font-family: fantasy;
+    font-size: 80px;
+    color:#F2F2F2;
+    border-color: #4C6793;
+    padding: 0px;
+    margin: 0px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
 }
 
 .menu li:hover{
