@@ -1,6 +1,6 @@
 body{
     background: #FFE7CC;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     min-height: 100vh;
 }
 h1{
@@ -8,3 +8,8 @@ h1{
     text-align: center;
     border: 3px solid #4C6793;
 }
+img{
+    float: right;
+    border: 2px solid black;
+}
+
