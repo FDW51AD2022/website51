@@ -48,6 +48,20 @@
     text-decoration: none;  
 }
 
+.uno1 {
+    color: rgb(0, 0, 0);
+}
+
+.uno1:link {
+    text-decoration: none;  
+}
+
+.uno1:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(207, 93, 93);
+    text-decoration: none;  
+}
+
 .dos {
     color: rgb(0, 0, 0);
     background-color: rgb(252, 252, 252);
@@ -125,8 +139,20 @@
     
 }
 
-#info img {
+#info2 ul li img {
     margin-left: 1em; 
+}
+#info2 ul{
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    display:flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: space-around;
+    align-content: space-between;
 }
 
 
