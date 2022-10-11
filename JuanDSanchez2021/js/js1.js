@@ -1,29 +1,45 @@
 
-console.log("hola javascript");
+ // @myinvite.digital
 
+// const { MutationObserverFactory } = require("@angular/cdk/observers");
+
+// Imprimir mensaje
+console.log("Hola Javascript");
+
+// Imprimir mensaje de alerta
 console.warn("mensaje");
 
-console.error("Error");
+// Imprimir mensaje de error
+console.error("mensaje de error"); 
 
-console.log("Tipo de 34:" + typeof 34 + ".");
+// Saber tipo de dato typeof
+console.log("El tipo de dato del numero 30 es: " + typeof 30 + ".");
+console.log(`Tipo de 34: ${typeof 34}.`);
 
-console.log('Tipo de 34: ${ typeof 34}.');
+// Operadores logicos
+// OR  ||
+// AND &&
+// NOT !
+console.log(`Ejemplo con operador logico: ${5 > 2 || 3 < 1}`);
 
-console.log('El ejemplo con operador logico ${ !5 > 2 || 3 < 1}');
+// Operador ternario
+// Es como un if pero reducido, se usa asi: ? true: false
+console.log(10 < 2 ? "parte verdadera" : "parte falsa");
 
-console.log(10 < 2 ? "parte verdadera": "parte falsa");
+// if (10 < 2) {
+    
+// } else {
 
+// }
 
-// declaracion de variables
-
+// Declaracion de variables y constantes
 let temp = 10;
-
 let mensaje;
 
-mensaje = temp < 10 ? "Llevar chamarra" : "No llevar chamarra";
+mensaje = temp < 10 ? "Llevar sueter" : "No llevar sueter";
 
 console.log(mensaje);
 
-const SEMESTRES = 9;
-
-SEMESTRES = 3;
+// Declaracopm de constantes
+const SEMESTRE = 9;
+SEMESTRE = 3;

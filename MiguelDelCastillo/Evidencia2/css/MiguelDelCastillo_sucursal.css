@@ -101,6 +101,10 @@ p{
     color: #03256C;
 }
 
+footer p{
+    color: #F0FFCE;
+}
+
 #footer ul{
     list-style: none;
     display: flex;

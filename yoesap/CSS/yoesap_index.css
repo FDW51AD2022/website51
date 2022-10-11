@@ -1,0 +1,248 @@
+
+body {
+    background-color:white;
+    color: rgb(1, 6, 10);
+}
+
+body::-webkit-scrollbar { /*baeea de desplazamiento vertical de la pagina*/
+    width: 7px;
+}
+
+body::-webkit-scrollbar-thumb { /*color de la barra de desplazamiento*/
+    background-color: rgb(19, 15, 14);
+    border-radius: 5px; /*ancho de desplazamiento*/
+
+}
+
+
+.menu {
+    color: #fff;    
+    background-image: url('../Recursos/4_0.jpg');
+    margin: 10px auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, auto);
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+
+.contenedor > div,
+.contenedor .header {
+    background-color: rgb(24, 24, 116);
+    color:white;
+    padding: 20px;
+    border-radius: 4px;
+    grid-column-start: 1;
+    width: 1000px ;
+
+}
+
+.contenedor > div,
+.contenedor .contenido
+                     {
+    padding: 20px;
+    border-radius: 4px;
+
+
+}
+
+.contenedor .contenido {
+    grid-column: span 2;
+}
+
+
+
+.contenedor .sidebar {
+    grid-column: 1/4;
+    background-color: #f89c75;
+    display: flex;
+    justify-content: center;
+    width: 950px;
+    height:300px;
+    background-image: url('../Recursos/02gym.jpg');
+
+}
+
+
+
+
+@media screen and (max-width: 2000px) {
+    .contenedor .contenido {
+        grid-column: 1/2;
+}
+
+/*estilos header*/
+
+
+/*Sucursales*/
+#info img{
+    width: 450px;
+    height: 300px;
+    float: middle;
+    margin-left: 1em;
+}
+
+/*pagina contacto*/
+
+
+form {
+    width: 450px;
+    margin: auto;
+    background-color: rgba(0, 0, 3, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+h1 {
+    color: rgb(15, 2, 7);
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color:white;
+    margin: 0;
+    font-size: 40px;
+    margin-bottom: 5px;
+
+}
+h4 {
+    font-size: 30px;
+}
+
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+
+}
+
+#boton {
+    background: #040405;
+    color: #fff;
+    padding: 20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+@media (max-width:480px) {
+    form{
+        width: 100%;
+    }
+}
+
+/*index*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: rgb(246, 17, 17);
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+
+/*contacto* fondo */
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Acomodamos el texto de manera centrado y justificado */
+
+.texto-centrado{
+    text-align: center;
+}
+/* Hacemos el Pie de Pagina */
+
+footer {
+    background-color: #2d2d2e;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    color:#fff;
+    text-align: center;
+    padding: 50px;
+    box-sizing: 50px;
+    max-height: 100px;
+    width: 800px;
+}
+
+p{
+    margin: 10px 0px;
+    text-align: center;
+    text-align: justify;
+    color: #666;
+}
+
+figure{
+    margin: 0px;
+}
+
+split{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #dadada;
+}
+
+
+
+figcaption {
+    font-style: italic;
+    color: black;
+    font-size: 1.1em;
+    text-align: center;
+
+}
