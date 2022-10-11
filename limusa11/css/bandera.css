@@ -1,0 +1,23 @@
+.color1 {
+    display: inline-block;
+    width: 80px;           
+    height: 150px;          
+    background: green;       
+    border: 1px solid #000; 
+  }
+  
+  .color2 {
+    display: inline-block;
+    width: 80px;          
+    height: 150px;         
+    background: white;        
+    border: 1px solid #000; 
+  }
+  
+  .color3 {
+    display: inline-block;
+    width: 80px;          
+    height: 150px;         
+    background: red;       
+    border: 1px solid #000; 
+  }
