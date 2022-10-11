@@ -9,6 +9,26 @@ h1 {
     font-size: 4vh;
 }
 
+h2 {
+    color: rgb(233, 67, 175);
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    font-size:4vh;
+}
+
+h3 {
+    color: #6e0d2d;
+    font-family: cursive;
+    text-align: center;
+    font-size: 20px;
+}
+
+h4 {
+    color: rgb(188, 27, 64);
+    font-size: 35px;
+    text-align: center;
+}
+
 #site-menu {
     display: flex;
     margin: 5;
@@ -63,6 +83,12 @@ h1 {
     align-self: center;
     font-size: 25px;
     color: rgb(176, 133, 176);
+}
+
+#formulario {
+    text-align: center;
+    background-color: rgb(163, 119, 124);
+    margin-right: 1em;
 }
 
 #final{
