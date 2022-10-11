@@ -1,0 +1,118 @@
+#tulum{
+    align-items: center;
+    font-size: 50px;
+    color: #bce3c5;
+    background-color: #3e6b48;
+    border-radius: 35px;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    align-content: space-between;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row ;
+    overflow: hidden;
+   
+    
+}
+
+
+#menu ul{
+    background-color: #efbc98;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    align-content: space-between;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row ;
+    overflow: hidden;
+    border-radius: 35px;
+   
+
+}
+
+#menu ul li{
+    align-self: center;
+}
+
+
+
+#menu ul li a strong{
+    color: #eb5874;
+   
+    
+}
+
+a{
+    text-decoration: none;
+    align-self: center;
+    font-size: 2em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+#descripcion{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #718063;
+    text-shadow:0 0 20px #79a687
+}
+
+#caracteristicas img {
+    width: 500px;
+    float: left;
+    margin-right: 1em;
+}
+
+
+
+
+#caracteristicas{
+    color: #bce3c5;
+    background-color: #3e6b48;
+    grid-column: 1 / -1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+
+}
+
+#atractivos img{
+    width: 500px;
+    height: 410px;
+    float: right;
+    margin-right: 1em;
+
+}
+
+#atractivos div{
+    float: left;
+    color: #bce3c5;
+    background-color: #3e6b48;
+    grid-column: 1 / -1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+
+
+}
+
+
+
+.encanto{
+    font-size: 30px;
+    font-family:cursive;
+    color: #79a687;
+}
+
+.festividades{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #79a687;
+}
+.festividades img{
+    width: 450px;
+   
+    float: left;
+    margin-right: 1em;
+}

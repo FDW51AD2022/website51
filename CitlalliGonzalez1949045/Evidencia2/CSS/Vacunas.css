@@ -11,3 +11,10 @@ section {color:rgb(31, 97, 141);
     font-size: 23px;
     margin-left: 2em;
 }
+
+#Pfizer img {
+    width: 10px;
+    float: right;
+    margin-right: 2em;
+    border-radius: 50px;
+}
