@@ -55,3 +55,10 @@ blockquote {
     border-left: 10px solid whitesmoke;
     border-right: 10px solid whitesmoke;
 }
+figcaption {
+    color: whitesmoke;
+    font-size: 25px;
+}
+footer{
+    text-align: center;
+}

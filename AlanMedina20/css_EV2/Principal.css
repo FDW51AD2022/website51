@@ -3,7 +3,11 @@
     color:antiquewhite;
 }
 
-
+.texto3 {
+    font-family: Calibri;
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+}
 .texto2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
@@ -41,6 +45,20 @@
 .uno:hover {
     color: rgb(0, 0, 0);
     background-color: rgb(252, 252, 252);
+    text-decoration: none;  
+}
+
+.uno1 {
+    color: rgb(0, 0, 0);
+}
+
+.uno1:link {
+    text-decoration: none;  
+}
+
+.uno1:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(207, 93, 93);
     text-decoration: none;  
 }
 
@@ -91,5 +109,50 @@
         padding-right: 27px;
       }
 
+#centro1 header {
+    background-color: black;
+    grid-area: enc; 
+}
+
+#centro1 article {
+    background-color: rgb(255, 255, 255);
+    grid-area: cont;
+    color:black;
+    height: 400px;
+}
+
+#centro1 aside {
+    background-color: rgb(0, 0, 0);
+    grid-area: barra;
+}
+
+#centro1 footer {
+    background-color: rgb(0, 0, 0);
+    grid-area: pie;
+}
+
+#info img {
+    width: 370px;
+    margin-right: 1em;
+    border-radius: 5px;
+    float: right;
+    
+}
+
+#info2 ul li img {
+    margin-left: 1em; 
+}
+#info2 ul{
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    display:flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: space-around;
+    align-content: space-between;
+}
 
 
