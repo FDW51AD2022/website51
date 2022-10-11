@@ -23,7 +23,9 @@ h2 {
     color: whitesmoke;
 }
 p {
+    font-style: italic;
     color: whitesmoke;
+    font-size: 20px;
 }
 #indimg img{
     width: 550px;
@@ -61,4 +63,22 @@ figcaption {
 }
 footer{
     text-align: center;
+}
+p2 {
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 20px;
+}
+address {
+    color: whitesmoke;
+}
+table, th, td {
+    text-align: center;
+    background-color: #950101;
+    color: whitesmoke;
+    border: 3px solid gray;
+    border-collapse: collapse;
+}
+.Btab {
+    width: 100%;
 }
