@@ -12,23 +12,33 @@ h1 {
     background-color: gray;
     color: #3D0000 ;
 }
+.titulo:hover{
+    background-color: #3D0000;
+    color: whitesmoke;
+}
+h2 {
+    font-size: 40px;
+    text-decoration: red;
+    text-align: left;
+    color: whitesmoke;
+}
 p {
     color: whitesmoke;
 }
 #indimg img{
-    width: 500px;
+    width: 550px;
     float:right;
-    margin-right: 3em;
-    border-radius: 20%;
+    margin-right: 2em;
+    border-radius: 30%;
 }
 #nav-panel ul {
     background-color: #950101;
-    color: white;
-    font-size: 40px;
+    color: black;
+    font-size: 30px;
 }
 
 #nav-panel ul li {
-    float: right;
+    float: right ;
     width: 20%;
 }
 
@@ -36,4 +46,12 @@ p {
     clear: both;
     content: "";
     display: table;
+}
+blockquote {
+    text-align: center;
+    color: red;
+    border-top: 10px solid white;
+    border-bottom: 10px solid whitesmoke;
+    border-left: 10px solid whitesmoke;
+    border-right: 10px solid whitesmoke;
 }
