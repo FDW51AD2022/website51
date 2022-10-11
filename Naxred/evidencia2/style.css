@@ -3,9 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-  
+
 body {
-    color: white;
     font-family: 'calibri';
 }
 
@@ -25,21 +24,21 @@ body {
 
 .header{
     grid-area: encabezado;
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #EFF3F5;
+
 }
 
 .main{
+  margin-top: 30px;
     grid-area: main;
-    background-color: brown;
+    /* background-color: brown; */
 }
 
-.footer{
-    grid-area: footer;
-    background-color: forestgreen;
-}
+
 
 nav {
     float: left;
@@ -59,7 +58,7 @@ nav {
   nav ul li a {
     display: block;
     padding: 10px;
-    color: #fff;
+    color: black;
     text-decoration: none;
   }
   nav ul li:hover {
@@ -69,10 +68,133 @@ nav {
   .img-logo{
     width: 40%;
     height: 40%;
-    margin: 10px;
+    margin-left: 100px;
   }
 
+  .footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(/img/ev2/background-footer.svg);
+    /* background-color: red; */
+    background-size: cover;
+    grid-area: footer;
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box__footer .logo img{
+    width: 180px;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.box__footer h2{
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
 
 
+
+.header-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: helvetica;
+  font-size: 24px;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.contenedor{
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+
+}
+
+.info{
+  margin-top: 0;
+  width: 60%;
+  height: auto;
+  font-family: 'Roboto';
+  
+}
+
+.info p{
+  margin: 10px;
+}
+
+.imagen{
+  margin-right: 10px;
+  width: 20%;
+  height: 500px;
+  
+}
+
+.imagen img{
+  border-radius: 2%;
+  width: 100%;
+  height: 100%;
+}
+
+.video {
+  margin: 30px;
+}
   
  
