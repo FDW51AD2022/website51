@@ -1,0 +1,24 @@
+#cuerpo
+{background-color: gray;}
+
+#logo 
+{width: 800px;
+height: 250px;
+border: 10px solid white;
+border-radius: 20px;}
+
+#titulo
+{font-size: 50px;
+text-align: center;
+text-decoration: underline;
+color: darkblue;}
+
+#auto1
+{width: 200px;
+border: 5px solid black;}
+
+#auto2
+{width: 200px;
+height: 130px;
+margin-left: 30px;
+border: 5px solid black;}

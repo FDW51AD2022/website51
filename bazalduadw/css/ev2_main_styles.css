@@ -11,6 +11,29 @@ html {
     scroll-behavior: smooth;
 }
 
+/* MARGIN Y PADDINGS */
+
+.mt80{
+    margin-top: 80px;
+}
+
+.mb10{
+    margin-bottom: 10px;
+}
+
+/* TEXTO CENTRADO */
+
+.text-center{
+    text-align: center;
+}
+
+/* CONTENEDOR DE ENCABEZADO */
+
+.contenedor-encabezado{
+    padding: 50px 0px;
+    background: #f7f7f7;
+}
+
 /* CONTENEDOR GENERAL PARA LAS SECCIONES */
 
 .contenedor{
@@ -93,4 +116,15 @@ header{
 .contenedor-footer{
    display: flex;
    justify-content: space-between;
+}
+
+.contenedor-fotos{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fit, minmax(500px , 1fr)); 
+}
+
+.foto-contenedor img{
+    width: 100%;
+    vertical-align: top;
 }

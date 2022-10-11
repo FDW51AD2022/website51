@@ -1,7 +1,10 @@
 body{
     background: #FFE7CC;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     min-height: 100vh;
+}
+.titulo:hover{
+    background-color: #4C6793;
 }
 h1{
     font-size:25px;
