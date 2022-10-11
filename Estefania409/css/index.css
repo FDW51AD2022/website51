@@ -156,6 +156,11 @@ html, body {
 	margin: 0 auto;
 }
 
+.contenedor-main6{
+	width: 500px;
+	margin: 0 auto;
+}
+
 .titulo + p{
 	border-top: 3px solid rgba(219, 107, 230, 0.904);
 	}
@@ -192,4 +197,9 @@ html, body {
 			left: 0;
 			width: 100%;
 			height: 100%;
+			}
+
+			a[href^="https"] {
+				background-color: rgb(206, 124, 223);
+				font-size: 30px;
 			}

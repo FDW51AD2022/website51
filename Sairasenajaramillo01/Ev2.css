@@ -41,3 +41,9 @@ h1{
    margin: 40px 230px;
    
   }
+  .nombre{
+    border-bottom: 2px solid yellowgreen;
+  }
+  .apellidos{
+    border-radius: 2px solid yellowgreen;
+  }
