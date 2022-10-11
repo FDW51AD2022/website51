@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+h1 {
+    font-size: 80px;
+    text-decoration: red;
+    text-align: center;
+    border-top: 10px solid white;
+    border-bottom: 10px solid whitesmoke;
+    border-left: 10px solid whitesmoke;
+    border-right: 10px solid whitesmoke;
+    background-color: gray;
+    color: #3D0000 ;
+}
+p {
+    color: whitesmoke;
+}
+#indimg img{
+    width: 500px;
+    float:right;
+    margin-right: 3em;
+    border-radius: 20%;
+}
+#nav-panel ul {
+    background-color: #950101;
+    color: white;
+    font-size: 40px;
+}
+
+#nav-panel ul li {
+    float: right;
+    width: 20%;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}

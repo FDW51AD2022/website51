@@ -3,17 +3,13 @@
     padding: 0%;
 }
 
-html{
-    height: 100%;
-}
 body{
-    background-color: #E38B29;
+    background: url(../recursos/Fondoaliens.jpg);
     background-size: 100%;
-    min-height: 100%;
 }
 
 .grid div{
-    background-color: red;
+    /*background-color: red;*/
     padding: 1em;
 }
 
@@ -44,7 +40,16 @@ p{
 .pie{
     display: flex;
     color: white;
-    background-color: #f56a00;
-    height: 100px;
+    /*background-color: #f56a00;*/
+    height: 50px;
     width: 200%;
+    line-height: 50px;
+}
+
+h1{
+    color: white;
+}
+
+mark{
+    background-color: blue;
 }

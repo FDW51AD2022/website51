@@ -50,9 +50,10 @@ h4 {
 }
 
 #l2 {
-    /* flex-grow: 3; */
+    /* flex-grow: 2; */
     order: 2;
-    width: 500px;
+    flex-basis: 500px;
+    flex-shrink: 0;
     align-self: center;
     font-size: 25px;
     color: #fac9d9;
@@ -70,6 +71,15 @@ h4 {
 #l4 {
     /* flex-grow: 3; */
     order: 4;
+    width: 500px;
+    align-self: center;
+    font-size: 25px;
+    color: #fac9d9;
+}
+
+#l5 {
+    /* flex-grow: 3; */
+    order: 5;
     width: 500px;
     align-self: center;
     font-size: 25px;
