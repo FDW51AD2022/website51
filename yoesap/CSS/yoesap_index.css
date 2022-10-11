@@ -221,5 +221,18 @@ footer {
     width: 800px;
 }
 
+p{
+    margin: 10px 0px;
+    text-align: center;
+    text-align: justify;
+    color: #666;
+}
 
+figure{
+    margin: 0px;
+}
 
+split{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #dadada;
+}
