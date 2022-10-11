@@ -1,19 +1,21 @@
-html
-{ height: 100%;}
-
-*
-{ margin: 0;
-    padding: 0;}
-
-body
-{ font: normal .80em 'trebuchet ms', arial, sans-serif;
-    background: #FFF;
-    color: #555;}
-
+nav {
+    background-color: #fbfbfb;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+#Tema
+{
+    font: normal .95em 'trebuchet ms', arial, sans-serif;
+    font-size: 35px;
+    background-color: rgb(243, 247, 19);
+}
 
 p
-{ padding: 0 0 20px 0;
-    line-height: 1.7em;}
+{
+    padding: 20px;
+}
 
 img
 { border: 0;}

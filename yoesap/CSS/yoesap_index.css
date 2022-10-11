@@ -106,7 +106,7 @@ form {
 }
 
 h1 {
-    color: rgb(161, 29, 80);
+    color: rgb(15, 2, 7);
     text-align: center;
     margin: 0;
     font-size: 30px;
@@ -221,5 +221,28 @@ footer {
     width: 800px;
 }
 
+p{
+    margin: 10px 0px;
+    text-align: center;
+    text-align: justify;
+    color: #666;
+}
+
+figure{
+    margin: 0px;
+}
+
+split{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #dadada;
+}
 
 
+
+figcaption {
+    font-style: italic;
+    color: black;
+    font-size: 1.1em;
+    text-align: center;
+
+}
