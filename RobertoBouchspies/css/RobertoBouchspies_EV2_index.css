@@ -99,20 +99,20 @@ main{
 }
 
 .article-aside{
-    display: flex;
-    padding-bottom: 50px;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fit, minmax(500px , 1fr));
     margin: 0 auto;
     width: 1200px;
+    padding-bottom: 50px;
 }
 
 article{
     border-style: solid;
-    width: 60%;
     background: rgb(255, 255, 255);
 }
 
 aside{
-    width: 40%;
     background: rgb(255, 255, 255);
     text-align: center;
 }
