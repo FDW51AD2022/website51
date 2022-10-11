@@ -8,3 +8,8 @@ h1{
     text-align: center;
     border: 3px solid #4C6793;
 }
+img{
+    float: right;
+    border: 2px solid black;
+}
+
