@@ -1,0 +1,26 @@
+.contenedor-formulario{
+    width: 100%;
+}
+
+.form-formulario{
+    background: #f7f7f7;
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.form-formulario input,textarea{
+    width: 100%;
+}
+
+.contenedor-fotos{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fit, minmax(500px , 1fr)); 
+}
+
+.foto-contenedor img{
+    width: 100%;
+    vertical-align: top;
+}
+
