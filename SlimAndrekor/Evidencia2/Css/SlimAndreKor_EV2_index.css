@@ -11,7 +11,7 @@ hr{width: 350%;
 #Menu  #Links li{float:left;
                  font-family: 'Courier New';
 }
-#Menu  #Links li a{padding: 15px 95px;
+#Menu  #Links li a{padding: 15px 85px;
                    display:block;
                    color:#fff;
                    text-decoration:none;
@@ -45,4 +45,12 @@ h1, h2 ,h3 {text-align: center;
   padding:20px;
   width: 85%;
   padding: 5px 10px 15px 100px ; 
+}
+
+#Elaboracion {width:100%;
+  margin-right:2%;
+  float:right;
+  color: white;
+  background: rgb(6, 7, 4);
+  border: grey 10px;
 }

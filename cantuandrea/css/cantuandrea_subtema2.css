@@ -93,8 +93,7 @@ td {
     border: black 5px solid;
   }
 
-img{
-    width: 250px;
+article.boneless img{
     float: right;
     margin-right: 15px;
 }
@@ -133,6 +132,11 @@ img{
     color:black;
     text-align: justify;
     margin-left: 10px;
+}
+
+article.hamburguesas img{
+    float: right;
+    margin-right: 15px;
 }
 
 .hamburguesas p{
@@ -186,6 +190,11 @@ img{
     color:black;
     text-align: justify;
     margin-left: 10px;
+}
+
+article.papas img{
+    float: right;
+    margin-right: 15px;
 }
 
 .flex2{
