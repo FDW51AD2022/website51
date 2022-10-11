@@ -219,4 +219,22 @@ nav {
 }
 
 
+.container__article{
+  max-width: 1000px;
+  padding: 0px 20px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container__article .box__article{
+  width: 200px;
+  height: 250px;
+  background: blue;
+  margin: 20px;
+}
+
+
  

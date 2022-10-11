@@ -27,3 +27,27 @@ section {
     text-transform: uppercase;
     padding: 10px;
 }
+.one {
+    background-color: aqua;
+}
+.two {
+    background-color: blue;
+}
+.three {
+    background-color: aquamarine;
+}
+.four{
+    background-color: blueviolet;
+}
+.cash span {
+    display:block ;
+    font-size: 30px;
+}
+ul li {
+    list-style-type: none;
+    text-align: center;
+    border-bottom: 1px solid #FFD384;
+    padding: 10px;
+    font-size: 18px;
+
+}
