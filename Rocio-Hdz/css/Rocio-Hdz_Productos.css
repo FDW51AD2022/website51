@@ -58,3 +58,22 @@ body{
     padding: 10px;
     text-align: center;
 }
+
+#Pie{
+    text-align: center;
+    background-color:#f2f2f200;
+    padding: 15px;
+}
+
+.volver {
+	display: block;
+	width: 10%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}

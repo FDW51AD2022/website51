@@ -27,3 +27,17 @@ h2 {color: rgb(69, 179, 157);
     font-family: 'Verdana';
     font-size: 25px;
 }
+
+span {font-family: 'Century Gothic';
+    font-size: 20px;
+}
+
+h3 {background-color:rgb(213, 245, 227);
+    color: rgb(31, 97, 141);
+    font-family: 'Verdana';
+    font-size: 25px;}
+
+#mini-page section {
+    background-color: red;
+    grid-column: 1 / -1;
+}
