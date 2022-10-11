@@ -8,6 +8,11 @@
     color:rgb(0, 0, 0);
     font-size: 30px;
 }
+.texto31 {
+    font-family: Calibri;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+}
 .texto2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
@@ -112,6 +117,7 @@
 #centro1 header {
     background-color: black;
     grid-area: enc; 
+    height: 100px;
 }
 
 #centro1 article {
@@ -154,5 +160,6 @@
     justify-content: space-around;
     align-content: space-between;
 }
+
 
 
