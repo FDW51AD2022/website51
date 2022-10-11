@@ -10,3 +10,14 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     color: black;
 }
+
+body {
+    background-color: azure;
+    align-items: center;
+}
+ 
+p {
+    text-align: center;
+    font-size: 25px;
+    color: darkcyan;
+}
