@@ -31,3 +31,9 @@ main .contenedor-mision-vision .elemento-mv img {
 .img-cite{
     width: 50%;
 }
+
+.contenedor-final{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fit, minmax(500px , 1fr)); 
+}
