@@ -4,9 +4,21 @@
 #encabezado 
 {text-align: center; 
 font-size: 60px; 
-text-decoration: underline;
-}
+text-decoration: underline;}
 
 #desc 
-{font-size: 30px;
-}
+{font-size: 30px;}
+
+#movil {font-size: 30px;}
+
+#cel {background-color: cadetblue;
+color: green;
+float: left;
+margin-top: 5px;}
+
+#whatsapp {float: left;
+margin-left: 15px;
+margin-top: 0px;
+width: 40px;}
+
+#tel {margin-top: 50px;}

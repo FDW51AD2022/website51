@@ -84,6 +84,7 @@ li {
 .citas {
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
     line-height: 2.1;
+    padding: 10px 20px;
 }
 
 .fondo {
@@ -98,20 +99,20 @@ main{
 }
 
 .article-aside{
-    display: flex;
-    padding-bottom: 50px;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fit, minmax(500px , 1fr));
     margin: 0 auto;
     width: 1200px;
+    padding-bottom: 50px;
 }
 
 article{
     border-style: solid;
-    width: 60%;
     background: rgb(255, 255, 255);
 }
 
 aside{
-    width: 40%;
     background: rgb(255, 255, 255);
     text-align: center;
 }
@@ -180,4 +181,9 @@ video {
     background-color: #ffff;
     color: black;
     font-weight: bolder;
+}
+
+.figure-pollo {
+    padding-right: 100px;
+    padding-top: 20px;
 }
