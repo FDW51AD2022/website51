@@ -1,73 +1,80 @@
 .titulo{
-    background-color: #f3214e;
+    background-color: #efbc98;
     flex-wrap:initial;
     font-size: 40px;
 }
 
 #p1{
-    background-color: #e6ac84;
+    background-color: #efbc98;
     font-size: 30px;
     
 }
 
 
-#nav-main ul{
+#lugares {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+    color: #703951;
+}
+
+
+
+#menu ul{
+    background-color: #efbc98;
     list-style:none;
     padding: 0;
     margin: 0;
+    align-content: space-between;
     display: flex;
     justify-content: space-around;
-    align-content: space-between;
     flex-flow: row ;
     overflow: hidden;
-
+    border-radius: 35px;
 }
 
 #menu ul li{
     align-self: center;
 }
 
-#menu ul li a strong:hover{
-    background-color: #ad9978;
-    border-radius: 5px;
-    color: #e6ac84;
+
+
+#menu ul li a strong{
+    color: #eb5874;
     
 }
-
-
 
 a{
     text-decoration: none;
     align-self: center;
-    font-size: 5vh;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
-#nav-footer ul{
-    list-style:none;
-    display: flex;
-    justify-content: space-evenly;
-    align-content: space-between;
-}
-
-
-
 
 
 .p-132{
     font-size: 28px;
     align-self: center;
-    background-color: #e6ac84;
+    background-color: #efbc98;
     border-radius: 35px;
     font-style:unset;
 }
 
 table{
-    border: #ad9978 7px solid;
+    border: #ad9978 8px, solid;
+    
+    
 }
 
-td, th {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 8px;
-    border: #619177 5px solid;
+td, th strong {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    border:#619177 8px solid;
+    align-self: center;
   }
+
+  #imagen-tabla{
+    width: 500px;
+    float: left;
+    margin-right: 1em;
+
+}

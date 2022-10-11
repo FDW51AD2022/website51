@@ -1,0 +1,24 @@
+* {
+    margin: 1px;
+    padding: 1px;
+}
+h1 {
+    color: aliceblue;
+
+}
+
+body {
+    background: url(Recursos/fondo.jpg);
+    background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+ p {
+    color: black;
+    font: 150% sans-serif;
+    justify-content: center;
+    background-color: darkcyan;
+}
+
+

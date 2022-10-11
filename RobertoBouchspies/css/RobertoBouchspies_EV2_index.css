@@ -2,7 +2,7 @@
     margin: 0;
     padding: 10;
     box-sizing: border-box;
-    font-family: "Arial", sans-serif;
+    font-family: "tahoma", sans-serif;
 }
 
 .button {
@@ -43,7 +43,7 @@ h1 {
 
 h2 {
     text-align: center;
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 h3, p {
@@ -84,5 +84,106 @@ li {
 .citas {
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
     line-height: 2.1;
+    padding: 10px 20px;
 }
 
+.fondo {
+    background-color: #ffffff;
+    padding: 50px 0px
+}
+
+main{
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.article-aside{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fit, minmax(500px , 1fr));
+    margin: 0 auto;
+    width: 1200px;
+    padding-bottom: 50px;
+}
+
+article{
+    border-style: solid;
+    background: rgb(255, 255, 255);
+}
+
+aside{
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+}
+
+.fondo-section {
+    background-color: #000000;
+    color: white;
+}
+
+.fondo-header {
+    background-image: url(/website51/RobertoBouchspies/Recursos/fondo_chicken.jpg);
+    background-size: cover;
+}
+
+header {
+    padding: 50px;
+}
+
+.imagen-contenedor {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.encabezado-h2 {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+video {
+    margin-top: -15px;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contenedor-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    width: 100%;
+    text-align: center;
+}
+
+.enlace-menu{
+    padding: 5px 20px;
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    font-family: "Arial Black", sans-serif;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
+}
+
+.enlace-menu:hover{
+    background-color: #ffff;
+    color: black;
+    font-weight: bolder;
+}
+
+.figure-pollo {
+    padding-right: 100px;
+    padding-top: 20px;
+}
