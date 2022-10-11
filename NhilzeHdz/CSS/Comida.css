@@ -14,19 +14,6 @@ body {
 	text-align: center;
 }
 
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.header {
-    height: 60vh !important;
-    background: url(../Recursos/combos.webp) ;
-    background-size: cover;
-}
-
 .head {
 	height: 63px;
     display: flex;
@@ -76,7 +63,7 @@ body {
 
 .contenedor-peliculas {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 	gap: 20px;
 }
 
@@ -96,8 +83,50 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;	
-    color: black;
 }
+
+.banner {
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.banner ul {
+	list-style: none;
+}
+
+.banner ul li {
+	margin: 15px;
+	font-weight: bold;
+    font-size: 20px;
+}
+
+.banner .boton {
+	background: #FFD600;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+h1{
+    color: black;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 
 
 
