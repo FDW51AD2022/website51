@@ -1,0 +1,80 @@
+.titulo{
+    background-color: #efbc98;
+    flex-wrap:initial;
+    font-size: 40px;
+}
+
+#p1{
+    background-color: #efbc98;
+    font-size: 30px;
+    
+}
+
+
+#lugares {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+    color: #703951;
+}
+
+
+
+#menu ul{
+    background-color: #efbc98;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    align-content: space-between;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row ;
+    overflow: hidden;
+    border-radius: 35px;
+}
+
+#menu ul li{
+    align-self: center;
+}
+
+
+
+#menu ul li a strong{
+    color: #eb5874;
+    
+}
+
+a{
+    text-decoration: none;
+    align-self: center;
+    font-size: 1em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.p-132{
+    font-size: 28px;
+    align-self: center;
+    background-color: #efbc98;
+    border-radius: 35px;
+    font-style:unset;
+}
+
+table{
+    border: #ad9978 8px, solid;
+    
+    
+}
+
+td, th strong {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    border:#619177 8px solid;
+    align-self: center;
+  }
+
+  #imagen-tabla{
+    width: 500px;
+    float: left;
+    margin-right: 1em;
+
+}

@@ -200,6 +200,8 @@ main {
 .introduccion {
     text-align: center;
     padding-top: 150px;
+    padding-left: 260px;
+    padding-right: 260px;
     width: 60%;
     margin: 0%;
 }
@@ -230,7 +232,7 @@ main {
 
 .publicidad{
     width: 437px;
-    height: 905px;
+    height: 1010px;
     margin-top: 0px;
     float: right;
     border: 5px solid #1d293F;
@@ -253,6 +255,26 @@ main {
     height: 230px;
     align-items: center;
     margin-top: 0px;
+}
+
+.aside__publi_contenido__invitaciones{
+    background-color: #FFECEF;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.aside__publi_contenido__musica{
+    background-color: #FFECEF;
+    width: 100%;
+    height: 65px;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.audio{
+    padding-right: 50px;
 }
 
 .lens_island{
@@ -294,7 +316,7 @@ main {
 }
 
 .footer__container{
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #fff;

@@ -28,6 +28,9 @@ body{
     background-color:#F2F2F2;
 }
 
+p{
+    text-align: left;
+}
 #Nuestra-Historia p{
     font-family: sans-serif;
     text-align: center;
@@ -42,6 +45,7 @@ body{
         "cont barra"
         "pie barra";
 }
+
 
 
 #Pie{

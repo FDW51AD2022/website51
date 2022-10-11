@@ -3,6 +3,11 @@ body{
     overflow-x: hidden;
 }
 
+main{
+    padding-left: 450px;
+    padding-right: 450px;
+}
+
 /* Header */
 
 .hero__pages{
@@ -36,14 +41,14 @@ body{
 }
 
 .hero__imagen{
-    padding-top: 80px;
-    padding-left: 40px;
+    padding-left: 90px;
+    padding-top: 60px;
     width: 600px;
     height: 500px;
 }
 
 .hero__info{
-    padding-right: 500px;
+    padding-right: 900px;
     padding-top: 100px;
     width: 900px;
     height: 500px;
@@ -52,5 +57,64 @@ body{
 /* Main */
 
 .pagina__principal{
-    padding-top: 100px;
+    /* padding-top: 100px; */
+    text-align: center;
+}
+
+.page__princ__paragraph{
+    line-height: 1.7;
+    font-size: 18px;
+    text-align: start;
+    margin: 0%;
+    padding: 0%;
+    padding-bottom: 2em;
+}
+
+.como__invertir{
+    padding-bottom: 20px;
+}
+
+.wallets{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.donde_invertir{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.minar_criptos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.page__princ__dt{
+    line-height: 1.2;
+    font-size: 24px;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    padding-bottom: 1em;
+}
+
+.page__princ__dd{
+    line-height: 1.2;
+    font-size: 18px;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    padding-bottom: 1em;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.table_exchanges{
+    font-size: 20px;
+    width: 440px;
+    margin: 0 auto;
+}
+
+th, td{
+    border: #000 solid;
 }
