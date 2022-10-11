@@ -8,3 +8,8 @@ h1 {
 body{
     background-color: rgb(238, 233, 226);
 }
+
+video{
+    float: center;
+    font-size: 10px;
+}
