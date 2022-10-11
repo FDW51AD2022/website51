@@ -25,7 +25,7 @@ h1 {
     flex-shrink: 0;
     align-self: center;
     font-size: 25px;
-    color: #fac9d9;
+    color: rgb(176, 133, 176);
 }
 
 #l2 {
@@ -35,7 +35,7 @@ h1 {
     flex-shrink: 0;
     align-self: center;
     font-size: 25px;
-    color: #fac9d9;
+    color: rgb(176, 133, 176);
 }
 
 #l3 {
@@ -44,7 +44,7 @@ h1 {
     width: 300px;
     align-self: center;
     font-size: 25px;
-    color: #fac9d9;
+    color: rgb(176, 133, 176);
 }
 
 #l4 {
@@ -53,7 +53,7 @@ h1 {
     width: 300px;
     align-self: center;
     font-size: 25px;
-    color: #fac9d9;
+    color: rgb(176, 133, 176);
 }
 
 #l5 {
@@ -62,5 +62,5 @@ h1 {
     width: 300px;
     align-self: center;
     font-size: 25px;
-    color: #fac9d9;
+    color: rgb(176, 133, 176);
 }
