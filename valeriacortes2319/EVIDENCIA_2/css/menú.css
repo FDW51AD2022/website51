@@ -9,6 +9,13 @@ h1 {
     font-size: 4vh;
 }
 
+h2{
+    color: rgb(233, 67, 175);
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    font-size:4vh;
+}
+
 #site-menu {
     display: flex;
     margin: 5;
