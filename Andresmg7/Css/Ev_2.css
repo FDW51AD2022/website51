@@ -23,7 +23,9 @@ h2 {
     color: whitesmoke;
 }
 p {
+    font-style: italic;
     color: whitesmoke;
+    font-size: 20px;
 }
 #indimg img{
     width: 550px;
@@ -61,4 +63,9 @@ figcaption {
 }
 footer{
     text-align: center;
+}
+p2 {
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 20px;
 }
