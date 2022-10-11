@@ -69,3 +69,16 @@ p2 {
     font-style: italic;
     font-size: 20px;
 }
+address {
+    color: whitesmoke;
+}
+table, th, td {
+    text-align: center;
+    background-color: #950101;
+    color: whitesmoke;
+    border: 3px solid gray;
+    border-collapse: collapse;
+}
+.Btab {
+    width: 100%;
+}
