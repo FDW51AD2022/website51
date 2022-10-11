@@ -1,0 +1,111 @@
+#tequila{
+    align-items: center;
+    font-size: 50px;
+    color: #fd8086;
+    background-color: #4771a3;
+    border-radius: 35px;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    align-content: space-between;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row ;
+    overflow: hidden;
+   
+    
+}
+
+
+#menu ul{
+    background-color: #efbc98;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    align-content: space-between;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row ;
+    overflow: hidden;
+    border-radius: 35px;
+   
+
+}
+
+#menu ul li{
+    align-self: center;
+}
+
+
+
+#menu ul li a strong{
+    color: #eb5874;
+   
+    
+}
+
+a{
+    text-decoration: none;
+    align-self: center;
+    font-size: 2em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+#descripcion{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #9c667d;
+    text-shadow:0 0 20px #f1ffd5
+}
+
+#caracteristicas img {
+    width: 500px;
+    float: left;
+    margin-right: 1em;
+}
+
+
+
+
+#caracteristicas{
+    color: #fdefb0;
+    background-color: #77779d;
+    grid-column: 1 / -1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+
+}
+
+#atractivos img{
+    width: 500px;
+    float: right;
+    margin-right: 1em;
+
+}
+
+#atractivos div{
+    float: left;
+    color: #fdefb0;
+    background-color: #77779d;
+    grid-column: 1 / -1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+
+}
+
+
+
+.nombre{
+    font-size: 30px;
+    font-family:cursive;
+    color: #703951;
+}
+
+#video{
+    width: 500px;
+    float: right;
+    margin-right: 500em;
+}
