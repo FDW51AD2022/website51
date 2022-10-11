@@ -1,0 +1,12 @@
+
+h2{
+    border-block-end: 6px solid palevioletred;}
+    
+    h1{
+    background-color: lightpink;
+}
+
+#lista-1 li:nth-child(even){
+    background-color: #EBC7E8;
+    color: rgb(155, 135, 135);
+}
