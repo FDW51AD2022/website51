@@ -1,0 +1,44 @@
+body{
+    background-color: rgba(37, 54, 235, 0.74);
+    background: url(https://www.etapainfantil.com/wp-content/uploads/2019/03/sistema-solar.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(92, 24, 124);
+}
+
+p{
+    color: white;
+}
+
+#contenedor{
+    margin: 150px auto;
+    width: 600px;
+}
+
+.contenedor h1{
+    color: white;
+}
+.contenedor{
+    color: white;
+}
+.menu-lista-1{
+    background-color: rgb(92, 24, 124);
+}
+.menu-lista-1 li{
+    display: inline-block;
+}
+
+.menu-lista-1 a{
+    display: inline-block;
+    padding: 25px 10px;
+    color: white;
+}
+.menu-lista-1 a:hover{
+    background: white;
+    color: black;
+}
