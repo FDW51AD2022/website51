@@ -16,3 +16,20 @@ p{
 h3{
     margin: 0.5%;
 }
+span{
+    display: flex;
+    font-size:25px;
+    justify-content:center;
+}
+.principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    padding-top:10px;
+    padding-left:150px;
+    padding-right:200px;
+}
+span{
+    background-color: #CFFF8D;
+}
