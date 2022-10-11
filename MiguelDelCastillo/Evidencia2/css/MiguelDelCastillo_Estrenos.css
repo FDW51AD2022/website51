@@ -1,0 +1,195 @@
+#nav-main ul{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-flow: row wrap;
+    overflow: hidden;
+    
+}
+
+#nav main ul li{
+    align-self: center;
+}
+
+#nav-main ul li a strong:hover{
+    background-color: #420039;
+    border-radius: 2px;
+    color: #DEC5E3;
+    
+}
+
+#nav-main ul li a strong{
+    color: #F0FFCE;
+    text-shadow:0 0 20px #0F0A0A;
+}
+
+a{
+    text-decoration: none;
+    align-self: center;
+    font-size: 5vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows:max-content;
+    grid-template-areas: "head head"
+    "arti arti"
+    "artidescripcion artidescripcion"
+    "pie pie";
+    gap: .5em;
+    background-color: #DE3C4B;
+    
+
+}
+
+body header{
+    padding: 30px;
+    background-color:#DE3C4B;
+    background-image:url(https://pbs.twimg.com/media/FemN719XwAI3AAE?format=jpg&name=large);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    grid-area: head;
+    color: #F0FFCE;
+    border-start-end-radius: 5px;
+    border-start-start-radius: 5px;
+}
+
+body article{
+    padding: 1%;
+    background-color: #156064;
+    grid-area: arti;
+    height: auto;
+    font-size: 3vh;
+}
+
+#newarti{
+    grid-area: artidescripcion;
+}
+
+body footer{
+    background-color: #0F0A0A;
+    grid-area: pie;
+    color: #F0FFCE;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px ;
+    padding-left:2vh ;
+    font-size: 3vh;
+    padding-right: 2vh;
+}
+
+h1{
+    background-color: #DE3C4B;
+    color: #0F0A0A;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 10vh;
+    margin:0;
+    padding:0;
+
+}
+
+
+
+img{
+    height: 40vh;
+    width: 25vh;
+    margin: 10vh;
+}
+
+
+
+#lista{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "poster1 poster2 poster3"
+    "poster4 poster5 poster6";
+    list-style: none;
+    border: black 20px solid;
+    background-color: antiquewhite;
+}
+
+#poster1{
+    grid-area: poster1;
+    text-align: center;
+}
+#poster2{
+    grid-area: poster2;
+    text-align:center;
+}
+#poster3{
+    grid-area: poster3;
+    text-align:center;
+}
+#poster4{
+    grid-area: poster4;
+    text-align:center;
+}
+#poster5{
+    grid-area: poster5;    
+    text-align:center;
+}
+
+ol{
+    list-style: none;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.posters{
+    float: right;
+    border: #156064 2vh double;
+}
+
+div{
+    border: 10px solid #DEC5E3;
+    border-radius: 5px;
+    padding: 10px;
+    color: #F0FFCE;
+    background-color: #420039;
+    text-align:justify;
+    
+}
+
+#newarti ol li h2{
+    background-color: antiquewhite;
+    padding: 10px;
+    border: 10px;
+    border-color: #156064;
+    border-left-color: #0F0A0A;
+    border-right-color: #0F0A0A;
+    border-bottom-color: #0F0A0A;
+    border-style:solid;
+}
+
+#nav-footer{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+button{
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4vh;
+    background-color: #DEC5E3;
+    height: max-content;
+    border-radius: 5vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+.clearfix p{
+    padding:9vh;
+    font-size: 4vh;
+}

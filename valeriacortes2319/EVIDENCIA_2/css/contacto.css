@@ -1,0 +1,82 @@
+h1 {
+    background: #fcdbe6; 
+    color: #f15c8e; 
+    font-weight: bold; 
+    padding: 15px; 
+    border: 2px solid #fac9d9; 
+    border-radius: 6px; 
+    text-align: center;
+    font-size: 4vh;
+}
+
+#site-menu {
+    display: flex;
+    margin: 5;
+    padding: 5;
+    height: 5vh;
+    text-align: center;
+    background-color: rgb(244, 201, 222);
+}
+
+#l1 {
+    /* flex-grow: 2; */
+    order: 1;
+    flex-basis: 300px;
+    flex-shrink: 0;
+    align-self: center;
+    font-size: 25px;
+    color: rgb(176, 133, 176);
+}
+
+#l2 {
+    /* flex-grow: 2; */
+    order: 2;
+    flex-basis: 300px;
+    flex-shrink: 0;
+    align-self: center;
+    font-size: 25px;
+    color: rgb(176, 133, 176);
+}
+
+#l3 {
+    /* flex-grow: 3; */
+    order: 3;
+    width: 300px;
+    align-self: center;
+    font-size: 25px;
+    color: rgb(176, 133, 176);
+}
+
+#l4 {
+    /* flex-grow: 3; */
+    order: 4;
+    width: 300px;
+    align-self: center;
+    font-size: 25px;
+    color: rgb(176, 133, 176);
+}
+
+#l5 {
+    /* flex-grow: 3; */
+    order: 5;
+    width: 300px;
+    align-self: center;
+    font-size: 25px;
+    color: rgb(176, 133, 176);
+}
+
+
+
+
+
+
+
+
+
+#final{
+    padding: 15px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}

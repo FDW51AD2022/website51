@@ -1,0 +1,14 @@
+body {
+    background-color: #999;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    height: 100vh;
+    background: #FF87B2;
+    font-family: sans-serif;
+  }
+  
+  

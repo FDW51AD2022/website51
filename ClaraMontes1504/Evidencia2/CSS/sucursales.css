@@ -1,19 +1,29 @@
 body{
-    font-family: Tahoma;
+    font-family: sans-serif;
     font-size: 20px;
+    background-color:#F5EFE6 ;
 }
 
 #barra{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column: 1/-1;
-    background-color: #066163;
-    color: #066163;
+    background-color: #4C6793;
     margin: 0px;
+    padding: 0px;
+    align-content: center;
+}
+
+#barra h1{
+    font-family: fantasy;
+    font-size: 80px;
+    color:#F2F2F2;
+    border-color: #4C6793;
+    padding: 0px;
+    margin: 0px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
 }
 
 .menu li:hover{
-    background-color: #A2B38B;
+    background-color: #B7C4CF;
     color: black;
     padding: 10px;
 }
@@ -28,22 +38,78 @@ body{
     background-color:#F2F2F2;
 }
 
-
-
 form {
     margin: 0 auto;
     width: 400px;
     list-style: none;
-    background-color: #FAFDD6;
+    background-color: #D2DAFF;
+    padding: 10px;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding: 10px;
+    background-color: #F2F2F2;
+}
+
+#img{
+    display: inline;
+}
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 200px;
+    margin: auto;
+    float: left;
+}
+
+.datos p,h3{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+button{
+    font-size: 15px;
+    background-color:#B7C4CF;
 }
 
 #Pie{
     text-align: center;
-    background-color:#F2F2F2;
+    background-color:#EEF1FF;
     padding: 15px;
 }
 
 #Adress{
-    background-color:#0e9497;
+    background-color:#4C6793;
     padding:10px;
 }
+
+.contenedor ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #AEBDCA;
+}
+.contenedor h1{
+    font-family: verdana ;
+    text-align: center;
+    color: #25316D;
+}
+
+.contenedor p,h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.contenedor li{
+    border: solid black;
+    padding: 10px;
+    background-color:#EEEEEE;
+ }

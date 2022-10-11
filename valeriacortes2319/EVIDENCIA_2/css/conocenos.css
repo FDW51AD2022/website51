@@ -1,0 +1,115 @@
+h1 {
+    background: #fcdbe6; 
+    color: #f15c8e; 
+    font-weight: bold; 
+    padding: 15px; 
+    border: 2px solid #fac9d9; 
+    border-radius: 6px; 
+    text-align: center;
+    font-size: 4vh;
+}
+
+h2 {
+    color: rgb(233, 67, 175);
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    font-size:4vh;
+}
+
+h3 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 35px;
+}
+
+h3[lang]{
+    border: 5px dashed palevioletred;
+} 
+
+h4{
+    padding: 15px;
+    color: rgb(225, 45, 45);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+#site-menu {
+    display: flex;
+    margin: 5;
+    padding: 5;
+    height: 5vh;
+    text-align: center;
+    background-color: rgb(244, 201, 222);
+}
+
+#l1 {
+    /* flex-grow: 2; */
+    order: 1;
+    flex-basis: 500px;
+    flex-shrink: 0;
+    align-self: center;
+    font-size: 25px;
+    color: #fac9d9;
+}
+
+#l2 {
+    /* flex-grow: 2; */
+    order: 2;
+    flex-basis: 500px;
+    flex-shrink: 0;
+    align-self: center;
+    font-size: 25px;
+    color: #fac9d9;
+}
+
+#l3 {
+    /* flex-grow: 3; */
+    order: 3;
+    width: 500px;
+    align-self: center;
+    font-size: 25px;
+    color: #fac9d9;
+}
+
+#l4 {
+    /* flex-grow: 3; */
+    order: 4;
+    width: 500px;
+    align-self: center;
+    font-size: 25px;
+    color: #fac9d9;
+}
+
+#l5 {
+    /* flex-grow: 3; */
+    order: 5;
+    width: 500px;
+    align-self: center;
+    font-size: 25px;
+    color: #fac9d9;
+}
+
+/*color: rgb(176, 133, 176);*/
+h5{
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+figcaption {
+    color: rgb(150, 34, 152);
+    font-family:century;
+    text-align: left;
+    font-size: 35px;
+}
+
+#final{
+    padding: 15px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+

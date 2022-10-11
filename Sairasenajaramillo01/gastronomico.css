@@ -1,0 +1,18 @@
+body{
+    background: #FFE7CC;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-height: 100vh;
+}
+h1{
+    font-size:25px;
+    text-align: center;
+    border: 3px solid #4C6793;
+}
+p{
+    background-color: cadetblue;
+    color: white;
+    border: 0.5px solid black;
+}
+h3{
+    margin: 0.5%;
+}

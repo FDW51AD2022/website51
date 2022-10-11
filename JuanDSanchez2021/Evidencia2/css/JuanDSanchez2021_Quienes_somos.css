@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+body {
+    text-align: center;
+}
+
+.head {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    background: limegreen;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    margin-right: 10px;
+}
+
+.nav a {
+    display: block;
+    padding: 20px 20px;
+    color: black;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif,Arial, Helvetica, sans-serif,Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background: gray;
+}
+
+.img-logo {
+    width: 40%;
+    vertical-align: top;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 80vh !important;
+    background: url(../Recursos/tienda.webp) ;
+    background-size: cover;
+}
+
+.titulo {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+
+.contenido {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotros {
+    padding: 30px;
+    background: black
+}
+
+.mision {
+    background: green;
+}
+
+.vision {
+    background-color: teal;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.valores{
+    padding-top: 20px;
+    background: navy;
+    color: white; 
+}
+
+.calidad {
+    padding-top: 20px;
+    background: green;
+    color: white; 
+}
+
+.Asociaciones {
+    padding-top: 30px;
+    background: red;
+    color: white; 
+}
+
+
+footer {
+    width: 100%;
+    height: 20px;
+    background-color: white;
+}
+
+footer p {
+    text-align: center;
+    padding: 50%;
+}

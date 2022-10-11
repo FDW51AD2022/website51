@@ -1,0 +1,31 @@
+.SC{
+    background-color: rgba(109, 221, 143, 0.767);
+}
+
+body{
+    background-color: white(201, 112, 112, 0.74);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+
+}
+
+#Pie{
+    text-align: center;
+    background-color:#d19f9f;
+    padding: 15px;
+}
+
+.SNC{
+    background-color: rgba(0, 0, 0, 0.445);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+h1{
+    background-color: rgba(214, 145, 145, 0.596);
+    color: rgb(37, 35, 35);
+    font-size: 30px;
+}
+
+
