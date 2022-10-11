@@ -26,3 +26,19 @@ p{
 .contenedor{
     color: white;
 }
+.menu-lista-1{
+    background-color: rgb(92, 24, 124);
+}
+.menu-lista-1 li{
+    display: inline-block;
+}
+
+.menu-lista-1 a{
+    display: inline-block;
+    padding: 25px 10px;
+    color: white;
+}
+.menu-lista-1 a:hover{
+    background: white;
+    color: black;
+}
