@@ -3,13 +3,13 @@
     padding: 1px;
 }
 header {
-    color: gold;
+    color: darkblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 70px;
+    font-size: 65px;
 }
 
 body {
-    background: url(Recursos/Estadio.jpg);
+    background: url(Recursos/Foto\ estadio.jpg);
     background-size: cover;
   background-repeat:no-repeat;
   background-position: center center;
@@ -22,7 +22,14 @@ h1 {
 }
 
 p {
-    color: whitesmoke;
+    color: aqua;
+    background-color: gray;
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
+}
+
+h2 {
+    color: white;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
