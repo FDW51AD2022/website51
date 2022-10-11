@@ -39,3 +39,34 @@
     background-color: purple;
     grid-column: 1/-1;
 }
+#mini-page2 {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /*grid-template-rows: 200px 100px;*/
+    gap: 1em;
+}
+
+#mini-page2 header{
+    background-color: red;
+   grid-area: cont;
+}
+#mini-page2 article{
+    background-color: blue;
+    grid-area:cont ;
+}
+#mini-page2 aside{
+    background-color: pink;
+    grid-area: barra;
+}
+#mini-page2 footer{
+    background-color: purple;
+    grid-area:pie ;
+}
+#mini-page2 {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 1em;
+    grid-template-areas: "enc barra"
+                         "cont barra"
+                         "pie barra";
+}

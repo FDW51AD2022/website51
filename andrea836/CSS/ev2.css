@@ -19,3 +19,23 @@ body {
     transform: translateX(-50%) translateY(-100%);
 }
 
+.li li{
+   /*display: flex; 
+    align-self: center;
+    transform: translateX(-50%) translateY(80%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    float: left;*/
+    float: left;
+    width: 20%;
+    text-align: center;
+    transform:translateX(50%) translateY(1700%);
+    color:#FB2576;
+}
+a {
+    color: black;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
