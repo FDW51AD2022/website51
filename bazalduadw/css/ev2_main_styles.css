@@ -27,6 +27,14 @@ html {
 
 /* HEADER */
 
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    z-index: 999;
+}
+
 .contenedor-header{
     display: flex;
     align-items: center;
