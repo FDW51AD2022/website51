@@ -1,0 +1,39 @@
+h1{
+    background-color: green;
+}
+html {
+    font-size: 5px;
+}
+.u-em {
+    background-color: lavender;
+    font-size: 10px;
+    width: 10em;
+    padding: 5em 3em;
+
+/* 5em es igual a 5 veces el tamaño de fuente 
+del elemento 3erm (15*3)=45 */
+
+padding: 5em 3em 
+}
+
+body {
+    width: 50%;
+}
+
+.u-porc {
+    background-color: #FF9494 ;
+    width: 50%;
+    height: 200px;
+}
+
+.productos {
+    background-color: lightpink;
+    height: 100vhn;
+    width: 70vw;
+}
+.overflow {
+    width: 200px;
+    height: 5em;
+    background-color: #FF9494;
+    overflow: auto;
+}

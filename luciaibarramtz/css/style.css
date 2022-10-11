@@ -1,0 +1,114 @@
+/* Selector de tipo*/
+
+p {
+    font-size: 20px;
+}
+
+/* Selector por id*/
+
+#parrafo-sel-id {
+    background-color: salmon;
+
+    border-radius: 10px ;
+}
+
+.error {
+
+    color: red;
+
+    background-color: yellow;
+
+}
+
+
+
+/* /* Selector por id */
+
+
+
+/* /* Selector por atributo */
+
+
+
+p[lang] {
+
+    border: 3px dashed black;
+
+}
+
+
+
+/* /* Selector por atributo valor especial */
+
+p[lang="es"] {
+
+    border: 3px dashed aqua;
+
+}
+
+
+
+/* /* Selector por atributo ,buscando un valor inicial */
+
+a[href^="https"] {
+
+    background-color: pink;
+
+}
+
+
+
+/* /* Selector por atributo ,buscando un valor final */
+
+a[href$="https"] {
+
+    background-color: red;
+
+}
+
+
+
+/* /* Selector por atributo ,buscando un valor sin importar la posicion en la que se encuentre */
+
+a[href*="you"] {
+
+    border: 3px groove plum;    
+
+}
+
+
+
+
+/* COMBINADORES CSS */
+
+/* Selector descendiente*/
+
+
+
+section p {
+
+    font-size: 3px;
+
+}
+
+
+
+section > p {
+
+    font-size: 25px;
+
+}
+
+
+
+/* General broooo
+
+Buscar los hermanos que esten al mismo nivel*/
+
+
+
+#p-ini ~ p {
+
+    background-color: chartreuse;
+
+}
