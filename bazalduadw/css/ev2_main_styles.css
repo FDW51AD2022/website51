@@ -11,6 +11,29 @@ html {
     scroll-behavior: smooth;
 }
 
+/* MARGIN Y PADDINGS */
+
+.mt80{
+    margin-top: 80px;
+}
+
+.mb10{
+    margin-bottom: 10px;
+}
+
+/* TEXTO CENTRADO */
+
+.text-center{
+    text-align: center;
+}
+
+/* CONTENEDOR DE ENCABEZADO */
+
+.contenedor-encabezado{
+    padding: 50px 0px;
+    background: #f7f7f7;
+}
+
 /* CONTENEDOR GENERAL PARA LAS SECCIONES */
 
 .contenedor{
@@ -26,6 +49,14 @@ html {
 }
 
 /* HEADER */
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    z-index: 999;
+}
 
 .contenedor-header{
     display: flex;

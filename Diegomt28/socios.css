@@ -1,0 +1,16 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+body {
+    background-color: slategray;
+}
+
+h1 {
+    color: azure;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
