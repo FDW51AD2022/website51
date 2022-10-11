@@ -8,6 +8,15 @@ main{
     padding-right: 450px;
 }
 
+small{
+    font-size: 18px;
+}
+
+blockquote{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 /* Header */
 
 .hero__pages{
@@ -75,6 +84,13 @@ main{
 
 .subtitle__h3{
     color: var(--color-title);
+    font-size: 20px;
+    margin-bottom: 45px;
+    text-align: start;
+}
+
+.subtitle__h4{
+    color: var(--color-title);
     font-size: 25px;
     margin-bottom: 45px;
     text-align: start;
@@ -82,4 +98,20 @@ main{
 
 .figura_noticia{
     text-align: center;
+}
+
+.cita{
+    text-align: center;
+}
+
+.derechos{
+    display: flex;
+}
+
+/* .autor{
+    padding-right: 100px;
+} */
+
+.fecha{
+    padding-left: 640px;
 }
