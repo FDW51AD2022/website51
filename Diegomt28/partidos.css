@@ -1,15 +1,39 @@
+body {
+    background: url(Recursos/474606.jpg);
+    background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+
 header {
     color: blue;
-    font-size: 60px;
+    background-color: white;
+    font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1 {
-color: chartreuse;
-font-size: 45px;
+background-color: white;
+color: darkblue;
+font-size: 35px;
 font-family: 'Times New Roman', Times, serif;
 }
 
 table {
-    
-}
+    border-collapse: collapse; 
+    margin: 25px 0; 
+    font-size: 1em; 
+    font-family: sans-serif; 
+    min-width: 450px; 
+    box-shadow: 0 0 20px
+        rgba(0, 0, 0, 0.15);
+     }
+
+     p {
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        color:brown;
+    }
+
