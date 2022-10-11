@@ -58,7 +58,7 @@ body {
 
 
 .contenedor .footer {
-	background: #12203E;
+	background: #0a49d3;
 	color: #fff;
 	grid-area: footer;
 }
@@ -76,4 +76,29 @@ body {
 						 
 						 "footer footer footer";
 	}
+}
+
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #0a49d3;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+
+}
+.menu li a:hover{
+    background: #d054ef;
 }
