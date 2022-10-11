@@ -236,3 +236,13 @@ split{
     padding-bottom: 10px;
     border-bottom: 2px solid #dadada;
 }
+
+
+
+figcaption {
+    font-style: italic;
+    color: black;
+    font-size: 1.1em;
+    text-align: center;
+
+}
