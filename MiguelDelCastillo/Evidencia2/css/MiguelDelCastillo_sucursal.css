@@ -1,0 +1,118 @@
+#nav-main ul{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-flow: row wrap;
+}
+
+a[href*="MiguelDelCastillo"]{
+    text-decoration: none;
+    align-self: center;
+    font-size: 5vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #F0FFCE;
+    text-shadow:0 0 20px #0F0A0A;
+}
+
+#nav-main ul li a strong:hover{
+    background-color: #420039;
+    border-radius: 2px;
+    color: #DEC5E3;
+    
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows:max-content;
+    grid-template-areas: "head"
+    "arti"
+    "pie";
+    gap: 1em;
+    background-color:#DE3C4B;
+}
+
+body header{
+    padding: 10vh;
+    background-image: url(https://pbs.twimg.com/media/FemN719XwAI3AAE?format=jpg&name=large);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: head;
+    color: #F0FFCE;
+    border-start-end-radius: 5px;
+    border-start-start-radius: 5px;
+}
+
+body article{
+    padding: 3vh;
+    background-color: #F0FFCE;
+    grid-area: arti;
+    height: auto;
+    border-style: solid;
+    border-radius: 2vh;
+    border-width: 1vh;
+    font-size: 3vh;
+    
+}
+body section{
+    border: #420039 5px solid;
+    padding: 2vh;
+    background-color: #B9C0DA;
+    border-radius: 1em;
+}
+
+body footer{
+    background-color: #0F0A0A;
+    grid-area: pie;
+    color: #F0FFCE;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+    padding: 1vh;
+    font-size: 3vh;
+    text-align: center;
+}
+
+article iframe{
+    border: 1vh;
+    padding-left: 50vh;
+    border-radius: 2vh;
+}
+
+h1{
+    color: #6B6054;
+    font-size: 5vh;
+    padding: 1vh;
+}
+
+h2{
+    color: #FCF6BD;
+    border-radius: 5px;
+    border: none;
+    border-bottom: #0F0A0A solid;
+    text-shadow: 0 0 1vh #0F0A0A;
+}
+
+p{
+    color: #03256C;
+}
+
+footer p{
+    color: #F0FFCE;
+}
+
+#footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: #F0FFCE;
+}
+
+a[href*="#"]{
+    text-decoration: none;
+    color: #F0FFCE;
+}

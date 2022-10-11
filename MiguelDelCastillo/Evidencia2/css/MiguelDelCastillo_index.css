@@ -1,0 +1,166 @@
+
+/* Efectos del menu de navegacion */
+
+#nav-main ul{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-flow: row wrap;
+    overflow: hidden;
+}
+
+a[href*="MiguelDelCastillo"]{
+    color: #F0FFCE;
+    text-shadow:0 0 20px #0F0A0A;
+    text-decoration: none;
+    align-self: center;
+    font-size: 5vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#nav-main ul li a strong:hover{
+    background-color: #420039;
+    border-radius: 2px;
+    color: #DEC5E3;
+    
+}
+
+/* Cuerpo de la pagina y estructura de la pagina */
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 2fr .5fr;
+    grid-template-rows:max-content;
+    grid-template-areas: "head head"
+    "arti aside"
+    "pie pie";
+    gap: .5em;
+    background-color: #DE3C4B;
+}
+
+/* Header de la pagina, donde se encuentra el menu de navegacion */
+
+body header{
+    padding: 10vh;
+    background-color:#DE3C4B;
+    background-image:url(https://pbs.twimg.com/media/FemN719XwAI3AAE?format=jpg&name=large);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    grid-area: head;
+    color: #F0FFCE;
+    border-start-end-radius: 5px;
+    border-start-start-radius: 5px;
+}
+
+/* Article seccion */
+
+body article{
+    padding: 3vh;
+    background-color: #F0FFCE;
+    grid-area: arti;
+    height: auto;
+    border-style: solid;
+    border-radius: 2vh;
+    border-width: 1vh;
+    font-size: 3vh;
+
+}
+
+article p{
+    padding: 3vh;
+    color: #251F47;
+}
+
+/* Article Seccion Inicio Logotipo Anya  */
+
+#anya {
+    width: 20%;
+    height: 20%;
+    border-radius: 25vh;
+}
+
+/* Article Seccion Nuestras Redes Sociales */
+
+#redes-sociales{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "face twit";
+    justify-content: center;
+}
+
+#face{
+    grid-area: face;
+}
+
+#twit{
+    grid-area: twit;
+}
+
+/* Aside Animes de Estreno Octubre 2022 */
+
+body aside{
+    padding-left: 2vh;
+    background-color: #DEC5E3;
+    grid-area: aside;
+    font-size: 2vh;
+    font-style: oblique;
+    border-radius: 2vh;
+    border-width: 1vh;
+    border-style:double;
+    border-color: #48304D;
+}
+
+center img{
+    width: 25vh;
+    height: 40vh;
+    
+}
+
+/* Footer Seccion del pie de la pagina */
+
+body footer{
+    background-color: #0F0A0A;
+    grid-area: pie;
+    color: #F0FFCE;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px ;
+    padding:1vh;
+    font-size: 3vh;
+}
+
+#footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+a[href*="#"]{
+    text-decoration: none;
+    color: #F0FFCE;
+}
+
+/* Titulos */
+
+h1{
+    color: #6B6054;
+    font-size: 5vh;
+    padding: 1vh;
+}
+h2{
+    color: #6B6054;
+    border-radius: 5px;
+    border: none;
+    border-bottom: #0F0A0A solid;
+}
+
+article h3{
+    border: none;
+    border-radius: 5px;
+    border-bottom: #6B6054 solid;
+
+}

@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: "tahoma", sans-serif;
+}
+
+.button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 4px 2px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #ffff;
+	background:#000000;
+	border-radius:50px;
+}
+
+h1 {
+    font-family: "Arial Black", sans-serif;
+    font-size: 25px;
+    letter-spacing: -1px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+h3, p {
+    padding: 10px;
+}
+
+blockquote, nav {
+    display:flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.razones {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 150px;
+}
+
+.titulo-razones {
+    text-align:left;
+    margin:0 0 10px 0;
+}
+
+img {
+    width: 200px;
+}
+
+li {
+    margin:0 0 10px 0;
+}
+
+.justificar {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 150px;
+}
+
+.citas {
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+    line-height: 2.1;
+    padding: 10px 20px;
+}
+
+.fondo {
+    background-color: #ffffff;
+    padding: 50px 0px
+}
+
+main{
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.article-aside{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fit, minmax(500px , 1fr));
+    margin: 0 auto;
+    width: 1200px;
+    padding-bottom: 50px;
+}
+
+article{
+    border-style: solid;
+    background: rgb(255, 255, 255);
+}
+
+aside{
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+}
+
+.fondo-section {
+    background-color: #000000;
+    color: white;
+}
+
+.fondo-header {
+    background-image: url(/website51/RobertoBouchspies/Recursos/fondo_chicken.jpg);
+    background-size: cover;
+}
+
+header {
+    padding: 50px;
+}
+
+.imagen-contenedor {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.encabezado-h2 {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+video {
+    margin-top: -15px;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contenedor-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    width: 100%;
+    text-align: center;
+}
+
+.enlace-menu{
+    padding: 5px 20px;
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    font-family: "Arial Black", sans-serif;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
+}
+
+.enlace-menu:hover{
+    background-color: #ffff;
+    color: black;
+    font-weight: bolder;
+}
+
+.figure-pollo {
+    padding-right: 100px;
+    padding-top: 20px;
+}

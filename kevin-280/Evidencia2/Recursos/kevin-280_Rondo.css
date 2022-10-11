@@ -1,0 +1,98 @@
+body{background:black;
+    color: #fff;
+
+}
+
+hr{width: 100%;
+    border: dotted #ccc;}
+
+#Menu {overflow:hidden;
+}
+
+#Menu  #Links{list-style:none;
+}
+
+#Menu  #Links li{float:left;
+                 font-family: 'Courier New', Courier, monospace;
+}
+
+#Menu  #Links li a{padding:10px 20px;
+                   display:block;
+                   color:#fff;
+                   text-decoration:none;
+}
+
+#Menu #Links li a:hover {background: blue
+}
+
+#Seccion_Rondo {width:92%;
+    margin-right:1.5%;
+    color: white;
+    padding: 20px 20px 20px 5%;
+    background: black;
+}
+
+#Articulo_1_rondo, #Rondo_Argumento, #Rondo_Visión, #Rondo_Musica, #Rondo_Legado{width:100%;
+    padding: 0px 0px 0px 1%;
+                  
+
+}
+
+#Articulo_1_rondo > img {padding: 5px 10px 15px 300px;}
+
+#Rondo_Argumento > img {padding: 5px 10px 15px 300px;}
+
+#Rondo_Visión > img {padding: 5px 10px 15px 300px;}
+
+#Rondo_Musica > img {padding: 5px 10px 15px 300px;}
+
+#Rondo_Legado > img {padding: 5px 10px 15px 300px;}
+
+#Dracula_x > img {padding: 5px 10px 15px 300px;}
+
+#sinopsis > img {padding: 5px 10px 15px 300px;}
+
+#Diferencias > img {padding: 5px 10px 15px 300px;}
+
+#Desarrollo > img {padding: 5px 10px 15px 300px;}
+
+#Rondo_Musica > img {padding: 5px 10px 15px 300px;}
+
+
+h1 {text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#imagenes_personajes_rondo {width:70%;
+    margin-right:1.5%;
+    padding: 0px 0px 0px 50px;
+    float:left;
+    color: white;
+    background: black;
+    border: grey 10px;
+}
+
+#imagenes_personajes_rondo1 {width:330px;
+    color: white;
+    float:left;
+    padding:20px;
+    box-sizing:border-box;
+}
+
+#imagenes_draculax{width:330px;
+    color: white;
+    float:left;
+    padding:20px;
+    box-sizing:border-box;
+}
+
+#material_final{width:92%;
+    margin-right:1.5%;
+    color: white;
+    padding: 20px 20px 20px 5%;
+    background: black;
+}
+
+#sountrack{text-align: center;
+
+}

@@ -1,0 +1,46 @@
+#cuerpo 
+{background-image: url(fondo.jpg);}
+
+#encabezado 
+{text-align: center; 
+font-size: 60px; 
+text-decoration: underline;}
+
+#desc 
+{font-size: 30px;}
+
+#movil 
+{font-size: 30px;}
+
+#cel 
+{background-color: cadetblue;
+color: green;
+float: left;
+margin-top: 5px;}
+
+#whatsapp 
+{float: left;
+margin-left: 15px;
+margin-top: 0px;
+width: 40px;}
+
+#tel 
+{margin-top: 50px;}
+
+#direcc 
+{text-decoration: underline;}
+
+#map 
+{border: 5px solid black;}
+
+#aside 
+{float: right;
+margin-top: -20px;
+margin-right: 20px;
+border: 5px solid blue;}
+
+#taside
+{font-size: 30px;}
+
+#list 
+{font-size: 20px;}

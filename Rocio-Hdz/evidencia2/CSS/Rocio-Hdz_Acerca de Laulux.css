@@ -1,0 +1,69 @@
+body{
+    font-family: "Avenir Next";
+    font-size: 20px;
+}
+
+#Iniciodecorador{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/-1;
+    background-color: #a7a7a7;
+    color: #a7a7a7;
+    margin: 0px;
+}
+
+#logo{
+    text-align: center;
+    background-color:#f2f2f200;
+    padding: 15px;
+}
+
+.Menu-de-Barra ul{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    padding: 10px;
+    background-color:#F2F2F2;
+}
+
+p{
+    text-align: left;
+}
+#Nuestra-Historia p{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#Nuestra-Historia article {
+    grid-area: cont;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 1em;
+    grid-template-areas: "enc barra"
+        "cont barra"
+        "pie barra";
+}
+
+
+#Pie{
+    text-align: center;
+    background-color:#f2f2f200;
+    padding: 15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }

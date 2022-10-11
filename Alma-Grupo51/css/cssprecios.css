@@ -1,0 +1,35 @@
+#nav-main-1 ul{
+    background-color: burlywood;   
+    list-style: none;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    flex-flow: row wrap;
+    height: 210px;
+
+    justify-content: space-around;
+    align-content: space-between;
+    margin-left: 0em;
+    
+    font-size: 2rem;  
+}
+
+#info img{
+    width: 220px;
+    float: left;
+    margin-left: 1em;
+    border-radius: 500%;
+    height: 240px;
+    font-size: 1rem; 
+}
+
+#info img{
+    width: 220px;
+    float: left;
+    margin-left: 1em;
+    border-radius: 500%;
+    height: 204px;
+    font-size: 1rem; 
+}

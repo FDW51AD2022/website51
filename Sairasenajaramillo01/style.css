@@ -1,6 +1,8 @@
- /* Selector de tipo */
-
- #parrafo-del-id{
-    background-color: pink;
-    border-radius: 19px;
+   
+h1{
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    min-height: 5vh;
+    text-align: center;
 }

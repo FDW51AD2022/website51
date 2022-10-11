@@ -1,0 +1,99 @@
+body{
+    font-family: "Avenir Next";
+    font-size: 20px;
+}
+
+#Iniciodecorador{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/-1;
+    background-color: #a7a7a7;
+    color: #a7a7a7;
+    margin: 0px;
+}
+
+#logo{
+    text-align: center;
+    background-color:#f2f2f200;
+    padding: 15px;
+}
+
+#Menu-de-Barra ul{
+    font-family: 'Montserrat';
+    font-style: normal;
+    list-style:none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-flow: row ;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-align:inherit;
+    
+}
+
+#Menu-de-Barra ul li:hover{
+    background-color: rgb(240, 238, 226);
+    border-radius: 3px;
+    
+}
+
+#Bienvenida header{
+    font-size: 1.6rem;
+    padding: 25px;
+    
+}
+
+.bienvenida{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.Lista ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.LoNuevo-lista{
+    width: 200px;
+}
+
+.Banner{
+    width: 300px;
+}
+
+
+.Lista-2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.NuestrosProductos-lista{
+    width: 200px;
+}
+
+blockquote{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Pie{
+    text-align: center;
+    background-color:#f2f2f200;
+    padding: 15px;
+}
+

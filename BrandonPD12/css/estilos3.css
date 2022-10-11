@@ -1,0 +1,74 @@
+body{
+    background: #EC7063   ;
+	color: #000;
+}
+
+
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background:#ef8354;
+
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+
+}
+.menu li a:hover{
+    background: #ef8354;
+}
+.anime  {
+    text-align: justify-all;
+    margin-top:10px ;
+    font-size: 20px;
+
+
+}
+.contenedor p {
+    text-align: justify-all;
+    margin-top:10px ;
+    font-size: 20px;
+
+}
+.Shingeki{
+    text-align: justify-all;
+    margin-top:10px ;
+    font-size: 20px;
+
+
+}
+.Sono{
+    text-align: justify-all;
+    margin-top:10px ;
+    font-size: 20px;
+
+}
+
+
+
+#img1{
+    float: right;
+    
+    width: 20;
+    height: 20;
+}
+#img2{
+    float: right;
+
+    }
+
+#img3{
+    float: right;
+}

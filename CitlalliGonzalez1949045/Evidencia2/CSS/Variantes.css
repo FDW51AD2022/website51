@@ -1,0 +1,29 @@
+body {background-color: rgb(235, 245, 251);
+    color: rgb(57, 155, 136);
+    font-family: 'Verdana';
+}
+
+h1 {background-color:rgb(209, 242, 235);
+    color: rgb(69, 179, 157);
+    font-family: 'Verdana';
+    font-size: 50px;}
+
+aside {display: inline-block;
+    width: 390px;
+    min-height: 300px;
+    background-color: azure;}
+
+#Casos img {
+    float: center;
+    width: 350px;
+    margin-right: 1em;
+    border-radius: 20px;
+}
+
+cite {font-size: 13px;
+}
+
+h2 {color: rgb(69, 179, 157);
+    font-family: 'Verdana';
+    font-size: 25px;
+}

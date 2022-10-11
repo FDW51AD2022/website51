@@ -1,0 +1,33 @@
+#Midnight-Club{
+    color: rgb(250, 250, 250);
+   
+
+}
+
+body{
+    background-image: url(Imagenes.css/fondo\ principal.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: rgb(7, 7, 7);
+    background-color: #e45590;
+
+}
+#nav-main ul li {
+    float: right;
+    width: 20%;
+    background-color: white;
+
+}
+
+a{
+    color:#e45590
+    
+    
+}
+
+h2{
+    color: black;
+    background-color: white;
+}
