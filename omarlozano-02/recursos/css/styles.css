@@ -1,0 +1,220 @@
+:root {
+  --back-body: #ddd;
+  --back-main: #fbfcf7;
+  --back-footer: #a8b3b9;
+  --back-btn: #b8cafa;
+  --back-aside: #fbfcf7;
+  --color-font: white;
+  --color-font-menu-items: white;
+  --color-font-btns: white;
+  --back-menu: #9578e6;
+
+  --fontmain: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  --font-size-normal: 25px;
+  --font-size-encabezado: 45px;
+  --font-size-titulo: 50px;
+  --font-size-importante: 28px;
+  --font-size-menu: 30px;
+}
+body {
+  background-color: var(--back-body);
+  grid-template-columns: 1fr 6fr;
+  display: grid;
+  gap: 5px;
+
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+  font-family: var(--font-main);
+  font-size: var(--font-size-normal);
+}
+p {
+  font-size: var(--font-size-normal);
+}
+header {
+  grid-area: header;
+  margin-bottom: 0px;
+}
+.box-header {
+  background-color: var(--back-menu);
+  border-radius: 4px;
+  padding: 10px;
+  justify-content: center;
+  margin: 5px;
+  text-align: center;
+}
+#nombre-empresa {
+  grid-area: header;
+  padding: 0;
+}
+div h1 a {
+  text-decoration: none;
+  color: var(--color-font);
+  font-size: var(--font-size-titulo);
+}
+#menu {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 0px;
+}
+#menu li {
+  width: 100%;
+  list-style: none;
+}
+#menu li a {
+  display: flex;
+  text-decoration: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: var(--color-font-menu-items);
+  background-color: var(--back-menu);
+  justify-content: space-evenly;
+  font-size: var(--font-size-menu);
+}
+#menu li a:hover {
+  background-color: var(--color-font);
+  color: var(--back-menu);
+}
+main {
+  grid-area: main;
+  margin-top: 0;
+}
+article {
+  display: flex;
+  flex-flow: column wrap;
+}
+.encabezado {
+  font-size: var(--font-size-encabezado);
+}
+.main-image {
+  width: 50%;
+  height: 50%;
+}
+.boton {
+  display: inline-block;
+  background-color: var(--back-btn);
+  border-radius: 4px;
+  padding: 10px;
+  color: var(--back-main);
+  text-decoration: none;
+  font-size: var(--font-size-normal);
+  margin-bottom: 10px;
+}
+.boton:hover {
+  background-color: var(--color-font-btns);
+  border: 1px solid var(--back-btn);
+  color: var(--back-btn);
+  cursor: pointer;
+}
+.box-main {
+  background-color: var(--back-main);
+  border-radius: 4px;
+
+  justify-content: center;
+  text-align: center;
+  margin: 5px;
+  padding-bottom: 16px;
+}
+#infografias {
+  display: flex;
+}
+.img-info {
+  width: 100%;
+}
+.box-main-table-precios {
+  background-color: var(--back-main);
+  display: flex;
+  flex-flow: column;
+  border-radius: 4px;
+  align-items: center;
+  margin: 5px;
+}
+.table {
+  width: 80%;
+  text-align: left;
+  font-size: var(--font-size-normal);
+}
+.table th {
+  background-color: #5c7eae;
+  color: white;
+}
+.table td {
+  background-color: #cdd4dd;
+}
+.box-main-suc {
+  background-color: var(--back-main);
+  border-radius: 4px;
+
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+  margin: 15px;
+}
+.box-main-suc ol {
+  list-style: none;
+  display: flex;
+  flex-flow: column nowrap;
+  padding-left: 0;
+  align-items: center;
+}
+.box {
+  background-color: var(--back-main);
+  border-radius: 4px;
+
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #ddd;
+  width: 75%;
+  margin-top: 5px;
+}
+.importante {
+  font-size: 2em;
+}
+.box-main-form {
+  background-color: var(--back-main);
+  border-radius: 4px;
+
+  padding: 10px;
+  margin-top: 5px;
+}
+.box-main-form table tr td {
+  padding: 15px;
+}
+.box-main-form input {
+  font-size: var(--font-size-normal);
+}
+aside {
+  grid-area: aside;
+}
+.box-aside {
+  background-color: var(--back-aside);
+  border-radius: 4px;
+  padding: 10px;
+  justify-content: center;
+  margin: 5px;
+  text-align: center;
+}
+.aside-content {
+  font-size: var(--font-size-importante);
+  border: 2px solid #ddd;
+}
+#promocion-q {
+  color: red;
+}
+footer {
+  grid-area: footer;
+}
+.box-footer {
+  background-color: var(--back-footer);
+  border-radius: 4px;
+  padding: 5px;
+  justify-content: center;
+  margin: 5px;
+  text-align: center;
+}
