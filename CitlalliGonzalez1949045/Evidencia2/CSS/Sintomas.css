@@ -12,10 +12,24 @@ main {color:rgb(31, 97, 141);
     margin-left: 2em;
 }
 
+h2 {color:rgb(31, 97, 141);
+    font-family: 'Century Gothic';
+    font-size: 23px;
+    margin-left: 2em;}
+
 ol {color:rgb(31, 97, 141);
     font-family: 'Century Gothic';
     font-size: 23px;
     margin-left: 1em;
+    
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    list-style: none;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    justify-content: space-around;
 }
 
 strong {color: rgb(0, 0, 0);
