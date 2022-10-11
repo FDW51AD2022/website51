@@ -202,12 +202,20 @@ nav {
   width: 100vw;
   height: auto;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  background-color: #8c8464  ;
 }
 
 .historia-hijo{
   width: 40%;
   height: auto;
+  margin: 30px;
+}
+
+.historia-hijo p{
+  margin: 26px;
+  color: white;
+  font-size: 20px;
 }
 
 
