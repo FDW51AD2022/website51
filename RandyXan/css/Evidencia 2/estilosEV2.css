@@ -1,0 +1,123 @@
+#Contenido ul {
+    background-color: #0f1111;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    color: rgb(172, 0, 0);
+    font-size: 3rem;
+}
+
+body {
+    background-color: #353535
+}
+
+#Bienvenido header {
+    background-color: rgb(255, 230, 0);
+    font-size: 3rem;
+    
+}
+
+.bienvenido{
+    color: bisque;
+    font-size: 2rem;
+    
+}
+
+#Bienvenido img {
+    width: 200px;
+    float: right;
+}
+
+#Pie{
+    text-align: center;
+    background-color:#F2F2F2;
+    padding: 15px;
+}
+
+.Contenido:hover{
+    background-color: red;
+    color: white;
+} 
+
+#cita{
+    color:#0089ac;
+}
+
+h4 {
+
+   background-color: #491d1d;
+    font-size: 3rem;
+}
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('fondo.jpg');
+  }
+  
+  .form-register {
+    width: 400px;
+    background: #491d1d;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #000000;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #c5b41f;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #b60000;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
