@@ -4,6 +4,7 @@
 }
 h1 {
     color: aliceblue;
+
 }
 
 body {
@@ -14,9 +15,10 @@ body {
   background-attachment: fixed;
 }
  p {
-    color: aqua;
+    color: black;
     font: 150% sans-serif;
     justify-content: center;
+    background-color: darkcyan;
 }
- }
+
 
