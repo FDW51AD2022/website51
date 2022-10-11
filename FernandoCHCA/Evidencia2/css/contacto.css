@@ -1,15 +1,24 @@
-body{
+/* body{
     max-width: 100%;
     overflow-x: hidden;
     background-color: #e5e5f7;
     background-image:  radial-gradient(#d36ed3 0.5px, transparent 0.5px), radial-gradient(#d36ed3 0.5px, #e5e5f7 0.5px);
     background-size: 20px 20px;
     background-position: 0 0,10px 10px;
+} */
+
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 main{
-    padding-left: 450px;
-    padding-right: 450px;
+    padding-top: 160px;
+    padding-bottom: 210px;
     box-sizing: border-box;
     display: flex;
     min-height: 80vh;
@@ -119,7 +128,7 @@ main{
 
 .form__label{
     color: var(--color);
-    cursor: pointer;
+    cursor:auto;
     position: absolute;
     top: 0;
     left: 5px;
@@ -136,6 +145,7 @@ main{
     padding: .8em 0;
     border: none;
     border-radius: .5em;
+    cursor: pointer;
 }
 
 .form__line{
