@@ -1,8 +1,11 @@
 
 body{
     background: #C8DBBE;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     min-height: 100vh;
+}
+.titulo:hover{
+  background-color:pink;
 }
 h1{
     font-size:30px;
@@ -22,15 +25,15 @@ h1{
    display: table;
 }
 
- nav ul li{
+ nav ul {
    display:flex;
    justify-content: space-around;
-   float: right;
-   width: 30%;
+   /*float: right; */
+   width: 100%;
    text-decoration: none;
-   padding: 1em;
-   margin: 15px 100px;
-   font-family: Georgia, 'Times New Roman', Times, serif;
+   padding: 0.5em;
+   margin: 0em;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
  }
   img {

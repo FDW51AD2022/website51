@@ -1,0 +1,15 @@
+.contenedor_sucursales{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor_sucursales .sucursal {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenedor_sucursales .sucursal iframe {
+    width: 100%;
+    
+}

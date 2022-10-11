@@ -1,0 +1,14 @@
+#cuerpo
+{background-color: gray;}
+
+#logo 
+{width: 800px;
+height: 250px;
+border: 10px solid white;
+border-radius: 20px;}
+
+#titulo
+{font-size: 50px;
+text-align: center;
+text-decoration: underline;
+color: darkblue;}

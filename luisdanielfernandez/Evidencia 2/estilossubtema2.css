@@ -16,20 +16,19 @@ body{
     padding: 15px;
 }
 
-.banda{
+.SNC{
     background-color: rgba(0, 0, 0, 0.445);
-    color: rgb(218, 162, 162);
+    color: rgb(255, 255, 255);
     font-size: 30px;
 }
 
 h1{
-    background-color: rgba(0, 0, 0, 0.596);
-    color: rgb(255, 255, 255);
+    background-color: rgba(214, 145, 145, 0.596);
+    color: rgb(37, 35, 35);
     font-size: 30px;
 }
 
-h2{
-    background-color: rgba(238, 0, 0, 0.479);
-    color: rgb(255, 255, 255);
-    font-size: 30px;
+table{
+    border: black 1px;
+
 }
