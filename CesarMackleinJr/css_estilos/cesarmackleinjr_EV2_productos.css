@@ -120,7 +120,7 @@ body {
 	cursor: pointer;
 }
 
-.contenedor-imagen{
+.contenedor-imagen {
     width: 100%;
     text-align: center;
     justify-content: center;
@@ -128,13 +128,13 @@ body {
  
 }
 
-.img{
+.img {
     width: 50%;
     vertical-align: top;
     padding: 10px;
 }
 
-.contenedor-video{
+.contenedor-video {
     width: 100%;
     text-align: center;
     justify-content: center;
@@ -143,12 +143,12 @@ body {
     padding: 10px;
 }
 
-.video{
+.video {
     width: 90%;
     vertical-align: top;
 }
 
-.diseño{
+.diseño {
     width: 100%;
     color: black;
 }
@@ -158,16 +158,16 @@ table, th, td {
     border-collapse: collapse;
 }
 
-th, td{
+th, td {
     padding: 10px;
 }
 
-.diseño{
+.diseño {
     background-color: #EDDBC0;
     padding: 10px;
 }
 
-h1{
+h1 {
     color: black;
     text-align: left;
     padding: 10px;
@@ -191,9 +191,7 @@ h3,p {
 
 /* Menu */
 
-/* Menu */
-
-.hero{
+.hero {
     width: 100%;
     position: relative;
     display: grid;
@@ -201,7 +199,7 @@ h3,p {
 
 /* Nav */
 
-.nav{
+.nav {
     --padding-container:0;
     height: 100%;
     width: 100%;
@@ -223,7 +221,7 @@ h3,p {
     padding-bottom: 550px;
 } */
 
-.nav__link{
+.nav__link {
     margin-left: auto;
     padding: 0;
     display: grid;
@@ -232,7 +230,7 @@ h3,p {
     column-gap: 0px;
 }
 
-.nav__link li a{
+.nav__link li a {
     text-decoration: none;
     transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
@@ -241,7 +239,7 @@ h3,p {
     -o-transition: all 0.5s ease;
 }
 
-.nav__link li a:hover{
+.nav__link li a:hover {
     padding: 5px 10px;
     background-color: #fff;
     color: #000;
@@ -252,15 +250,15 @@ h3,p {
     -o-border-radius: 15px;
 }
 
-.nav__items{
+.nav__items {
     list-style: none;
 }
 
-.nav__links{
+.nav__links {
     color: black;
     text-decoration: none;
 }
 
-.nav__close{
+.nav__close {
     display: var(--show, none);
 }
