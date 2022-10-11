@@ -23,6 +23,20 @@ header{
     background-color: aquamarine;
 }
 
-.pasos{
-    background-color: bisque;
+#redes{
+    border: 2px solid black; 
+    padding: 10px;
+    color: rgb(130, 238, 162);
+    text-align: center;
+    background-color: aliceblue;
+}
+
+section p{
+    text-align: center;
+    color: blanchedalmond;
+    background-color: #f9c43def;
+}
+
+section ol{
+    background-color:rgb(130, 238, 162);
 }

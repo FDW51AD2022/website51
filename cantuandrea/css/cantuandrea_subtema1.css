@@ -48,3 +48,13 @@
     text-align: justify;
     margin-right: 0%;
 }
+
+a {
+    text-align:right;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(6, 75, 6);
+}
