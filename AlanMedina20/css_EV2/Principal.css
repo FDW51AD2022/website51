@@ -3,7 +3,11 @@
     color:antiquewhite;
 }
 
-
+.texto3 {
+    font-family: Calibri;
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+}
 .texto2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
@@ -91,5 +95,38 @@
         padding-right: 27px;
       }
 
+#centro1 header {
+    background-color: black;
+    grid-area: enc; 
+}
+
+#centro1 article {
+    background-color: rgb(255, 255, 255);
+    grid-area: cont;
+    color:black;
+    height: 400px;
+}
+
+#centro1 aside {
+    background-color: rgb(0, 0, 0);
+    grid-area: barra;
+}
+
+#centro1 footer {
+    background-color: rgb(0, 0, 0);
+    grid-area: pie;
+}
+
+#info img {
+    width: 370px;
+    margin-right: 1em;
+    border-radius: 5px;
+    float: right;
+    
+}
+
+#info img {
+    margin-left: 1em; 
+}
 
 
