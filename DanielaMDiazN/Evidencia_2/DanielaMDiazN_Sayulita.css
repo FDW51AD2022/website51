@@ -1,0 +1,103 @@
+#Sayulita{
+    align-items: center;
+    font-size: 50px;
+    color: #7dd0e6;
+    background-color: #526aac;
+    border-radius: 35px;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    align-content: space-between;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row ;
+    overflow: hidden;   
+}
+
+
+#menu ul{
+background-color: #efbc98;
+list-style:none;
+padding: 0;
+margin: 0;
+align-content: space-between;
+display: flex;
+justify-content: space-around;
+flex-flow: row ;
+overflow: hidden;
+border-radius: 35px;
+
+
+}
+
+#menu ul li{
+align-self: center;
+}
+
+
+
+#menu ul li a strong{
+color: #eb5874;
+
+
+}
+
+a{
+text-decoration: none;
+align-self: center;
+font-size: 2em;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+#descripcion{
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #526aac;
+text-shadow:0 0 20px #f1ffd5
+}
+
+#caracteristicas img {
+width: 500px;
+float: left;
+margin-right: 1em;
+}
+
+
+
+
+#caracteristicas{
+color: #7dd0e6;
+background-color: #526aac;
+grid-column: 1 / -1;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+
+
+}
+
+#atractivos img{
+width: 500px;
+float: right;
+margin-right: 1em;
+
+}
+
+#atractivos div{
+float: left;
+color: #7dd0e6;
+background-color: #526aac;
+grid-column: 1 / -1;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 23px;
+
+
+}
+
+.epoca{
+    font-size: 30px;
+    font-family:cursive;
+    color: #526aac;
+
+}
+    
