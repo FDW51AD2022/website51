@@ -59,7 +59,6 @@ h4 {
     text-align: center;
 }
 
-
 #site-menu {
     display: flex;
     margin: 5;
@@ -79,7 +78,7 @@ a[
 #l1 {
     /* flex-grow: 2; */
     order: 1;
-    flex-basis: 500px;
+    flex-basis: 300px;
     flex-shrink: 0;
     align-self: center;
     font-size: 25px;
@@ -89,7 +88,7 @@ a[
 #l2 {
     /* flex-grow: 2; */
     order: 2;
-    flex-basis: 500px;
+    flex-basis: 300px;
     flex-shrink: 0;
     align-self: center;
     font-size: 25px;
@@ -99,7 +98,7 @@ a[
 #l3 {
     /* flex-grow: 3; */
     order: 3;
-    width: 500px;
+    width: 300px;
     align-self: center;
     font-size: 25px;
     color: #fac9d9;
@@ -108,7 +107,7 @@ a[
 #l4 {
     /* flex-grow: 3; */
     order: 4;
-    width: 500px;
+    width: 300px;
     align-self: center;
     font-size: 25px;
     color: #fac9d9;
@@ -117,7 +116,7 @@ a[
 #l5 {
     /* flex-grow: 3; */
     order: 5;
-    width: 500px;
+    width: 300px;
     align-self: center;
     font-size: 25px;
     color: #fac9d9;
