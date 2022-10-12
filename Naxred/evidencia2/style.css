@@ -311,6 +311,7 @@ nav {
   border-radius: 10px;
   box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
   text-align: center;
+  font-family: 'Roboto';
 }
 
 .form__title{
@@ -342,7 +343,7 @@ nav {
   border: none;
   outline: none;
   border-bottom: 1px solid var(--color);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Helvetica';
 }
 
 .form__input:not(:placeholder-shown){
@@ -369,7 +370,7 @@ nav {
 .form__submit{
   background-color: #3866f2;
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto';
   font-weight: 300;
   font-size: 1rem;
   padding: .8em 0;
@@ -404,7 +405,7 @@ nav {
 
 .galeria-contenedor{
   max-width: 100vw;
-  padding: 0px 20px;
+  padding: 40px 20px;
   margin: auto;
   margin-top: 20px;
   display: flex;
@@ -420,9 +421,10 @@ nav {
 }
 
 .galeria-hijo img{
-  width: 200px;
-  height: 250px;
+  width: 320px;
+  height: 370px;
   border-radius: 2%;
+  margin: 20px;
 }
 
  
