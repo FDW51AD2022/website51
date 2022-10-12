@@ -6,6 +6,10 @@ header {
     text-align: center;
 }
 
+body {
+    background-color: pink;
+}
+
 /* Menu */
 
 .hero{
@@ -13,6 +17,8 @@ header {
     position: relative;
     display: grid;
 }
+
+
 
 /* Nav */
 

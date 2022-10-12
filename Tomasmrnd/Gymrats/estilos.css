@@ -1,0 +1,19 @@
+.container {
+display:flex;
+justify-content: space-around ;
+}
+table {
+    width: 100%;
+    border: 1px solid #000;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+ }
+.menu ul {
+    justify-content: space-around ;
+    font-size: 25px;
+    display: flex;
+}
