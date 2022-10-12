@@ -12,3 +12,8 @@ table {
     vertical-align: top;
     border: 1px solid #000;
  }
+.menu ul {
+    justify-content: space-around ;
+    font-size: 25px;
+    display: flex;
+}
