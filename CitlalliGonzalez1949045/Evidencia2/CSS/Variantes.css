@@ -29,6 +29,13 @@ aside {display: inline-block;
     border-radius: 20px;
 }
 
+#Variantes img {
+    float: center;
+    width: 500px;
+    margin-right: 1em;
+    border-radius: 20px;
+}
+
 cite {font-size: 13px;
 }
 

@@ -1,6 +1,6 @@
 .container {
 display:flex;
-
+justify-content: space-around ;
 }
 table {
     width: 100%;
@@ -12,4 +12,3 @@ table {
     vertical-align: top;
     border: 1px solid #000;
  }
- 
