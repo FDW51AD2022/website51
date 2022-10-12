@@ -152,3 +152,7 @@ tr:nth-child(even) {
     width: 100%;
     height: 200px;
 }
+
+.blockquote{
+    background-color: #FFA1CF;
+}
