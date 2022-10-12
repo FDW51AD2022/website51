@@ -21,7 +21,7 @@ body {
     margin-top: 20px;
     margin-bottom:20px;
     background: url(../Recursos/estrellas.jpg);
-    padding: 0%;
+    padding: small;
 }
 header {
     height: 150px;
