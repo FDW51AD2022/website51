@@ -62,9 +62,6 @@ h1 {
 
 .contenedor-boton {
 	width: 100%;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 40px;
 	padding: 10px;
 }
 
@@ -116,4 +113,23 @@ footer p {
 	border-radius: 100px;
 	font-family: 'Roboto', sans-serif;
 	cursor: pointer;
+}
+
+.figure-STARBUCKS {
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+header {
+	display:flex;
+	justify-content: center;
+}
+
+
+aside {
+	text-align: center;
+}
+
+nav {
+	display: flex;
 }
