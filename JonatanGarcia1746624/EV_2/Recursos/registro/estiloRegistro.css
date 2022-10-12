@@ -4,5 +4,8 @@
 #cuerpo
 {background-color: bisque;}
 
-#p
-{}
+#p:hover
+{color: blue;}
+
+#logo
+{width: 500px;}
