@@ -21,3 +21,15 @@ p {
     font-size: 25px;
     color: darkcyan;
 }
+
+blockquote {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+cite {
+    text-align: center;
+    font-size: 20px;
+    
+}

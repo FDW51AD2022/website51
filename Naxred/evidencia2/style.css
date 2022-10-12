@@ -197,4 +197,49 @@ nav {
   margin: 30px;
 }
   
+.historia-contenedor{
+  display: flex;
+  width: 100vw;
+  height: auto;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #8c8464  ;
+}
+
+.historia-hijo{
+  width: 40%;
+  height: auto;
+  margin: 30px;
+}
+
+.historia-hijo p{
+  margin: 26px;
+  color: white;
+  font-size: 20px;
+}
+
+
+.container__article{
+  max-width: 1000px;
+  padding: 0px 20px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container__article .box__article{
+  width: 250px;
+  height: 250px;
+  background: blue;
+  margin: 20px;
+}
+
+.disco-portada {
+  width: 100%;
+  height: 100%;
+}
+
+
  

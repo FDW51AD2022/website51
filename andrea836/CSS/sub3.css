@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: beige;
+    background: #247881;
+    text-align: center;
+    font-size: 80px;
+    margin: 30px;
+}
+body{
+    background: url(../Recursos/estrellas.jpg);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section {
+    background-color: beige;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    width:300px ;
+    margin: 10px;
+}
+.hearder {
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.one {
+    background-color: #FB2576;
+}
+.two {
+    background-color: #FB2576;
+}
+.three {
+    background-color: #FB2576;
+}
+.four{
+    background-color: #FB2576;
+}
+.cash span {
+    display:block ;
+    font-size: 30px;
+}
+ul li {
+    list-style-type: none;
+    text-align: center;
+    border-bottom: 1px solid #083AA9;
+    padding: 10px;
+    font-size: 18px;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+    background: beige;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px;
+}
+li a:hover {
+    background-color: #C689C6;
+    color: #083AA9;
+}
