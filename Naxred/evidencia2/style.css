@@ -218,6 +218,13 @@ nav {
   font-size: 20px;
 }
 
+.historia-hijo h3{
+  margin: 26px;
+  color: black;
+  font-size: 40px;
+  font-style: italic;
+}
+
 
 .container__article{
   max-width: 1000px;
@@ -241,5 +248,58 @@ nav {
   height: 100%;
 }
 
+.discos{
+  display: flex;
+  width: 100vw;
+  height: 360px;
+  background-color: #8c8464;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.discos-hijo{
+  width: 40%;
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.discos-hijo ul{
+  list-style: square outside none ;
+}
+
+.discos-hijo ul li{
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.titulo-discos{
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+}
+
+
+.miembros-contenedor{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 600px;
+}
+
+.miembros-hijo{
+  width: 200px;
+  height: 400px;
+}
+
+.miembros-descripcion{
+  font-size: 26px;
+  font-family: 'Helvetica';
+  margin-top: 20px;
+}
 
  
