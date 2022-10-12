@@ -404,7 +404,7 @@ nav {
 
 .galeria-contenedor{
   max-width: 100vw;
-  padding: 0px 20px;
+  padding: 40px 20px;
   margin: auto;
   margin-top: 20px;
   display: flex;
@@ -420,9 +420,10 @@ nav {
 }
 
 .galeria-hijo img{
-  width: 200px;
-  height: 250px;
+  width: 320px;
+  height: 370px;
   border-radius: 2%;
+  margin: 20px;
 }
 
  
