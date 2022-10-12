@@ -12,9 +12,21 @@ nav {
     justify-content: space-between;
     font-family: 'Helvetica', 'Arial', sans-serif;
 }
-body{
-    font-family: "Avenir Next";
-    font-size: 25px;
+ul {
+    display: flex;
+    margin-right: 3rem;
+}
+li {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 60px;
+}
+p
+{
+    border: 0;
+    letter-spacing: 0em;
+    padding: 0 0 5px 0;
+    font-size: 20px;
 }
 
 #Iniciodecorador{
