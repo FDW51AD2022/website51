@@ -19,3 +19,19 @@ body {
     transform: translateX(-50%) translateY(-100%);
 }
 
+.li li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    transform:translateX(50%) translateY(1700%);
+    color: blanchedalmond;
+}
+.li a {
+    color: black;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #FB2576;
+}
+footer {
+    color: white;
+}

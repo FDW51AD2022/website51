@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+    color: rgb(167, 86, 86);
+    background-color: rgb(238, 238, 217);
+
+}
+
+body{
+    background-color: rgb(238, 233, 226);
+}
+
+video{
+    float: center;
+    font-size: 10px;
+}

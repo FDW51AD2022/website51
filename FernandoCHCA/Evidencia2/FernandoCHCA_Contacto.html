@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -59,7 +59,30 @@
     </header>
 
     <main>
-        
+        <form class="form">
+            <h2 class="form__title">Contáctenos</h2>
+            <p class="form__paragraph">Por favor llene este formulario de una manera decente</p>
+
+            <div class="form__container">
+                <div class="form__group">
+                    <input type="text" id="name" class="form__input" placeholder=" ">
+                    <label for="name" class="form__label">Nombre Completo:</label>
+                    <span class="form__line"></span>
+                </div>
+                <div class="form__group">
+                    <input type="text" id="email" class="form__input" placeholder=" ">
+                    <label for="email" class="form__label">E-mail:</label>
+                    <span class="form__line"></span>
+                </div>
+                <div class="form__group">
+                    <input type="text" id="message" class="form__input" placeholder=" ">
+                    <label for="message" class="form__label">Mensaje:</label>
+                    <span class="form__line"></span>
+                </div>
+
+                <input type="submit" class="form__submit" value="Enviar">
+            </div>
+        </form>
     </main>
 
     <footer class="footer">

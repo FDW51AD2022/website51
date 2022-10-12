@@ -1,30 +1,48 @@
-html
-{ height: 100%;}
-
-*
-{ margin: 0;
-    padding: 0;}
-
-body
-{ font: normal .80em 'trebuchet ms', arial, sans-serif;
-    background: #FFF;
-    color: #555;}
-
-
+#Tema
+{
+    font: normal .95em 'trebuchet ms', arial, sans-serif;
+    font-size: 35px;
+    background-color: rgb(243, 247, 19);
+}
+nav {
+    background-color: #eed867;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+ul {
+    display: flex;
+    margin-right: 3rem;
+}
+li {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 60px;
+}
 p
-{ padding: 0 0 20px 0;
-    line-height: 1.7em;}
-
-img
-{ border: 0;}
+{
+    border: 0;
+    letter-spacing: 0em;
+    padding: 0 0 5px 0;
+    font-size: 20px;
+}
 
 h1, h2, h3, h4, h5, h6
 { color: #362C20;
-    letter-spacing: 0em;
-    padding: 0 0 5px 0;}
+    }
 
 h1, h2, h3
 { font: normal 170% 'century gothic', arial;
     margin: 0 0 15px 0;
     padding: 15px 0 5px 0;
     color: #000;}
+
+.Cancion {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: #130d0d;
+}
