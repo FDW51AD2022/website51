@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -19,12 +19,15 @@ body {
 }
 .container-form h2{
     margin-bottom: 15px;
-    font-size: 35px
+    font-size:40px;
+    color: #FB2576;;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .container-form p{
-    font-size: 17px;
+    font-size: 20px;
     line-height: 1.6;
     margin-bottom: 30px;
+    color: white;
 }
 .container-form a{
     font-size: 17px;
@@ -59,7 +62,7 @@ body {
     font-size: 16px;
     border: none;
     outline: 0px;
-    background: orange;
+    background: #FB2576;
     color: white;
     border-radius: 3px;
     cursor: pointer;
