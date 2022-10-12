@@ -1,0 +1,22 @@
+#cuerpo
+{background-color: aqua;
+display: grid;}
+
+#encabezado
+{text-align: center;
+font-size: 50px;
+text-decoration: underline;}
+
+article
+{text-align: center;}
+
+h2 {background-color: black;
+color: aqua;}
+
+#h2s
+{text-align: center;
+background-color: aliceblue;
+color: black;}
+
+#foot
+{float: right;}

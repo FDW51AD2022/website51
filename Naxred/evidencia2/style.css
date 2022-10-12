@@ -218,6 +218,13 @@ nav {
   font-size: 20px;
 }
 
+.historia-hijo h3{
+  margin: 26px;
+  color: black;
+  font-size: 40px;
+  font-style: italic;
+}
+
 
 .container__article{
   max-width: 1000px;
@@ -275,5 +282,24 @@ nav {
   font-style: italic;
 }
 
+
+.miembros-contenedor{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 600px;
+}
+
+.miembros-hijo{
+  width: 200px;
+  height: 400px;
+}
+
+.miembros-descripcion{
+  font-size: 26px;
+  font-family: 'Helvetica';
+  margin-top: 20px;
+}
 
  
