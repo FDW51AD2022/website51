@@ -241,5 +241,39 @@ nav {
   height: 100%;
 }
 
+.discos{
+  display: flex;
+  width: 100vw;
+  height: 360px;
+  background-color: #8c8464;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.discos-hijo{
+  width: 40%;
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.discos-hijo ul{
+  list-style: square outside none ;
+}
+
+.discos-hijo ul li{
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.titulo-discos{
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+}
+
 
  

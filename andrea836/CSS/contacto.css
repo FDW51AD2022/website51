@@ -5,6 +5,16 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+mark {
+    background-color: aquamarine;
+}
+img{
+    justify-content: center;
+    width: 150px;
+    height: auto;
+}
+
 body {
     background: url(../Recursos/estrellas.jpg);
 }
@@ -69,5 +79,5 @@ body {
     transition: all 300ms ease;
 }
 .container-form .btn-enviar:hover{
-    background: #e39403;
+    background: #FF99D7;
 }
