@@ -8,6 +8,11 @@ h1 {background-color:rgb(209, 242, 235);
     font-family: 'Verdana';
     font-size: 50px;}
 
+h2 {background-color:rgb(209, 242, 235);
+    color: rgb(69, 179, 157);
+    font-family: 'Century Gothic';
+    font-size: 25px;}
+
 section {color:rgb(31, 97, 141);
     font-family: 'Century Gothic';
     font-size: 23px;
@@ -88,3 +93,10 @@ a {color:rgb(31, 97, 141);
 }
 
 li {background-color: white;}
+
+table{
+    border: 1vh solid rgb(31, 97, 141);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(209, 242, 235);}

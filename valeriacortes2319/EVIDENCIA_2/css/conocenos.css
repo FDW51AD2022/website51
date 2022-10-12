@@ -42,6 +42,13 @@ h4{
     height: 5vh;
     text-align: center;
     background-color: rgb(244, 201, 222);
+    justify-content: space-around;
+}
+
+a[
+    href*="valeriacortes2319"
+]{
+    text-decoration: none;
 }
 
 #l1 {
@@ -117,3 +124,17 @@ figcaption {
     font-size: 25px;
 }
 
+table{
+    padding: 5vh;
+    border: solid 3vh #f15c8e;
+    background-color: #fac9d9;
+}
+
+#spy{
+    height: 20vh;
+    padding-left:3vh ;
+}
+
+#one{
+   height:20vh;
+}
