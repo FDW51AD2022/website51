@@ -68,3 +68,7 @@ body { background-image: url(https://fondosmil.com/fondo/21401.jpg);
     }
     #Menu #Links li a:hover {background: #faea08
     }
+
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
