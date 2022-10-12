@@ -1,5 +1,5 @@
 body{
-    background-color:#D8E9A8;
+    background-color:#787A91;
 }
 h1 {
     font-size: 80px;
@@ -13,11 +13,11 @@ h1 {
     color: whitesmoke ;
 }
 .titulo:hover{
-    background-color: #4E9F3D;
-    color: #1E5128;
+    background-color: #0F044C;
+    color: black;
 }
 #nav-panel ul {
-    background-color: #1E5128;
+    background-color: #141E61;
     color: black;
     font-size: 30px;
 }
@@ -31,4 +31,18 @@ h1 {
     clear: both;
     content: "";
     display: table;
+}
+
+figcaption {
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+}
+audio {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 50%;
 }
