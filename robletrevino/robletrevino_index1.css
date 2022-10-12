@@ -116,3 +116,13 @@ tr:nth-child(even) {
     justify-content: center;
     margin: 0 auto;
 }
+
+.mapa {
+    width: 50%;
+    padding: 20px;
+}
+
+.encabezado-centrado{
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
