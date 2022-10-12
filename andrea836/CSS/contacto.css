@@ -6,7 +6,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 body {
-    background: url(/andrea836/Recursos/estrellas.jpg);
+    background: url(../Recursos/estrellas.jpg);
 }
 .container-form{
     width: 100%;
@@ -32,7 +32,7 @@ body {
     text-decoration: none;
     width: 100%;
     margin-bottom: 15px;
-    color: black;
+    color: beige;
     font-weight: 700;
 }
 .container-form a i{
