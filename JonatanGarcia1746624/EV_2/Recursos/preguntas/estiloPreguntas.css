@@ -1,0 +1,13 @@
+#cuerpo
+{background-color: aqua;}
+
+#encabezado
+{text-align: center;
+font-size: 50px;
+text-decoration: underline;}
+
+article
+{text-align: center;}
+
+h2 {background-color: black;
+color: aqua;}
