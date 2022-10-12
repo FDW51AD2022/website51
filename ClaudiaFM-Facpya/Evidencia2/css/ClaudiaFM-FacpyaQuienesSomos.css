@@ -18,8 +18,8 @@ body{
 }
 
 main{
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 small{
@@ -41,6 +41,8 @@ p
     letter-spacing: 0em;
     padding: 0 0 5px 0;
     font-size: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 
