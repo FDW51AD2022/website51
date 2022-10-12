@@ -14,3 +14,7 @@ body{
     overflow: hidden;
     background-color: aquamarine;
 }
+
+span{
+    font-size: 2em;
+}
