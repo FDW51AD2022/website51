@@ -69,3 +69,7 @@ form {
     list-style: none;
     background-color: #eeeeee00;
 }
+
+table{
+    border: 1vh solid rgb(0, 2, 3);
+}

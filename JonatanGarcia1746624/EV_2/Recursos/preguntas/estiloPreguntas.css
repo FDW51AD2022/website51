@@ -1,5 +1,6 @@
 #cuerpo
-{background-color: aqua;}
+{background-color: aqua;
+display: grid;}
 
 #encabezado
 {text-align: center;
@@ -11,3 +12,11 @@ article
 
 h2 {background-color: black;
 color: aqua;}
+
+#h2s
+{text-align: center;
+background-color: aliceblue;
+color: black;}
+
+#foot
+{float: right;}
