@@ -32,3 +32,11 @@ h1 {
     content: "";
     display: table;
 }
+
+figcaption {
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+}

@@ -16,8 +16,9 @@ h2{
 }
 
 h3{
-    color: #9c103f;
-    font-size: 17px;
+    color: rgb(94, 80, 115);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
 }
 #site-menu {
     display: flex;
@@ -26,6 +27,12 @@ h3{
     height: 5vh;
     text-align: center;
     background-color: rgb(244, 201, 222);
+}
+
+a[
+    href*="valeriacortes2319"
+]{
+    text-decoration: none;
 }
 
 #l1 {

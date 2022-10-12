@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(37, 54, 235, 0.74);
+    background: url(https://img.freepik.com/vector-premium/fondo-espacio-dibujos-animados-estrellas-cosmos-noche-cielo-estrellado-universo-polvo-luz-estrella-via-lactea-galaxia-astronomia-textura-concepto_176411-445.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.contenedor{
+    color: white;
+}
+.contenedor{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(9, 15, 80);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-lista-3{
+    background-color: black;
+}
+.menu-lista-3 li{
+    display: inline-block;
+}
+
+.menu-lista-3 a{
+    display: inline-block;
+    padding: 25px 10px;
+    color: white;
+}
+.menu-lista-3 a:hover{
+    background: white;
+    color: black;
+}
+.menu-lista-3{
+    background-color: rgb(9, 15, 80);
+}

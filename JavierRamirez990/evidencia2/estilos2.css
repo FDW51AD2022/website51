@@ -1,0 +1,50 @@
+
+body{
+    background-image: url(Imagenes.css/porsche\ 2.jpg);
+}
+
+#titulo{
+    text-align: center;
+    background-color: white;
+}
+
+table {
+    background-color: white;
+    text-align: center;
+    border-collapse: collapse;
+    width: 50%;
+
+}
+
+th,td{
+    padding: 10px;
+}
+thead{
+    border-bottom: solid 5px rgb(255, 255, 255);
+    color:white;
+    background-color: #e45590;
+}
+
+#contenedor{
+    margin: 80px auto;
+    width: 500px;
+}
+
+tr:nth-child(even){
+    background-color: #e45590;
+}
+tr:hover{
+    background-color: #e45590;
+}
+
+h3{
+    color: black;
+    background-color: rgb(245, 230, 230);
+}
+
+pre{
+    color: white;
+    
+}
+
+
