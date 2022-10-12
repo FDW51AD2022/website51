@@ -40,3 +40,9 @@ p {
     font-size: 20px;
     text-align: center;
 }
+audio {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+}
