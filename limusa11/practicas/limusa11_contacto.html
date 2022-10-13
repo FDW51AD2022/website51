@@ -17,7 +17,8 @@
         <nav>
             <a href="limusa11_EV2_index.html">Inicio</a>
             <a href="limusa11_menu.html">Menú</a>
-            <a href="limusa_reservas.html">Reservaciones</a>
+            <a href="limusa11_historia.html">Historia</a>
+            <a href="limusa11_reservas.html">Reservaciones</a>
             
         </nav>
     </header>
@@ -49,10 +50,16 @@
                        <label>Comentario</label> 
                         <textarea name="message" rows="3"></textarea>
                     </p>
-                    <p class="block">
+                    <p class="block" onclick="alertar('Gracias por mandar tu informacion no nos importa pero gracias :)');">
                         <button>
                             Enviar
                         </button>
+                        <script type="text/javascript">
+                            function alertar(texto) {
+                                alert(texto);
+                                  }
+                        </script>
+                        
                     </p>
                 </form>
             </div>
