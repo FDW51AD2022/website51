@@ -1,4 +1,4 @@
-document.write("<br/><br/>Actividad 2<br/>")
+document.write("<br/><br/>Actividad 2 JS<br/>")
 
 horaInicial = Number(prompt("Ingrese la hora inicial (0-23):"))
 
