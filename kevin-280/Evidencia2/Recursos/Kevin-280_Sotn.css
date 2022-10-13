@@ -3,6 +3,9 @@ body{background:black;
 
 }
 
+hr{width: 100%;
+    border: dotted #ccc;}
+
 #Menu {overflow:hidden;
 }
 

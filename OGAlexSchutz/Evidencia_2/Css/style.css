@@ -1,0 +1,24 @@
+body{
+    background-color:cadetblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav ul{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-flow: row wrap;
+    overflow: hidden;
+    background-color: aquamarine;
+}
+
+span{
+    font-size: 2em;
+}
+
+th, td {
+    border: #000 solid;
+}

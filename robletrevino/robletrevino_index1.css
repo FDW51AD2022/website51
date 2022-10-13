@@ -1,17 +1,19 @@
 .menu{
     list-style: none;
     padding: 0%;
-    background: #FFD6EC;
+    text-align: center;
     width: 100%;
     max-width: 100%;
     margin: auto;
+    background-color: #FFA1CF;
 }
 
 .menu li a{
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 20px;
     display: block;
+    
 }
 
 .menu li{
@@ -20,21 +22,137 @@
 }
 
 .menu li a:hover{
-    background: #ef8354;
+    background: #FFD6EC;
+}
+
+/* -------------------------- */
+
+.primero{
+    background-color: #FFA1CF;
+}
+
+.segundo{
+    background-color: #FFA1CF;
+}
+
+.justificar{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+p{
+    text-align: justify;
+}
+
+
+h2{
+    text-align: center;
+}
+
+.imagen1 {
+    width: 100px;
+}
+
+.imagen2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.logo {
+    display:    flex;
+    background-color: #FFA1CF;
+}
+
+.center{
+    text-align: center;
+    width: 100px;
 }
 
 header{
     text-align: center;
-    background-color: #FF74B1;
+   background-color: #FFA1CF;
     padding: 20px;
     margin: 100px,20px,100px,20px;
-    border-bottom: black;
+    
 }
 
 h1{
     text-align: center;
-    background-color: #FF74B1;
+   
     padding: 20px;
     margin: auto;
 
+}
+
+h6{
+    text-align: center;
+}
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,th{
+    border: 1px solid #ffd0f3;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+.sucursales{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    padding: 100px 0px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.mapa {
+    width: 50%;
+    padding: 20px;
+}
+
+.encabezado-centrado{
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
+
+
+.contenedor-formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.formulario{
+    text-align: center;
+    background: #FFA1CF;
+    padding: 35px;
+    width: 100%;
+}
+
+.formulario input {
+    width: 100%;
+}
+
+.formulario textarea {
+    width: 100%;
+    height: 200px;
+}
+
+.blockquote{
+    background-color: #FFA1CF;
 }

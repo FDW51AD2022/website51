@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Author" content="Miguel del Castillo Vazquez">
+    <meta name="description" content="Pagina de contactos">
+    <link rel="stylesheet" href="css/MiguelDelCastillo_Contacto.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <!-- Inicio del header -->
+    <!-- Inicio de la pagina, donde se encuentra el menu del index -->
+    <header>
+      <nav id="nav-main">
+        <ul>
+          <li>
+            <a href="MiguelDelCastillo_EV2_index.html"><strong>Inicio</strong></a>
+          </li>
+          <li>
+            <a href="MiguelDelCastillo_sucursal.html"
+              ><strong>Sucursales</strong></a
+            >
+          </li>
+          <li>
+            <a href="MiguelDelCastillo_Estrenos.html"
+              ><strong>Estrenos</strong></a
+            >
+          </li>
+          <li>
+            <a href="MiguelDelCastillo_Productos.html"
+              ><strong>Productos</strong></a
+            >
+          </li>
+          <li>
+            <a href="MiguelDelCastillo_Contacto.html"
+              ><strong>Contacto</strong></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <article>
+      <section>
+        <h1>PANINI POINT MTY</h1>
+        <div>
+          <button onclick="playPause()">Play/Pause</button>
+          <br />
+          <br />
+          <video id="panini-point" controls>
+            <source src="recursos/panini-point.mp4" type="video/mp4" />
+            <source src="recursos/panini-point.mp4" type="video/ogg" />
+          </video>
+        </div>
+        <script>
+          var myVideo = document.getElementById("panini-point");
+          function playPause(){
+              if(myVideo.paused)
+                  myVideo.play();
+              else
+                  myVideo.pause();
+          }
+        </script>
+      </section>
+      <hr>
+      <section>
+        <h1><main>Contacto</main></h1>
+
+        <table>
+          <tr>
+            <th colspan="2"><p>Puedes <mark>contactarnos</mark> llenando este formulario:</p></th>
+          </tr>
+          <tr>
+            <td><p>Nombre:</p></td>
+            <td><input type="text" value="" /></td>
+          </tr>
+          <tr>
+            <td><p>Apellidos: </p></td>
+            <td><input type="text" name="" id=""></td>
+          </tr>
+          <tr>
+            <td><p>Correo Electronico:</p></td>
+            <td><input type="text"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><button >Click para enviar</button></td>
+          </tr>
+        </table>
+
+        <p>
+          Para un <em>contacto mas directo</em> puedes marcar a este numero:
+        </p>
+        <address>(+52)81101234972</address>
+        
+      </section>
+
+      <hr>
+
+      <section>
+        <h1>Muchas gracias por visitarnos!</h1>
+        <pre>
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠞⠉⠀⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀⠈⠓⢄⠀⠀⠀⠙⠑⢦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡴⠋⠀⠀⠀⢀⡴⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠁⠀⠀⠀⠀⠈⠹⢦⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+              ⠀⠀⣀⣠⣤⣴⣶⣶⣾⣟⠟⠀⠀⠠⠃⢠⠎⠀⠀⠀⣰⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⡀⠀⠀⠀⠀⠑⣟⢿⣷⣶⣶⣶⣤⣤⣀⠀
+              ⠀⠸⣿⣿⣿⣿⣿⡿⢻⠋⠀⠀⠀⠁⡰⠃⠀⠀⠀⢰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢶⡀⠀⠀⠀⠈⢺⠛⣿⣿⣿⣿⣿⣿⠃
+              ⠀⠀⢿⣿⣿⣿⡿⢳⠃⢀⡀⠀⠀⡼⠁⠠⠀⠀⢀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢷⡀⠀⠑⠄⠀⠳⡛⢿⣿⣿⣿⡟⠀
+              ⠀⠀⢸⣿⣿⣿⣤⡇⠃⠀⠀⠀⢰⠃⠀⢡⡎⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢱⡄⠀⠀⠀⠀⢱⢸⣿⣿⣿⠃⠀
+              ⠀⠀⠀⣿⣿⢫⡟⠸⠀⠀⠀⠀⡏⠀⠀⡎⠀⠀⣸⡀⠀⠀⠀⠀⠀⠀⣄⢯⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢧⠀⠈⢦⠀⠀⢫⡹⣿⡟⠀⠀
+              ⠀⠀⠀⢸⣿⣿⠁⣏⠀⠀⠀⢸⠁⠀⡸⠀⠀⣼⠟⡇⠀⠀⠀⠀⠀⠀⠘⣼⡆⠀⠀⠈⣧⠀⠀⠀⠀⠀⠘⡆⠀⠀⢧⠀⠀⢻⣿⠃⠀⠀
+              ⠀⠀⠀⠀⣿⠇⠀⠮⠀⠀⠀⡏⠀⠀⡇⠀⡰⠧⠤⠼⡀⢰⠀⠀⠀⠀⠀⠸⣿⣦⠀⠀⠘⣧⡀⠀⠀⠀⠀⠹⡀⠀⠸⡄⠀⠈⢿⣄⠀⠀
+              ⠀⠀⠀⢠⡟⡄⠀⡳⠀⠀⢰⠇⠀⣼⠁⡰⢁⣀⣀⠀⠹⡄⢣⠀⠀⠀⠀⠀⠙⣌⠛⠦⡀⠱⡙⢦⡀⠀⢣⠀⢣⠀⠀⢇⠀⠈⢏⣏⠛⢖
+              ⠀⠀⢠⢳⠃⡇⠀⢑⠀⠀⢸⠀⡜⢉⣦⣯⡵⠶⢦⣌⠐⠜⢄⠳⣄⡀⠀⠀⠀⠈⢲⣈⣭⣵⣿⣑⠳⣄⠈⡇⠘⡆⠀⢸⠀⠀⢸⠘⡆⠀
+              ⠀⣠⠃⡞⠀⢱⠀⢸⠀⠀⢸⡜⢠⣿⠟⢁⠐⢿⣷⣌⢳⡀⠀⠑⠸⠯⠉⠑⠒⢢⡟⠁⠘⣿⣶⡍⠻⣬⡷⣧⠀⢳⠀⠨⡄⠀⢈⠆⢹⡀
+              ⡜⠁⣼⠇⠀⠈⡆⠈⡆⠀⢸⠐⣾⠃⠀⣿⡖⣶⡽⣿⠀⣧⠀⠀⠀⠀⠀⠀⠀⣾⠀⣷⣶⣷⣹⣿⠀⢹⡾⢾⢀⣾⡀⠀⡇⠀⢸⠀⠀⢣
+              ⣠⡾⢼⡁⠀⠀⠹⡄⢱⠀⢸⠐⣻⠀⠀⣿⣏⣿⣧⢿⠂⠀⠀⠀⠀⠀⠀⠀⠀⠈⠘⣿⢿⣿⢿⣻⠀⠀⡷⠞⠉⣯⡇⢀⡇⠀⣸⠀⠀⠘
+              ⣿⡝⣾⠀⠀⠀⠀⢳⠈⢇⠸⡀⠹⡄⠀⠘⢇⣐⡨⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣔⣂⡸⠃⠀⢸⠓⠂⢰⢿⡇⢰⠀⢀⡇⠀⠀⠀
+              ⣷⣛⣼⠀⠀⠀⠀⠀⠣⡈⢆⢇⠀⠈⠢⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⡄⠋⠁⢀⡷⢫⣗⡸⠀⡼⠀⠀⠀⠀
+              ⢷⣝⣾⡄⠀⠀⠀⠀⠀⠑⣌⢾⡀⠀⠀⠀⠀⠀⠀⣠⡖⠒⠒⠒⠒⠒⠒⠒⠒⠦⠤⣄⠀⠀⠁⠁⠀⠀⠀⡜⠛⣫⣷⠃⡼⠁⠀⠀⠀⠀
+              ⠸⣿⣸⣇⠀⠀⠀⠀⠀⠀⠀⢣⣇⠀⠀⠀⠀⠀⢸⣿⡿⠟⠛⠛⠛⠛⠛⠛⠛⠛⠿⣿⡇⠀⠀⠀⠀⠀⢸⣧⢿⢿⡟⡸⠃⠀⠀⠀⠀⢀
+              ⣧⠘⢿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠹⣆⠀⠀⠀⠀⠈⢧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡸⠁⠀⠀⠀⠀⢠⡿⣼⡹⣾⡟⠁⠀⠀⠀⠀⠀⢸
+              ⠈⠁⠈⠻⡽⡄⠀⠀⠀⠀⠀⠀⠀⠘⢦⠀⠀⠀⠀⠀⠓⢦⡀⠀⠀⠀⠀⠀⢀⡠⠞⠁⠀⠀⠀⢀⣴⣟⡳⢧⣻⡽⠀⠀⠀⠀⠀⠀⢀⡯
+              ⣿⣶⣤⣄⣹⡽⣆⠀⠀⠀⠀⠀⠀⠀⠈⠳⣄⡀⠀⠀⠀⠀⠈⠓⠒⠒⠒⠚⠉⠀⠀⠀⢀⣠⣴⢯⡳⣞⣿⣷⣹⡇⠀⠀⠀⠀⠀⢀⣾⢳
+              ⣿⣿⣿⣿⣿⣿⣯⠷⣄⠀⠀⠀⠀⠀⠀⠀⠹⣿⣷⣒⣦⢤⣤⣠⣀⣄⣠⣤⣤⣴⣶⢻⡽⣻⣮⣗⣻⢼⣻⡟⢾⡇⠀⠀⠀⠀⢀⡾⣭⣿
+              ⣿⣿⣿⣿⣿⣿⣿⣿⣽⣳⢦⣀⠀⠀⠀⠀⠀⠹⡏⠁⠉⠓⠦⣉⡉⠛⣙⣩⠵⢚⠩⠳⣽⣽⣼⣿⣾⣷⣷⣿⣿⠆⠀⠀⠀⣠⣾⣻⣾⣿</pre
+        >
+        <cite
+          ><span style="color: red">ASCII Art</span>, recuperado de:
+          <a href="https://emojicombos.com/" target="_blank"
+            ><small>EmojiCombos</small></a
+          ></cite>
+      </section>
+    </article>
+    <!-- Fin del article -->
+    <!-- Inicio del aside -->
+    <aside>
+
+      <h2>Desarrollador de la pagina:</h2>
+
+      <p><b><i>Miguel del Castillo</i></b></p>
+
+      <img src="recursos/miguel_foto.jfif" alt="">
+
+      <h3>Sobre el desarrollador:</h3>
+      <p>Hola, mi nombre es Miguel, desarrollo paginas web,
+        tengo una preferencia por programar el backend que 
+        el front, ya que no soy muy bueno, con los colores
+        si bien puedo combinarlos, prefiero mil veces el desarrollo
+        de algo logico, que de algo creativo.
+      </p>
+      <h3>Aficiones y gustos</h3>
+      <p>Mi gustos favoritos es el anime, de preferencia me 
+        gusta crear algo de lo que me gusta, a algo que no me gusta 
+        porque lo siento mas comodo, es por eso, que muchos de mis proyectos 
+        tienen como motivo, hacer paginas o programas dedicados a algo que 
+        me encanta.
+      </p>
+      <h3>Contacto</h3>
+      <p>Para cualquier contratacion, o cualquier pagina web que ocupe, mi numero es:
+        <address><b>8110729348</b></address>
+      </p>
+    </aside>
+    <!-- Fin del Aside -->
+    <!-- Inicio del footer -->
+    <footer>
+      <center>
+        <h3>ANIMEMEME! 2022</h3>
+        <hr />
+        <ul id="footer">
+          <li><a class="piepagina" href="#">Politicas de Privacidad</a></li>
+          <li><a class="piepagina" href="#">Acuerdos de Uso</a></li>
+        </ul>
+      </center>
+    </footer>
+    <!-- Fin del footer -->
+  </body>
+</html>

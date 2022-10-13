@@ -1,0 +1,58 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-size: 100%;
+    }
+
+body {
+ background-color: azure;
+ 
+}
+
+
+header {
+    color: blue;
+    background-color: white;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+background-color: slateblue;
+color: darkblue;
+font-size: 35px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+table {
+    
+    width:  40%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid slategrey;
+    background-color: aqua;
+    
+
+     }
+
+th, td {
+    width: 40%;
+    vertical-align: top;
+    border: 1px solid slategrey;
+    background-color: azure;
+
+}
+
+     p {
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        color:red;
+    }
+

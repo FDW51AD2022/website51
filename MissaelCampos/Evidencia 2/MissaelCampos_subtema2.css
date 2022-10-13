@@ -1,0 +1,18 @@
+body{
+    background-color: rgba(37, 54, 235, 0.74);
+    background: url(https://d7lju56vlbdri.cloudfront.net/var/ezwebin_site/storage/images/_aliases/img_1col/noticias/detectado-un-tercer-planeta-alrededor-de-nuestra-estrella-mas-cercana/9375526-1-esl-MX/Detectado-un-tercer-planeta-alrededor-de-nuestra-estrella-mas-cercana.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.overflow{
+    width: 200px;
+    height: 10em;
+    background-color: rgb(115, 51, 157);
+    overflow: auto;
+}
+.contenedor{
+    color: white;
+}
+

@@ -4,7 +4,26 @@
 	margin:0px;
 
 }
+p,
+dt {
+    font-weight: bold;
+}
 
+dl,
+dd {
+    font-size: .9rem;
+}
+
+dd {
+    margin-bottom: 1em;
+}
+
+#info2 img {
+    width: 300px;
+    float: right;
+    margin-right: 1em;
+    border-radius: 30px;
+}
 #info img {
     width: 150px;
     float: left;
@@ -111,3 +130,76 @@ html, body {
   img:nth-child(5) {
 	animation-delay: 8s;
   }
+
+.contenedor-main{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.contenedor-main2{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.contenedor-main3{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.contenedor-main4{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.contenedor-main5{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.contenedor-main6{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.titulo + p{
+	border-top: 3px solid rgba(219, 107, 230, 0.904);
+	}
+
+	
+	#lista li:nth-child(old){
+	   background-color: gray;
+	   color: white;
+	}
+	
+
+.titulo:hover  {
+	background-color: rgb(212, 180, 216);
+	color: white;
+	
+	}	
+	.titulo2 + p{
+		border-top: 3px solid rgba(109, 94, 177, 0.904);
+		}
+
+		.video-responsive {
+			position: relative;
+			padding-bottom: 56.25%; /* 16/9 ratio */
+			padding-top: 30px; /* IE6 workaround*/
+			height: 0;
+			overflow: hidden;
+			}
+			
+			.video-responsive iframe,
+			.video-responsive object,
+			.video-responsive embed {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			}
+
+			a[href^="https"] {
+				background-color: rgb(206, 124, 223);
+				font-size: 30px;
+			}

@@ -3,17 +3,13 @@
     padding: 0%;
 }
 
-html{
-    height: 100%;
-}
 body{
-    background-color: #E38B29;
+    background: url(../recursos/Fondoaliens.jpg);
     background-size: 100%;
-    min-height: 100%;
 }
 
 .grid div{
-    background-color: red;
+    /*background-color: red;*/
     padding: 1em;
 }
 
@@ -29,8 +25,10 @@ header{
 .grid{
     text-align: center;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 500px 500px;
+    grid-template-areas: 
+    "teoria videos"
+    "footer footer";
+
     column-gap: 1em;
 }
 
@@ -44,7 +42,39 @@ p{
 .pie{
     display: flex;
     color: white;
-    background-color: #f56a00;
-    height: 100px;
+    /*background-color: #f56a00;*/
+    height: 50px;
     width: 200%;
+    line-height: 50px;
+}
+
+h1{
+    color: white;
+}
+
+mark{
+    background-color: blue;
+}
+
+.tabla{
+    justify-content: center;
+    background-image: linear-gradient(90deg,blue,black);
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+
+th,td{
+    border: solid 1px black;
+    padding: 0%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: red;
 }

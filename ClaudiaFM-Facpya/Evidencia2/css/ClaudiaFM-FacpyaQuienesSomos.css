@@ -1,0 +1,50 @@
+#Tema
+{
+    font: normal .95em 'trebuchet ms', arial, sans-serif;
+    font-size: 35px;
+    background-color: rgb(243, 247, 19);
+}
+
+nav {
+    background-color: #eed867;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+main{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+small{
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    margin-right: 3rem;
+}
+li {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 60px;
+}
+p
+{
+    border: 0;
+    letter-spacing: 0em;
+    padding: 0 0 5px 0;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+
+

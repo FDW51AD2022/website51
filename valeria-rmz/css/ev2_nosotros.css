@@ -1,6 +1,7 @@
 html{
-    font-size: 25px;
-    background-color: rgb(249, 254, 137);
+    font-size: 20px;
+    background-color: #86A6F59C;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #nav-main ul li:hover {
@@ -27,6 +28,17 @@ header{
     float: left;
     margin-right: 1em;
     border-radius: 50%;
+}
+
+blockquote{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+video{
+    float: center;
 }
 
 footer{

@@ -1,0 +1,39 @@
+main .contenedor-acerca-de{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fit, minmax(500px , 1fr)); 
+}
+
+main .contenedor-mision-vision{
+    display: flex;
+    justify-content: center;
+}
+
+main .contenedor-mision-vision .elemento-mv{
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+
+main .contenedor-mision-vision .elemento-mv img {
+    width: 20%;
+}
+
+.contenedor-imagen-cite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.img-cite{
+    width: 50%;
+}
+
+.contenedor-final{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fit, minmax(500px , 1fr)); 
+}

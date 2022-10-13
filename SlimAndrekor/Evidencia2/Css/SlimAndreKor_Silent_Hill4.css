@@ -1,0 +1,48 @@
+body{ background-image:url(https://jooinn.com/images/smoky-texture-5.png);}
+
+hr{width: 350%;
+    border: darkred;
+    border-style: dashed double none;
+  }
+#Menu {overflow:hidden;
+}
+#Menu  #Links{list-style:none;
+}
+#Menu  #Links li{float:left;
+                 font-family: 'Courier New';
+}
+#Menu  #Links li a{padding: 15px 85px;
+                   display:block;
+                   color:#fff;
+                   text-decoration:none;
+}
+#Menu #Links li a:hover {background: #2c5c4c
+}
+#Seccion1  {width:68.5%;
+  margin-right:1.5%;
+  float:left;
+  color: red;
+  background: rgb(6, 7, 4);
+  border: grey 10px;
+}
+#Seccion1 #Articulo1, #Articulo3 {padding:20px;
+                        width: 85%;
+                        padding: 5px 10px 15px 100px ;        
+}
+#SilentHill, #SHM, #SHM2,#SHP{padding: 7px 10px 15px 70px; }
+
+#Articulo2 {width:30%;
+background: black;
+color: lightsteelblue;
+float:left;
+padding:20px;
+box-sizing:border-box;
+}
+h1, h2 ,h3 {text-align: center;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+#Konami{color: darkmagenta ;
+  padding:20px;
+  width: 85%;
+  padding: 5px 10px 15px 100px ; 
+}

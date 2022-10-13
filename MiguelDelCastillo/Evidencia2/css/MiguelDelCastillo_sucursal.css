@@ -5,13 +5,16 @@
     display: flex;
     justify-content: space-around;
     align-content: space-between;
-    flex-flow: row ;
+    flex-flow: row wrap;
 }
 
-#nav-main ul li:hover{
-    background-color: khaki;
-    border-radius: 5px;
-    
+a[href*="MiguelDelCastillo"]{
+    text-decoration: none;
+    align-self: center;
+    font-size: 5vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #F0FFCE;
+    text-shadow:0 0 20px #0F0A0A;
 }
 
 #nav-main ul li a strong:hover{
@@ -21,35 +24,21 @@
     
 }
 
-#nav-main ul li a strong{
-    color: #F0FFCE;
-    text-shadow:0 0 20px #0F0A0A;
-}
-
-a{
-    text-decoration: none;
-    align-self: center;
-    font-size: 5vh;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-
-
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: grid;
     grid-template-columns: 2fr;
     grid-template-rows:max-content;
-    grid-template-areas: "head head"
-    "arti arti"
-    "pie pie";
+    grid-template-areas: "head"
+    "arti"
+    "pie";
     gap: 1em;
     background-color:#DE3C4B;
 }
 
 body header{
-    padding: 30px;
-    background-image: url(/MiguelDelCastillo/Evidencia2/recursos/portada-animememe-header.jpg);
+    padding: 10vh;
+    background-image: url(https://pbs.twimg.com/media/FemN719XwAI3AAE?format=jpg&name=large);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -59,26 +48,22 @@ body header{
     border-start-start-radius: 5px;
 }
 
-#img-header{
-    width: 200vh;
-    height: 30vh;
-    padding: 1vh;
-    border-radius: 20px;
-}
-
 body article{
-    padding: 10vh;
-    padding-top: 1vh;
+    padding: 3vh;
     background-color: #F0FFCE;
     grid-area: arti;
     height: auto;
+    border-style: solid;
+    border-radius: 2vh;
+    border-width: 1vh;
     font-size: 3vh;
     
 }
 body section{
     border: #420039 5px solid;
-    padding: 1em;
+    padding: 2vh;
     background-color: #B9C0DA;
+    border-radius: 1em;
 }
 
 body footer{
@@ -87,44 +72,47 @@ body footer{
     color: #F0FFCE;
     border-end-end-radius: 10px;
     border-end-start-radius: 10px;
-    padding-left: 10px;
+    padding: 1vh;
     font-size: 3vh;
     text-align: center;
 }
 
-#nav-footer ul{
-    list-style:none;
-    display: flex;
-    justify-content: space-evenly;
-    align-content: space-between;
-}
-
 article iframe{
-    border: 0;
+    border: 1vh;
     padding-left: 50vh;
+    border-radius: 2vh;
 }
 
 h1{
-    background-color: #420039;
-    color: #F0FFCE;
-    border-radius: 10px;
-    
-}
-h2{
-    background-color: #420039;
-    color: #F0FFCE;
-    border-radius: 5px;
-    
+    color: #6B6054;
+    font-size: 5vh;
+    padding: 1vh;
 }
 
-ul {
+h2{
+    color: #FCF6BD;
+    border-radius: 5px;
+    border: none;
+    border-bottom: #0F0A0A solid;
+    text-shadow: 0 0 1vh #0F0A0A;
+}
+
+p{
+    color: #03256C;
+}
+
+footer p{
+    color: #F0FFCE;
+}
+
+#footer ul{
     list-style: none;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    color: #F0FFCE;
 }
 
-#footer li a{
+a[href*="#"]{
+    text-decoration: none;
     color: #F0FFCE;
-    font-size: 2vh;
 }

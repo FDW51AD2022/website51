@@ -1,10 +1,24 @@
 html{
-    font-size: 25px;
+    font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #86A6F59C;
 }
 
 p{
     text-align: center;
+}
+
+
+#nav-main ul li:hover {
+    background-color: rgb(241, 241, 103);
+}
+
+#nav-main ul li{
+    text-align: center;
+    background-color: rgb(236, 172, 216);
+    float: left;
+    width: 20%;
+    font-size: 25px;
 }
 
 header{
@@ -18,6 +32,7 @@ header{
     position: relative;
     display: inline-block;
     text-align: center;
+    display: flexbox;
 }
 
 .cont:hover{

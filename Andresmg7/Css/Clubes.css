@@ -1,0 +1,89 @@
+body{
+    background-color:#D8E9A8;
+}
+h1 {
+    font-size: 80px;
+    text-decoration: red;
+    text-align: center;
+    border-top: 10px solid white;
+    border-bottom: 10px solid whitesmoke;
+    border-left: 10px solid whitesmoke;
+    border-right: 10px solid whitesmoke;
+    background-color: black;
+    color: whitesmoke ;
+}
+.titulo:hover{
+    background-color: #4E9F3D;
+    color: #1E5128;
+}
+#nav-panel ul {
+    background-color: #1E5128;
+    color: black;
+    font-size: 30px;
+}
+
+#nav-panel ul li {
+    float: right ;
+    width: 20%;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.Flexbox {
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+.SP {
+    border-radius: 10%;
+    align-items: center;
+}
+.Flexbox2 {
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+.UTD {
+    border-radius: 10%;
+    align-items: center;
+    padding-right: 10px;
+}
+.Flexbox3 {
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+.RM {
+    border-radius: 10%;
+    align-items: center;
+}
+.Flexbox4 {
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+.JUV {
+    border-radius: 10%;
+    align-items: center;
+}
+.ImgF {
+    width: 50%;
+    padding-right: 10px;
+}
+.ImgF img {
+    width: 100%;
+}
+.InfF {
+    width: 50%;
+}
