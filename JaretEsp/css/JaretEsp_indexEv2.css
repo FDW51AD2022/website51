@@ -1,19 +1,22 @@
 *{
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F1F1F1;
 }
 
+/*ul principal del nav*/
 .lista{
     list-style: none;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
-    background-color: aqua;
+    background-color: transparent;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 
 @media screen and (min-width: 768px) {
     .lista{
@@ -27,6 +30,7 @@ li{
 
 .link{
     color: black;
+    font-size: 20px;
     text-decoration: none;
 }
 
