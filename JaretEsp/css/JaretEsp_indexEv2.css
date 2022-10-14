@@ -53,13 +53,21 @@ section h2{
     margin-bottom: 5px;
 }
 
+
+/*estilo para secciones con efecto*/
+
+html{
+    scroll-behavior: smooth;
+}
 section p{
+    width: 400px;
     font-weight: 300px;
     margin-bottom: 15px;
 }
 
 section img{
     height: 60%;
+    box-shadow: 0 1rem 2rem rgb(0, 0, 0, 0.568);
 }
 section:nth-child(5){
     background-image: linear-gradient(to top, #ddd6f3 0%, #ffafbd 100%);
