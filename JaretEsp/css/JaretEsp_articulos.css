@@ -7,7 +7,7 @@
 
 /*ul principal del nav*/
 .menu{
-    position: fixed;
+    position: absolute;
 }
 .lista{
     list-style: none;
@@ -61,8 +61,52 @@ section:nth-child(2){
     background-image: linear-gradient(to top, #ffafbd 0%, #ddd6f3 100%);
 }
 
-.sec1 h1{
-    padding: 15px;
-    font-size: 75px;
+/*tarjetas de articulos*/
+
+
+
+.contenedor{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
 }
 
+.contenedor .card{
+    background-color: white;
+    width: 240px;
+    height: 330x;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.contenedor .card img{
+    width: 240px;
+    height: 250px;
+}
+
+.card p{
+    margin: auto;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.card a{
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.card a:hover{
+    background-color: #ddd6f3;
+    color: black;
+}
