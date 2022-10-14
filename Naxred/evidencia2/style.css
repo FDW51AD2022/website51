@@ -74,7 +74,7 @@ nav {
   .footer{
     width: 100%;
     padding: 50px 0px;
-    background-image: url(/img/ev2/background-footer.svg);
+    background-image: url(../img/ev2/background-footer.svg);
     /* background-color: red; */
     background-size: cover;
     grid-area: footer;
