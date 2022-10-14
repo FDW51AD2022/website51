@@ -20,6 +20,10 @@
     align-items: center;
 }
 
+.li a{
+    
+}
+
 
 @media screen and (min-width: 768px) {
     .lista{
@@ -65,10 +69,13 @@ section p{
     margin-bottom: 15px;
 }
 
+/*Sombra para imagen*/
 section img{
     height: 60%;
     box-shadow: 0 1rem 2rem rgb(0, 0, 0, 0.568);
 }
+
+/*Ordenes de secciones sobre las secciones que se va a trabahar*/
 section:nth-child(5){
     background-image: linear-gradient(to top, #ddd6f3 0%, #ffafbd 100%);
 }
@@ -82,6 +89,7 @@ section:nth-child(2){
     background-image: linear-gradient(to top, #ffafbd 0%, #ddd6f3 100%);
 }
 
+/*Efecto hover a enlace*/
 section a{
     background-color: #ffff;
     display: inline-block;
