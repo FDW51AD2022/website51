@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*Formulario para registrarse*/
 .contenedor-formulario{
     position: relative;
     background: pink;
@@ -6,9 +13,52 @@
     display: block;
     margin-bottom: 80px;
     width: 500px;
-    height: 360px;
+    height: 400px;
     border-radius: 5px;
     overflow: hidden;
     z-index: 1;
 }
+
+h2{
+    padding: 20px 40px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #414141;
+    text-align: center;
+}
+
+p{
+    padding: 20px 40px;
+    text-transform: uppercase;
+    color: #414141;
+}
+
+input{
+    display: block;
+    height: 40px;
+    width: 90%;
+    margin: 0 auto;
+    border: none;
+}
+
+.nombre, .apellidos, .correo{
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    font-family: 'Open Sans' sans-serif;
+    background-color: white;
+    text-transform: uppercase;
+    color: #858585;
+    font-weight:lighter;
+    -webkit-transition:.5s;
+    transition:.5s;
+    padding: 2px;
+    border-bottom: 1px solid #414141;
+}
+
+
+    
+
+
+
 
