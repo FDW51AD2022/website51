@@ -106,7 +106,7 @@ section a:hover{
 /*Formulario para registrarse*/
 .contenedor-formulario{
     position: relative;
-    background: #C2C2C2;
+    background: white;
     top: 20px;
     width: 600px;
     border-radius: 5px;
@@ -115,6 +115,7 @@ section a:hover{
 }
 
 .contenedor-formulario h2{
+    font-size: 30px;
     padding: 20px 40px;
     font-weight: lighter;
     text-transform: uppercase;
