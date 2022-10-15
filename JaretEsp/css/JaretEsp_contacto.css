@@ -1,0 +1,14 @@
+.contenedor-formulario{
+    position: relative;
+    background: pink;
+    top: 150px;
+    left: 35%;
+    display: block;
+    margin-bottom: 80px;
+    width: 500px;
+    height: 360px;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1;
+}
+
