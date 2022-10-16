@@ -115,3 +115,13 @@ footer p{
     color: white;
     font-size: 17px;
 }
+
+hr {
+    display: block;
+    background-color: white;
+    height: 10px;
+    margin: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
