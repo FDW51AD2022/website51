@@ -1,2 +1,74 @@
-body { background-image:url(https://i.imgur.com/hsBVqZT.jpg) ; 
-    color: white;}
+body { background-image: url(https://fondosmil.com/fondo/21401.jpg);
+    color: red;}
+#Menu #Links li a {color:black !important;}
+    body {
+        word-wrap: break-word;
+        background-color: var(--theme-page-background-color);
+        color: var(--theme-page-text-color);
+    }
+    
+    .article-table-wrapper tr:not(:last-of-type), .article-table-wrapper tr>th {
+        border-bottom: 1px solid var(--theme-border-color);
+    }
+    
+    .article-table-wrapper tr>th {
+        background-color: var(--theme-table-header-color);
+        font-weight: 700;
+        line-height: 1.25;
+        padding: 12px;
+    }
+    
+    .article-table-wrapper tr>td, .article-table-wrapper tr>th {
+        border: 0;
+        font-size: 14px;
+        line-height: 1.5;
+        max-width: 224px;
+        vertical-align: top;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    th {
+        display: table-cell;
+        vertical-align: inherit;
+        font-weight: bold;
+        text-align: -internal-center;
+    }
+
+    .article-table-wrapper table {
+        background-color: var(--theme-table-background-color);
+        border: 0;
+        border-collapse: collapse;
+        color: inherit;
+        margin: 0;
+        width: 100%;
+    }
+
+    table {
+        border-collapse: separate;
+        text-indent: initial;
+        border-spacing: 2px;
+    }
+
+
+    #Menu {overflow:hidden;
+    }
+    #Menu  #Links{list-style:none;
+    }
+    #Menu  #Links li{float:left;
+                     font-family: 'Courier New';
+    }
+    #Menu  #Links li a{padding: 15px 130px;
+                       display:block;
+                       color:rgb(182, 179, 5);
+                       text-decoration:none;
+    }
+    #Menu #Links li a:hover {background: #faea08
+    }
+
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
