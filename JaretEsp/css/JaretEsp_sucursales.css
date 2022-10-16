@@ -132,10 +132,23 @@ hr {
     margin-right: auto;
 }
 
+/*video */
+
+video{
+    
+    border: 3px solid  white;
+    
+}
 video .video{
     display: block;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
+}
+
+/*audio*/
+audio .audio{
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
   
