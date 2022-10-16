@@ -77,3 +77,14 @@ li{
     border-radius: 5px;
 }
 
+footer{
+    padding: 10px;
+    background-color: grey;
+}
+
+footer p{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
