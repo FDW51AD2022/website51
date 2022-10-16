@@ -41,7 +41,7 @@ li{
     text-decoration: none;
 }
 
-section{
+section{ 
     height: 650px;
     display: flex;
     flex-direction: column;
@@ -66,6 +66,7 @@ section:nth-child(3){
 section:nth-child(2){
     background-image: linear-gradient(to top, #ffafbd 0%, #ddd6f3 100%);
 }
+
 
 
 
@@ -103,3 +104,4 @@ section:nth-child(2){
     background-color: black;
     color: white;
 }
+
