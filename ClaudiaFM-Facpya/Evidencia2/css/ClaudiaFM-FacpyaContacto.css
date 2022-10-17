@@ -1,0 +1,90 @@
+#Tema
+{
+    font: normal .95em 'trebuchet ms', arial, sans-serif;
+    font-size: 35px;
+    background-color: rgb(243, 247, 19);
+}
+
+nav {
+    background-color: #eed867;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+ul {
+    display: flex;
+    margin-right: 3rem;
+}
+li {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 60px;
+}
+p
+{
+    border: 0;
+    letter-spacing: 0em;
+    padding: 0 0 5px 0;
+    font-size: 20px;
+}
+
+#Iniciodecorador{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/-1;
+    background-color: #a7a7a7;
+    color: #a7a7a7;
+    margin: 0px;
+}
+
+#logo{
+    text-align: center;
+    background-color:#f2f2f200;
+    padding: 15px;
+}
+
+#Menu-de-Barra ul{
+    font-family: 'Montserrat';
+    font-style: normal;
+    list-style:none;
+    padding: 12;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-flow: row ;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-align:inherit;
+    
+}
+
+#Menu-de-Barra ul li:hover{
+    background-color: rgb(240, 238, 226);
+    border-radius: 3px;
+    
+}
+
+#Contacto{
+    text-align: center;
+    background-color:#f2f2f200;
+    padding: 15px;
+}
+
+#Final{
+    text-align: center;
+    background-color:#f2f2f200;
+    padding: 15px;
+}
+
+#video-laulux{
+    float: center;
+}
+
+
+form {
+    margin: 0 auto;
+    width: 700px;
+    list-style: none;
+    background-color: #eeeeee00;
+}
