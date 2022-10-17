@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/limusa_contacto.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../recursos/logo.jpg" width="150" alt="">
+            <a href="#">Forchetta D'oro</a>
+        </div>
+
+        <nav>
+            <a href="limusa11_EV2_index.html">Inicio</a>
+            <a href="limusa11_menu.html">Menú</a>
+            <a href="limusa11_historia.html">Historia</a>
+            <a href="limusa11_reservas.html">Reservaciones</a>
+            
+        </nav>
+    </header>
+    <div class="content">
+
+        <h1 class="logo">Conta<span>ctanos</span></h1>
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Completa la siguiente información</h3>
+                <form action="">
+                    <p>
+                        <label>Nombre Completo</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Telefono</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label>Asunto</label>
+                        <input type="text" name="affair">
+                    </p>
+                    <p class="block">
+                       <label>Comentario</label> 
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block" onclick="alertar('Gracias por mandar tu informacion no nos importa pero gracias :)');">
+                        <button>
+                            Enviar
+                        </button>
+                        <script type="text/javascript">
+                            function alertar(texto) {
+                                alert(texto);
+                                  }
+                        </script>
+                        
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>Mas informacion</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Av. Miguel Alemán 200, Parque la Talaverna, 66473 San Nicolás de los Garza, N.L.</li>
+                    <li><i class="fas fa-phone"></i> (81) 052 499 52 47</li>
+                    <li></li>
+                    <li><i class="fas fa-envelope-open-text"></i> forchetta_d'oro@gmail.com</li>
+                </ul>
+                
+                 <p>lunes, 12:00 a 22:00</p>
+                 <p>martes, 12:00 a 22:00</p>
+                 <p>miércoles, 12:00 a 22:00</p>
+                 <p>jueves, 12:00 a 22:00</p>
+                 <p>viernes, 12:00 a 22:00</p>
+                 <p>sábado, 12:00 a 22:00</p>
+                 <p>domingo, 12:00 a 22:00</p>
+                 
+                
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
