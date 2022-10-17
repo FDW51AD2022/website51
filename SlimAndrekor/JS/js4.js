@@ -52,7 +52,6 @@ console.log("divisores",divisores(33));
 
 
 
-
 /* Llamar la función */
 console.log("divisores",divisores(33));
 console.log("divisores V2",divisores(33));
