@@ -5,6 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+abbr{
+    font-family: 'Poppins', sans-serif;
+}
+
 /*ul principal del nav*/
 .menu{
     position: fixed;
