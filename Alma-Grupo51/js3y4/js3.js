@@ -10,7 +10,9 @@ const numeroPerfecto = (num) => {
         if (num % i === 0) {
           divisores.push(i)
         }
+
       }
+      
   
       const sumaDivisores = divisores.reduce((prev, curr) => prev + curr)
   
