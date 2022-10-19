@@ -26,6 +26,9 @@ body{
     align-items: center;
 }
 
+.li a{
+    padding: 1rem;
+}
 
 @media screen and (min-width: 768px) {
     .lista{
@@ -72,5 +75,16 @@ li{
     width: 100%;
     padding-bottom: 5px;
     border-radius: 5px;
+}
+
+footer{
+    padding: 10px;
+    background-color: grey;
+}
+
+footer p{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
 }
 

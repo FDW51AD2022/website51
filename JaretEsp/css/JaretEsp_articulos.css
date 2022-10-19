@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 /*ul principal del nav*/
 .menu{
     position: absolute;
@@ -20,6 +21,9 @@
     align-items: center;
 }
 
+.li a{
+    padding: 1rem;
+}
 
 @media screen and (min-width: 768px) {
     .lista{
@@ -109,4 +113,15 @@ section:nth-child(2){
 .card a:hover{
     background-color: #ddd6f3;
     color: black;
+}
+
+footer{
+    padding: 10px;
+    background-color: grey;
+}
+
+footer p{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
 }
