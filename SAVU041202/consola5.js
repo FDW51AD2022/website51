@@ -22,6 +22,7 @@ function init(){
     var ocho = document.getElementById('ocho');
     var nueve = document.getElementById('nueve');
     var cero = document.getElementById('cero');
+}
 
 //Eventos de click
 uno.onclick = function(e){
