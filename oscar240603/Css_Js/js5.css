@@ -1,0 +1,46 @@
+#formulario{
+    text-align: center;
+    display: grid;
+    grid-template-areas:
+    "num1 num2"
+    "valor1 valor2"
+    "sumar restar"
+    "multiplicar dividir"
+    "resul resul";
+}
+
+#valor1{
+    grid-area: valor1;
+}
+
+#valor2{
+    grid-area: valor2;
+}
+
+.sumar{
+    grid-area: sumar;
+}
+
+.restar{
+    grid-area: restar;
+}
+
+.dividir{
+    grid-area: multiplicar;
+}
+
+.multiplicar{
+    grid-area: dividir;
+}
+
+.num1{
+    grid-area: num1;
+}
+
+.num2{
+    grid-area: num2;
+}
+
+.resul{
+    grid-area: resul;
+}
