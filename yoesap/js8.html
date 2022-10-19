@@ -4,43 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript 8</title>
-    <link rel="stylesheet" href="js/js6.js">
+    <title>Tabla de Multiplicar</title>
 </head>
 <body>
     <a href="yoesap_index.html">Regresar</a></li>
 
-    <h1>Porgrama Tabla</h1>
-   <script src="js/js8.js"></script>
+    <!--
+    En el siguiente programa le solicitamos al usuario que inrgese un numero del 1 al 10 para que posteriormente se muestre la tabla
+-->
 
-    <div>
-        <label for="">Numero 1</label>
-        <input type="text" name="" id="num1">
+<!-- Con fieldset agrupamos la estrucutura-->
+	<fieldset>
+		<legend> Crear tabla de multiplicar dado un número </legend>
+		<label for""> ¿Que tabla de multiplicar desea que se muestre en la pagina:</label>
+		<input type="text" id="txtN1">
+        <br><br>
+        <input type="button" onclick="Generar();" value="Generar">
 
-    </div>
-    <div>
-        <label for="resul">Numero 2</label>
-        <input type="text" name="" id="num2">
-    </div>
-    <div>
-        <div>
-            <label for="">Operacion</label>
-            <input type="text" name="" id="operacion">
-    
-        </div>
-        <div>
-            <label for="resul">Resultado</label>
-            <input type="text" name="" id="resul">
-        </div>
-        <div>
-    
-        </div>
-        <div>
-    </div>
-    <div>
-        <button onclick="calcular()">Calcular</button>
-</div>
+	</fieldset>
 
-
-
+<!-- Creamos el Bucle For-->
+    </body>
+    <script>
+        function Generar() {
+            var tabla = document.getElementById('txtN1').value;
+            for (var i = 0; i < 11; i++) {
+                document.write(""+tabla+" X "+i+" = "+(i*tabla)+"<br>");
+            }
+        }
+    </script>
+</html>
 

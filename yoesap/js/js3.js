@@ -1,26 +1,23 @@
-/*Escribir un programa en javascript que permita
-Imprimir en patalla n numero perfectos.
-El usuario podra indicar cuantos numeros desea ver..
-Un numero perfecto es aquel que la suma de sus divisores
-expecto el mismo, da como resultado el mismo numero.
-Ejemplo: para el 6 sus divisores con  son 1,2,3,6
-Sumando todos excepto el 6: 1+2+3 = 6, 6 es perfecto.-*/
+cantidadNumeros = Number(prompt("Ingresa la cantidad de números a mostrar:"))
 
-int numero= 500;
+document.write("Actividad 1<br/>")
 
-    int resultado;
-    int suma=0;
+document.write("Cantidad de números a mostrar: ", cantidadNumeros," (tipo de dato: ",typeof(cantidadNumeros),")")
 
-    for (int i=1;i<numero;i++){
-        resultado =numero%i;
-        if (resultado==0){//si el resultado da 0 entonces se suma
-        suma=suma+i};
+encontrado = 0;
+for(i = 1; encontrado <= cantidadNumeros-1; i++){
+    //  Se revisa si es Par o no par
+    if(i % 2 == 0){
 
+        for((j = (i / 2));(j >= 1); j--){
+            if(i % j == 0){
+                auxEntero = auxEntero + j;
+            }
+        }
+        if(auxEntero == i){
+            document.write("<br/> Número perfecto: ",auxEntero);
+            encontrado++
+            }
     }
-
-    if(suma==numero){//Si el resultado es igual a suma el numero es perfecto
-        ;
-        System.out.println("El número es perfecto");
-    }else{
-        System.out.println("El número no es perfecto");
-    }
+    auxEntero = 0;
+}

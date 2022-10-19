@@ -1,0 +1,149 @@
+#Tema
+{
+    font: normal .95em 'trebuchet ms', arial, sans-serif;
+    font-size: 30px;
+    background-color: rgb(243, 247, 19);
+}
+nav {
+    background-color: #f0f798;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+ul {
+    display: flex;
+    margin-right: 3rem;
+}
+
+li {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.body-nombre {
+    background-image: url(./Recursos/foto2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Anek Kannada', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.title-nombre {
+    display: table;
+    height: 50px;
+    width: 94%;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-bottom: -2%;
+    text-align: center;
+    background-color: #15b19c;
+}
+
+.nombre {
+    display: table-cell;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.columns-nombre {
+    display: flex;
+    align-items: center;
+    
+}
+
+.column-left, .column-right {
+    background-color: #abc7ce;
+    width: 46%;
+    margin-top: 3%;
+    padding-bottom: 1%;
+}
+
+.column-left {
+    margin-left: 2%;
+}
+
+.column-right {
+    margin-right: 2%;
+}
+
+
+.section {
+    margin-bottom: 0;
+    margin-left: 4%;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+.dishes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.dish {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: -3%;
+}
+
+.name-dish {
+    margin-left: 4%;
+    text-transform: uppercase;
+}
+
+.price-dish {
+    margin-right: 4%;
+}
+
+.div-button {
+    height: 70px;
+    width: 94%;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    text-align: center;
+    background-color: #dda6a6;
+}
+
+.button-menu {
+    text-transform: uppercase;
+    font-weight: 700;
+    height: 44px;
+    margin-top: 13px;
+    border: none;
+    color: #0c0c0c;
+    background-color: #074bc9;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.menu::after, .menu::before {
+    content: '';
+    position: absolute;
+    background-color: #000;
+    width: 90px;
+    height: 2px;
+    top: 7.9em;
+}
+
+.menu::before  {
+    right: 31.5rem;
+}
+
+.menu::after  {
+    left: 31rem;
+}
