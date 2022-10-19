@@ -9,7 +9,8 @@ function suma() {
     document.f1.c.value=r;
     
     }
-    function resta() {
+    
+function resta() {
 
 var a = document.f1.a.value;
 var b = document.f1.b.value;
@@ -35,5 +36,6 @@ function division() {
     var r = document.f1.c.value;
     r= parseFloat(a)/parseFloat(b);
     document.f1.c.value=r;
+    alert(`El resultado de la division es: `+r)
 
     }
