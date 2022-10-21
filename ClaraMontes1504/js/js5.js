@@ -1,9 +1,28 @@
 /* CALCULADORA */
-function suma(numero){
+
+function calcular() {
+    let num = parseInt(document.getElementById("num").value);
+    let num2 = parseInt(document.getElementById("num2").value);
+    let operacion = document.getElementById("operacion").value;
+    let resul= document.getElementById("resul");
+
     let total = 0;
-    let num =  parseInt(document.getElementById("num").value);
-    let num2 =  parseInt(document.getElementById("num").value);
-    suma=parseFloat(num)+parseFloat(num2); 
+
+    if (operacion == "+") {
+        total = num + num2;
+
+    } else if (operacion == "-"){
+        total = num - num2;
+
+    } else if (operacion == "x"){
+        total = num * num2;
+
+    } else {
+        total = num / num2;
+    }
+
+    // Imprimir Valor
+    resul.value = total;
 }
 
 
