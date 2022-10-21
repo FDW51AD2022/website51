@@ -55,10 +55,16 @@ function imagenes(){
 }
 
 /* TABLA DE MULTIPLICAR */
-function tabla(){
-    let numero = parseInt(document.getElementById("tabla").value);
+function tabla() {
+    let multi = document.getElementById("multi").value;
+    multi = parseInt(multi);
 
-    for(i=1; i<=10; i++){
-        document.innerHTML("<br>" + numt + "x" + i + "= " + numt * i);
+    for (var i = 1; i <= 10; i++) {
+        multiplicacion = multi * i;
+        document.write(multi + "x" + i + "=" + multiplicacion + "<br>");
     }
 }
+
+
+
+
