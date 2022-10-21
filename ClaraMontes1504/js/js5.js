@@ -28,32 +28,31 @@ function calcular() {
 /* IMAGENES */
 function imagenes(){
     let imagen = parseInt(document.getElementById("imagen").value);
-    let cambiar = document.getElementById("cambiar").value;
+    let cambiar = document.getElementById("cambiar");
 
     if (imagen == 1){
-        cambiar.src = "Evidencia2/Recursos/namjoon.jpg";
+        cambiar.innerHTML = '<img src="Evidencia2/Recursos/namjoon.jpg" alt="">';
     }
     else if (imagen == 2){
-        cambiar.src = "Evidencia2/Recursos/jin.jpg";
+        cambiar.innerHTML = '<img src="Evidencia2/Recursos/jin.jpg" alt="">';
     }
     else if (imagen == 3){
-        cambiar.src = "Evidencia2/Recursos/yoongi.jpg";
+        cambiar.innerHTML = '<img src="Evidencia2/Recursos/yoongi.jpg" alt="">';
     }
     else if (imagen == 4){
-        cambiar.src = "Evidencia2/Recursos/hobi.jpg";
+        cambiar.innerHTML = '<img src="Evidencia2/Recursos/hobi.jpg" alt="">';
     }
     else if (imagen == 5){
-        cambiar.src = "Evidencia2/Recursos/jimin.jpg";
+        cambiar.innerHTML = '<img src="Evidencia2/Recursos/jimin.jpg" alt="">';
     }
     else if (imagen == 6){
-        cambiar.src = "Evidencia2/Recursos/tae.jpg";
+        cambiar.innerHTML = '<img src="Evidencia2/Recursos/tae.jpg" alt="">';
     }
     else{
-        cambiar.src = "Evidencia2/Recursos/jk.jpg";
+        cambiar.innerHTML = '<img src="Evidencia2/Recursos/jk.jpg" alt="">';
     }
-
-
 }
+
 
 
 
