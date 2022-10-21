@@ -62,11 +62,3 @@ function tabla(){
         document.innerHTML("<br>" + numt + "x" + i + "= " + numt * i);
     }
 }
-
-
-
-
-
-
-
-
