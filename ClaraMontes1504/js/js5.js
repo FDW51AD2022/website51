@@ -49,10 +49,19 @@ function imagenes(){
         cambiar.innerHTML = '<img src="Evidencia2/Recursos/tae.jpg" alt="">';
     }
     else{
-        cambiar.innerHTML = '<img src="Evidencia2/Recursos/jk.jpg" alt="">';
+        if (imagen == 6){
+            cambiar.innerHTML = '<img src="Evidencia2/Recursos/jk.jpg" alt="">';
     }
 }
 
+/* TABLA DE MULTIPLICAR */
+function tabla(){
+    let numero = parseInt(document.getElementById("tabla").value);
+
+    for(i=1; i<=10; i++){
+        document.innerHTML("<br>" + numt + "x" + i + "= " + numt * i);
+    }
+}
 
 
 
