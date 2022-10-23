@@ -17,7 +17,7 @@ function calcular() {
             resultado.value = (numero1/numero2);
             break;
         default:
-            resultado.value = ("Escriba bien pa");
+            resultado.value = ("Escoge bien tu opcion");
             break;
     }
 }
