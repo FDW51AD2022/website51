@@ -1,0 +1,32 @@
+body{background:aqua;
+    color:white
+}
+
+
+
+
+#Calculadora  {width:25%;
+  margin-right:1.5%;
+  float:left;
+  color:black;
+  background: white;
+  border: grey 10px;
+}
+
+#Programa_de_imagenes{width:15%;
+    height: 200%;
+    margin-right:1.5%;
+    float:left;
+    color:black;
+    background: white;
+    border: grey 10px;
+  }
+
+#Programa_tabla{width:20%;
+height: 200%;
+margin-right:1.5%;
+float:left;
+color:black;
+background: white;
+border: grey 10px;
+}
