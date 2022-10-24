@@ -24,14 +24,12 @@ function calcular() {
     resul.value = total;
 }
 
-
-/* IMAGENES */
 function imagenes(){
     let imagen = parseInt(document.getElementById("imagen").value);
     let cambiar = document.getElementById("cambiar");
 
     if (imagen == 1){
-        cambiar.innerHTML = '<img src="./namjoon.jpg" alt="">';
+        cambiar.innerHTML = '<img src="Evidencia2/Recursos/namjoon.jpg" alt="">';
     }
     else if (imagen == 2){
         cambiar.innerHTML = '<img src="Evidencia2/Recursos/jin.jpg" alt="">';
@@ -53,9 +51,6 @@ function imagenes(){
             cambiar.innerHTML = '<img src="Evidencia2/Recursos/jk.jpg" alt="">';
     }
 }
-
-
-/* TABLA DE MULTIPLICAR */
 
 function tabla() {
     let multi = document.getElementById("multi").value;
