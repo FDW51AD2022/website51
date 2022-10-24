@@ -61,3 +61,24 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 4em;
 }
+
+.img{
+    display: grid;
+    text-align: center;
+    grid-template-areas: 
+    "titulo titulo"
+    "img img"
+    "boton boton";
+}
+
+.titulo{
+    grid-area: titulo;
+}
+
+.img{
+    grid-area: img;
+}
+
+.boton{
+    grid-area: boton;
+}
