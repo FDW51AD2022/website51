@@ -17,9 +17,9 @@ console.log("Nombre: ", grupo51["nombre"], grupo51.nombre);
 console.log("primer alumno", grupo51.alumnos[0]);
 
 document.write("<marquee>mensaje</marquee");
-document.write(´<ul>
+document.write(<ul>
                  <li>Elemento</li>
-                </ul>´)
+                </ul>)
 
 /*ejemplo if */
 let calf= 95;

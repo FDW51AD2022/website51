@@ -1,10 +1,41 @@
 /* programas */
 
-<script>
-function calcula(operacion){
-    var operando1 = document.calc.operando1.value
-    var operando2 = document.calc.operando2.value 
-    var result = eval(operando1 + operacion + operando2)
-    document.calc.resultado.value = result
+function suma() {
+
+    var a = document.f1.a.value;
+    var b = document.f1.b.value;
+    var r = document.f1.c.value;
+    r= parseFloat(a)+parseFloat(b);
+    document.f1.c.value=r;
+    
+    }
+    
+function resta() {
+
+var a = document.f1.a.value;
+var b = document.f1.b.value;
+var r = document.f1.c.value;
+r= parseFloat(a)-parseFloat(b);
+document.f1.c.value=r;
+
 }
-</script>
+
+function multiplicacion() {
+
+    var a = document.f1.a.value;
+    var b = document.f1.b.value;
+    var r = document.f1.c.value;
+    r= parseFloat(a)*parseFloat(b);
+    document.f1.c.value=r;
+
+}
+
+function division() {
+    var a = document.f1.a.value;
+    var b = document.f1.b.value;
+    var r = document.f1.c.value;
+    r= parseFloat(a)/parseFloat(b);
+    document.f1.c.value=r;
+    alert(`El resultado de la division es: `+r)
+
+    }
