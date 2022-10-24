@@ -54,7 +54,9 @@ function imagenes(){
     }
 }
 
+
 /* TABLA DE MULTIPLICAR */
+
 function tabla() {
     let multi = document.getElementById("multi").value;
     multi = parseInt(multi);
@@ -64,7 +66,3 @@ function tabla() {
         document.write(multi + "x" + i + "=" + multiplicacion + "<br>");
     }
 }
-
-
-
-
