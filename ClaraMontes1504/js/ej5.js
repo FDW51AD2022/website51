@@ -46,10 +46,8 @@ function imagenes(){
     else if (imagen == 6){
         cambiar.innerHTML = '<img src="Evidencia2/Recursos/tae.jpg" alt="">';
     }
-    else
-        if (imagen == 6){
-            cambiar.innerHTML = '<img src="Evidencia2/Recursos/jk.jpg" alt="">';
-    }
+    else{
+        cambiar.innerHTML = '<img src="Evidencia2/Recursos/jeikei.jpg" alt="">';}
 }
 
 function tabla() {

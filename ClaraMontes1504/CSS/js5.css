@@ -19,22 +19,34 @@ h2{
 
 
 #calculadora{
+    background-color: aliceblue;
     font-family: Tahoma;
     text-align: center;
-    margin: 1px solid black;
 }
 
 #cambioimagen{
     font-family: Tahoma;
     text-align: center;
+    background-color: azure;
 }
 
+#tabla{
+    background-color: beige;
+}
+/* 
 #cambioimagen img{
     text-align: center;
     height: "200px";
     width: "200px";
-}
+} */
 
 #tablamulti{
     text-align: center;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding-left: 100px;
 }
