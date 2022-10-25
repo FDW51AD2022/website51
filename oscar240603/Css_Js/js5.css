@@ -1,7 +1,18 @@
+body{
+    background-image: linear-gradient(90deg, rgb(70, 70, 167), rgb(206, 194, 216));
+}
+
 #formulario{
     text-align: center;
     display: grid;
+    width: 600px;
+    gap: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-template-columns: 300px 300px;
     grid-template-areas:
+    "encabezado encabezado"
     "num1 num2"
     "valor1 valor2"
     "sumar restar"
@@ -43,4 +54,31 @@
 
 .resul{
     grid-area: resul;
+}
+
+.encabezado{
+    grid-area: encabezado;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+}
+
+.img{
+    display: grid;
+    text-align: center;
+    grid-template-areas: 
+    "titulo titulo"
+    "img img"
+    "boton boton";
+}
+
+.titulo{
+    grid-area: titulo;
+}
+
+.img{
+    grid-area: img;
+}
+
+.boton{
+    grid-area: boton;
 }
