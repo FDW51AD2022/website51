@@ -1,12 +1,12 @@
 body{
     padding-top: 20px;
-    background-color: floralwhite;
+    background-color: #EDE4E0;
 }
 
 h1{
     text-align: center;
     font-family: impact;
-    font-size: 50px;
+    font-size: 80px;
     color: cadetblue;
     -webkit-text-stroke: 1px black ;
 }
@@ -19,5 +19,34 @@ h2{
 
 
 #calculadora{
+    background-color: #C8FFD4;
     font-family: Tahoma;
+    text-align: center;
+}
+
+#cambioimagen{
+    font-family: Tahoma;
+    text-align: center;
+    background-color: #BCCEF8;
+}
+
+#tabla{
+    background-color: beige;
+}
+/* 
+#cambioimagen img{
+    text-align: center;
+    height: "200px";
+    width: "200px";
+} */
+
+#tablamulti{
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding-left: 100px;
 }
