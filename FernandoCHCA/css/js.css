@@ -17,3 +17,21 @@ body{
 a{
     font-size: 20px;
 }
+
+/* JS6 */
+
+.js6_imagenes{
+    margin-bottom: 60px;
+}
+
+.js6_crud {
+    margin-bottom: 60px;
+}
+
+.img {
+    border: #4649FF solid;
+}
+
+.img_datos {
+    margin-bottom: 20px;
+}

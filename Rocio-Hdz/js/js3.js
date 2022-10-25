@@ -1,22 +1,19 @@
-const nueroperfecto = (num) => {
-    if (typeof num === `number`) {
-        num = Math.floor(num)
-        let divisores =[]
-        const num2 = num/2
-        for(let i = 0; i <= num2; i++){
-            if(num % i ===0){
-                divisores.push(i)
+numero = Number(prompt("Ingresa la cantidad de números a mostrar:"))
+
+document.write("Ingrese los números a mostrar: ",numero)
+
+encontrado = 0;
+for(i = 1; encontrado <= numero-1; i++){
+    if(i % 2 == 0){
+        for((j = (i / 2));(j >= 1); j--){
+            if(i % j == 0){
+                auxEntero = auxEntero + j;
             }
         }
-        const sumadivisores= divisores.reduce((pre, curr) => prev + curr) 
-        if (sumadivisores === num) {
-            return sumadivisores
-        } else {
-            return 0
-        }
-    }else{
-        console.error(`Ingrese solo numeros enteros:`)
+        if(auxEntero == i){
+            document.write("<br/> El resultado de numero perfecto es: ",auxEntero);
+            encontrado++
+            }
     }
+    auxEntero = 0;
 }
-console.log(numeroperfecto);
-console.log("El resultado es:", numeroperfecto[0]);
