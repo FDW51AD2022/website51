@@ -1,24 +1,24 @@
-console.log("hola javascript");
+console.log("hola Javascript");
 console.warn("mensaje");
-console.error("error");
-console.log("tipo de 34:"+typeof 34);
-console.log(`tipo de 34: ${typeof 34}.`);
+console.error("fatal error");   
+console.log("tipo de dato de 34:" + typeof 34 + ".");
 
-console.log(`Ejemplo con operador logico ${ !5 > 2 || 3 < 1 }`);
+console.log(`tipo de 34: ${ typeof 34}.`)
 
-console.log( 10 < 2 ? " parte verdadera":"parte falsa");
+console.log(`Ejemplo con operador logico ${ !5 > 2 || 3 < 1}.`);
 
-// declaracion de variables
+console.log(10 < 2 ? "parte verdadera": "parte falsa");
+
+//declaracion de variables //
 
 let temp = 10;
 
 let mensaje;
 
-mensaje = temp < 10 ? "Llevar chamarra" : "no llevar chamarra";
+mensaje = temp < 10 ? "LLevar chamarra" : "No llevar Chamarra";
+
 console.log(mensaje);
 
+const SEMESTRE = 9;
 
-const SEMESTRES = 9;
-SEMESTRES = 3;
-
-
+SEMESTRE = 3;
