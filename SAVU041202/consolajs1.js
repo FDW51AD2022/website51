@@ -1,4 +1,4 @@
-console.log("Hola javascript");
+console.log("Hola Javascript");
 
 console.warn("Mensaje");
 
