@@ -1,4 +1,4 @@
-function verImagen() {
+function Imagenes() {
     let num  = parseInt(document.getElementById("num").value);
     let imagen = document.getElementById('img');
 
