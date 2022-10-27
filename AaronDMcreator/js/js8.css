@@ -1,0 +1,17 @@
+body {
+    background-size: cover;
+    font-family: sans-serif;
+  }
+
+
+  .dest{
+    background: #0fb856;
+    color: #fff;
+    border-radius: 20px;
+    margin-left: 8.5em;
+    padding: 10px;
+}
+
+p{
+    font-family: sans-serif;
+}
