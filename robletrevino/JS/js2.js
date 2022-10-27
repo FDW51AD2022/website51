@@ -1,11 +1,3 @@
-/* let apps = ['windows 10', 'vscode', 'oracle']
-
-let computadora = {
-    "marca": "hp",
-    "discoDuro": "1tb",
-    "precio": 12000,
-    "softwareInstalado" : apps
-} */
 
 let alumnos = ["mario","luis"];
 
@@ -28,7 +20,7 @@ console.log("Primer Alumno", grupo51.alumnos[0]);
 document.write("<marquee>mensaje</marquee>");
 document.write(`<ul><li>Elemento</li></ul>`);
 
-//Ejemplo if
+
 
 let calif = 905;
 if (calif >= 95 && calif <=100) {
