@@ -63,23 +63,42 @@ body{
     font-size: 4em;
 }
 
-.img{
+.contenedor{
     display: grid;
     text-align: center;
-    grid-template-areas: 
-    "titulo titulo"
-    "img img"
-    "boton boton";
+    display: grid;
+    width: 600px;
+    gap: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-template-areas:
+    "numeros numeros"
+    "boton boton"
+    "imagen imagen";
 }
 
-.titulo{
-    grid-area: titulo;
-}
-
-.img{
-    grid-area: img;
+.numeros{
+    grid-area: numeros;
 }
 
 .boton{
     grid-area: boton;
+}
+
+.imagen{
+    grid-area: imagen;
+    height: 200px;
+}
+
+.imagen img{
+    height: 200px;
+    width: auto;
+}
+
+header{
+    justify-content: center;
+    grid-area: encabezado;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em; 
 }

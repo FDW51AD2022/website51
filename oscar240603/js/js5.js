@@ -26,7 +26,7 @@ function dividir(){
 
 }
 
-function imagen() {
+function verImagen() {
     let num  = parseInt(document.getElementById("num").value);
     let imagen = document.getElementById('img');
 
