@@ -24,12 +24,22 @@
         <p class="resul">El resultado es: <span id="resultado"></span></p>
     </form>
 
-    <form class="img">
-        <header class="titulo"> IMAGENES </header>
-        <input type="text" class="img" autofocus placeholder="Introduce un numero del 1 al 5 para ver una imagen">
-        <button class="boton">Ver imagen</button>
-
-    </form>
+    
+    <div class="contenedor">
+        <div class="numeros">
+            <header>IMAGENES</header>
+            <label for="num">Introduce un numero del 1 al 5</label>
+            <input type="text" name="num" id="num">
+        </div>
+        <br>
+        <div class="boton">
+            <button onclick="verImagen()">Ver imagen</button>
+        </div>
+        <br>
+        <div class="imagen">
+            <img src="" alt="" id="img">
+        </div>
+    </div>
     <script src="js/js5.js"></script>
 </body>
 </html>

@@ -1,5 +1,3 @@
-/*funciones*/
-
 function calculadora(numero1,numero2,ope){
     if(ope == "+") {
         let result=numero1+numero2
@@ -19,7 +17,6 @@ function calculadora(numero1,numero2,ope){
     }
 }
 
-/* definimos una funcion anonima*/
 
 function calcular(){
     let numero1 = parseInt(document.getElementById("num1").value);
