@@ -57,6 +57,7 @@ body{
 }
 
 .encabezado{
+    justify-content: center;
     grid-area: encabezado;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 4em;
