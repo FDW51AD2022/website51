@@ -1,3 +1,6 @@
+
+window.alert("    Cantidad de divisores de cualquier número   ");
+
 /* Funciones */
 
 function divisores(numero){

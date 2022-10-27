@@ -47,13 +47,12 @@ header nav a:hover {
   
   .form-register {
     width: 400px;
-    height: 250px;
     background: #FF9A8C;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
     border-radius: 4px;
-    font-family: 'calibri';
+    font-family: 'optima';
     color: #CE1F6A;
     box-shadow: 7px 13px 37px #C67ACE;
   }
@@ -71,15 +70,6 @@ p {
     text-align: center;
     font-size: 18px;
     line-height: 40px;
-  }
-  .form-register .botons {
-    width: 100%;
-    background: #E6B325;
-    border: none;
-    padding: 12px;
-    color: rgb(2, 2, 2);
-    margin: 16px 0;
-    font-size: 16px;
   }
 
   @media screen and (max-width: 800px) {
