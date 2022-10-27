@@ -13,8 +13,8 @@ function Selector_de_waifus() {
     } else if (numero_de_waifu == 5) {
         imagen_waifu.src = "imagenes/quetzacoalt.webp";
     } else if (numero_de_waifu == 6) {
-        imagen_waifu.src = "imagenes/yor.jpg";
+        imagen_waifu.src = "imagenes/Yor1.jpg";
     } else {
-        imagen_waifu.src = "imagenes/rem.jpg";
+        imagen_waifu.src = "imagenes/Rem.jpg";
     }
 }
