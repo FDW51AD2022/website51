@@ -26,8 +26,14 @@
 
     <form class="img">
         <header class="titulo"> IMAGENES </header>
-        <input type="text" class="img" autofocus placeholder="Introduce un numero del 1 al 5 para ver una imagen">
-        <button class="boton">Ver imagen</button>
+        <div>
+            <input type="text" name="numa" id="img" autofocus placeholder="Introduce un numero del 1 al 5 para ver una imagen">
+            <button class="boton" onclick="imagen()">Ver imagen</button>
+        </div>    
+        <div>
+             <img src="" alt="" id="img">
+        </div>
+        
 
     </form>
     <script src="js/js5.js"></script>
