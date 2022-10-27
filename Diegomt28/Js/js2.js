@@ -27,3 +27,15 @@ if (calif >= 95 && calif <= 100) {
 } else {
     console.log("No excelente")
 }
+
+horasTrabajadas = Number(prompt("Ingresa las horas trabajadas:"))
+pagoPorHora = Number(prompt("Ingrese el pago por hora:"))
+if (horasTrabajadas > 40){
+    horasExtra = horasTrabajadas-40;
+    console.log("Tiene horas extra:",horasTrabajadas-40);
+    console.log("El total de horas extra a pagar es:",horasExtra*3*pagoPorHora)
+    console.log("Total a pagar es:",(horasTrabajadas*pagoPorHora)+(horasExtra*3*pagoPorHora))
+} else {
+    console.log("No tiene horas extras")
+    console.log("Total a pagar:",horasTrabajadas*pagoPorHora)
+}
