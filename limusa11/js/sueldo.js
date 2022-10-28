@@ -1,6 +1,9 @@
+/*Alerta*/
+window.alert("Calcular el total a pagar a un Empleado. Solicitar numero de horas trabajadas y el pago por hora.Si el trabajador tiene horas extra pagarlas al triple. Se consideran horas normales las primeras 40 hrs.   ");
+
 const calcularTotales = (pago, horasTrabajadas) => {
     if (horasTrabajadas > 40) {
-        let totalPagoExtra = (horasTrabajadas - 40) * pago * 2;
+        let totalPagoExtra = (horasTrabajadas - 40) * pago * 3;
         let totalPago = 40 * pago;
         document.querySelector(
             "#resultado"
