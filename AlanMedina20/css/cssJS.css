@@ -1,0 +1,48 @@
+#navegador ul{
+    background-color: rgb(105, 103, 233);
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+#navegador ul li{
+    margin: 1em 1.5em;
+}
+
+.uno {
+    color: rgb(0, 0, 0);
+    font-family: Calibri;
+}
+
+.uno:link {
+    text-decoration: none;  
+}
+
+.uno:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 252, 252);
+    text-decoration: none;  
+}
+
+body {
+    background-color: rgb(205, 205, 236);
+}
+ul{
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+h1 {
+    font-family: Calibri;
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+}
