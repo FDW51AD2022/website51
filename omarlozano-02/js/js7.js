@@ -3,14 +3,14 @@ function cambiarImagen() {
   let imagen = document.getElementById("img");
 
   if (num_imagen == 1) {
-    imagen.src = "evidencia2/recursos/Bad_Bunny.png";
+    imagen.src = "recursos/img/consulta.jpg";
   } else if (num_imagen == 2) {
-    imagen.src = "evidencia2/recursos/Taylor_Swift.jpg";
+    imagen.src = "recursos/img/en_crisis.jpg";
   } else if (num_imagen == 3) {
-    imagen.src = "evidencia2/recursos/Billie_Eilish.jpg";
+    imagen.src = "recursos/img/tienda.jpg";
   } else if (num_imagen == 4) {
-    imagen.src = "evidencia2/recursos/Rosalia.jpg";
+    imagen.src = "recursos/img/vacunandoPerrito.jpg";
   } else {
-    imagen.src = "evidencia2/recursos/Shawn.jpg";
+    imagen.src = "recursos/img/vacunas.jpg";
   }
 }

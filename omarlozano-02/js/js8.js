@@ -1,9 +1,19 @@
 function tabla() {
+    
   let num = document.getElementById("num").value;
-  num = parseInt(num);
-
-  for (var i = 1; i <= 10; i++) {
+  
+  if(num != ""){
+    num = parseInt(num);
+    document.getElementById("tabla").innerHTML = "";
+    let tabla = "";
+    for (var i = 1; i <= 10; i++) {
     multiplicacion = num * i;
-    document.write(num + "x" + i + "=" + multiplicacion + "<br>");
+    tabla += num + "x" + i + "=" + multiplicacion + "<br>";
+    }
+    document.getElementById("tabla").innerHTML = tabla;
+  }else{
+
+    alert("Ingresa un valor")
   }
+  
 }
