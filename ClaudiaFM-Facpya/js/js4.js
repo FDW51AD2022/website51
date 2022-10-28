@@ -1,4 +1,3 @@
-
 /* Funciones */
 
 function divisores(numero){
@@ -34,6 +33,7 @@ const divisoresv3 = numero => {
     return total;
 };
 
+
 function calcular(){
     let numero =  parseInt(document.getElementById("num").value);
     let resultado = document.getElementById("resul");
@@ -44,3 +44,4 @@ function calcular(){
 console.log("Numero de divisores: ",divisores(10));
 console.log("Numero de divisores: ", divisoresV2(10));
 console.log("Numero de divisores: ", divisoresv3(10));
+
