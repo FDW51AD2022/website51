@@ -1,17 +1,8 @@
 let cant_numeros = 4;
-
-
 let num_divisores = [];
-
-
 let numeros_perfectos = [];
-
-
 let numero = 1;
-
 while (true) {
-
-    
     for (let divisor = 1; divisor < numero; divisor++) {
         if (numero%divisor == 0) {
             num_divisores.push(divisor);
