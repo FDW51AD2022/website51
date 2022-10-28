@@ -1,0 +1,18 @@
+body{
+    padding-top: 20px;
+    background-color: #FFF5E4;
+}
+
+h1{
+    text-align: center;
+    font-family: impact;
+    font-size: 80px;
+    color: #CD104D;
+    -webkit-text-stroke: 1px #E14D2A ;
+}
+
+#calculadora{
+    background-color: #FFE3E1;
+    font-family: Tahoma;
+    text-align: center;
+}

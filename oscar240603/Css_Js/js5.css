@@ -102,3 +102,35 @@ header{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 4em; 
 }
+
+.contenedor2{
+    text-align: center;
+    display: grid;
+    width: 600px;
+    gap: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-template-areas: 
+    "header header"
+    "label label"
+    "form form"
+    "multi mutli";
+}
+
+.header{
+    grid-area: header;
+}
+
+.label{
+    grid-area: label;
+}
+
+.form{
+    grid-area: form;
+}
+
+.multi{
+    grid-area: multi;
+    width: 80%;
+}
