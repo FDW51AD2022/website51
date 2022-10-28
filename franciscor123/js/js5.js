@@ -45,3 +45,8 @@ console.log("divisores",divisores(33));
 console.log("divisores V2",divisoresV2(33));
 console.log("divisores V3",divisoresV3(33));
 
+
+
+
+
+

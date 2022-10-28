@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript 5</title>
+    <link rel="stylesheet" href="CSS/js5.css">
+    
 </head>
 <body>
     <h1>Javascript 5</h1>
-    <link rel="stylesheet" href="CSS/js5.css">
+    
 
     <!-- CALCULADORA
         Numero _________________
@@ -45,7 +47,7 @@
                 <label for="resul">Resultado</label>
                 <input type="text" name="numero" id="resul">
             </div>
-
+<br>
             <div>
                 <button onclick="calcular()">Calcular</button>
             </div>
@@ -59,7 +61,7 @@
         <   Ver imagen  >          -->
 
     <h2>----------------Cambio de imagenes----------------</h2>
-    <div>
+    <div id="cambioimagen">
         <label for="imagen">Imagenes</label>
         <select name="imagen" id="imagen">
             <option value="1" >1. Kim Namjoon</option>
@@ -85,12 +87,12 @@
         <   Ver tabla   >-->
     
     <h2>----------------Tabla de multiplicar----------------</h2>
-    <div>
+    <div id="tablamulti">
         <label for="multi">Tabla del: </label>
         <input type="text" name="multi" id="multi">
         <button onclick="tabla()">Ver tabla</button>
     </div>
-    
+
     <script src="js/js5.js"></script>
 
 </body>

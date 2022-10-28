@@ -15,4 +15,3 @@ console.log(mensaje);
 
 //Declaración de Constantes
 const SEMESTRES = 9;
-SEMESTRES = 3;

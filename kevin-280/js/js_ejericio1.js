@@ -1,17 +1,8 @@
 let cant_numeros = 4;
-
-
 let num_divisores = [];
-
-
 let numeros_perfectos = [];
-
-
 let numero = 1;
-
 while (true) {
-
-    
     for (let divisor = 1; divisor < numero; divisor++) {
         if (numero%divisor == 0) {
             num_divisores.push(divisor);
@@ -37,7 +28,7 @@ while (true) {
   
     numero = numero + 1;
 }
-console.log("La cantidad de numeros perfectos solicitados fue de: " + cant_numeros + " y son los siguientes")
+console.log("Numero perfectos:  " + cant_numeros + " son: ")
 console.log(numeros_perfectos);
 
 document.write(`<h2> ${numeros_perfectos} </h2>`);
