@@ -22,8 +22,9 @@ console.log(mensaje)
 //declaracion de costantes
 const FACTOR = 1.45;
 const VAL = 1500;
-
 const SEMESTRES = 9;
-SEMESTRES = 3;
+console.log(FACTOR)
+console.log(VAL)
+console.log(SEMESTRES)
 
 

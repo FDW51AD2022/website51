@@ -4,25 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>javascript 6</title>
 </head>
 <body>
-    <h1>Programa Mostrar imagen</h1>
-
-    <div>
-        <div>
-            <label for="num">Numero de imagen </label>
-            <input type="text" name="num" id="num">
-        </div>
-        <div>
-            <button onclick="seleccion()">Imagen</button>
-        </div>
-        <div>
-            <img src="" alt="" name="imagen" id="imagen"> 
-        </div>
     
+    <div>
+        <h1>Programa Mostrar imagen</h1>
+
+        <div>
+            <label for="Seleccionar">Seleccionar Imagen</label>
+            <select name="" id="imagen1">
+                <option value = 1>imagen 1</option>
+                <option value = 2>imagen 2</option>
+                <option value = 3>imagen 3</option>
+                <option value = 4>imagen 4</option>
+                <option value = 5>imagen 5</option>
+            </select>
+        </div>
+
+        <div>
+            <button onclick = Mostrar_Img()>Ver Imagen</button>
+        </div>
+
+        <div>
+            <img src="javascript/img/1.jfif" alt="" id="img">
+        </div>
     </div>
 
     <script src="javascript/js6.js"></script>
 </body>
-</html>
