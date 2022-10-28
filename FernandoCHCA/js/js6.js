@@ -70,3 +70,17 @@ function calcular() {
     
     resultado.value = operaciones_logicas(numero1, numero2, operador);
 }
+
+// Como hacer las tablas del 1 al 10?
+function tablas(){
+    let numero_tabla = parseInt(document.getElementById("resul_Tabla").value);
+    if (numero_tabla < 1 || numero_tabla > 10) {
+        Respuesta_tabla = 'Solo se acepta hasta del 1 al 10, vuelva a intentarlo';
+        return Respuesta_tabla;
+    }
+    document.write("<table border='1'><tr><td>Número</td><td>Resultado</td></tr>");
+    for(i=0; i<=10; i++){
+        document.write("<tr><td>"+numero_tabla+" x " + i +"</td><td>" + numero_tabla * i + "</td> </tr>");
+    }
+    document.write("</table>");
+}

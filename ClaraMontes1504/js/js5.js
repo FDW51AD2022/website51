@@ -31,7 +31,7 @@ function imagenes(){
     let cambiar = document.getElementById("cambiar");
 
     if (imagen == 1){
-        cambiar.innerHTML = '<img src="Evidencia2/Recursos/namjoon.jpg" alt="">';
+        cambiar.innerHTML = '<img src="./namjoon.jpg" alt="">';
     }
     else if (imagen == 2){
         cambiar.innerHTML = '<img src="Evidencia2/Recursos/jin.jpg" alt="">';
@@ -48,13 +48,15 @@ function imagenes(){
     else if (imagen == 6){
         cambiar.innerHTML = '<img src="Evidencia2/Recursos/tae.jpg" alt="">';
     }
-    else{
+    else
         if (imagen == 6){
             cambiar.innerHTML = '<img src="Evidencia2/Recursos/jk.jpg" alt="">';
     }
 }
 
+
 /* TABLA DE MULTIPLICAR */
+
 function tabla() {
     let multi = document.getElementById("multi").value;
     multi = parseInt(multi);
@@ -64,7 +66,3 @@ function tabla() {
         document.write(multi + "x" + i + "=" + multiplicacion + "<br>");
     }
 }
-
-
-
-

@@ -5,33 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascrip 6</title>
+    <link rel="stylesheet" href="css/js6.css">
 </head>
 <body>
-    <h1>Javascrip 6</h1>
+    <h1>JAVASCRIPT 6</h1>
+    <p style="text-align: center">CALCULADORA </p>
 
-    <div>
+    <div id="calculadora">
         <div>
-            <label for="num">Numero</label>
-            <input type="text" name="num" id="num">
+            <label for="">Numero</label>
+            <input type="text" name="" id="num">
         </div>
 
         <div>
-            <label for="num2">Numero</label>
-            <input type="text" name="num2" id="num2">
+            <label for="resul">Numero 2</label>
+            <input type="text" name="" id="num2">
         </div>
 
         <div>
-            <label for="operacion">Operación</label>
-            <input type="text" name="operacion" id="operacion">
+            <label for="">Operación</label>
+            <select type="text" name="" id="operacion">
+                <option value="+" >+</option>
+                <option value="-" >-</option>
+                <option value="*" >*</option>
+                <option value="/" >/</option>
+            </select>
         </div>
 
         <div>
-            <label for="resultado">Resulatdo</label>
-            <input type="text" name="resultado" id="resultado">
+            <label for="resul">Resultado</label>
+            <input type="text" name="" id="resul">
         </div>
 
-
+        <div>
+            <button onclick="calcular()">Calcular</button>
+        </div>
 
     </div>
+
+    <script src="js/js6.js"></script>
 </body>
 </html>

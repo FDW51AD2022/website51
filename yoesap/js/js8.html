@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Multiplicar</title>
+</head>
+<body>
+    <a href="yoesap_index.html">Regresar</a></li>
+
+    <!--
+    En el siguiente programa le solicitamos al usuario que inrgese un numero del 1 al 10 para que posteriormente se muestre la tabla
+-->
+
+<!-- Con fieldset agrupamos la estrucutura-->
+	<fieldset>
+		<legend> Crear tabla de multiplicar dado un número </legend>
+		<label for""> ¿Que tabla de multiplicar desea que se muestre en la pagina:</label>
+		<input type="text" id="txtN1">
+        <br><br>
+        <input type="button" onclick="Generar();" value="Generar">
+
+	</fieldset>
+
+<!-- Creamos el Bucle For-->
+    </body>
+    <script>
+        function Generar() {
+            var tabla = document.getElementById('txtN1').value;
+            for (var i = 0; i < 11; i++) {
+                document.write(""+tabla+" X "+i+" = "+(i*tabla)+"<br>");
+            }
+        }
+    </script>
+</html>
+
