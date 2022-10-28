@@ -1,0 +1,15 @@
+.contenedor-formulario{
+    width: 100%;
+}
+
+.form-formulario{
+    background: #f7f7f7;
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.form-formulario input,textarea{
+    width: 100%;
+}
+

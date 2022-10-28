@@ -29,6 +29,9 @@ p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
 }
+em {
+    color: rgb(18, 54, 215);
+}
 
 h2 {
     color: white;

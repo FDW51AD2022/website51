@@ -1,3 +1,32 @@
+body{
+    display: grid;
+    grid-template-columns: 2fr .5fr;
+    grid-template-areas: 
+    "head head"
+    "article aside" 
+    "footer footer";
+}
+
+header{
+    grid-area: head;
+}
+
+article{
+    grid-area: article;
+}
+
+aside{
+    width: 250px;
+    margin-right: 5em;
+    display: inline-block;
+    width: 415px;
+    min-height: 400px;
+    grid-area: aside;
+}
+
+footer{
+    grid-area: footer;
+}
 
 h2 {
     color: rgb(233, 67, 175);
@@ -14,7 +43,8 @@ h3 {
 }
 
 h4 {
-    color: rgb(0, 0, 0);
+    color: rgb(94, 80, 115);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 35px;
 }
 
@@ -29,7 +59,6 @@ h4 {
     text-align: center;
 }
 
-
 #site-menu {
     display: flex;
     margin: 5;
@@ -37,12 +66,19 @@ h4 {
     height: 5vh;
     text-align: center;
     background-color: rgb(244, 201, 222);
+    justify-content: space-around;
+}
+
+a[
+    href*="valeriacortes2319"
+]{
+    text-decoration: none;
 }
 
 #l1 {
     /* flex-grow: 2; */
     order: 1;
-    flex-basis: 500px;
+    flex-basis: 300px;
     flex-shrink: 0;
     align-self: center;
     font-size: 25px;
@@ -52,7 +88,7 @@ h4 {
 #l2 {
     /* flex-grow: 2; */
     order: 2;
-    flex-basis: 500px;
+    flex-basis: 300px;
     flex-shrink: 0;
     align-self: center;
     font-size: 25px;
@@ -62,7 +98,7 @@ h4 {
 #l3 {
     /* flex-grow: 3; */
     order: 3;
-    width: 500px;
+    width: 300px;
     align-self: center;
     font-size: 25px;
     color: #fac9d9;
@@ -71,7 +107,7 @@ h4 {
 #l4 {
     /* flex-grow: 3; */
     order: 4;
-    width: 500px;
+    width: 300px;
     align-self: center;
     font-size: 25px;
     color: #fac9d9;
@@ -80,20 +116,10 @@ h4 {
 #l5 {
     /* flex-grow: 3; */
     order: 5;
-    width: 500px;
+    width: 300px;
     align-self: center;
     font-size: 25px;
     color: #fac9d9;
-}
-
-aside{
-    width: 250px;
-    float: right;
-    margin-right: 5em;
-    display: inline-block;
-    width: 415px;
-    min-height: 400px;
-    background: #ad969d;
 }
 
 #final{

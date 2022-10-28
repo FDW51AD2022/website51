@@ -26,6 +26,10 @@ pre {
     justify-content: center;
 }
 
+body {
+    background-color: mistyrose;
+}
+
 /* Menu */
 
 .hero{

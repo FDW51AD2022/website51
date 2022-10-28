@@ -7,7 +7,7 @@
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     flex-flow: row wrap;
-    height: 100px;
+    height: 210px;
 
     justify-content: space-around;
     align-content: space-between;
@@ -26,10 +26,10 @@
 }
 
 #info img{
-    width: 280px;
+    width: 220px;
     float: left;
     margin-left: 1em;
     border-radius: 500%;
-    height: 280px;
+    height: 204px;
     font-size: 1rem; 
 }

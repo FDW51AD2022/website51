@@ -4,6 +4,9 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     min-height: 100vh;
 }
+.titulo:hover{
+  background-color:pink;
+}
 h1{
     font-size:30px;
     text-align: center;
@@ -37,4 +40,10 @@ h1{
    float: right;
    margin: 40px 230px;
    
+  }
+  .nombre{
+    border-bottom: 2px solid yellowgreen;
+  }
+  .apellidos{
+    border-radius: 2px solid yellowgreen;
   }

@@ -1,0 +1,86 @@
+#site-menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 40vh;
+    background-color: gray;
+}
+
+#l1 {
+    /* flex-grow: 2; */
+    order: 3;
+    width: 500px;
+    flex-basis: 500px;
+    /* flex-shrink: 0; */
+    align-self: center;
+}
+
+#l2 {
+    /* flex-grow: 3; */
+    order: 2;
+    width: 500px;
+    align-self: flex-end;
+}
+
+#I3 {
+    /* flex-grow: 2; */
+    order: 1;
+}
+
+/* Mini page 1 */
+
+#mini-page header {
+    background-color: red;
+}
+
+#mini-page article {
+    background-color: blue;
+}
+
+#mini-page aside {
+    background-color: pink;
+}
+
+#mini-page footer {
+    background-color: purple;
+    grid-column: 1 / -1;
+}
+
+#mini-page {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /* grid-template-rows: 200px 100px; */
+    gap: 1em;
+}
+
+/* Mini page 2 */
+
+#mini-page-2 header {
+    background-color: red;
+    grid-area: enc; 
+}
+
+#mini-page-2 article {
+    background-color: blue;
+    grid-area: cont;
+}
+
+#mini-page-2 aside {
+    background-color: pink;
+    grid-area: barra;
+}
+
+#mini-page-2 footer {
+    background-color: purple;
+    grid-area: pie;
+}
+
+#mini-page-2 {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /* grid-template-rows: 200px 100px; */
+    gap: 1em;
+    grid-template-areas:    "enc barra"
+                            "cont barra"
+                            "pie barra";
+}

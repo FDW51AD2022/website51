@@ -37,12 +37,20 @@
 }
 
 footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(102, 90, 21);
     text-align: center;
-    background-color: rgb(255, 217, 0);
-    font-size: 17px;
-    padding: 5px
+    width: 100%;
+    margin: 0%;
+    list-style: none;
+    padding: 0%;
 }
 
-
-
-
+pre{
+    flex-direction: column;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}

@@ -1,7 +1,7 @@
 .tabla {
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -9,8 +9,6 @@ table {
     width: 900px; 
     height: 400px; 
     background-color: #c7befd;
-
-    
 }
 
 header {
@@ -19,6 +17,10 @@ header {
     background:#EDE4E0;
     align-items: center;
     text-align: center;
+}
+
+body {
+    background-color: rgb(248, 249, 220);
 }
 
 /* Menu */
@@ -94,4 +96,3 @@ header {
 .nav__close{
     display: var(--show, none);
 }
-

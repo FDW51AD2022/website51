@@ -45,6 +45,12 @@ body{
     padding: 15px;
 }
 
+#frase{
+    text-align: center;
+    background-color:rgb(253, 203, 253) ;
+}
+
+
 #Pie{
     text-align: center;
     background-color:#f2f2f200;

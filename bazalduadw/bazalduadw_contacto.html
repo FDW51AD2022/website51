@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto | Baza Clothing</title>
+    <link rel="stylesheet" href="css/ev2_main_styles.css">
+    <link rel="stylesheet" href="css/ev2_contacto_styles.css">
+    
 </head>
 <body>
     <header>
@@ -16,7 +19,7 @@
             <nav class="menu">
                 <a href="bazalduadw_EV2_index.html">Inicio</a>
                 <a href="bazalduadw_nosotros.html">Nosotros</a>
-                <a href="tienda.html">Tienda</a>
+                <a href="bazalduadw_tienda.html">Tienda</a>
                 <a href="bazalduadw_sucursales.html">Sucursales</a>
                 <a href="#">Contacto</a>
             </nav>
@@ -30,7 +33,31 @@
     </section>
 
     <main>
+        <section class="formulario p50">
+            <div class="contenedor contenedor-formulario">
+                <h2 class="text-center">Envianos un <em>mensaje</em></h2>
+                <form class="form-formulario">
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"><br><br>        
+                    <label for="correo" style="font-family:tahoma;">Correo Electrónico:</label><br>
+                    <input type="email" id="correo" name="correo" placeholder="Escribe tu correo"><br><br>
+                    <label for="mensaje">Escribe un mensaje:</label><br>
+                    <textarea name="mensaje"></textarea><Br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
 
+        <section class="fotos p50">
+            <div class="contenedor contenedor-fotos">
+                <div class="foto-contenedor">
+                    <img src="recursos/baza clothing coleccion de ropa.jpg" alt="Coleccion de ropa">
+                </div>
+                <div class="foto-contenedor">
+                    <img src="recursos/baza clothing diseño.jpg" alt="Diseñando una coleccion">
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="p50 bg-gris">
@@ -53,7 +80,7 @@
                 <ul>
                     <a href="bazalduadw_EV2_index.html"><li>Inicio</li></a>
                     <a href="bazalduadw_nosotros.html"><li>Nosotros</li></a>
-                    <li>Tienda</li>
+                    <a href="bazalduadw_tienda.html"><li>Tienda</li></a>
                     <a href="bazalduadw_sucursales.html"><li>Sucursales</li></a>
                     <a href="#"><li>Contacto</li></a>
                 </ul>

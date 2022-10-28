@@ -1,0 +1,75 @@
+body {background-color: rgb(235, 245, 251);
+    color: rgb(57, 155, 136);
+    font-family: 'Verdana';
+    display: grid;
+    grid-template-columns: 2fr .5fr;
+    grid-template-areas: "section aside"
+    "section aside"
+    "section aside";
+}
+
+h1 {background-color:rgb(209, 242, 235);
+    color: rgb(69, 179, 157);
+    font-family: 'Verdana';
+    font-size: 50px;}
+
+section {grid-area: section;}
+
+aside {display: inline-block;
+    width: 390px;
+    min-height: 300px;
+    background-color: azure;
+    grid-area: aside;
+}
+
+#Casos img {
+    float: center;
+    width: 350px;
+    margin-right: 1em;
+    border-radius: 20px;
+}
+
+#Variantes img {
+    float: center;
+    width: 500px;
+    margin-right: 1em;
+    border-radius: 20px;
+}
+
+cite {font-size: 13px;
+}
+
+h2 {color: rgb(69, 179, 157);
+    font-family: 'Verdana';
+    font-size: 25px;
+}
+
+span {font-family: 'Century Gothic';
+    font-size: 20px;
+}
+
+h3 {background-color:rgb(213, 245, 227);
+    color: rgb(31, 97, 141);
+    font-family: 'Verdana';
+    font-size: 25px;}
+
+h4 {background-color:rgb(213, 245, 227);
+    color: rgb(31, 97, 141);
+    font-family: 'Verdana';
+    font-size: 25px;}
+
+h5 {background-color:rgb(213, 245, 227);
+    color: rgb(31, 97, 141);
+    font-family: 'Verdana';
+    font-size: 25px;}
+
+h6 {background-color:rgb(213, 245, 227);
+    color: rgb(31, 97, 141);
+    font-family: 'Verdana';
+    font-size: 25px;}
+
+p {font-size: 20px;}
+
+blockquote {color: rgb(31, 97, 141);
+    font-family: 'Century Gothic';
+    font-size: 20px;}

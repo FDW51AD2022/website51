@@ -1,0 +1,40 @@
+#info img{
+    width: 250px;
+    float: left ;
+    margin-right: 1em;
+
+}
+#nav-main ul{
+    background-color: darkolivegreen;
+
+}
+#nav-main ul li{
+    float: left;
+    width: 20%;
+}
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+
+}
+
+
+#nav-main-2 ul{
+    text-decoration: none;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+
+    flex-flow: column wrap;
+    height: 400px;
+    justify-content: space-around;
+    align-content: center;
+
+
+}
+#nav-main-2 ul li{
+    margin: 1em 1.5em;
+}

@@ -1,0 +1,144 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+    box-sizing: border-box;
+	font-size: 100%;
+}
+
+body {
+	background: #fad1d1;
+	color: rgb(255, 255, 255);
+	font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+	text-align: center;
+}
+
+.productos {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+
+.imagenes_productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+
+.imagen {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;	
+}
+
+.imagen .texto {
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;	
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+h1 {
+    color: black;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+}
+
+h3,p {
+    background-color: #FF9494;
+}
+
+/* Menu */
+
+.hero {
+    width: 100%;
+    position: relative;
+    display: grid;
+}
+
+/* Nav */
+
+.nav {
+    --padding-container:0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.nav_container {
+    align-items: center;
+    text-align: center;
+}
+/* .nav_title{
+    position: fixed;
+    padding-bottom: 550px;
+} */
+
+.nav__link {
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: max-content;
+    column-gap: 0px;
+}
+
+.nav__link li a {
+    text-decoration: none;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.nav__link li a:hover {
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.nav__items {
+    list-style: none;
+}
+
+.nav__links {
+    color: black;
+    text-decoration: none;
+}
+
+.nav__close {
+    display: var(--show, none);
+}

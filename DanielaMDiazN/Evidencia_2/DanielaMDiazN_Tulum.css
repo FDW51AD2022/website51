@@ -116,3 +116,19 @@ a{
     float: left;
     margin-right: 1em;
 }
+
+#pagina{
+    float:inline-start;
+    width: 200px;
+    height: 100px;
+
+}
+
+#mapa{
+    float: inline-end;
+}
+
+#info{
+    float: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

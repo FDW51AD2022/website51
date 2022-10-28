@@ -1,0 +1,33 @@
+body{
+    background-image: url(Imagenes.css/fondo.jpg);
+    background-size: cover;
+}
+
+h1{text-align: center;
+
+}
+
+h1{
+    color: black;
+    background-color:white
+
+}
+
+h2{
+    color:white;
+    background-color:#e45590;
+    
+}
+
+#info img {
+    width: 200px;
+    float: right;
+    margin-right: 1em;
+    border-radius: 50%;
+
+}
+
+h3{
+    float:left;
+}
+

@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*ul principal del nav*/
+.menu{
+    position: fixed;
+}
+.lista{
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    background-color: transparent;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+}
+
+.li a{
+    padding: 1rem;
+}
+
+
+@media screen and (min-width: 768px) {
+    .lista{
+        flex-direction: row;
+    }
+}
+
+li{
+    padding: 1em;
+}
+
+.link{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+section{
+    margin-top: 0;
+    height: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 40px;
+    align-items: center;
+}
+
+
+section h2{
+    font-size: 50px;
+    font-weight: 500px;
+    margin-bottom: 5px;
+}
+
+
+/*estilo para secciones con efecto*/
+
+html{
+    scroll-behavior: smooth;
+}
+section .oferta{
+    width: 400px;
+    font-weight: 300px;
+    margin-bottom: 15px;
+}
+
+/*Sombra para imagen*/
+section img{
+    height: 60%;
+    box-shadow: 0 1rem 2rem rgb(0, 0, 0, 0.568);
+}
+
+/*Ordenes de secciones sobre las secciones que se va a trabahar*/
+section:nth-child(3){
+    background-image: linear-gradient(to top, #ddd6f3 0%, #ffafbd 100%);
+}
+section:nth-child(2){
+    background-image: linear-gradient(to top, #ffafbd 0%, #ddd6f3 100%);
+}
+
+/*Efecto hover a enlace*/
+section a{
+    background-color: #ffff;
+    display: inline-block;
+    padding: 7px 7px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid #ffff;
+    border-radius: 40px;
+    width: 100px;
+    text-align: center;
+}
+
+section a:hover{
+    cursor: pointer;
+    background-color: black;
+    color: #ddd6f3;
+    border: 1px solid black;
+}
+
+/*Formulario para registrarse*/
+.contenedor-formulario{
+    position: relative;
+    background: white;
+    top: 20px;
+    width: 600px;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.contenedor-formulario h2{
+    font-size: 30px;
+    padding: 20px 40px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #414141;
+    text-align: center;
+}
+
+.contenedor-formulario .pregunta{
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    color: #414141;
+}
+
+input{
+    display: block;
+    height: 40px;
+    width: 90%;
+    margin: 0 auto;
+    border: none;
+}
+
+.nombre, .apellidos, .correo{
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid #414141;
+    font-family: 'Open Sans' sans-serif;
+    background-color: white;
+    text-transform: uppercase;
+    color: #858585;
+    font-weight:lighter;
+    -webkit-transition:.5s;
+    transition:.5s;
+    padding: 4px;
+}
+
+.enviar{
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px 33%;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 6px;
+}
+
+.enviar:hover{
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+footer{
+    padding: 10px;
+    background-color: grey;
+}
+
+footer p{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+
+
+
+    
+
+
+
+

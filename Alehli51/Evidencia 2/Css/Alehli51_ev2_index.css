@@ -1,2 +1,71 @@
-body { background-image:url(https://i.imgur.com/hsBVqZT.jpg) ; 
-color: white;}
+body { background-image:url(https://fondosmil.com/fondo/21401.jpg) ; 
+color: black;}
+
+
+body {
+    word-wrap: break-word;
+    background-color: var(--theme-page-background-color);
+    color: var(--theme-page-text-color);
+}
+
+.article-table-wrapper tr:not(:last-of-type), .article-table-wrapper tr>th {
+    border-bottom: 1px solid var(--theme-border-color);
+}
+
+.article-table-wrapper tr>th {
+    background-color: var(--theme-table-header-color);
+    font-weight: 700;
+    line-height: 1.25;
+    padding: 12px;
+}
+
+.article-table-wrapper tr>td, .article-table-wrapper tr>th {
+    border: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 224px;
+    vertical-align: top;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+.article-table-wrapper table {
+    background-color: var(--theme-table-background-color);
+    border: 0;
+    border-collapse: collapse;
+    color: inherit;
+    margin: 0;
+    width: 100%;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+.mw-parser-output {
+    line-height: 1.75;
+}
+
+
+:root .fandommobile-fandom-theme, :root .mobile-community-bar--mobile-theming-disabled, :root .mobile-global-navigation--mobile-theming-disabled {
+    --fandom-global-nav-mobile-logo-background: var(--fandom-global-nav-background-color);
+    --fandom-global-nav-mobile-community-sticky-bar-background-color: var(--fandom-global-nav-background-color);
+    --fandom-global-nav-mobile-community-sticky-bar-color: var(--fandom-global-nav-link-color);
+    --fandom-global-nav-mobile-community-sticky-bar-color--hover: var(--fandom-global-nav-link-color--hover);
+    --fandom-global-nav-mobile-community-bar-background-color: transparent;
+    --fandom-global-nav-mobile-community-bar-color: var(--theme-body-text-color);
+    --fandom-global-nav-mobile-community-bar-color--hover: var(--theme-body-text-color);
+    --fandom-global-nav-mobile-logo-separator-color: var(--fandom-global-nav-link-color);
+}

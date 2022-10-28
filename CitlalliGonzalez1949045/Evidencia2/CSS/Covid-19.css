@@ -22,10 +22,10 @@ h2 {color: rgb(31, 97, 141);
     background-color: rgb(220, 234, 248);
 }
 
-#Inicio {
+#Casos {
     /* flex-grow: 1; */
     order: 1;
-    flex-basis: 500px;
+    flex-basis: 700px;
     align-self: center;
 }
 

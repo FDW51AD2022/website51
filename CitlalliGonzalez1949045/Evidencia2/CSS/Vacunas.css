@@ -1,4 +1,6 @@
 body {background-color: rgb(235, 245, 251);
+    color: rgb(57, 155, 136);
+    font-family: 'Verdana';
 }
 
 h1 {background-color:rgb(209, 242, 235);
@@ -6,13 +8,17 @@ h1 {background-color:rgb(209, 242, 235);
     font-family: 'Verdana';
     font-size: 50px;}
 
+h2 {background-color:rgb(209, 242, 235);
+    color: rgb(69, 179, 157);
+    font-family: 'Century Gothic';
+    font-size: 25px;}
+
 section {color:rgb(31, 97, 141);
     font-family: 'Century Gothic';
     font-size: 23px;
     margin-left: 2em;
 }
 
-li {background-color: white;}
 
 #Pfizer img {
     float: left;
@@ -41,3 +47,56 @@ li {background-color: white;}
     margin-right: 1em;
     border-radius: 20px;
 }
+
+small {color:rgb(31, 97, 141);
+    font-family: 'Century Gothic';
+}
+
+article {color: rgb(69, 179, 157);
+    font-family: 'Verdana';
+}
+
+#Registro {display: flex;
+    width: 50rem;
+    height: 5vh;
+    background-color: white;
+}
+
+#Inicio {
+    /* flex-grow: 1; */
+    order: 1;
+    flex-basis: 500px;
+    align-self: center;
+}
+
+#Registrar {
+    /* flex-grow: 2; */
+    order: 2;
+    width: 50px;
+    align-self: center;
+}
+
+nav ul {color: rgb(31, 97, 141);
+    font-family: 'Century Gothic';
+    font-size: 25px;
+}
+
+nav {color: rgb(31, 97, 141);
+    font-family: 'Century Gothic';
+    font-size: 25px;
+}
+
+a {color:rgb(31, 97, 141);
+    font-family: 'Century Gothic';
+    font-size: 25px;
+    align-self: center; 
+}
+
+li {background-color: white;}
+
+table{
+    border: 1vh solid rgb(31, 97, 141);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(209, 242, 235);}

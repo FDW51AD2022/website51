@@ -34,8 +34,14 @@ h4 {
     margin: 5;
     padding: 5;
     height: 5vh;
-    text-align: center;
     background-color: rgb(244, 201, 222);
+    text-align: center;
+}
+
+a[
+    href*="valeriacortes2319"
+]{
+    text-decoration: none;
 }
 
 #l1 {

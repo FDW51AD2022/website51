@@ -61,3 +61,29 @@ body {
 	font-family: 'Roboto', sans-serif;
 	cursor: pointer;
 }
+
+input{
+    width: 100vh;
+    height: 5vh;
+    border-radius: 3px;
+    padding: 2vh;
+    font-size: 5vh;
+    border: none;
+    border-bottom: 1vh solid #000000;
+    background-color: #ffffff;
+}
+
+button{
+    width: 30vh;
+    height: 10vh;
+    font-size: 3vh;
+    background-color: WHITE;
+    border: none;
+    border-bottom: #996633 1vh solid;
+    border-top: #996633 1vh solid;
+}
+
+video{
+    width: 100vh;
+    height: 50vh;
+}

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;   
+}
+
+body{
+    background-image: linear-gradient(to top, #ddd6f3 0%, #ffafbd 100%);
+}
+
+
+/*ul principal del nav*/
+.menu{
+    background-color: transparent;
+    position: absolute;
+}
+.lista{
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    background-color: transparent;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+}
+
+.li a{
+    padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .lista{
+        flex-direction: row;
+    }
+}
+
+li{
+    padding: 1em;
+}
+
+/*palabra visible del menu */
+.link{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*Contenedor principal para galeria*/
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 20px 20px;
+}
+
+.contenedor .caja{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+/*Culumna */
+.contenedor .caja .column{
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.contenedor .caja .column img{
+    width: 100%;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+footer{
+    padding: 10px;
+    background-color: grey;
+}
+
+footer p{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+

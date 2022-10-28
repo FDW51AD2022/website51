@@ -6,11 +6,8 @@
     }
 
 body {
-    background: url(Recursos/474606.jpg);
-    background-size: cover;
-  background-repeat:no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
+ background-color: azure;
+ 
 }
 
 
@@ -22,25 +19,40 @@ header {
 }
 
 h1 {
-background-color: white;
+background-color: slateblue;
 color: darkblue;
 font-size: 35px;
 font-family: 'Times New Roman', Times, serif;
 }
 
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
 table {
-    border-collapse: collapse; 
-    margin: 25px 0; 
-    font-size: 1em; 
-    font-family: sans-serif; 
-    min-width: 450px; 
-    box-shadow: 0 0 20px
-        rgba(0, 0, 0, 0.15);
+    
+    width:  40%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid slategrey;
+    background-color: aqua;
+    
+
      }
+
+th, td {
+    width: 40%;
+    vertical-align: top;
+    border: 1px solid slategrey;
+    background-color: azure;
+
+}
 
      p {
         font-size: 25px;
         font-family: 'Times New Roman', Times, serif;
-        color:brown;
+        color:red;
     }
 

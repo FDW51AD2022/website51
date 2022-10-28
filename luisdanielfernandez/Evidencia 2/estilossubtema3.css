@@ -13,3 +13,13 @@ h2{
 body{
     background-color: rgb(223, 223, 217);
 }
+
+#Pie {
+    text-align: center;
+    padding: 100px;
+    
+}
+
+#Pie img{
+    width: 5%;
+}

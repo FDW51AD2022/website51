@@ -25,6 +25,12 @@ h2{
     background-color: rgb(244, 201, 222);
 }
 
+a[
+    href*="valeriacortes2319"
+]{
+    text-decoration: none;
+}
+
 #l1 {
     /* flex-grow: 2; */
     order: 1;

@@ -151,6 +151,16 @@ html, body {
 	margin: 0 auto;
 }
 
+.contenedor-main5{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.contenedor-main6{
+	width: 500px;
+	margin: 0 auto;
+}
+
 .titulo + p{
 	border-top: 3px solid rgba(219, 107, 230, 0.904);
 	}
@@ -170,3 +180,26 @@ html, body {
 	.titulo2 + p{
 		border-top: 3px solid rgba(109, 94, 177, 0.904);
 		}
+
+		.video-responsive {
+			position: relative;
+			padding-bottom: 56.25%; /* 16/9 ratio */
+			padding-top: 30px; /* IE6 workaround*/
+			height: 0;
+			overflow: hidden;
+			}
+			
+			.video-responsive iframe,
+			.video-responsive object,
+			.video-responsive embed {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			}
+
+			a[href^="https"] {
+				background-color: rgb(206, 124, 223);
+				font-size: 30px;
+			}

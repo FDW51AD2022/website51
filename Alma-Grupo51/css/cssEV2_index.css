@@ -27,7 +27,7 @@
 }
 
 #nav-main-1 ul{
-    background-color: cyan;   
+    background-color: greenyellow;   
     list-style: none;
     padding: 80;
 
@@ -35,18 +35,18 @@
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     flex-flow: row wrap;
-    height: 150px;
+    height: 120px;
 
     justify-content: space-around;
     align-content: space-between;
     
-    font-size: 3rem;  
+    font-size: 2rem;  
 }
 
 
 
     #nav-main-2 ul{
-        background-color: lawngreen;   
+        background-color: aqua;   
         list-style: none;
         padding: 100;
     

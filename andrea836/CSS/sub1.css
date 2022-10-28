@@ -2,17 +2,11 @@
     margin: 0px;
     padding: 0px; 
 }
-/* h1 {
-    background-color: #256D85;
-    font-size: 60px;
-    color: black;
-    font-family:'Times New Roman', Times, serif;
-    text-align: center;
-}*/
+
 body {
     background: url(../Recursos/estrellas.jpg);
     background-size: 100%;
-    color: black;
+    color: #FB2576;
 }
 
 #contenedor {
@@ -21,7 +15,7 @@ body {
     margin-top: 20px;
     margin-bottom:20px;
     background: url(../Recursos/estrellas.jpg);
-    padding: 0%;
+    padding: small;
 }
 header {
     height: 150px;
@@ -36,7 +30,7 @@ header h1 {
 nav {
     background: #247881;
     height: 60px;
-   margin-top: 10px;
+    margin-top: 10px;
     /* margin-right: 10px;*/
 }
 nav h2 {

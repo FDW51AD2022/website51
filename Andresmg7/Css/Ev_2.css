@@ -17,7 +17,7 @@ h1 {
     color: whitesmoke;
 }
 h2 {
-    font-size: 40px;
+    font-size: 60px;
     text-decoration: red;
     text-align: left;
     color: whitesmoke;
@@ -26,12 +26,6 @@ p {
     font-style: italic;
     color: whitesmoke;
     font-size: 20px;
-}
-#indimg img{
-    width: 550px;
-    float:right;
-    margin-right: 2em;
-    border-radius: 30%;
 }
 #nav-panel ul {
     background-color: #950101;
@@ -81,4 +75,34 @@ table, th, td {
 }
 .Btab {
     width: 100%;
+}
+.texto-centrado{
+    text-align: center;
+}
+
+.contenedor-grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fit, minmax(500px , 1fr)); 
+    padding: 50px 0px;
+}
+
+.contenedor-grid img {
+    width: 80%;
+    text-align: center;
+    border-radius: 100px;
+    margin-top: 50px;
+}
+
+.contenedor{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.Vid1 {
+    width: 40%;
+    padding-top: 50px;
 }

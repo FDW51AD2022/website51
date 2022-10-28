@@ -1,0 +1,12 @@
+body{ background-color: rgb(71, 148, 8)  !important;
+color: rgb(8, 8, 8);}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulos{
+    font-family: "Comic Sans MS", "Arial Narrow";
+    font-size: 35px;
+    color:yellow;
+}

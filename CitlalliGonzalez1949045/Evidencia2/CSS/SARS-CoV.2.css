@@ -29,6 +29,7 @@ h3 {color: rgb(69, 179, 157);
     margin-right: 1em;
     border-radius: 20px;
 }
+
 aside {color: rgb(14, 98, 81);
     font-family: 'Century Gothic';
     font-size: 25px;
@@ -51,3 +52,9 @@ strong {color:rgb(31, 97, 141);
     font-size: 25px;
 }
 
+section {color:rgb(31, 97, 141);
+    font-family: 'Century Gothic';
+    font-size: 25px;
+}
+
+dt {background-color:rgb(209, 242, 235)}

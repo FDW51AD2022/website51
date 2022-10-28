@@ -90,3 +90,69 @@ h1{
 h6{
     text-align: center;
 }
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,th{
+    border: 1px solid #ffd0f3;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+.sucursales{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    padding: 100px 0px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.mapa {
+    width: 50%;
+    padding: 20px;
+}
+
+.encabezado-centrado{
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
+
+
+.contenedor-formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.formulario{
+    text-align: center;
+    background: #FFA1CF;
+    padding: 35px;
+    width: 100%;
+}
+
+.formulario input {
+    width: 100%;
+}
+
+.formulario textarea {
+    width: 100%;
+    height: 200px;
+}
+
+.blockquote{
+    background-color: #FFA1CF;
+}

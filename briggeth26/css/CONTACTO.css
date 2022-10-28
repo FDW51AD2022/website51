@@ -1,0 +1,23 @@
+.mi-formulario {
+    width: 500px;
+    margin:  0 auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 100%;
+    background: white;
+    padding: 50px;
+}
+
+form *{
+    width: 100%;
+}
+
+.enviar {
+    background: black;
+    color: white;
+    padding: 10px 0px;
+}
