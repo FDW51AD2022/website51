@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript5</title>
 </head>
+
 <body>
-    <h1>Javascript5 (pactica 1)</h1>
+    <h1>Javascript5 (pactica 1 calculadora)</h1>
     <div>
         <form id="formulario" name=""></form>
         <label>Numero 1</label>
@@ -24,14 +25,27 @@
         <p>El resultado es: <span id="resultado"></span></p> <br> <br>
     </div>
 
-    <h1><b>Javascript5 (practica2)</b></h1>
+
+    <h1>Javascript5 (practica2 galeria)</h1>
+    <div class="contenerdor">
+        <div class="numeros">
+            <header>5SOS</header> <br>
+            <label from="num">Escoje una foto del 1 al 5</label> <br>
+            <input type="text" name="num" id="captura">
+        </div><br>
+        <div>
+            <button onclick="foto()">Ver imagen</button> 
+        </div> 
+        <div>
+            <img src="" alt="" id="img">
+        </div>
+    <div></div>
+
+    <h1>Javascript5 (practica3 tablas de multiplicar)</h1>
     <div>
-        <label>Ingresa un numero del 1 al 5</label> <br><br>
-        <input type="number" name="" id="imagen1" autofocus placeholder="Pon un numero"> <br><br>
-        <button type="button" onclick="captura();">VER IMAGEN</button>
-    </div>
-    <div class="img">
-        <img src="" alt="" id="img">
+        <label for="tabla">¿Que tabla de multiplicar quieres calcular?</label>  <br>
+        <input type="text" name="numero" id="tabla">  <br>  <br>
+        <button onclick = calcularTabla() class="btn_calcular">Calcular Tabla</button>
     </div>
 
     <script src="js/js5.js"></script>

@@ -1,31 +1,19 @@
-    let cant_numeros = 4;
-    let num_divisores = [];
-    let num_perfectos = [];
-    let numero = 1;
+Numero = Number(prompt("Agrega la cantidad de los num a mostrar:"))
 
-    while (true) {
-        for (let divisor = 1; divisor < numero; divisor++) {
-            if (numero%divisor == 0) {
-                num_divisores.push(divisor);
+document.write("Agrege los num a mostrar:",numero)
+
+encontrado = 0;
+for(i = 1; encontrado <= numero-1; i++){
+    if(i%2 == 0){
+        for((j = (i/2));(j=>=1); j--){
+            if(i%j ==0){
+                auxEntero = auxEntero + j;
             }
         }
-    
-        let sum = 0;
-        for (let index = 0; index < num_divisores.length; index++) {
-            sum = num_divisores[index] + sum;
+        if(auxEntero ==i){
+            document.write("<br/> Su resultado de el numero perfecto es:",auxEntero);
+            encontrado++
         }
-    
-        if (sum == numero) {
-            num_perfectos.push(numero);
-        }
-    
-        if (num_perfectos.length == cant_numeros) {
-            break
-        }
-        num_divisores = [];
-     
-        numero = numero + 1;
     }
-    console.log("Se solicitaron: " + cant_numeros + "numeros perfectos, por lo que serían:")
-    console.log(num_perfectos);
-    document.write(`<h2> ${num_perfectos} </h2>`);
+    auxEntero = 0;
+}

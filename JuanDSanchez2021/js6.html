@@ -5,34 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Javascript 6</title>
-    <link rel="stylesheet" href="./js/js6.js">
+    <link rel="stylesheet" href="/css/js6.css">
 </head>
 <body>
     <h1>Javascript v6</h1>
-    <section class="js6_crud">
-        <h2>Ejercicio de calculos con (+-*/)</h2>
-        <div>
-            <div>
-                <label for="message">Numero</label>
-                <input type="text" name="numero1" id="num1">
-            </div>
-            <div>
-                <label for="message">Numero</label>
-                <input type="text" name="numero2" id="num2">
-            </div>
-            <div>
-                <label for="message">Operador</label>
-                <input type="text" name="operacion" id="ope">
-            </div>
-            <div>
-                <label for="message">Resultado</label>
-                <input type="text" name="resul" id="resul">
-            </div>
-            <div>
-                <button onclick="calcular()" id="calcular">Calcular</button>
+     <!-- CALCULADORA
+        Numero _________________
+        Numero _________________
+        Operación ______________
+        Resultado ______________
+        <   Calcular    >        -->
+    
+        <h2>----------------Calculadora----------------</h2>
+
+        <div >
+            <div id="calculadora">
+                <div>
+                    <label for="num">Numero</label>
+                    <input type="text" name="numero" id="num">
+                </div>
+    
+                <div>
+                    <label for="num2">Numero</label>
+                    <input type="text" name="numero" id="num2">
+                </div>
+    
+                <div>
+                    <label for="operacion">Operación</label>
+                    <select name="operacion" id="operacion">
+                        <option value="+" >+</option>
+                        <option value="-" >-</option>
+                        <option value="x" >x</option>
+                        <option value="/" >/</option>
+                    </select>
+                </div>
+    
+                <div>
+                    <label for="resul">Resultado</label>
+                    <input type="text" name="numero" id="resul">
+                </div>
+    <br>
+                <div>
+                    <button onclick="calcular()">Calcular</button>
+                </div>
+    
             </div>
         </div>
-    </section>
 
     <section class="js6_imagenes">
         <h2>Ejercicio de ver imagenes</h2>
@@ -49,7 +67,7 @@
                 <!-- <input type="text" name="num_image" id="n_img"> -->
             </div>
             <div>
-                <img src="https://www.google.com.mx/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com.mx%2Fpin%2F722968546416633561%2F%3Famp_client_id%3DCLIENT_ID(_)%26mweb_unauth_id%3D%7B%7Bdefault.session%7D%7D%26simplified%3Dtrue&psig=AOvVaw1sYhlCzbE5z7KgNuH8PtK7&ust=1666576088913000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCMj4zvCd9foCFQAAAAAdAAAAABAD" alt="" id="img" class="img" width="30%" height="30%">
+                <img src="https://concepto.de/wp-content/uploads/2018/09/lenguaje-de-programaci%C3%B3n-e1537466880796-800x400.jpg" alt="" id="img" class="img" width="30%" height="30%">
             </div>
             <div>
                 <button onclick="procesar_img()" id="ver_imagen">Ver imagen</button>
@@ -57,14 +75,18 @@
         </div>
     </section>
 
-    <section class="js6_tabla">
-        <h2>Ejercicio de las tablas</h2>
-        <div>
-            <div>
-
-            </div>
+    <!-- PROGRAMA TABLA 
+        Tabla ______________
+        {---Resultado aqui----} 
+        <   Ver tabla   >-->
+    
+        <h2>----------------Tabla de multiplicar----------------</h2>
+        <div id="tablamulti">
+            <label for="multi">Tabla del: </label>
+            <input type="text" name="multi" id="multi">
+            <button onclick="tabla()">Ver tabla</button>
         </div>
-    </section>
-    <script src="./js/js6.js"></script>
+    
+    <script src="./js6.js"></script>
 </body>
 </html>
