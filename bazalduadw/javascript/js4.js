@@ -1,5 +1,4 @@
-
-/* Funciones */
+// EJERCICIO JS 4 | FUNCIONES
 function divisores(numero) {
     let total = 0;
 
@@ -9,11 +8,12 @@ function divisores(numero) {
         }
     }
     return total;
-} 
+}
 
-/* Funcion en forma de variable constante */
+// Funcion en forma de variable constante
 const divisoresV2 = function(numero) {
     let total = 0;
+
     for(let i=1; i<=numero; i++) {
         if(numero % i == 0) {
             total ++;
@@ -22,9 +22,10 @@ const divisoresV2 = function(numero) {
     return total;
 };
 
-/* Funciones Flecha, sirven para hacer las funciones mas compactas */
+// Funciones Flecha, sirve para hacer las funciones mas compactas
 const divisoresV3 = numero => {
     let total = 0;
+
     for(let i=1; i<=numero; i++) {
         if(numero % i == 0) {
             total ++;
@@ -39,18 +40,18 @@ function calcular() {
     
     resultado.value = divisores(numero);
     
-    /* Imprimir */
+    // Imprimir
     console.log("Divisores: ",divisores(numero));
 }
 
 
 
 
+// Llamar Funcion
+// console.log("Divisores: ",divisores(33));
+// console.log("DivisoresV2: ",divisoresV2(33));
+// console.log("DivisoresV3: ",divisoresV3(33));
+// console.log("DivisoresV3: ",divisores(numero));
 
-/* Llamar la función
-console.log("divisores",divisores(33)); */
 
-/* Llamar la función 
-console.log("divisores",divisores(33));
-console.log("divisores V2",divisores(33));
-console.log("divisores V3",divisores(33)); */
+
