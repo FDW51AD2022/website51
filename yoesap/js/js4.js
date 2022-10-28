@@ -3,13 +3,13 @@ let Frecuencia = Number(prompt("Indica la frecuencia de la toma: "))
 /* let toma= HoraInicialToma + Frecuencia; */
 
 /* for (let toma = HoraInicialToma; toma + Frecuencia) {
-   
+
 } */
 
 
 cont = 0
 
-let toma= HoraInicialToma; 
+let toma= HoraInicialToma;
 while(toma<=23){
     /* console.log(toma); */
     cont = cont + 1
