@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//Javascript/GlobalStyleJS.css">
+    <title>Javascript 5 Mostrar Imagenes</title>
+</head>
+<body>
+    <script src="..//Javascript/Javascript5-imagenes.js"></script>
+    <section class="formulario">
+        <div class="form">
+            <p class="form__paragraph"><h2>Imagenes</h2></p>
+
+            <div class="form__container">
+
+                <div class="form__group">
+                    <select name="num_img" id="num_img" class="form__input">
+                        <option value="Alejandro Magno">Alejandro Magno</option>
+                        <option value="Atila">Atila</option>
+                        <option value="Gengis Kan">Gengis Kan</option>
+                        <option value="Napoleón Bonaparte">Napoleón Bonaparte</option>
+                        <option value="Adolf Hitler">Adolf Hitler</option>
+                    </select>
+                    <label for="" class="form__label">Numero imagen</label>
+                    
+                </div>
+        
+                <input type="submit" value="Ver imagen" onclick="verImagen()" class="form__submit"></input>
+        
+                <div class="imagen_container">
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>
