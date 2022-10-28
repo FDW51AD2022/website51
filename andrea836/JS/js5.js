@@ -20,15 +20,15 @@ function dividir() {
 }
 /**************************************/
 
-function captura(){
-    let num= parseInt(document.getElementById("imagen1").value);
-    let captura = document.getElementById("img");
+function foto(){
+    let num= parseInt(document.getElementById("captura").value);
+    let imagen = document.getElementById('img');
     switch (num) {
         case 1:
             imagen.src = "https://static.wikia.nocookie.net/5sos/images/9/98/5SOS-0.jpg/revision/latest/top-crop/width/360/height/360?cb=20220406044551";
             break;
         case 2:
-            imagen.src = "https://im.vsco.co/aws-us-west-2/027d95/13687805/5bd032d506871e410465a037/vsco5bd032c8e468c.jpg?w=412&dpr=2.625";
+            imagen.src = "https://nettv4u.com/imagine/15-04-2021/calum-hood.jpg";
             break;
         case 3:
             imagen.src = "https://64.media.tumblr.com/be6d03290ed8dd3abb8d94537ae19f2c/6e4d06eb4411713b-00/s1280x1920/b895d20ae7bfdd6c8b7cb8ab8eaddc0d77b8d027.jpg";
