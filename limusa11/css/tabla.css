@@ -55,6 +55,21 @@ header nav a:hover {
     font-family: 'optima';
     color: #CE1F6A;
     box-shadow: 7px 13px 37px #C67ACE;
+    box-sizing: content-box;
+  }
+  input{
+    height: 4vh;
+    width: 8vh;
+    font-size: large;
+    border: none;
+    border-bottom: 1vh solid blueviolet;
+    border-radius: 2vh;
+    text-align: center;
+    font-weight: bold;
+  }
+  ul{
+    font-family: 'optima';
+    font-size: 20px;
   }
 p {
     color: blueviolet;
@@ -70,6 +85,14 @@ p {
     text-align: center;
     font-size: 18px;
     line-height: 40px;
+    box-sizing: content-box;
+  }
+  footer{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   @media screen and (max-width: 800px) {
