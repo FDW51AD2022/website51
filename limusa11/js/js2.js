@@ -1,73 +1,122 @@
-// const { ExampleDataSource } = require("@next/nx-controls-common/components/table-master-detail/example-data");
-// const { toArray } = require("rxjs-compat/operator/toArray");
-
-let apps = ["windows 28","vscode"]
+let apps = ['win10','vscode','oracle']
 
 let computadora = {
-    "marca" : "hp",
-    "discoDuro" : "1tb",
-    "precio" : 12000,
-    "softwareInstalado" : apps
+    "marca":"",
+    "Discoduro":"1tb",
+    "precio":1200,
+    "softwareinstalado":apps
 }
 
+let alumno =["Mario","Luis"];
 
-// ---Arrays
-let alumnos = ["Andrea","Raquel","Bri","Isaac","Chaves", "Eddy"];
+console.log(alumno)
 
-console.log(alumnos);
-console.log("Total elementos: ",alumnos.length);
-console.log("Primer elemento",alumnos[0]);
-console.log("Ultimo elemento",alumnos[-1]);
+console.log(alumno[0],alumno[1])
 
-console.log("Tipo de dato: ",typeof(alumnos));
+console.log("Total de Alumnos", alumno.length);
 
-// ---Arrays indexados (Diccionarios)
+console.log(`Total de Alumnos ${alumno.length}`);
+
+console.log(`Primer Alummno: ${alumno[0]}`);
+
+console.log(alumno[alumno.length-1]);
+
+console.log(typeof alumno)
+
 let grupo51 = {
-    "Nombre" : "grupo51",
-    "Semestre" : 5,
-    "Carrera" : "LTI",
-    "Alumno" : alumnos
+    "nombre":"grupo51",
+    "Semestre":5,
+    "Carrera":"LTI",
+    "alumnos":alumno
 };
 
-console.log("Nombre",grupo51["Nombre"]);
-console.log(grupo51.Nombre);
+console.log(`Nombre: ${grupo51["nombre"]}`)
 
-// console.log("Primer alumno",grupo51.alumnos[0]); //CHECAR
+console.log(`Nombre: ${grupo51.nombre}`)
 
-// Funciones
-document.write("<marquee>Mensaje</marquee>");
+console.log(`Primer alumno ${grupo51.alumnos[0]}`);
+
+document.write("<h1>Hola</h1>")
+document.write("<marquee>mensaje</marquee>")
+document.write("<ul><li>Elemento1</li><li>Elemento1</li></ul>")
 document.write(`<ul>
-                    <li>Elemento</li>
+                    <li>
+                        Elemento1
+                    </li>
+                    <li>
+                        Elemento3
+                    </li>
                 </ul>`);
 
-// Ejemplo if
-let calif = 95;
+/* If compuesto */
+/* if(condicion){
+    sentencia
+} */
 
-if (calif >= 95) {
+/* If anidado */
+/* if(condicion){
+    sentencia
+}else{
+    sentencia
+} */
+
+/* if anidado */
+
+/* if(condicion){
+    sentencia
+}else if(condicion){
+    sentencia
+}else if(condicion){
+    sentencia
+}else{
+    sentencia
+} */
+
+let estadoCivil = "Casado";
+
+switch (estadoCivil){
+    case "soltero":
+        /* Sentencia */
+        console.log("hola1")
+        break;
+    case "Casado":
+        /* Sentencia */
+        console.log("hola2")
+        break;
+    case "Viudo":
+        /* Sentencia */
+        console.log("hola3")
+        break;
+    default:
+        /* Sentencia */
+        console.log("hola4")
+        break;
+}
+
+let numero = 1
+
+while(numero<11){
+    console.log("whileCiclo",numero);
+    numero++;
+}
+
+numero = 0;
+
+do{
+    console.log("doWhileCiclo",numero)
+    numero++;
+}while(numero<11);
+
+numero = 0;
+
+for(let index =0; index<11;index++){
+    console.log("For ciclo",index)
+}
+
+let calif = 45;
+
+if(calif >= 95 && calif<=100){
     console.log("Excelente")
-} else {
-    console.log("No Excelente")
-};
-
-// Ejercicio: Calcular el total a pagar a un Empleado. 
-// Solicitar numero de horas trabajadas y el pago por hora.
-// Si el trabajador tiene horas extra pagarlas al triple. 
-// Se consideran horas normales las primeras 40 hrs
-
-
-let pago_hora = 100;
-let horas_trabajadas = 30;
-let horas_normales = 40;
-let total_pago = 0;
-
-
-if (horas_trabajadas > horas_normales) {
-    let horas_extra = horas_trabajadas - horas_normales;
-    let pago_extra = (horas_extra*pago_hora*3);
-    total_pago = (horas_normales * pago_hora) + pago_extra;
-    console.log(total_pago);
-    
-} else {
-    total_pago = horas_normales * pago_hora;
-    console.log(total_pago);
-};          
+}else{
+    console.log("No excelente")
+}
