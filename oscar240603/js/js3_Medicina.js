@@ -1,1 +1,0 @@
-let tomaini = Number(prompt("Hora de la primera toma"));
