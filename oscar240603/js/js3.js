@@ -1,12 +1,27 @@
-public class Divisor{
+let numero = prompt('ingresa un numero');
 
-    public static void main(String[] args){
-        int numero = 18;
-        for(int i = 1 ; i <=numero ; i++){
-            if(numero%i==0){
-                //imprimes la solucion
-                System.out.println(i);
-            }
-        }
-    }
+while(isNaN(numero) || numero == 0){
+
+numero = prompt('ingresa un numero');
+
 }
+
+let numeros = [];
+
+for(i = 0; i < numero; i++){
+
+if(numero % i === 0){
+  numeros.push(parseInt(i));
+
+}
+
+}
+let suma = 0;
+
+numeros.forEach(function(numero){
+
+suma += numero;
+
+})
+
+console.log(parseInt(suma))
