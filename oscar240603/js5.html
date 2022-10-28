@@ -29,16 +29,26 @@
         <div class="numeros">
             <header>IMAGENES</header>
             <label for="num">Introduce un numero del 1 al 5</label>
-            <input type="text" name="num" id="num">
-        </div>
-        <br>
+            <input type="text" name="num" id="captura">
+        </div><br>
         <div class="boton">
-            <button onclick="verImagen()">Ver imagen</button>
-        </div>
-        <br>
+            <button onclick="imagen()">Ver imagen</button>
+        </div><br>
         <div class="imagen">
             <img src="" alt="" id="img">
         </div>
+    </div>
+    <div class="contenedor2">
+        <div class="tabla">
+            <header class="header">TABLA DE MULTIPLICAR</header>
+            <label class="label" for="num">Introduce un numero</label>
+            <input class="form" type="text" name="num" id="num">
+            <ul class="multi" id="tablas"></ul>
+        </div><br>
+        <div class="boton2">
+            <button onclick="tabla()">Ver tabla</button>
+        </div>
+    
     </div>
     <script src="js/js5.js"></script>
 </body>

@@ -3,7 +3,7 @@ let apps = ['windows 10','vscode','oracle'];
 let computadora ={
     "Marca" :"DELL",
     "DiscoDuro" : "1tb",
-    "Precio": 10000,
+    "Precio": 12000,
     "sofwereInstalado": apps
 }
 
