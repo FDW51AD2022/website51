@@ -2,7 +2,7 @@ console.log("hola javascript");
 
 console.warn("Alehli");
 
-console.error("Kim");
+console.error("Fatal Error");
 
 console.log("Tipo de 34:" + typeof 34 +".");
 
