@@ -1,0 +1,39 @@
+#encabezado{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    text-align:center;
+    background-color: rgb(255, 217, 0);
+    color:black
+}
+
+.barra_principal{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    margin: 0%;
+    list-style: none;
+    padding: 0%;
+}
+
+.barra_principal li a{
+    font-size: 20px;
+    flex-direction:row;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: flex;
+}
+
+.barra_principal li a:hover{
+    color: rgb(149, 243, 157);
+}
+
+#img02{
+    width: 1333px;
+    height: auto; 
+}
