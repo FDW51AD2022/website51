@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicios Practica</title>
+    <link rel="stylesheet" href="./css_estilos/js5.css">
 </head>
 <body>
     <div>
         <h1>Calculadora</h1>
-        <div>
+        <div class="">
             <div>
                 <label for="num1">Numero 1</label>
                 <input type="text" name="numero" id="num1">
@@ -37,7 +38,7 @@
             </div>
 
             <div>
-                <button onclick = calcular()>Calcular</button>
+                <button onclick = calcular() class="btn_calcular">Calcular</button>
             </div>
 
         </div>
@@ -48,20 +49,20 @@
         <div>
             <label for="Seleccionar">Seleccionar Imagen</label>
             <select name="" id="img_1">
-                <option value = 1>1</option>
-                <option value = 2>2</option>
-                <option value = 3>3</option>
-                <option value = 4>4</option>
-                <option value = 5>5</option>
+                <option value = "1">Felicidad</option>
+                <option value = "2">Temor</option>
+                <option value = "3">Tristeza</option>
+                <option value = "4">Furia</option>
+                <option value = "5">Desagrado</option>
             </select>
         </div>
 
         <div>
-            <button onclick = cambiarImagen()>Ver Imagen</button>
+            <button onclick = cambiarImagen() class="btn_calcular">Ver Imagen</button>
         </div>
 
         <div>
-            <img src="./Recursos/Imagenes/Interestelar.jpeg" alt="" id="img">
+            <img src="./Recursos/Imagenes/felicidad.webp" alt="" id="img">
         </div>
     </div>
 
@@ -70,16 +71,14 @@
         <div>
             <label for="Tabla">Tabla: </label>
             <input type="text" name="numero" id="Tabla">
-            <button onclick = calcularTabla()>Calcular Tabla</button>
+            <button onclick = calcularTabla() class="btn_calcular">Calcular Tabla</button>
         </div>
-
         <ul id="lista_tabla">
-            
         </ul>
     </div>
     
     <!-- Insertar Script -->
-    <script src="./javascript/js5Ejercicios.js"></script>
+    <script src="./javascript/js5.js"></script>
     
 </body>
 </html>
