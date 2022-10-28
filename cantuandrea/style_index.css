@@ -7,7 +7,7 @@ body {
 
 /* Color del primer título. */
 h1 {
-    background-color: rgb(253, 253, 87);
+    background-color: rgb(44, 173, 87);
     color:black;
     text-align: center;
     font-size: 300%;
@@ -20,4 +20,6 @@ h1 {
     font-family: 'Verdana';
     font-size: 200%;
     color: black;
+    text-decoration: none;
+    list-style: none;
 }
