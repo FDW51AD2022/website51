@@ -1,47 +1,34 @@
-function suma(numero, numero2){
-    let total = 0;
-    total = numero + numero2
-    return total;
+function calculadora(numero1,numero2,ope){
+    if(ope == "+") {
+        let result=numero1+numero2
+        return result;
+
+    }
+    else if (ope == "-"){
+        let result=numero1-numero2
+        return result;
+
+    }
+    else if (ope == "*"){
+        let result=numero1*numero2
+        return result;
+
+    }
+    else if(ope == "/"){
+        let result=numero1/numero2
+        return result;
+
+    }
 }
 
-const resta = function(numero){
-    let total = 0;
-    for(let i=1; i <=numero;i++){
-        if(numero + i == 0){
-            total ++;
-        }
-    }
-    return total;
-};
-
-const multiplicación = function(numero){
-    let total = 0;
-    for(let i=1; i <=numero;i++){
-        if(numero + i == 0){
-            total ++;
-        }
-    }
-    return total;
-};
-
-const division = function(numero){
-    let total = 0;
-    for(let i=1; i <=numero;i++){
-        if(numero + i == 0){
-            total ++;
-        }
-    }
-    return total;
-};
 
 function calcular(){
-    let numero = parseInt(document.getElementById("num").value);
+    let numero1 = parseInt(document.getElementById("num").value);
+
     let numero2 = parseInt(document.getElementById("num2").value);
+   
+    let ope = document.getElementById("operacion").value;
 
     let resultado = document.getElementById("resul");
-
-    resultado.value = suma(numero);
+    resultado.value = calculadora(numero1,numero2,ope);
 }
-
-
-console.log("suma", suma(numero));
