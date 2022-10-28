@@ -1,12 +1,3 @@
-/* let apps = ['windows 10', 'vscode', 'oracle']
-
-let computadora = {
-    "marca": "hp",
-    "discoDuro": "1tb",
-    "precio": 12000,
-    "softwareInstalado" : apps
-} */
-
 let alumnos = ["mario","luis"];
 
 console.log(alumnos);
