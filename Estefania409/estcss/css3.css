@@ -1,0 +1,135 @@
+#info22 img {
+    width: 150px;
+    float: left;
+    margin-right: 2em;
+    border-radius: 50px;
+}
+
+.contenedor-main3{
+	width: 500px;
+	margin: 0 auto;
+}
+
+#menu3 {
+    padding: 0;
+    margin: 0;
+    border: 0; 
+}
+ 
+#menu3 ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+}
+ 
+#menu3 ul {
+    position: relative;
+    z-index: 597;
+    float: left; 
+}
+ 
+#menu3 ul li {
+    float: left;
+    min-height: 1px;
+    line-height: 1em;
+    vertical-align: middle; 
+}
+ 
+#menu3 ul li.hover,
+#menu3 ul li:hover {
+    position: relative;
+    z-index: 599;
+    cursor: default; 
+}
+ 
+#menu3 ul ul {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 598;
+    width: 100%; 
+}
+ 
+#menu3 ul ul li {
+    float: none; 
+}
+ 
+#menu3 ul li:hover > ul {
+    visibility: visible; 
+}
+ 
+#menu3 ul ul {
+    top: 0;
+    left: 100%; 
+}
+ 
+#menu3 ul li {
+    float: none; 
+}
+ 
+#menu3 {
+    width: 255px; 
+}
+ 
+#menu3 span, #menu3 a {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none; 
+}
+ 
+#menu3:after, #menu3 ul:after {
+    content: '';
+    display: block;
+    clear: both; 
+}
+ 
+#menu3 ul, #menu3 li {
+    width: 100%; 
+}
+#menu3 li {
+    background: #aa6e9b;
+}
+#menu3 li:hover {
+    background: #e7b2d3; 
+}
+#menu3 a {
+    color: #ffffff;
+    line-height: 160%;
+    padding: 11px 28px 11px 28px;
+    width: 253px; 
+}
+#menu3 ul ul li {
+    background: #aa6e9b; 
+}
+#menu3 ul ul li:hover {
+    background: #e7b2d3; 
+}
+#menu3 ul ul li:hover a {
+    color: #ffffff; 
+}
+#menu3 ul ul li ul li {
+    background: #aa6e9b; 
+}
+#menu3 ul ul li ul li:hover {
+    background: #e7b2d3;
+}
+#menu3 .has-sub {
+    position: relative; 
+}
+ 
+#menu3 .has-sub:after, #menu3 .has-sub > ul > .has-sub:hover:after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 9px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top: -5px;
+}
+ 
+#menu3 .fa-angle-right {
+    float: right;
+}
