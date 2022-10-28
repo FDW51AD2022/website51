@@ -28,7 +28,7 @@ while (true) {
   
     numero = numero + 1;
 }
-console.log("La cantidad de numeros perfectos solicitados fue de: " + cant_numeros + " y son los siguientes")
+console.log("Numero perfectos:  " + cant_numeros + " son: ")
 console.log(numeros_perfectos);
 
 document.write(`<h2> ${numeros_perfectos} </h2>`);
