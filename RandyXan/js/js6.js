@@ -19,6 +19,7 @@ function verImagen() {
             imagen.src = "https://media.vandalsports.com/i/1706x960/8-2021/2021818175611_1.jpg.webp";
             break;
         default:
+            imagen.src = "https://www.computerhope.com/jargon/e/error.png";
             break;
     }
 }

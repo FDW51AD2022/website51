@@ -1,31 +1,54 @@
-/*funciones*/
+function divisores(numero) {
+    let total = 0;
 
-function calculadora(numero1,numero2,ope){
-    if(ope == "+") {
-        let result=numero1+numero2
-        return result;
+    for(let i=1; i<=numero; i++) {
+        if(numero % i == 0) {
+            total ++;
+        }
     }
-    else if (ope == "-"){
-        let result=numero1-numero2
-        return result;
-    }
-    else if (ope == "*"){
-        let result=numero1*numero2
-        return result;
-    }
-    else if(ope == "/"){
-        let result=numero1/numero2
-        return result;
-    }
+    return total;
 }
 
-/* definimos una funcion anonima*/
+// Funcion en forma de variable constante
+const divisoresV2 = function(numero) {
+    let total = 0;
 
-function calcular(){
-    let numero1 = parseInt(document.getElementById("num1").value);
-    let numero2 = parseInt(document.getElementById("num2").value);
-    let ope = document.getElementById("operacion").value;
+    for(let i=1; i<=numero; i++) {
+        if(numero % i == 0) {
+            total ++;
+        }
+    }
+    return total;
+};
+
+// Funciones Flecha, sirve para hacer las funciones mas compactas
+const divisoresV3 = numero => {
+    let total = 0;
+
+    for(let i=1; i<=numero; i++) {
+        if(numero % i == 0) {
+            total ++;
+        }
+    }
+    return total;
+};
+
+function calcular() {
+    let numero = parseInt(document.getElementById("num").value);
     let resultado = document.getElementById("resul");
-    resultado.value = calculadora(numero1,numero2,ope);
+    
+    resultado.value = divisores(numero);
+    
+    // Imprimir
+    console.log("Divisores: ",divisores(numero));
 }
+
+
+
+
+// Llamar Funcion
+// console.log("Divisores: ",divisores(33));
+// console.log("DivisoresV2: ",divisoresV2(33));
+// console.log("DivisoresV3: ",divisoresV3(33));
+// console.log("DivisoresV3: ",divisores(numero));
 

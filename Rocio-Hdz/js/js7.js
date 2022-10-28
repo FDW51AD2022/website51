@@ -1,21 +1,16 @@
- function imagenes(){
-    let imagen = parseInt(document.getElementById("imagen").value);
-    let cambiar = document.getElementById("cambiar");
+function cambiarImagen() {
+    let num_imagen  = parseInt(document.getElementById("imagen").value);
+    let imagen      = document.getElementById('img');
 
-    if (imagen == 1){
-        cambiar.src = '<img src="evidencia2/recursos/Bad_Bunny.png" alt="">';
-    }
-    else if (imagen == 2){
-        cambiar.innerHTML = '<img src="evidencia2/recursos/Taylor_Swift.jpg" alt="">';
-    }
-    else if (imagen == 3){
-        cambiar.innerHTML = '<img src="evidencia2/recursos/Billie_Eilish.jpg" alt="">';
-    }
-    else if (imagen == 4){
-        cambiar.innerHTML = '<img src="evidencia2/recursos/Rosalia.jpg" alt="">';
-    }
-    else 
-       if (imagen == 5){
-           cambiar.innerHTML = '<img src="evidencia2/recursos/Shawn.jpg" alt="">';
+    if (num_imagen == 1) {
+        imagen.src = "evidencia2/recursos/Bad_Bunny.png";
+    } else if (num_imagen == 2) {
+        imagen.src = "evidencia2/recursos/Taylor_Swift.jpg";
+    } else if (num_imagen == 3) {
+        imagen.src = "evidencia2/recursos/Billie_Eilish.jpg";
+    } else if (num_imagen == 4) {
+        imagen.src = "evidencia2/recursos/Rosalia.jpg";
+    } else {
+        imagen.src = "evidencia2/recursos/Shawn.jpg";
     }
 }
