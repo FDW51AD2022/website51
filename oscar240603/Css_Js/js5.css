@@ -1,0 +1,136 @@
+body{
+    background-image: linear-gradient(90deg, rgb(70, 70, 167), rgb(206, 194, 216));
+}
+
+#formulario{
+    text-align: center;
+    display: grid;
+    width: 600px;
+    gap: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-template-columns: 300px 300px;
+    grid-template-areas:
+    "encabezado encabezado"
+    "num1 num2"
+    "valor1 valor2"
+    "sumar restar"
+    "multiplicar dividir"
+    "resul resul";
+}
+
+#valor1{
+    grid-area: valor1;
+}
+
+#valor2{
+    grid-area: valor2;
+}
+
+.sumar{
+    grid-area: sumar;
+}
+
+.restar{
+    grid-area: restar;
+}
+
+.dividir{
+    grid-area: multiplicar;
+}
+
+.multiplicar{
+    grid-area: dividir;
+}
+
+.num1{
+    grid-area: num1;
+}
+
+.num2{
+    grid-area: num2;
+}
+
+.resul{
+    grid-area: resul;
+}
+
+.encabezado{
+    justify-content: center;
+    grid-area: encabezado;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+}
+
+.contenedor{
+    display: grid;
+    text-align: center;
+    display: grid;
+    width: 600px;
+    gap: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-template-areas:
+    "numeros numeros"
+    "boton boton"
+    "imagen imagen";
+}
+
+.numeros{
+    grid-area: numeros;
+}
+
+.boton{
+    grid-area: boton;
+}
+
+.imagen{
+    grid-area: imagen;
+    height: 200px;
+}
+
+.imagen img{
+    height: 200px;
+    width: auto;
+}
+
+header{
+    justify-content: center;
+    grid-area: encabezado;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em; 
+}
+
+.contenedor2{
+    text-align: center;
+    display: grid;
+    width: 600px;
+    gap: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-template-areas: 
+    "header header"
+    "label label"
+    "form form"
+    "multi mutli";
+}
+
+.header{
+    grid-area: header;
+}
+
+.label{
+    grid-area: label;
+}
+
+.form{
+    grid-area: form;
+}
+
+.multi{
+    grid-area: multi;
+    width: 80%;
+}
