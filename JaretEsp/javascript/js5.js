@@ -14,7 +14,7 @@ function calculadora(num1, num2, Operacion){
         let division = num1/num2
         return division
     } else if (Operacion == "multiplicacion") {
-        let multiplicacion = num1/num2
+        let multiplicacion = num1 * num2
         return multiplicacion
     } else {
         console.log(vacio);
