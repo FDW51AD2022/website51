@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript 6</title>
+</head>
+<body>
+    <h1>Javascript 6</h1>
+    <section>
+        <h2>Ejercicio calculos</h2>
+        <div>
+            <div>
+                <label for="message">Numero</label>
+                <input type="text" name="numero1" id="num1">
+            </div>
+            <div>
+                <label for="message">Numero</label>
+                <input type="text" name="numero2" id="num2">
+            </div>
+            <div>
+                <label for="message">Operador</label>
+                <input type="text" name="operacion" id="ope">
+            </div>
+            <div>
+                <label for="message">Resultado</label>
+                <input type="text" name="resul" id="resul">
+            </div>
+            <div>
+                <button onclick="funcionCalculo()" id="funcionCalculo">Calcular</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Ejercicio imagenes</h2>
+        <div>
+            <div>
+                <label for="message">Numero imagen</label>
+                <select name="num_image" id="n_img">
+                    <option value = 1>1</option>
+                    <option value = 2>2</option>
+                    <option value = 3>3</option>
+                    <option value = 4>4</option>
+                    <option value = 5>5</option>
+                </select>
+            </div>
+            <div>
+                <img src="https://images.pexels.com/photos/65006/pexels-photo-65006.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" id="img" class="img" width="30%" height="30%">
+            </div>
+            <div>
+                <button onclick="funcionImagen()" id="ver_imagen">Ver imagen</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Ejercicio tablas</h2>
+        <div>
+            <div>
+                <label for="message">Tabla del</label>
+                <input type="text" name="resul_Tabla" id="resul_Tabla">
+            </div>
+            <div>
+                <button onclick="tablas()" id="calcular_tabla">Visualizar tabla</button>
+            </div>
+        </div>
+    </section>
+    <script src="js/js6.js"></script>
+</body>
+</html>
