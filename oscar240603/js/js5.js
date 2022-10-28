@@ -26,8 +26,8 @@ function dividir(){
 
 }
 
-function verImagen() {
-    let num  = parseInt(document.getElementById("num").value);
+function imagen() {
+    let num  = parseInt(document.getElementById("captura").value);
     let imagen = document.getElementById('img');
 
     switch (num) {
@@ -50,3 +50,19 @@ function verImagen() {
             break;
     }
 }
+
+function tabla() {
+    let numero = parseInt(document.getElementById("num").value);
+    tablas_id.innerHTML = "";
+
+    for(let i=1; i<=10;i++){
+        tablas_id.innerHTML += `<ul>${numero} x ${i} = ${numero * i}</ul>`;
+    }
+}
+
+
+
+
+
+
+
