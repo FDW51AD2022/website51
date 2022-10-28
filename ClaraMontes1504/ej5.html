@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript 5</title>
+    <link rel="stylesheet" href="CSS/js5.css">
+    
+</head>
+<body>
+    <h1>Javascript 5</h1>
+    
+
+    <!-- CALCULADORA
+        Numero _________________
+        Numero _________________
+        Operación ______________
+        Resultado ______________
+        <   Calcular    >        -->
+    <section id="calculadora">
+    <h2>----------------Calculadora----------------</h2>
+
+    <div >
+        <div>
+            <div>
+                <label for="num">Numero</label>
+                <input type="text" name="numero" id="num">
+            </div>
+
+            <div>
+                <label for="num2">Numero</label>
+                <input type="text" name="numero" id="num2">
+            </div>
+
+            <div>
+                <label for="operacion">Operación</label>
+                <select name="operacion" id="operacion">
+                    <option value="+" >+</option>
+                    <option value="-" >-</option>
+                    <option value="x" >x</option>
+                    <option value="/" >/</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="resul">Resultado</label>
+                <input type="text" name="numero" id="resul">
+            </div>
+<br>
+            <div>
+                <button onclick="calcular()">Calcular</button>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    
+    </section>
+
+
+    <!-- PROGRAMA IMAGENES (5 imagenes) 
+        Numemro imagen _________
+        <   Ver imagen  >          -->
+    <section id="cambioimagen">
+    <h2>----------------Cambio de imagenes----------------</h2>
+    <div >
+        <label for="imagen">Imagenes</label>
+        <select name="imagen" id="imagen">
+            <option value="1" >1. Kim Namjoon</option>
+            <option value="2" >2. Kim Seokjin</option>
+            <option value="3" >3. Min Yoongi</option>
+            <option value="4" >4. Jung Hoseok</option>
+            <option value="5" >5. Park Jimin</option>
+            <option value="6" >6. Kim Taehyung</option>
+            <option value="4" >7. Jeon Jungkook</option>
+        </select>
+        <button onclick="imagenes()">Ver imagen</button>
+    </div>
+
+    <br>
+
+    <div id="cambiar">
+        <!-- <img src="Evidencia2/Recursos/namjoon.jpg" alt="500px" width="300px"> -->
+    </div>
+    <br>
+    <br>
+    </section>
+    <!-- PROGRAMA TABLA 
+        Tabla ______________
+        {---Resultado aqui----} 
+        <   Ver tabla   >-->
+
+    <section id="tabla">
+    
+    <h2>----------------Tabla de multiplicar----------------</h2>
+    <div id="tablamulti">
+        <label for="multi">Tabla del: </label>
+        <input type="text" name="multi" id="multi">
+        <button onclick="tabla()">Ver tabla</button>
+    </div>
+    <br>
+    <br>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <script src="js/ej5.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+body {
+    background-color:#F8FFDB;
+}
+
+h1 {
+    text-align: center;
+
+    font-size: 150;
+    background-color:wheat;
+}
+
+.lbl{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+.contenido {
+    width: 250px;
+    margin: 0 auto;
+    text-align: left;
+    
+}
+
+.btn_calcular {
+    
+    margin: 0 auto;
+    text-align: center;
+    background-color: wheat;
+    
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    font-size: 10px;
+}
+
+.btn_calcular:hover {
+    background-color: red; /* Green */
+    color: white;
+}
+
+#img {
+    margin-top: 10px;
+
+}
+
+#lbl_resultado {
+    margin-top: 20px;
+}

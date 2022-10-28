@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*ul principal del nav*/
+.menu{
+    position: absolute;
+}
+.lista{
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    background-color: transparent;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+}
+
+.li a{
+    padding: 1rem;
+}
+
+
+@media screen and (min-width: 768px) {
+    .lista{
+        flex-direction: row;
+    }
+}
+
+li{
+    padding: 1em;
+}
+
+.link{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+section{ 
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section h1{
+    font-size: 45px;
+    font-weight: 500px;
+    margin-bottom: 5px;
+}
+
+
+
+/*Ordenes de secciones sobre las secciones que se va a trabahar*/
+
+section:nth-child(5){
+    background-image: linear-gradient(to top, #ddd6f3 0%, #ffafbd 100%);
+}
+section:nth-child(4){
+    background-image: linear-gradient(to top, #ffafbd 0%, #ddd6f3 100%);
+}
+section:nth-child(3){
+    background-image: linear-gradient(to top, #ddd6f3 0%, #ffafbd 100%);
+}
+section:nth-child(2){
+    background-image: linear-gradient(to top, #ffafbd 0%, #ddd6f3 100%);
+}
+
+
+
+
+/* Tabla de sucursales*/
+.sucursales{
+    background: white;
+    border-collapse: collapse;
+    margin-top: 70px;
+    border-radius: 10px;
+    width: 70%;
+    box-shadow: 0 1rem 2rem rgb(0, 0, 0, 0.2);
+}
+
+.sucursales td{
+    border: 1px transparent;
+    padding: 5px 5px;
+}
+
+.sucursales th{
+    border: none;
+    padding: 5px 5px;
+}
+
+.sucursales tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.sucursales tr:hover{
+    background-color: black;
+    color: white;
+}
+
+.sucursales th{
+    padding-top: 12px;
+    background-color: black;
+    color: white;
+}
+
+footer{
+    padding: 10px;
+    background-color: grey;
+}
+
+footer p{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+hr {
+    display: block;
+    background-color: white;
+    height: 10px;
+    margin: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*video */
+
+video{
+    
+    border: 3px solid  white;
+    
+}
+video .video{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+/*audio*/
+audio .audio{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+  
