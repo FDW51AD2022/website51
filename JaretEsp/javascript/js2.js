@@ -20,7 +20,7 @@ let grupo51 = {
 
 
 console.log("Nombre",grupo51["Nombre"]);
-console.log(grupo51.Nombre);
+console.log(grupo51.nombre);
 
 // console.log("Primer alumno",grupo51.alumnos[0]); //CHECAR
 
@@ -39,10 +39,7 @@ if (calif >= 95) {
     console.log("No Excelente")
 };
 
-
 //------------------------------------//
-
-
 // Ejercicio: Calcular el total a pagar a un Empleado. 
 // Solicitar numero de horas trabajadas y el pago por hora.
 // Si el trabajador tiene horas extra pagarlas al triple. 

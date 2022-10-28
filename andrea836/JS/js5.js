@@ -45,3 +45,15 @@ function foto(){
     }
 
 }
+/*****************************************************/
+
+function calcular(){
+    let numero= parseInt(document.getElementById("tabla").value);
+    let lista= document.getElementById("lista");
+
+    lista.innerHTML = "";
+
+    for (let index = 1; index <=10; index++){
+        lista.innerHTML += `<li>${numero} * ${index} = ${numero*index}</li>`;
+    }
+}
