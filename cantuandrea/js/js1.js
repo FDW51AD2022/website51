@@ -11,6 +11,3 @@ let temp = 10;
 let mensaje;
 mensaje = temp < 10? "Llevar chamarra":"No llevar chamarra";
 console.log(mensaje)
-
-const SEMESTRES = 9;
-SEMESTRES = 3;

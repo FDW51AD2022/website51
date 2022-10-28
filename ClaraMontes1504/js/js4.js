@@ -7,7 +7,6 @@ function divisores(numero){
             total++;
         }
     }
-
     return total;
 }
 
