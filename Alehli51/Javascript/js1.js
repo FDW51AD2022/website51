@@ -13,7 +13,7 @@ console.log(`ejemplo con operador logico
 
 console.log(10 < 2 ? "parte verdadera": "parte falsa");
 
-//declaracion de variables
+/*declaracion de variables */
 let i;
 let nombre
 let edad= 33, ciudad="Monterrey";
