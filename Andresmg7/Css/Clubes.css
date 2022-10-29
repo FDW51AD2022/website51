@@ -32,3 +32,58 @@ h1 {
     content: "";
     display: table;
 }
+.Flexbox {
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+.SP {
+    border-radius: 10%;
+    align-items: center;
+}
+.Flexbox2 {
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+.UTD {
+    border-radius: 10%;
+    align-items: center;
+    padding-right: 10px;
+}
+.Flexbox3 {
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+.RM {
+    border-radius: 10%;
+    align-items: center;
+}
+.Flexbox4 {
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+.JUV {
+    border-radius: 10%;
+    align-items: center;
+}
+.ImgF {
+    width: 50%;
+    padding-right: 10px;
+}
+.ImgF img {
+    width: 100%;
+}
+.InfF {
+    width: 50%;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript 5</title>
+    <link rel="stylesheet" href="css/js5.css">
+    
+</head>
+<body>
+    <h1>Javascript 5</h1>
+
+    <h2>Calculadora Digital </h2>
+
+    <div >
+        <div id="calculadora">
+            <div>
+                <label for="num">Numero 1</label>
+                <input type="text" name="numero" id="num">
+            </div>
+
+            <div>
+                <label for="num2">Numero 2</label>
+                <input type="text" name="numero" id="num2">
+            </div>
+
+            <div>
+                <label for="operacion">Operación a realizar</label>
+                <select name="operacion" id="operacion">
+                    <option value="+" >Suma</option>
+                    <option value="-" >Resta</option>
+                    <option value="x" >Multiplicacion</option>
+                    <option value="/" >Division</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="resul">Resultado</label>
+                <input type="text" name="numero" id="resul">
+            </div>
+<br>
+            <div>
+                <button onclick="calcular()">Calcular</button>
+            </div>
+
+        </div>
+    </div>
+
+    <h2>Cambio de imagenes</h2>
+    
+    <div id="cambiodeimagen">
+        <label for="imagen">imagenes</label>
+        <select name="imagen" id="imagen">
+            <option value="1" >1. Imagen </option>
+            <option value="2" >2. Imagen </option>
+            <option value="3" >3. Imagen </option>
+            <option value="4" >4. Imagen </option>
+            <option value="5" >5. Imagen </option>
+        
+        </select>
+        <center>
+        <button onclick="imagenes()">Ver imagen</button></center>
+    </div>
+   
+    <br>
+    <div id="cambiar">
+    
+    </div>
+
+    <h2>Tabla de multiplicar</h2>
+    <div id="tablamultiplicar">
+        <label for="multi">Tabla del: </label>
+        <input type="text" name="multi" id="multi">
+        <button onclick="tabla()">Ver tabla</button>
+    </div>
+
+    <script src="js/js5.js"></script>
+</body>
+</html>

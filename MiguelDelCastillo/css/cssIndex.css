@@ -1,6 +1,78 @@
-body{
-    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color:bisque;
+    border: none;
+    border-bottom:1vh solid #494947;
+    border-left: 1vh solid #494947;
+    padding: 3vh;
 }
+
+a{
+    text-decoration: none;
+    color: #BB4430;
+    background-color: #7c2e21;
+    border-radius: 2vh;
+    padding: 1vh;
+}
+
+a:hover{
+    color: bisque;
+}
+
+body{
+    font-family: 'Arvo';
+    background-color: black;
+}
+
+p{
+    color: black;
+    font-size: 3vh;
+}
+
+h1{
+    font-size: 7vh;
+    
+}
+
+h2{
+    font-size: 5vh;
+    background-image:url(../recursos/nube.png);
+    background-repeat: no-repeat;
+    background-size: 26vh;
+    background-position: center;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+
+}
+
+section{
+    background-color: #52c1ec;
+    background-image: url(../recursos/paisaje.jpg);
+    background-position-y:210px;
+    background-size: auto;
+}
+
+section ul{
+    font-size: 5vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+header{
+    color: azure;
+    font-size: 4vh;
+}
+
+article {
+    background-color: rgb(209, 229, 245);
+    padding: 5vh;
+    border: #7c2e21 1vh solid;
+}
+
+
 
 #primerpagina{
     margin: 10%;

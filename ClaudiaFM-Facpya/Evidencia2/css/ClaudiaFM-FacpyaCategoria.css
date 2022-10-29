@@ -1,8 +1,26 @@
-body{
-    font-family: "Avenir Next";
-    font-size: 20px;
+#Tema
+{
+    font: normal .95em 'trebuchet ms', arial, sans-serif;
+    font-size: 35px;
+    background-color: rgb(243, 247, 19);
 }
 
+nav {
+    background-color: #e0dab8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+ul {
+    display: flex;
+    margin-right: 3rem;
+}
+li {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 60px;
+}
 #Iniciodecorador{
     display: grid;
     grid-template-columns: 1fr 1fr;

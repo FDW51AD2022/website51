@@ -1,0 +1,84 @@
+<!-- Programa Calculadora -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Practica</title>
+    <link rel="stylesheet" href="./css_estilos/js5.css">
+</head>
+<body>
+    <div>
+        <h1>Calculadora</h1>
+        <div class="">
+            <div>
+                <label for="num1">Numero 1</label>
+                <input type="text" name="numero" id="num1">
+            </div>
+            
+            <div>
+                <label for="num2">Numero 2</label>
+                <input type="text" name="numero" id="num2">
+            </div>
+
+            <div>
+                <label for="operacion">Operacion</label>
+                <select name="" id="operacion">
+                    <option value="suma">Sumar</option>
+                    <option value="resta">Restar</option>
+                    <option value="multiplicacion">Multiplicar</option>
+                    <option value="division">Dividir</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="resultado">Resultado</label>
+                <input type="text" name="numero" id="lbl_resultado">
+            </div>
+
+            <div>
+                <button onclick = calcular() class="btn_calcular">Calcular</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div>
+        <h1>Ver Imagenes</h1>
+        <div>
+            <label for="Seleccionar">Seleccionar Imagen</label>
+            <select name="" id="img_1">
+                <option value = "1">Felicidad</option>
+                <option value = "2">Temor</option>
+                <option value = "3">Tristeza</option>
+                <option value = "4">Furia</option>
+                <option value = "5">Desagrado</option>
+            </select>
+        </div>
+
+        <div>
+            <button onclick = cambiarImagen() class="btn_calcular">Ver Imagen</button>
+        </div>
+
+        <div>
+            <img src="./Recursos/Imagenes/felicidad.webp" alt="" id="img">
+        </div>
+    </div>
+
+    <div>
+        <h1>Tabla de Multiplicar</h1>
+        <div>
+            <label for="Tabla">Tabla: </label>
+            <input type="text" name="numero" id="Tabla">
+            <button onclick = calcularTabla() class="btn_calcular">Calcular Tabla</button>
+        </div>
+        <ul id="lista_tabla">
+        </ul>
+    </div>
+    
+    <!-- Insertar Script -->
+    <script src="./javascript/js5.js"></script>
+    
+</body>
+</html>

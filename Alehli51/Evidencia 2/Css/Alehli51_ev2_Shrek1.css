@@ -1,6 +1,6 @@
 body { background-image: url(https://fondosmil.com/fondo/21401.jpg);
-    color: black;}
-
+    color: red;}
+#Menu #Links li a {color:black !important;}
     body {
         word-wrap: break-word;
         background-color: var(--theme-page-background-color);
@@ -67,4 +67,8 @@ body { background-image: url(https://fondosmil.com/fondo/21401.jpg);
                        text-decoration:none;
     }
     #Menu #Links li a:hover {background: #faea08
+    }
+
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }

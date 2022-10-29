@@ -18,3 +18,7 @@ body{
 span{
     font-size: 2em;
 }
+
+th, td {
+    border: #000 solid;
+}

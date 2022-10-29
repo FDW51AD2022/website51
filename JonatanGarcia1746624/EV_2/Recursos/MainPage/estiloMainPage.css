@@ -31,3 +31,15 @@
 #desc {
     font-size: 30px; 
     margin-top: 10px;}
+
+li {font-size: 30px;}
+
+#video {
+    float: right;
+    width: 450px;
+    margin-top: -180px;
+    margin-right: 1000px;}
+
+#rights
+{float: left;
+margin-left: 480px;}

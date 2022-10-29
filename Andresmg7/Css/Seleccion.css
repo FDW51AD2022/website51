@@ -1,5 +1,5 @@
 body{
-    background-color:#D8E9A8;
+    background-color:#E8F9FD;
 }
 h1 {
     font-size: 80px;
@@ -9,15 +9,15 @@ h1 {
     border-bottom: 10px solid whitesmoke;
     border-left: 10px solid whitesmoke;
     border-right: 10px solid whitesmoke;
-    background-color: black;
+    background-color: #3D0000;
     color: whitesmoke ;
 }
 .titulo:hover{
-    background-color: #4E9F3D;
+    background-color: black;
     color: #1E5128;
 }
 #nav-panel ul {
-    background-color: #1E5128;
+    background-color: #3D0000;
     color: black;
     font-size: 30px;
 }
@@ -31,4 +31,36 @@ h1 {
     clear: both;
     content: "";
     display: table;
+}
+.Flexbox {
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+.SEL1 {
+    width: 500px;
+    border-radius: 10%;
+    align-items: center;
+    padding-right: 30px;
+}
+.SEL2 {
+    width: 500px;
+    border-radius: 10%;
+    align-items: center;
+    float: right;
+}
+.SEL3 {
+    width: 500px;
+    border-radius: 10%;
+    padding-right: 10px;
+    align-items: center;
+}
+h2 {
+    text-align: center;
+    font-size: 60px;
+}
+hr {
+    color: black;
 }
