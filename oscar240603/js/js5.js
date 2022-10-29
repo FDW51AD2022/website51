@@ -52,11 +52,11 @@ function imagen() {
 }
 
 function tabla() {
-    let numero = parseInt(document.getElementById("num").value);
+    let cantidad = parseInt(document.getElementById("numero").value);
     tablas.innerHTML = "";
 
     for(let i=1; i<=10;i++){
-        tablas.innerHTML += `<ul>${numero} x ${i} = ${numero * i}</ul>`;
+        tablas.innerHTML += `<ul>${cantidad} x ${i} = ${cantidad * i}</ul>`;
     }
 }
 

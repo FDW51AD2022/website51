@@ -1,5 +1,6 @@
-// const { ExampleDataSource } = require("@next/nx-controls-common/components/table-master-detail/example-data");
-// const { toArray } = require("rxjs-compat/operator/toArray");
+/*Alerta*/
+window.alert("    prácticas con if's,   ");
+
 
 let apps = ["windows 28","vscode"]
 
@@ -12,7 +13,7 @@ let computadora = {
 
 
 // ---Arrays
-let alumnos = ["Andrea","Raquel","Bri","Isaac","Chaves", "Eddy"];
+let alumnos = ["Aitana","Cesar","Andrea","Lizeth"];
 
 console.log(alumnos);
 console.log("Total elementos: ",alumnos.length);
@@ -48,26 +49,3 @@ if (calif >= 95) {
 } else {
     console.log("No Excelente")
 };
-
-// Ejercicio: Calcular el total a pagar a un Empleado. 
-// Solicitar numero de horas trabajadas y el pago por hora.
-// Si el trabajador tiene horas extra pagarlas al triple. 
-// Se consideran horas normales las primeras 40 hrs
-
-
-let pago_hora = 100;
-let horas_trabajadas = 30;
-let horas_normales = 40;
-let total_pago = 0;
-
-
-if (horas_trabajadas > horas_normales) {
-    let horas_extra = horas_trabajadas - horas_normales;
-    let pago_extra = (horas_extra*pago_hora*3);
-    total_pago = (horas_normales * pago_hora) + pago_extra;
-    console.log(total_pago);
-    
-} else {
-    total_pago = horas_normales * pago_hora;
-    console.log(total_pago);
-};          

@@ -1,13 +1,16 @@
-/* Actividad 2 Toma de medicinamentos */
+let horaInicio = parseInt(prompt("Ingresa la hora de la toma inicial: "));
+let frecuenciaDosis = parseInt(prompt("Indica la frecuencia de la toma: "))
 
-let HoraInicialToma = Number(prompt("Ingresa la hora de la toma inicial: "));
-let Frecuencia = Number(prompt("Indica la frecuencia de la toma: "))
+let cantidadDosis = 0;
 
-cont = 0
+cantidadDosis = Math.floor(24/frecuenciaDosis);
 
-let toma= HoraInicialToma; 
-while(toma<=23){
-    cont = cont + 1
-    console.log("Toma ", cont,": ", toma);
-    toma = toma + Frecuencia;
+console.log(`Cada ${frecuenciaDosis} horas, debe tomar su medicamento. Su hora inicia a las ${horaInicio}`)
+
+for(i = 1; i<=cantidadDosis; i++){
+    if(horaInicio>23){
+        horaInicio = horaInicio-24
+    }
+    console.log(`Dosis ${i}: ${horaInicio}`)
+    horaInicio = horaInicio+frecuenciaDosis
 }

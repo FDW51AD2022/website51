@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Javascript 6</title>
-    <link rel="stylesheet" href="./js/js6.js">
 </head>
 <body>
-    <h1>Javascript v6</h1>
-    <section class="js6_crud">
-        <h2>Ejercicio de calculos con (+-*/)</h2>
+    <h1>Javascript 6</h1>
+    <section>
+        <h2>Ejercicio calculos</h2>
         <div>
             <div>
                 <label for="message">Numero</label>
@@ -29,15 +28,15 @@
                 <input type="text" name="resul" id="resul">
             </div>
             <div>
-                <button onclick="calcular()" id="calcular">Calcular</button>
+                <button onclick="funcionCalculo()" id="funcionCalculo">Calcular</button>
             </div>
         </div>
     </section>
 
-    <section class="js6_imagenes">
-        <h2>Ejercicio de ver imagenes</h2>
+    <section>
+        <h2>Ejercicio imagenes</h2>
         <div>
-            <div class="img_datos">
+            <div>
                 <label for="message">Numero imagen</label>
                 <select name="num_image" id="n_img">
                     <option value = 1>1</option>
@@ -46,25 +45,28 @@
                     <option value = 4>4</option>
                     <option value = 5>5</option>
                 </select>
-                <!-- <input type="text" name="num_image" id="n_img"> -->
             </div>
             <div>
-                <img src="https://www.google.com.mx/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com.mx%2Fpin%2F722968546416633561%2F%3Famp_client_id%3DCLIENT_ID(_)%26mweb_unauth_id%3D%7B%7Bdefault.session%7D%7D%26simplified%3Dtrue&psig=AOvVaw1sYhlCzbE5z7KgNuH8PtK7&ust=1666576088913000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCMj4zvCd9foCFQAAAAAdAAAAABAD" alt="" id="img" class="img" width="30%" height="30%">
+                <img src="https://concepto.de/wp-content/uploads/2018/09/lenguaje-de-programaci%C3%B3n-e1537466880796-800x400.jpg" alt="" id="img" class="img" width="30%" height="30%">
             </div>
             <div>
-                <button onclick="procesar_img()" id="ver_imagen">Ver imagen</button>
+                <button onclick="funcionImagen()" id="ver_imagen">Ver imagen</button>
             </div>
         </div>
     </section>
 
-    <section class="js6_tabla">
-        <h2>Ejercicio de las tablas</h2>
+    <section>
+        <h2>Ejercicio tablas</h2>
         <div>
             <div>
-
+                <label for="message">Tabla del</label>
+                <input type="text" name="resul_Tabla" id="resul_Tabla">
+            </div>
+            <div>
+                <button onclick="tablas()" id="calcular_tabla">Visualizar tabla</button>
             </div>
         </div>
     </section>
-    <script src="./js/js6.js"></script>
+    <script src="/js/js6.js"></script>
 </body>
 </html>
