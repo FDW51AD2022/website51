@@ -1,8 +1,3 @@
-
-
-
-
-
 function calculadora(num1, num2, Operacion){
     if (Operacion == "suma") {
         let suma = num1+num2
@@ -35,3 +30,9 @@ function calcular(){
 
     resultado.value = calculadora(num1, num2, Operacion);
 }
+
+
+
+
+
+
