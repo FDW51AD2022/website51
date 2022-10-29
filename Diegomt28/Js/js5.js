@@ -1,50 +1,60 @@
-/* funciones */
+// Funciones//
+// 25//
 
-/* 25 */
-
-function divisores (numero) {
+function divisores(numero){
     let total = 0;
-    for(let i=1; i<=numero;i++){
-        if(numero % i == 0) {
-            total ++;
-        }
-   
-}
-
-const divisoresV2 = function(){
-    let total = 0;
-    for(let i=1; i<=numero;i++){
-        if(numero % i == 0) {
-            total ++;
-        }
-
-};
-
-/* llamar la funcion */
-console.log("divisores",divisores(33));
-console.log(V2"divisores v2",divisoresV2 (33));
-
-
-const divisoresV3 = numero => {
-    let total = 0;
-    for(let i=1; i<=numero;i++){
-        if(numero % i == 0) {
-            total ++;
-        }
+    for(let i=1; i<numero; i++){
+      if(numero % i == 0) {
+        total++;
     }
-    return total;0
-};
+  }
+  return total;
+  };
+  
+  
+  // alert("Divisores v1: " + divisores(25));
+  console.log("divisores v1: " + divisores(25));
+  
 
-function calcular (){
-let numero = parseInt (document.getElementById("num").value);
-console.log("divisores",divisores(33));
-
-let resultado = document.getElementById("resul");
-
-resultado.value = divisores(numero);
-}
-
-/* llamar la funcion */
-console.log("divisores",divisores(33));
-console.log(V2"divisores v2",divisoresV2 (33));
-console.log(V2"divisores v3",divisoresV3 (33));
+  
+  const divisoresV2 = function(numero){
+    let total = 0;
+    for(let i=1; i<=numero; i++){
+      if(numero % i == 0){
+      total++;
+      }
+    }
+  return total;
+  };
+  
+  // Llamar la funcion v2
+  
+  // alert("Divisores v2: " + divisores(25));
+  console.log("Divisores v3: " + divisoresV3(25));
+  
+  // Funcion v3
+  
+  const divisoresV3 = numero => {
+    let total = 0;
+    for(let i=1; i<=numero; i++){
+      if(numero % i == 0){
+      total++;
+      }
+    }
+  return total;
+  };
+  
+  // Llamar la funcion v3
+  
+  // alert("Divisores v3: " + divisoresv3(25));
+  console.log("Divisores v3: " + divisoresV3(25));
+  
+  // Ejercicio 1
+  
+  function calcular() {
+    let numero = parseInt(document.getElementById("num").value);
+    let resultado = (document.getElementById("resul"));
+  
+    resultado.value = divisores(numero);
+  }
+  

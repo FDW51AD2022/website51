@@ -1,4 +1,5 @@
-cantidadNumeros = Number(prompt("Ingresa la cantidad de números a mostrar:"))
+
+cantidadNumeros = Number(prompt("Ingresa la cantidad de números a mostrar:(1-4)"))
 
 document.write("Cantidad de números a mostrar: ", cantidadNumeros," ")
 
