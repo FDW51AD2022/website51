@@ -1,27 +1,23 @@
-// Funciones internas
-
-// Funcion Ejercicio 1
-
-function operaciones_logicas(numero1, numero2, operador){
+/* CALCULADORA */
+function funcionOperaciones(numero1, numero2, operador){
     let total = 0;
-    if (operador == '+' || operador == 'SUMA') {
+    if (operador == '+' || operador == 'suma') {
         total = numero1 + numero2;
         return total
     }
-    else if (operador == '-' || operador == 'RESTA') {
+    else if (operador == '-' || operador == 'resta') {
         total = numero1 - numero2;
         return total;
     }
-    else if (operador == '*' || operador == 'MULTIPLICACION') {
+    else if (operador == '*' || operador == 'multiplicacion') {
         total = numero1 * numero2;
         return total;
     }
-    else if (operador == '/' || operador == 'DIVISION') {
+    else if (operador == '/' || operador == 'division') {
         total = numero1 / numero2;
         return total;
     }
     else {
-        total = 'Operacion fallida, vuelva a intentarlo';
         return total;
     }
 };
@@ -57,16 +53,23 @@ function procesar_img(){
     }
 };
 
-// Funciones externas
-
-// Ejercicio 1
-
-function calcular() {
+function funcionCalculo() {
     let numero1 = parseInt(document.getElementById("num1").value);
     let numero2 = parseInt(document.getElementById("num2").value);
     let operador = (document.getElementById("ope").value);
 
     let resultado = (document.getElementById("resul"));
-    
-    resultado.value = operaciones_logicas(numero1, numero2, operador);
+    resultado.value = funcionOperaciones(numero1, numero2, operador);
+}
+
+function tablas(){
+    let actTabla = parseInt(document.getElementById("resul_Tabla").value);
+    if (actTabla < 1 ||actTabla> 10) {
+        return Respuesta_tabla;
+    }
+    document.write("<table border='1'><tr><td>Número</td><td>Resultado</td></tr>");
+    for(i=0; i<=10; i++){
+        document.write("<tr><td>" + actTabla+" x " + i +"</td><td>" + actTabla * i + "</td> </tr>");
+    }
+    document.write("</table>");
 }

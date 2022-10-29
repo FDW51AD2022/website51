@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//Javascript/GlobalStyleJS.css">
+    <title>Javascript 5 Calculadora</title>
+</head>
+<body>
+    <script src="./Javascript5-Calculadora.js"></script>
+
+    <section class="formulario">
+        <div class="form">
+            <p class="form__paragraph"><h2>Calculadora</h2></p>
+
+            <div class="form__container">
+
+                <div class="form__group">
+                    <input type="number" class="form__input" name="primer_numero" id="primer_numero">
+                    <label for="primer_numero" class="form__label">Primer numero</label>
+                    <span class="form__line"></span>
+                </div>
+
+                <div class="form__group">
+                    <input type="number" class="form__input" name="segundo_numero" id="segundo_numero">
+                    <label for="segundo_numero" class="form__label">Segundo numero</label>
+                    <span class="form__line"></span>
+                </div>
+
+                <div class="form__group">
+                    
+                    <select name="operacion" id="operacion" class="form__input">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">*</option>
+                        <option value="/">/</option>
+                    </select>
+                    <label for="primer_numero" class="form__label">Operacion</label>
+                    <span class="form__line"></span>
+                </div>
+
+                <div class="form__group">
+                    <input type="number" name="resultado" id="resultado" class="form__input" disabled>
+                    <label for="resultado" class="form__label">Resultado</label>
+                    <span class="form__line"></span>
+
+
+                </div>
+               
+
+                <input type="submit" class="form__submit" value="Enviar" onclick="calcular()">
+                <!-- <button onclick="calcular()">Calcular</button> -->
+            </div>
+        </div>
+    </section>
+</body>
+</html>
