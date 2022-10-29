@@ -5,6 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+abbr{
+    font-family: 'Poppins', sans-serif;
+}
+
 /*ul principal del nav*/
 .menu{
     position: fixed;
@@ -18,6 +22,10 @@
     display: flex;
     z-index: 1;
     align-items: center;
+}
+
+.li a{
+    padding: 1rem;
 }
 
 
@@ -65,10 +73,13 @@ section p{
     margin-bottom: 15px;
 }
 
+/*Sombra para imagen*/
 section img{
     height: 60%;
     box-shadow: 0 1rem 2rem rgb(0, 0, 0, 0.568);
 }
+
+/*Ordenes de secciones sobre las secciones que se va a trabahar*/
 section:nth-child(5){
     background-image: linear-gradient(to top, #ddd6f3 0%, #ffafbd 100%);
 }
@@ -82,6 +93,7 @@ section:nth-child(2){
     background-image: linear-gradient(to top, #ffafbd 0%, #ddd6f3 100%);
 }
 
+/*Efecto hover a enlace*/
 section a{
     background-color: #ffff;
     display: inline-block;
@@ -101,5 +113,15 @@ section a:hover{
     border: 1px solid black;
 }
 
+footer{
+    padding: 10px;
+    background-color: grey;
+}
+
+footer p{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
  
 

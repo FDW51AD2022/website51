@@ -39,4 +39,3 @@ console.log(mensaje);
 
 // Declaracopm de constantes
 const SEMESTRE = 9;
-SEMESTRE = 3;

@@ -31,4 +31,48 @@ frecuencia = Number(prompt("Ingrese la frecuencia (1-12):"))
 document.write("Hora incial: ", horaInicial," (tipo de dato: ",typeof(horaInicial),")")
 document.write("<br/>Frecuencia: ", frecuencia," (tipo de dato: ",typeof(frecuencia),")")
 
-// Verifica si se va a saltar a otro día
+// Calcular cantidad de frecuencias
+cantidadDeFrecuencias = 24/frecuencia
+
+
+// Ciclo que corre 24 veces, para detectar la situación por cada hora
+momentoCiclo = horaInicial
+momentoInicio = false
+momentoContador = 0
+conteoDespuesReinicio = false
+conteoCantidadDespuesReinicio = 0
+for (i=1; i<=48 ; i++){
+    // Verifica el momento en que el día corta
+    if (momentoCiclo == 23){
+        document.write("<br/>Corte de día ----------------")
+        momentoCiclo = -1;
+    }
+    // Verifica el inicio de las tomas
+    if (i-1 == horaInicial){
+        document.write("<br/>Inicio -------------")
+        momentoInicio=true
+    }
+
+    if (i-23 == horaInicial){
+        document.write("<br/>Inicio -------------")
+        if (momentoInicio==true){
+            document.write("<br/>SE REINICIA DIA")
+            conteoDespuesReinicio=true
+            momentoContador=0
+        } else {
+            momentoInicio=true
+        }
+    }
+
+    // Comienza a calcular horas
+    if (momentoInicio==true){
+        momentoContador++
+    }
+
+    if (conteoDespuesReinicio==true){
+        conteoCantidadDespuesReinicio++
+    }
+
+    momentoCiclo++
+    document.write("<br/>imp","-",i-1,"-",momentoCiclo,"-",momentoInicio,"-",momentoContador,"-",conteoCantidadDespuesReinicio)
+}
