@@ -1,28 +1,16 @@
-const NumPerfecto = (num1) => {
-    if (typeof num1 === 'number') {
-            num1 = Math.floor(num1)
-
-            let divisores = []
-
-            const num2 = num1 / 2
-
-            for (let i = 0; i <= num2; i++) {
-                if (num1 % i === 0) {
-                    divisores.push(i)
-                }
-            }
-
-            const sumadivisores = divisores.reduce((prev, curr) => prev + curr)
-
-            if (sumadivisores === num1) {
-              return sumadivisores
-            } else {
-              return 0
-            } 
-        }   else {
-            console.error('Agregue el número en entero: ')
+function NumsP(){
+    NumPerf = document.getElementById("NumPerf").value;
+    let suma = document.getElementById("suma");
+    suma = 0;
+        for (i=1; i< NumPerf; i++){
+            if(NumPerf % i ==0){
+                suma =suma +i;
         }
     }
-
-    console.log(NumPerfecto);
-console.log("El total es: ", NumPerfecto [0]);
+    if (suma == NumPerf){
+        console.log("Sí es Numero Perfecto.");
+        return;
+    }else{
+            console.log("No es un Numero Perfecto.");
+        }
+}
