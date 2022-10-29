@@ -31,15 +31,15 @@ function cambiarImagen() {
     let imagen      = document.getElementById('img');
 
     if (num_imagen == 1) {
-        imagen.src = "./Recursos/Imagenes/felicidad.webp";
+        imagen.src = "./img/felicidad.webp";
     } else if (num_imagen == 2) {
-        imagen.src = "./Recursos/Imagenes/temor.webp";
+        imagen.src = "./img/temor.webp";
     } else if (num_imagen == 3) {
-        imagen.src = "./Recursos/Imagenes/tristeza.webp";
+        imagen.src = "./img/tristeza.webp";
     } else if (num_imagen == 4) {
-        imagen.src = "./Recursos/Imagenes/Furia.webp";
+        imagen.src = "./img/Furia.webp";
     } else {
-        imagen.src = "./Recursos/Imagenes/desagrado.webp";
+        imagen.src = "./img/desagrado.webp";
     }
 }
 
