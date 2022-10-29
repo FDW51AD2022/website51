@@ -18,10 +18,10 @@ let temp= 1;
 
 let mensaje= temp < 10 ? "Llevar chamarra" : "No llevar chamarra"
 
-console,log(mensaje);
+console.log(mensaje);
 
 //declaracion de constantes
 
 const SEMESTRES = 9;
 
-SEMESTRES = 3;
+/* SEMESTRES = 3; */

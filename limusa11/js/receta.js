@@ -1,3 +1,7 @@
+/*Alerta*/
+window.alert("Calcular la frecuencia de la toma de un medicamento.");
+
+
 let horaInicio = parseInt(prompt("Ingresa la hora de la toma inicial: "));
 let frecuenciaDosis = parseInt(prompt("Indica la frecuencia de la toma: "))
 
