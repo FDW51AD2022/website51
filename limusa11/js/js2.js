@@ -7,7 +7,7 @@ let computadora = {
     "softwareinstalado":apps
 }
 
-let alumno =["Mario","Luis"];
+let alumno =["Andrea","Luis"];
 
 console.log(alumno)
 
