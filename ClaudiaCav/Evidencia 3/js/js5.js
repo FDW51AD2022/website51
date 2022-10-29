@@ -1,4 +1,3 @@
-/* CALCULADORA */
 function funcionOperaciones(numero1, numero2, operador){
     let total = 0;
     if (operador == '+' || operador == 'suma') {
@@ -22,34 +21,31 @@ function funcionOperaciones(numero1, numero2, operador){
     }
 };
 
-// Funcion Ejercicio 2
-
-function procesar_img(){
-    let n_imagen = parseInt(document.getElementById("n_img").value);
-    let imagen = document.getElementById('img');
-    if (n_imagen == 1) {
-        imagen.src="https://image.api.playstation.com/vulcan/ap/rnd/202205/2800/E1Hw52cQH3HA6swkk1mcvbjc.png";
-        return imagen;
+function funcionImagen(){
+    let imgSeleccionada = parseInt(document.getElementById("n_img").value);
+    let img = document.getElementById('img');
+    if (imgSeleccionada == 1) {
+        img.src="https://th.bing.com/th/id/R.03d2d56bf38ec67aedf4294d28319486?rik=LeLeBekm3oX6Rg&riu=http%3a%2f%2fassets.capitalfm.com%2f2018%2f08%2fcamila-cabello-1519734544.jpg&ehk=pvIM1Jal6ontGj0isVCEZQBbjZ5jVoz0EtLxi6zLge0%3d&risl=1&pid=ImgRaw&r=0";
+        return img;
     }
-    else if (n_imagen == 2) {
-        imagen.src="https://images3.alphacoders.com/857/857335.jpg";
-        return imagen;
+    else if (imgSeleccionada == 2) {
+        img.src="https://vignette.wikia.nocookie.net/dojacat/images/b/b3/Doja_Cat_in_August_2020.jpg/revision/latest?cb=20200820200441";
+        return img;
     }
-    else if (n_imagen == 3) {
-        imagen.src="https://s0.smartresize.com/wallpaper/391/556/HD-wallpaper-miles-morales-into-the-spider-verse-miles-morales-ps5-spider-man.jpg";
-        return imagen;
+    else if (imgSeleccionada == 3) {
+        img.src="https://i.ytimg.com/vi/4_DhkDz4OAw/maxresdefault.jpg";
+        return img;
     }
-    else if (n_imagen == 4) {
-        imagen.src="https://p4.wallpaperbetter.com/wallpaper/935/86/550/cartoon-pictures-1920x1080-wallpaper-preview.jpg";
-        return imagen;
+    else if (imgSeleccionada == 4) {
+        img.src="https://www.nme.com/wp-content/uploads/2021/08/LittleMix-BetweenUs-StandardLP-Web-1-1392x884.jpg";
+        return img;
     }
-    else if (n_imagen == 5) {
-        imagen.src="https://images.alphacoders.com/986/986566.jpg";
-        return imagen;
+    else if (imgSeleccionada == 5) {
+        img.src="https://th.bing.com/th/id/R.0d7c0f291c3a50a888deec5aceea6ad0?rik=1prknyEkFUaWaQ&riu=http%3a%2f%2fwww.hawtcelebs.com%2fwp-content%2fuploads%2f2018%2f06%2fariana-grande-sweetener-album-cover-2018-1.jpg&ehk=i9J4GYFEAgO2ErEaat%2bNUhQixOTrzSX%2bYKVgU6pHFCc%3d&risl=&pid=ImgRaw&r=0";
+        return img;
     }
     else {
-        Respuesta = 'Solo se acepta hasta el 5, vuelva a intentarlo';
-        return imagen;
+        return img;
     }
 };
 
