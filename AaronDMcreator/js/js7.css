@@ -1,0 +1,38 @@
+body {
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.imgpos {
+  width: 320px;
+  height: 420px;
+  top: 30%;
+  left: 30%;
+  position: absolute;
+}
+
+img{
+  width: 12em;
+  height: 10em;
+}
+
+label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+input {
+  width: 10%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.vimg{
+  background: #0f83b8;
+  color: #fff;
+  border-radius: 20px;
+  margin-left: 8.5em;
+  padding: 10px;
+}

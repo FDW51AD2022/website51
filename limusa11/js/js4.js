@@ -1,19 +1,58 @@
-cantidadNumeros = Number(prompt("Ingresa la cantidad de números a mostrar:"))
 
-document.write("Cantidad de números a mostrar: ", cantidadNumeros," (tipo de dato: ",typeof(cantidadNumeros),")")
+window.alert("    Cantidad de divisores de cualquier número   ");
 
-encontrado = 0;
-for(i = 1; encontrado <= cantidadNumeros-1; i++){
-    if(i % 2 == 0){
-        for((j = (i / 2));(j >= 1); j--){
-            if(i % j == 0){
-                auxEntero = auxEntero + j;
-            }
+/* Funciones */
+
+function divisores(numero){
+    let total = 0;
+    for(let i=1; i<=numero; i++){
+        if(numero % i == 0 ){
+            total++;
         }
-        if(auxEntero == i){
-            document.write("<br/> Número perfecto: ",auxEntero);
-            encontrado++
-            }
     }
-    auxEntero = 0;
+    return total;
 }
+
+
+/* Constante */
+const divisoresV2 = function(numero){
+    let total = 0;
+    for(let i=1; i<=numero; i++){
+        if(numero % i == 0 ){
+            total++;
+        }
+    }
+    return total;
+};
+
+/* Funciones flecha  */
+const divisoresv3 = numero => {
+    let total = 0;
+    for(let i=1; i<=numero; i++){
+        if(numero % i == 0 ){
+            total++;
+        }
+    }
+    return total;
+};
+
+
+function calcular(){
+    let numero =  parseInt(document.getElementById("num").value);
+    let resultado = document.getElementById("resul");
+    resultado.value = divisores(numero);
+}
+
+
+
+/* console.log(numero);
+ */
+
+/* Llamar la funcion */
+console.log("Numero de divisores: ",divisores(10));
+console.log("Numero de divisores: ", divisoresV2(10));
+console.log("Numero de divisores: ", divisoresv3(10));
+
+
+
+

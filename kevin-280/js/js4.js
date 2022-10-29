@@ -1,6 +1,3 @@
-/*funciones*/
-
-/*22*/
 function divisores(numeros){
     let total = 0;
     for (let i=1; i<=numeros;i++){
@@ -39,9 +36,6 @@ function calcular(){
     resultado.value = divisores(numero) 
 };
 
-
-
-/*llamar la funciom */
 console.log("divisores ", divisores(22));
 console.log("divisores v2", divisores2(22));
 console.log("divisores v3", divisores2(22));
