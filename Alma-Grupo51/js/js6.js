@@ -1,3 +1,5 @@
+
+
 function sumar(){
     var num1=parseInt(document.getElementById('valor1').value);
     var num2=parseInt(document.getElementById('valor2').value);
@@ -46,41 +48,49 @@ function sumar(){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    function ver(n) {
-        document.getElementById("subseccion"+n).style.display="block"
-        }
-function ocultar(n) {
-        document.getElementById("subseccion"+n).style.display="none"
-        }
+    
+      
 
     
-
-    
-
-
-
-
-
-
-
-
-
-
 
 
      
+
+     
+   
+
+
+    var numeroImagenes = 5 ;
+
+
+ 
+    var cambia_imagen = new Array();
+    cambia_imagen[0] = "js6/1.jpg"; 
+
+    cambia_imagen[1] = "js6/2.jpg";
+
+    cambia_imagen[2] = "js6/3.jpg";
+
+    cambia_imagen[3] = "js6/4.jpg";
+    
+    cambia_imagen[4] = "js6/5.jpg";
+      
+    function rand(n)
+     {
+    
+      
+      return(Math.floor(Math.random() * n + 1 ));
+     }
+
+    function cambiarImagen()
+    {
+      document.getElementById("imagen").src = cambia_imagen[rand(5)-1];
+      
+    }       
+
+
+
+    
     
      function Num(){
         var r=document.getElementById("numero").value;
