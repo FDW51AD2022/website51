@@ -7,54 +7,36 @@
     <title>Javascript 6</title>
 </head>
 <body>
-    <h1>Javascript v6</h1>
-     <!-- CALCULADORA
-        Numero _________________
-        Numero _________________
-        Operación ______________
-        Resultado ______________
-        <   Calcular    >        -->
-    
-        <h2>----------------Calculadora----------------</h2>
-
-        <div >
-            <div id="calculadora">
-                <div>
-                    <label for="num">Numero</label>
-                    <input type="text" name="numero" id="num">
-                </div>
-    
-                <div>
-                    <label for="num2">Numero</label>
-                    <input type="text" name="numero" id="num2">
-                </div>
-    
-                <div>
-                    <label for="operacion">Operación</label>
-                    <select name="operacion" id="operacion">
-                        <option value="+" >+</option>
-                        <option value="-" >-</option>
-                        <option value="x" >x</option>
-                        <option value="/" >/</option>
-                    </select>
-                </div>
-    
-                <div>
-                    <label for="resul">Resultado</label>
-                    <input type="text" name="numero" id="resul">
-                </div>
-    <br>
-                <div>
-                    <button onclick="calcular()">Calcular</button>
-                </div>
-    
+    <h1>Javascript 6</h1>
+    <section>
+        <h2>Ejercicio calculos</h2>
+        <div>
+            <div>
+                <label for="message">Numero</label>
+                <input type="text" name="numero1" id="num1">
+            </div>
+            <div>
+                <label for="message">Numero</label>
+                <input type="text" name="numero2" id="num2">
+            </div>
+            <div>
+                <label for="message">Operador</label>
+                <input type="text" name="operacion" id="ope">
+            </div>
+            <div>
+                <label for="message">Resultado</label>
+                <input type="text" name="resul" id="resul">
+            </div>
+            <div>
+                <button onclick="funcionCalculo()" id="funcionCalculo">Calcular</button>
             </div>
         </div>
+    </section>
 
-    <section class="js6_imagenes">
-        <h2>Ejercicio de ver imagenes</h2>
+    <section>
+        <h2>Ejercicio imagenes</h2>
         <div>
-            <div class="img_datos">
+            <div>
                 <label for="message">Numero imagen</label>
                 <select name="num_image" id="n_img">
                     <option value = 1>1</option>
@@ -63,29 +45,28 @@
                     <option value = 4>4</option>
                     <option value = 5>5</option>
                 </select>
-                <!-- <input type="text" name="num_image" id="n_img"> -->
             </div>
             <div>
                 <img src="https://concepto.de/wp-content/uploads/2018/09/lenguaje-de-programaci%C3%B3n-e1537466880796-800x400.jpg" alt="" id="img" class="img" width="30%" height="30%">
             </div>
             <div>
-                <button onclick="procesar_img()" id="ver_imagen">Ver imagen</button>
+                <button onclick="funcionImagen()" id="ver_imagen">Ver imagen</button>
             </div>
         </div>
     </section>
 
-    <!-- PROGRAMA TABLA 
-        Tabla ______________
-        {---Resultado aqui----} 
-        <   Ver tabla   >-->
-    
-        <h2>----------------Tabla de multiplicar----------------</h2>
-        <div id="tablamulti">
-            <label for="multi">Tabla del: </label>
-            <input type="text" name="multi" id="multi">
-            <button onclick="tabla()">Ver tabla</button>
+    <section>
+        <h2>Ejercicio tablas</h2>
+        <div>
+            <div>
+                <label for="message">Tabla del</label>
+                <input type="text" name="resul_Tabla" id="resul_Tabla">
+            </div>
+            <div>
+                <button onclick="tablas()" id="calcular_tabla">Visualizar tabla</button>
+            </div>
         </div>
-    
-    <script src="./js6.js"></script>
+    </section>
+    <script src="/js/js6.js"></script>
 </body>
 </html>
