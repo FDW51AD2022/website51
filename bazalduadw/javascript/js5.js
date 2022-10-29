@@ -33,13 +33,14 @@ function cambiarImagen() {
     if (num_imagen == 1) {
         imagen.src = "./img/felicidad.webp";
     } else if (num_imagen == 2) {
-        imagen.src = "./img/temor.webp";
+        imagen.src = "./img/temor_imagen.jpg";
     } else if (num_imagen == 3) {
-        imagen.src = "./img/tristeza.webp";
+        imagen.src = "./img/tristeza_imagen.jpg";
     } else if (num_imagen == 4) {
-        imagen.src = "./img/Furia.webp";
+        imagen.src = "./img/furia_imagen.jpg";
     } else {
-        imagen.src = "./img/desagrado.webp";
+        imagen.src = "./img/desagrado_imagen.jpg";
+        imagen.width = "400";
     }
 }
 

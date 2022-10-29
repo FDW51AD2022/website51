@@ -1,28 +1,26 @@
 /* CALCULADORA */
-function calcular() {
-    let num = parseInt(document.getElementById("num").value);
-    let num2 = parseInt(document.getElementById("num2").value);
-    let operacion = document.getElementById("operacion").value;
-    let resul= document.getElementById("resul");
-
+function funcionOperaciones(numero1, numero2, operador){
     let total = 0;
-    
-    if (operacion == "+") {
-        total = num + num2;
-
-    } 
-    else if (operacion == "-"){
-        total = num - num2;
+    if (operador == '+' || operador == 'suma') {
+        total = numero1 + numero2;
+        return total
     }
-    else if (operacion == "x"){
-        total = num * num2;
-    } 
+    else if (operador == '-' || operador == 'resta') {
+        total = numero1 - numero2;
+        return total;
+    }
+    else if (operador == '*' || operador == 'multiplicacion') {
+        total = numero1 * numero2;
+        return total;
+    }
+    else if (operador == '/' || operador == 'division') {
+        total = numero1 / numero2;
+        return total;
+    }
     else {
-        total = num / num2;
+        return total;
     }
-
-    resul.value = total;
-}
+};
 
 // Funcion Ejercicio 2
 
@@ -55,16 +53,23 @@ function procesar_img(){
     }
 };
 
-// Funciones externas
+function funcionCalculo() {
+    let numero1 = parseInt(document.getElementById("num1").value);
+    let numero2 = parseInt(document.getElementById("num2").value);
+    let operador = (document.getElementById("ope").value);
 
-// Ejercicio 3
+    let resultado = (document.getElementById("resul"));
+    resultado.value = funcionOperaciones(numero1, numero2, operador);
+}
 
-function tabla() {
-    let multi = document.getElementById("multi").value;
-    multi = parseInt(multi);
-
-    for (var i = 1; i <= 10; i++) {
-        multiplicacion = multi * i;
-        document.write(multi + "x" + i + "=" + multiplicacion + "<br>");
+function tablas(){
+    let actTabla = parseInt(document.getElementById("resul_Tabla").value);
+    if (actTabla < 1 ||actTabla> 10) {
+        return Respuesta_tabla;
     }
+    document.write("<table border='1'><tr><td>Número</td><td>Resultado</td></tr>");
+    for(i=0; i<=10; i++){
+        document.write("<tr><td>" + actTabla+" x " + i +"</td><td>" + actTabla * i + "</td> </tr>");
+    }
+    document.write("</table>");
 }
