@@ -22,3 +22,12 @@ let temp= 10;
 let mensaje;
 mensaje=temp < 10 ? "Llevar chamarra" : "no llevar chamarra";
 console.log(mensaje)
+
+
+//declaracion de costantes
+const FACTOR = 1.45;
+const VAL = 1500;
+const SEMESTRES = 9;
+console.log(FACTOR)
+console.log(VAL)
+console.log(SEMESTRES)

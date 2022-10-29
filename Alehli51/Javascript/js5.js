@@ -30,45 +30,42 @@ function operacion(numero1,numero2,operacion){
  };
 
 
- function   Ver(img,imagen){
- 
+ function Ver(img,imagen){
     switch(img){
         case 1:
-            imagen.src= "rcs.j5/Img1.jpg";
+            imagen.src= "recursos/Img1.jpg";
               break;
             case 2:
-               imagen.src= "rcs.j5/Img2.jpg";
+               imagen.src= "recursos/Img2.jpg";
                break;
             case 3:
-               imagen.src="rcs.j5/Img3.jpg";
+               imagen.src="recursos/Img3.jpg";
                break;
             case 4:
-               imagen.scr="rcs.j5/Img4.jpg";
+               imagen.scr="rrecursos/Img4.jpg";
                break;
             case 5:
-               imagen.scr="rcs.j5/Img5.jpg";
+               imagen.scr="recursos/Img5.jpg";
             break;
 
     }  
- }
-
- function VerImagen(){
-    let img = parseInt(document.getElementById("img").value);
-    let imagen = document.getElementById("imagen");
-    console.log(img);
-    VerImagen(img,imagen);
  };
 
 
+ function VerImagen(){
+   let img = parseInt(document.getElementById("img").value);
+   let imagen = document.getElementById("imagen");
+   console.log(img);
+   Ver(img,imagen);
+}
+
 
  let genera = document.getElementById("genera")
-            let numero = document.getElementById("NumTabla")
-            let lienzo = document.getElementById("Tab")
+ let numero = document.getElementById("numtab")
+ let lienzo = document.getElementById("tab")
 
-            genera.addEventListener("click", () => {
-               for(let i = 1; i<=10; i++) {
-                  lienzo.innerHTML += `${numero.value} * ${i} = ${numero.value*i} <br />`
-               }
-
-
-        })
+ genera.addEventListener("click", () => {
+   for(let i = 1; i<=10; i++) {
+     lienzo.innerHTML += `${numero.value} * ${i} = ${numero.value*i} <br />`
+   }
+ })
