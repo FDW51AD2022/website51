@@ -9,26 +9,26 @@
 </head>
 <body>
     <H1>JAVASCRIPT 5 </H1>
-    <h1>Calculadora</h1>
     <script src="js5.js"></script>
-
+    <li><h1>Calculadora</h1></li>
+ 
     <div>
         <div>
-            <label for="num1">Numero</label>
+            <label for="num1">Numero 1</label>
             <input type="text" name="num1"
             id = "num1">
         </div>
     </div>
     <div>
         <div>
-            <label for="num2">Numero</label>
+            <label for="num2">Numero 2</label>
             <input type="text" name="num2"
             id = "num2">
         </div>
     </div>
     <div>
         <div>
-            <label for="op">Operacion</label>
+            <label for="op">Operacion: </label>
             <input type="text" name="op"
             id = "op">
         </div>
@@ -41,11 +41,44 @@
     </div>
         <button onclick="calcular()">Calcular</button>
     </div>
+</li> 
+<br>
+<br>
+<li>
+    <h1>Imagenes</h1>
+
     <div>
 
-        </div>
+            <label for="img">Numero de Imagen: </label>
+            <input type="text" name="img"
+            id="img">
+           <br>
+           <br>
+           <img src="" id="imagen" height="100">
     </div>
-</html>
+    <br>
+    <div>
+        <button onclick="VerImagen()">Ver Imagen</button>
+    </div>
+</li>
+    <br>
+<li>
+    <h1>Tabla de Multiplicar</h1>
+
+    <div>
+
+           <label for="NumTab">Tabla del Numero: </label>
+           <input type="text" name="NumTab"
+           id="NumTab">
+
+    </div>
+           <div id="Tab">
+    </div>
+    <br>
+    <div>
+        <button id="genera" onclick="VerTabla()">Ver Tabla</button>
+    </div>
+</li>
 
 </body>
 </html>
