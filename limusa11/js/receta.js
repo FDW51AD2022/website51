@@ -1,18 +1,16 @@
-// Medicina
-let hora = 5;
-let frecuencia = 6;
+let horaInicio = parseInt(prompt("Ingresa la hora de la toma inicial: "));
+let frecuenciaDosis = parseInt(prompt("Indica la frecuencia de la toma: "))
 
-let cantidad = Math.floor(24/frecuencia);
+let cantidadDosis = 0;
 
-for(i = 1;i<=cantidad;i++){
+cantidadDosis = Math.floor(24/frecuenciaDosis);
 
-    if(hora>23){
+console.log(`Cada ${frecuenciaDosis} horas, debe tomar su medicamento. Su hora inicia a las ${horaInicio}`)
 
-        hora = hora-24
-
+for(i = 1; i<=cantidadDosis; i++){
+    if(horaInicio>23){
+        horaInicio = horaInicio-24
     }
-    console.log(`Toma ${i}: ${hora}`)
-
-    hora = hora + frecuencia
-    document.write(`<h2> ${hora} </h2>`);
+    console.log(`Dosis ${i}: ${horaInicio}`)
+    horaInicio = horaInicio+frecuenciaDosis
 }
