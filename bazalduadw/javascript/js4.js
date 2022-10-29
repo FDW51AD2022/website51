@@ -44,14 +44,8 @@ function calcular() {
     console.log("Divisores: ",divisores(numero));
 }
 
-
-
-
 // Llamar Funcion
 // console.log("Divisores: ",divisores(33));
 // console.log("DivisoresV2: ",divisoresV2(33));
 // console.log("DivisoresV3: ",divisoresV3(33));
 // console.log("DivisoresV3: ",divisores(numero));
-
-
-
