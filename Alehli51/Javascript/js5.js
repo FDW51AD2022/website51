@@ -30,36 +30,45 @@ function operacion(numero1,numero2,operacion){
  };
 
 
- function imagen(imagen){
+ function   Ver(img,imagen){
  
-    switch(imagen){
+    switch(img){
         case 1:
-            imagen.src= "rcs.j5"
-            break;
-            case "js6Img/Img2":
-            resultado = Imagen2;
-            break;
-            case "js6Img/Img3":
-            resultado = Imagen3;
-            break;
-            case "js6Img/Img4":
-            resultado = Imagen4;
-            break;
-            case "js6Img/Img5":
-            resultado = Imagen5;
+            imagen.src= "rcs.j5/Img1.jpg";
+              break;
+            case 2:
+               imagen.src= "rcs.j5/Img2.jpg";
+               break;
+            case 3:
+               imagen.src="rcs.j5/Img3.jpg";
+               break;
+            case 4:
+               imagen.scr="rcs.j5/Img4.jpg";
+               break;
+            case 5:
+               imagen.scr="rcs.j5/Img5.jpg";
             break;
 
-    }  return resultado;
+    }  
+ }
+
+ function VerImagen(){
+    let img = parseInt(document.getElementById("img").value);
+    let imagen = document.getElementById("imagen");
+    console.log(img);
+    VerImagen(img,imagen);
  };
 
- function imagen(){
-    let Imagen1 = parseInt(document.getElementById("Img1").value);
-    let Imagen2 = parseInt(document.getElementById("Img2").value);
-    let Imagen3 = parseInt(document.getElementById("Img3").value);
-    let Imagen4 = parseInt(document.getElementById("Img4").value);
-    let Imagen5 = parseInt(document.getElementById("Img5").value);
 
-    let imagen= document.getElementById("img").value;
 
-    let = document.getElementById("img");
-    resultado.value = imagen(Imagen1,Imagen2,Imagen3,Imagen4,Imagen5);
+ let genera = document.getElementById("genera")
+            let numero = document.getElementById("NumTabla")
+            let lienzo = document.getElementById("Tab")
+
+            genera.addEventListener("click", () => {
+               for(let i = 1; i<=10; i++) {
+                  lienzo.innerHTML += `${numero.value} * ${i} = ${numero.value*i} <br />`
+               }
+
+
+        })
